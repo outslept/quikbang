@@ -57,9 +57,6 @@ importers:
       svelte-eslint-parser:
         specifier: ^0.43.0
         version: 0.43.0(svelte@5.20.5)
-      tsx:
-        specifier: ^4.19.3
-        version: 4.19.3
       typescript:
         specifier: ~5.7.2
         version: 5.7.3
@@ -4710,6 +4707,7 @@ snapshots:
       get-tsconfig: 4.10.0
     optionalDependencies:
       fsevents: 2.3.3
+    optional: true
 
   type-check@0.4.0:
     dependencies:
