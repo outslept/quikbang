@@ -16,6 +16,7 @@
     border-radius: 12px;
     padding: 2rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    color: #333;
   }
 
   .error-icon {
@@ -35,6 +36,15 @@
     .error-container {
       background-color: #1a1a1a;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      color: #f0f0f0;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+    .error-container {
+      background-color: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      color: #333;
     }
   }
 </style>
