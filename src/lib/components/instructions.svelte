@@ -1,6 +1,6 @@
 <script>
   export let defaultSearch = 'Google'
-  export let domain = 'quikbang.#'
+  export let domain = 'quikbang.vercel.app'
 </script>
 
 <section class='instructions-section'>
