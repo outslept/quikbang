@@ -1,0 +1,560 @@
+[
+  {
+    "c": "Research",
+    "d": "biblehub.net",
+    "r": 0,
+    "s": "BibleHub",
+    "sc": "Learning (intl)",
+    "t": "bibhub",
+    "u": "http://biblehub.net/search.php?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "webopac.csbno.net",
+    "r": 0,
+    "s": "Consorzio Sistema Bibliotecario Nord Ovest",
+    "sc": "Learning (intl)",
+    "t": "csbno",
+    "u": "http://webopac.csbno.net/opac/search/lst?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.dict.cc",
+    "r": 7,
+    "s": "Dict.cc english-german",
+    "sc": "Learning (intl)",
+    "t": "dende",
+    "u": "https://www.dict.cc/?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "spotlight.edmodo.com",
+    "r": 0,
+    "s": "Edmodo Spotlight",
+    "sc": "Learning (intl)",
+    "t": "edmodo",
+    "u": "https://spotlight.edmodo.com/Browse?search=true&q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ell.stackexchange.com",
+    "r": 0,
+    "s": "English Language Learners",
+    "sc": "Learning (intl)",
+    "t": "ell",
+    "u": "https://ell.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.lexilogos.com",
+    "r": 0,
+    "s": "Gaffiot latin -> français",
+    "sc": "Learning (intl)",
+    "t": "gaf",
+    "u": "http://www.lexilogos.com/latin/gaffiot.php?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "gallica.bnf.fr",
+    "r": 0,
+    "s": "Gallica",
+    "sc": "Learning (intl)",
+    "t": "gallica",
+    "u": "http://gallica.bnf.fr/Search?ArianeWireIndex=index&p=1&lang=FR&q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.zeno.org",
+    "r": 0,
+    "s": "Zeno.org - Georges 1913",
+    "sc": "Learning (intl)",
+    "t": "georges",
+    "u": "http://www.zeno.org/Zeno/0/Suche?q={{{s}}}&k=Georges-1913"
+  },
+  {
+    "c": "Research",
+    "d": "gibbon.co",
+    "r": 0,
+    "s": "Gibbon",
+    "sc": "Learning (intl)",
+    "t": "gibbon",
+    "u": "https://gibbon.co/search?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "hanzidb.org",
+    "r": 0,
+    "s": "hanziDB",
+    "sc": "Learning (intl)",
+    "t": "hanzidb",
+    "u": "http://hanzidb.org/character/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "itaigi.tw",
+    "r": 7,
+    "s": "iTaigi",
+    "sc": "Learning (intl)",
+    "t": "itaigi",
+    "u": "https://itaigi.tw/k/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "jisho.org",
+    "r": 20,
+    "s": "Jisho (kanji search)",
+    "sc": "Learning (intl)",
+    "t": "jik",
+    "u": "https://jisho.org/search/%23kanji%20{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "jukuu.com",
+    "r": 0,
+    "s": "Jukuu",
+    "sc": "Learning (intl)",
+    "t": "jukuu",
+    "u": "http://jukuu.com/search.php?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "kanjidamage.com",
+    "r": 0,
+    "s": "Kanji Damage",
+    "sc": "Learning (intl)",
+    "t": "kd",
+    "u": "http://kanjidamage.com/kanji/search?utf8=%E2%9C%93&q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.larousse.fr",
+    "r": 0,
+    "s": "Larousse EN - FR translation",
+    "sc": "Learning (intl)",
+    "t": "larenfr",
+    "u": "http://www.larousse.fr/dictionnaires/anglais-francais/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.archives.nd.edu",
+    "r": 0,
+    "s": "Whitaker's Latin",
+    "sc": "Learning (intl)",
+    "t": "lat",
+    "u": "http://www.archives.nd.edu/cgi-bin/wordz.pl?keyword={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "de.langenscheidt.com",
+    "r": 0,
+    "s": "Langenscheid Deutsch-Arabisch",
+    "sc": "Learning (intl)",
+    "t": "lda",
+    "u": "http://de.langenscheidt.com/deutsch-arabisch/search?term={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.linguee.de",
+    "r": 0,
+    "s": "Linguee De-Ita",
+    "sc": "Learning (intl)",
+    "t": "lidi",
+    "u": "http://www.linguee.de/deutsch-italienisch/search?query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.google.com",
+    "r": 0,
+    "s": "Lifeprint",
+    "sc": "Learning (intl)",
+    "t": "lifeprint",
+    "u": "http://www.google.com/cse?cx=partner-pub-2513564923850231%3Anzof3qz9abm&ie=ISO-8859-1&q=time&sa=Search#gsc.tab=0&gsc.q={{{s}}}&gsc.page=1"
+  },
+  {
+    "c": "Research",
+    "d": "www.linguee.de",
+    "r": 0,
+    "s": "Linguee",
+    "sc": "Learning (intl)",
+    "t": "lingf",
+    "u": "http://www.linguee.de/deutsch-franzoesisch/search?source=auto&query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.linguee.com",
+    "r": 0,
+    "s": "Linguee English-Swedish",
+    "sc": "Learning (intl)",
+    "t": "linsv",
+    "u": "http://www.linguee.com/english-swedish/search?source=auto&query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "mw.lojban.org",
+    "r": 0,
+    "s": "Lojban.org (the official website and wiki)",
+    "sc": "Learning (intl)",
+    "t": "lojban",
+    "u": "https://mw.lojban.org/index.php?search={{{s}}}&title=Special%3ASearch&go=Go"
+  },
+  {
+    "c": "Research",
+    "d": "nciku.com",
+    "r": 0,
+    "s": "Nciku English",
+    "sc": "Learning (intl)",
+    "t": "nce",
+    "u": "http://nciku.com/search/en/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "nciku.com",
+    "r": 0,
+    "s": "Nciku Chinese",
+    "sc": "Learning (intl)",
+    "t": "ncz",
+    "u": "http://nciku.com/search/zh/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.notesinspanish.com",
+    "r": 0,
+    "s": "Notes in Spanish",
+    "sc": "Learning (intl)",
+    "t": "nis",
+    "u": "http://www.notesinspanish.com/?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.verbix.com",
+    "r": 0,
+    "s": "Verbix (Norwegian)",
+    "sc": "Learning (intl)",
+    "t": "noverbix",
+    "u": "http://www.verbix.com/webverbix/go.php?D1=25&T1={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.oxfordlearnersdictionaries.com",
+    "r": 137,
+    "s": "Oxford Advanced Learner's Dictionary",
+    "sc": "Learning (intl)",
+    "t": "oald",
+    "u": "https://www.oxfordlearnersdictionaries.com/search/english/?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.oolone.com",
+    "r": 0,
+    "s": "Oolone",
+    "sc": "Learning (intl)",
+    "t": "oolone",
+    "u": "http://www.oolone.com/?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ne.ord.se",
+    "r": 0,
+    "s": "Norstedts ordböcker",
+    "sc": "Learning (intl)",
+    "t": "ord",
+    "u": "https://ne.ord.se/ordbok/svenska/engelska/s%C3%B6k/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "en.pons.com",
+    "r": 0,
+    "s": "Pons German-Polish",
+    "sc": "Learning (intl)",
+    "t": "ponsdepl",
+    "u": "http://en.pons.com/translate?q={{{s}}}&l=depl&in=&lf=de"
+  },
+  {
+    "c": "Research",
+    "d": "dictionary.pinpinchinese.com",
+    "r": 0,
+    "s": "Pin Pin",
+    "sc": "Learning (intl)",
+    "t": "ppin",
+    "u": "http://dictionary.pinpinchinese.com/search/t/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "the-ptg.blogspot.in",
+    "r": 0,
+    "s": "The Great Blog",
+    "sc": "Learning (intl)",
+    "t": "ptg",
+    "u": "https://the-ptg.blogspot.in/search?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.pucsp.br",
+    "r": 0,
+    "s": "PUC-SP - Pontifícia Universidade Católica de São Paulo",
+    "sc": "Learning (intl)",
+    "t": "pucsp",
+    "u": "https://www.pucsp.br/buscar?search_api_fulltext={{{s}}}&field_area_de_conhecimento=All&field_escola=&type=All"
+  },
+  {
+    "c": "Research",
+    "d": "www.romajidesu.com",
+    "r": 0,
+    "s": "Romajidesu Kanji",
+    "sc": "Learning (intl)",
+    "t": "rdkj",
+    "u": "http://www.romajidesu.com/kanji/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.romajidesu.com",
+    "r": 0,
+    "s": "Romajidesu Vocabulary",
+    "sc": "Learning (intl)",
+    "t": "rdvcb",
+    "u": "http://www.romajidesu.com/?m=dictionary&a=lookup&w={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dictionary.reverso.net",
+    "r": 12,
+    "s": "Reverso English-French",
+    "sc": "Learning (intl)",
+    "t": "revef",
+    "u": "http://dictionary.reverso.net/english-french/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "slovari.yandex.ru",
+    "r": 0,
+    "s": "Yandex.Slovari",
+    "sc": "Learning (intl)",
+    "t": "slov",
+    "u": "http://slovari.yandex.ru/search.xml?text={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.tanks-encyclopedia.com",
+    "r": 0,
+    "s": "Tank Encyclopedia",
+    "sc": "Learning (intl)",
+    "t": "tanks",
+    "u": "http://www.tanks-encyclopedia.com/?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "tatoeba.org",
+    "r": 0,
+    "s": "Tatoebla",
+    "sc": "Learning (intl)",
+    "t": "tatoebla",
+    "u": "http://tatoeba.org/sentences/search?query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "tatoeba.org",
+    "r": 3,
+    "s": "Tatoeba",
+    "sc": "Learning (intl)",
+    "t": "tato",
+    "u": "https://tatoeba.org/sentences/search?query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ta.wikipedia.org",
+    "r": 0,
+    "s": "Tamil Wikipedia",
+    "sc": "Learning (intl)",
+    "t": "tawk",
+    "u": "https://ta.wikipedia.org/w/index.php?search= {{{s}}}&title=%E0%AE%9A%E0%AE%BF%E0%AE%B1%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%3ASearch&go=%E0%AE%9A%E0%AF%86%E0%AE%B2%E0%AF%8D"
+  },
+  {
+    "c": "Research",
+    "d": "www.textileschool.com",
+    "r": 0,
+    "s": "Textile School",
+    "sc": "Learning (intl)",
+    "t": "textileschool",
+    "u": "https://www.textileschool.com/?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.tujavortaro.net",
+    "r": 11,
+    "s": "Tuja Vortaro",
+    "sc": "Learning (intl)",
+    "t": "tuj",
+    "u": "http://www.tujavortaro.net/?vorto={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.unfpa.org",
+    "r": 0,
+    "s": "unfpa.org",
+    "sc": "Learning (intl)",
+    "t": "unfpa",
+    "u": "http://www.unfpa.org/search/node/{{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "www.les-verbes.com",
+    "r": 0,
+    "s": "VERBES - Conjugaison française",
+    "sc": "Learning (intl)",
+    "t": "verbes",
+    "u": "http://www.les-verbes.com/conjuguer.php?verbe={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ml.wikibooks.org",
+    "r": 0,
+    "s": "Wikibooks Malayalam",
+    "sc": "Learning (intl)",
+    "t": "wbml",
+    "u": "https://ml.wikibooks.org/wiki/special:search/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "cs.wikipedia.org",
+    "r": 118,
+    "s": "Wikipedia (Cs)",
+    "sc": "Learning (intl)",
+    "t": "wcs",
+    "u": "https://cs.wikipedia.org/w/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.weblio.jp",
+    "r": 10,
+    "s": "Weblio",
+    "sc": "Learning (intl)",
+    "t": "weblio",
+    "u": "http://www.weblio.jp/content/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "el.wikipedia.org",
+    "r": 3,
+    "s": "Greek Wikipedia",
+    "sc": "Learning (intl)",
+    "t": "wel",
+    "u": "https://el.wikipedia.org/wiki/Special:Search?search={{{s}}}&go=Go"
+  },
+  {
+    "c": "Research",
+    "d": "www.welklidwoord.nl",
+    "r": 0,
+    "s": "welk lidwoord",
+    "sc": "Learning (intl)",
+    "t": "welklidwoord",
+    "u": "https://www.welklidwoord.nl/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "eu.wikipedia.org",
+    "r": 4,
+    "s": "Wikipedia",
+    "sc": "Learning (intl)",
+    "t": "weu",
+    "u": "https://eu.wikipedia.org/wiki/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "hr.wikipedia.org",
+    "r": 16,
+    "s": "Wikipedija",
+    "sc": "Learning (intl)",
+    "t": "whr",
+    "u": "http://hr.wikipedia.org/w/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "hu.wikipedia.org",
+    "r": 99,
+    "s": "Wikipedia Hungary",
+    "sc": "Learning (intl)",
+    "t": "whu",
+    "u": "https://hu.wikipedia.org/w/index.php?search={{{s}}}&button=&title=Speci%C3%A1lis%3AKeres%C3%A9s"
+  },
+  {
+    "c": "Research",
+    "d": "sco.wikipedia.org",
+    "r": 0,
+    "s": "Wikipedia-sco",
+    "sc": "Learning (intl)",
+    "t": "wikisco",
+    "u": "https://sco.wikipedia.org/w/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "fr.wikipedia.org",
+    "r": 14,
+    "s": "Wikipedia (FR)",
+    "sc": "Learning (intl)",
+    "t": "wpfr",
+    "u": "https://fr.wikipedia.org/wiki/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 3,
+    "s": "WordReference",
+    "sc": "Learning (intl)",
+    "t": "wrenpt",
+    "u": "http://www.wordreference.com/enpt/{{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 0,
+    "s": "WordReference",
+    "sc": "Learning (intl)",
+    "t": "wrpten",
+    "u": "http://www.wordreference.com/pten/{{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "sco.wikipedia.org",
+    "r": 0,
+    "s": "Wikipedia (Scots)",
+    "sc": "Learning (intl)",
+    "t": "wsco",
+    "u": "http://sco.wikipedia.org/w/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "sl.wikipedia.org",
+    "r": 3,
+    "s": "Wikipedia (SL)",
+    "sc": "Learning (intl)",
+    "t": "wsl",
+    "u": "http://sl.wikipedia.org/w/index.php?title=Special%3ASearch&profile=default&search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "no.wiktionary.org",
+    "r": 0,
+    "s": "Wiktionary (Norwegian)",
+    "sc": "Learning (intl)",
+    "t": "wtno",
+    "u": "https://no.wiktionary.org/wiki/index.php?title=Special:Search&search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wikiwand.com",
+    "r": 0,
+    "s": "Wikiwand",
+    "sc": "Learning (intl)",
+    "t": "wwfr",
+    "u": "https://www.wikiwand.com/fr/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "yourei.jp",
+    "r": 0,
+    "s": "Yourei.jp",
+    "sc": "Learning (intl)",
+    "t": "yourei",
+    "u": "http://yourei.jp/{{{s}}}"
+  }
+]

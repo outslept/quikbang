@@ -1,0 +1,47 @@
+[
+  {
+    "c": "Tech",
+    "d": "index.scala-lang.org",
+    "r": 0,
+    "s": "Scala Center",
+    "sc": "Languages (scala)",
+    "t": "scaladex",
+    "u": "https://index.scala-lang.org/search?q={{{s}}} "
+  },
+  {
+    "c": "Tech",
+    "d": "www.scala-lang.org",
+    "r": 0,
+    "s": "Scala doc",
+    "sc": "Languages (scala)",
+    "t": "scaladoc",
+    "u": "http://www.scala-lang.org/api/current/?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "index.scala-lang.org",
+    "r": 4,
+    "s": "Scala Library Index",
+    "sc": "Languages (scala)",
+    "t": "scalai",
+    "u": "https://index.scala-lang.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.scala-lang.org",
+    "r": 0,
+    "s": "Scala API",
+    "sc": "Languages (scala)",
+    "t": "scalalang",
+    "u": "http://www.scala-lang.org/api/current/?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.scala-lang.org",
+    "r": 0,
+    "s": "scala-lang.org",
+    "sc": "Languages (scala)",
+    "t": "scala",
+    "u": "http://www.scala-lang.org/api/current/?search={{{s}}}"
+  }
+]

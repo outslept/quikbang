@@ -1,0 +1,3503 @@
+[
+  {
+    "c": "Research",
+    "d": "www.getty.edu",
+    "r": 0,
+    "s": "Art & Architecture Thesaurus® Online",
+    "sc": "Reference (words)",
+    "t": "aat",
+    "u": "http://www.getty.edu/vow/AATServlet?english=N&find={{{s}}}&logic=AND&page=1&note="
+  },
+  {
+    "c": "Research",
+    "d": "www.abbreviations.com",
+    "r": 27,
+    "s": "Abbreviations.com",
+    "sc": "Reference (words)",
+    "t": "abbr",
+    "u": "http://www.abbreviations.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.acronymfinder.com",
+    "r": 5,
+    "s": "Acronym Finder",
+    "sc": "Reference (words)",
+    "t": "acr",
+    "u": "http://www.acronymfinder.com/{{{s}}}.html"
+  },
+  {
+    "c": "Research",
+    "d": "www.acronymfinder.com",
+    "r": 51,
+    "s": "Acronyms",
+    "sc": "Reference (words)",
+    "t": "acro",
+    "u": "http://www.acronymfinder.com/~/search/af.aspx?string=exact&Acronym={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.acronymfinder.com",
+    "r": 16,
+    "s": "Acronyms",
+    "sc": "Reference (words)",
+    "t": "acronym",
+    "u": "http://www.acronymfinder.com/~/search/af.aspx?string=exact&Acronym={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.acronymfinder.com",
+    "r": 0,
+    "s": "Acronyms",
+    "sc": "Reference (words)",
+    "t": "acronyms",
+    "u": "http://www.acronymfinder.com/~/search/af.aspx?string=exact&Acronym={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "woerterbuchnetz.de",
+    "r": 0,
+    "s": "Adelung: Grammatisch-Kritisches Wörterbuch der Hochdeutschen Mundart",
+    "sc": "Reference (words)",
+    "t": "adelung",
+    "u": "http://woerterbuchnetz.de/Adelung/?lemma={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.acronymfinder.com",
+    "r": 40,
+    "s": "Acronym Finder",
+    "sc": "Reference (words)",
+    "t": "af",
+    "u": "http://www.acronymfinder.com/{{{s}}}.html"
+  },
+  {
+    "c": "Research",
+    "d": "ahdictionary.com",
+    "r": 43,
+    "s": "american heritage dictionary",
+    "sc": "Reference (words)",
+    "t": "ahd",
+    "u": "https://ahdictionary.com/word/search.html?q={{{s}}}&submit.x=0&submit.y=0"
+  },
+  {
+    "c": "Research",
+    "d": "www.allacronyms.com",
+    "r": 0,
+    "s": "All Acronyms",
+    "sc": "Reference (words)",
+    "t": "allacronyms",
+    "u": "https://www.allacronyms.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.almaany.com",
+    "r": 0,
+    "s": "almaany",
+    "sc": "Reference (words)",
+    "t": "almaanyar",
+    "u": "http://www.almaany.com/ar/dict/ar-ar/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.almaany.com",
+    "r": 0,
+    "s": "Almaany persian",
+    "sc": "Reference (words)",
+    "t": "almaanyfa",
+    "u": "https://www.almaany.com/ar/dict/ar-fa/{{{s}}}/"
+  },
+  {
+    "c": "Research",
+    "d": "www.oneacross.com",
+    "r": 6,
+    "s": "One Across",
+    "sc": "Reference (words)",
+    "t": "anagram",
+    "u": "http://www.oneacross.com/cgi-bin/search_anagram.cgi?p0={{{s}}}&c0=&s=+Go+"
+  },
+  {
+    "c": "Research",
+    "d": "www.synonyms.net",
+    "r": 7,
+    "s": "Synonyms.net",
+    "sc": "Reference (words)",
+    "t": "antonym",
+    "u": "http://www.synonyms.net/antonyms/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "anw.inl.nl",
+    "r": 0,
+    "s": "Algemeen Nederlands Woordenboek",
+    "sc": "Reference (words)",
+    "t": "anw",
+    "u": "http://anw.inl.nl/search?type=simple&q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "search.aol.com",
+    "r": 5,
+    "s": "AOL",
+    "sc": "Reference (words)",
+    "t": "aol",
+    "u": "http://search.aol.com/aol/search?enabled_terms=&s_it=comsearch&q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.aulete.com.br",
+    "r": 3,
+    "s": "iDicionário Aulete",
+    "sc": "Reference (words)",
+    "t": "aulete",
+    "u": "http://www.aulete.com.br/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "wordsmith.org",
+    "r": 0,
+    "s": "A.Word.A.Day",
+    "sc": "Reference (words)",
+    "t": "awad",
+    "u": "http://wordsmith.org/awad/search.html?cx=partner-pub-0068747404870456%3A118gxl-7atb&cof=FORID%3A11&q={{{s}}}&sa=Search"
+  },
+  {
+    "c": "Research",
+    "d": "www.babla.fr",
+    "r": 0,
+    "s": "Bab.la FR",
+    "sc": "Reference (words)",
+    "t": "bab",
+    "u": "http://www.babla.fr/anglais-francais/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "live.babelnet.org",
+    "r": 0,
+    "s": "BabelNet",
+    "sc": "Reference (words)",
+    "t": "babelnet",
+    "u": "http://live.babelnet.org/search?word={{{s}}}&lang=EN"
+  },
+  {
+    "c": "Research",
+    "d": "pl.bab.la",
+    "r": 27,
+    "s": "Bab.la",
+    "sc": "Reference (words)",
+    "t": "babpl",
+    "u": "http://pl.bab.la/slownik/angielski-polski/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "cn.bing.com",
+    "r": 0,
+    "s": "Bing dict",
+    "sc": "Reference (words)",
+    "t": "bce",
+    "u": "https://cn.bing.com/dict/search?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "cn.bing.com",
+    "r": 0,
+    "s": "Bing 词典",
+    "sc": "Reference (words)",
+    "t": "bdi",
+    "u": "https://cn.bing.com/dict/search?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.businessdictionary.com",
+    "r": 0,
+    "s": "Business Dictionary",
+    "sc": "Reference (words)",
+    "t": "bdictionary",
+    "u": "http://www.businessdictionary.com/search.php?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "surnames.behindthename.com",
+    "r": 0,
+    "s": "Beind the name - Surnames",
+    "sc": "Reference (words)",
+    "t": "behindsurname",
+    "u": "http://surnames.behindthename.com/name/{{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "www.behindthename.com",
+    "r": 20,
+    "s": "Behind the Name",
+    "sc": "Reference (words)",
+    "t": "behindthename",
+    "u": "http://www.behindthename.com/name/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "baheth.info",
+    "r": 0,
+    "s": "Baheth.info",
+    "sc": "Reference (words)",
+    "t": "bht",
+    "u": "http://baheth.info/all.jsp?term={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "words.bighugelabs.com",
+    "r": 0,
+    "s": "Big Huge Thesaurus",
+    "sc": "Reference (words)",
+    "t": "bighuge",
+    "u": "http://words.bighugelabs.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.businessdictionary.com",
+    "r": 0,
+    "s": "Business Dictionary",
+    "sc": "Reference (words)",
+    "t": "bizdic",
+    "u": "http://www.businessdictionary.com/search.php?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ordbok.uib.no",
+    "r": 0,
+    "s": "http://ordbok.uib.no/",
+    "sc": "Reference (words)",
+    "t": "bokmålsordboka",
+    "u": "http://ordbok.uib.no/perl/ordbok.cgi?OPP=+{{{s}}}&ant_bokmaal=5&ant_nynorsk=5&bokmaal=+&ordbok=bokmaal"
+  },
+  {
+    "c": "Research",
+    "d": "bookbrainz.org",
+    "r": 0,
+    "s": "BookBrainz",
+    "sc": "Reference (words)",
+    "t": "bookbrainz",
+    "u": "https://bookbrainz.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.b-rhymes.com",
+    "r": 0,
+    "s": "B-Rhymes",
+    "sc": "Reference (words)",
+    "t": "b-rhymes",
+    "u": "http://www.b-rhymes.com/rhyme/word/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.britishslang.co.uk",
+    "r": 0,
+    "s": "British Slang",
+    "sc": "Reference (words)",
+    "t": "british",
+    "u": "http://www.britishslang.co.uk/search/default.aspx?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.signbsl.com",
+    "r": 0,
+    "s": "SignBSL",
+    "sc": "Reference (words)",
+    "t": "bsl",
+    "u": "http://www.signbsl.com/sign/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.behindthename.com",
+    "r": 21,
+    "s": "Behind the Name",
+    "sc": "Reference (words)",
+    "t": "btname",
+    "u": "https://www.behindthename.com/names/search.php?terms={{{s}}}&type="
+  },
+  {
+    "c": "Research",
+    "d": "dictionary.cambridge.org",
+    "r": 277,
+    "s": "Cambridge Dictionary",
+    "sc": "Reference (words)",
+    "t": "cambridge",
+    "u": "http://dictionary.cambridge.org/dictionary/english/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.canoonet.eu",
+    "r": 0,
+    "s": "canoonet",
+    "sc": "Reference (words)",
+    "t": "canoo",
+    "u": "http://www.canoonet.eu/services/Controller?input={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dictionary.cambridge.org",
+    "r": 76,
+    "s": "Cambridge Dictionary",
+    "sc": "Reference (words)",
+    "t": "cdic",
+    "u": "https://dictionary.cambridge.org/spellcheck/english/?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.collinsdictionary.com",
+    "r": 0,
+    "s": "Collins Thesaurus",
+    "sc": "Reference (words)",
+    "t": "cdt",
+    "u": "https://www.collinsdictionary.com/dictionary/english-thesaurus/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.collinsdictionary.com",
+    "r": 0,
+    "s": "Collins Dictionary (English - Spanish)",
+    "sc": "Reference (words)",
+    "t": "cenes",
+    "u": "https://www.collinsdictionary.com/dictionary/english-spanish/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "chambers.co.uk",
+    "r": 7,
+    "s": "Chambers",
+    "sc": "Reference (words)",
+    "t": "chambers",
+    "u": "http://chambers.co.uk/search.php?query={{{s}}}&title=21st"
+  },
+  {
+    "c": "Research",
+    "d": "craftkeys.com",
+    "r": 0,
+    "s": "CraftKeys",
+    "sc": "Reference (words)",
+    "t": "ckeys",
+    "u": "http://craftkeys.com/site-info/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.cnrtl.fr",
+    "r": 0,
+    "s": "cnrtl concordance",
+    "sc": "Reference (words)",
+    "t": "cnrtlc",
+    "u": "http://www.cnrtl.fr/concordance/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.cnrtl.fr",
+    "r": 0,
+    "s": "cnrtl définitions",
+    "sc": "Reference (words)",
+    "t": "cnrtld",
+    "u": "http://www.cnrtl.fr/definition/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.cnrtl.fr",
+    "r": 0,
+    "s": "cnrtl étymologie",
+    "sc": "Reference (words)",
+    "t": "cnrtle",
+    "u": "http://www.cnrtl.fr/etymologie/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.cnrtl.fr",
+    "r": 0,
+    "s": "cnrtl morphologie",
+    "sc": "Reference (words)",
+    "t": "cnrtlm",
+    "u": "http://www.cnrtl.fr/morphologie/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.cnrtl.fr",
+    "r": 0,
+    "s": "cnrtl proxemie",
+    "sc": "Reference (words)",
+    "t": "cnrtlp",
+    "u": "http://www.cnrtl.fr/proxemie/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.cnrtl.fr",
+    "r": 13,
+    "s": "cnrtl synonymie",
+    "sc": "Reference (words)",
+    "t": "cnrtls",
+    "u": "http://www.cnrtl.fr/synonymie/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.cnrtl.fr",
+    "r": 18,
+    "s": "Centre National de Ressources Textuelles et Lexicales",
+    "sc": "Reference (words)",
+    "t": "cntrl",
+    "u": "http://www.cnrtl.fr/definition/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.collinsdictionary.com",
+    "r": 100,
+    "s": "Collins Dictionary",
+    "sc": "Reference (words)",
+    "t": "collins",
+    "u": "http://www.collinsdictionary.com/dictionary/english/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "oxforddictionary.so8848.com",
+    "r": 0,
+    "s": "Online Oxford Collocation Dictionary",
+    "sc": "Reference (words)",
+    "t": "collocation",
+    "u": "http://oxforddictionary.so8848.com/search1?word={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.spanishdict.com",
+    "r": 0,
+    "s": "SpanishDict - Conjugate",
+    "sc": "Reference (words)",
+    "t": "conjes",
+    "u": "http://www.spanishdict.com/conjugate/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.conjuga-me.net",
+    "r": 0,
+    "s": "Conjuga-me",
+    "sc": "Reference (words)",
+    "t": "conjuga",
+    "u": "http://www.conjuga-me.net/verbo-{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.collinsdictionary.com",
+    "r": 0,
+    "s": "Collins Dictionary (Portuguese - English)",
+    "sc": "Reference (words)",
+    "t": "cpten",
+    "u": "https://www.collinsdictionary.com/dictionary/portuguese-english/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordfun.ca",
+    "r": 0,
+    "s": "WordFun crossword solver",
+    "sc": "Reference (words)",
+    "t": "crossword",
+    "u": "http://www.wordfun.ca/words/fw?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.collinsdictionary.com",
+    "r": 0,
+    "s": "Collins English Thesaurus",
+    "sc": "Reference (words)",
+    "t": "cth",
+    "u": "http://www.collinsdictionary.com/dictionary/english-thesaurus/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "crosswordtracker.com",
+    "r": 0,
+    "s": "Crossword Tracker",
+    "sc": "Reference (words)",
+    "t": "cwt",
+    "u": "http://crosswordtracker.com/answer/{{{s}}}/"
+  },
+  {
+    "c": "Research",
+    "d": "duckduckgo.com",
+    "r": 3,
+    "s": "DuckDuckGo dictionary definitions",
+    "sc": "Reference (words)",
+    "t": "ddgd",
+    "u": "https://duckduckgo.com/?q={{{s}}}&ia=definition"
+  },
+  {
+    "c": "Research",
+    "d": "www.thefreedictionary.com",
+    "r": 642,
+    "s": "The Free Dictionary",
+    "sc": "Reference (words)",
+    "t": "define",
+    "u": "http://www.thefreedictionary.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "es.thefreedictionary.com",
+    "r": 9,
+    "s": "The free dictionary ES",
+    "sc": "Reference (words)",
+    "t": "des",
+    "u": "http://es.thefreedictionary.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dexonline.ro",
+    "r": 47,
+    "s": "Dexonline",
+    "sc": "Reference (words)",
+    "t": "dexonline",
+    "u": "http://dexonline.ro/definitie/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.dicionarioinformal.com.br",
+    "r": 0,
+    "s": "Dicionário Informal",
+    "sc": "Reference (words)",
+    "t": "dicinfo",
+    "u": "https://www.dicionarioinformal.com.br/{{{s}}}/"
+  },
+  {
+    "c": "Research",
+    "d": "www.dicio.com.br",
+    "r": 92,
+    "s": "Dicio",
+    "sc": "Reference (words)",
+    "t": "dicio",
+    "u": "https://www.dicio.com.br/pesquisa.php?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dico.isc.cnrs.fr",
+    "r": 0,
+    "s": "http://dico.isc.cnrs.fr/fr/index_tr.html",
+    "sc": "Reference (words)",
+    "t": "dicoiscenfr",
+    "u": "http://dico.isc.cnrs.fr/dico/tr/chercher_en?r={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dico.isc.cnrs.fr",
+    "r": 0,
+    "s": "http://dico.isc.cnrs.fr/fr/index_tr.html",
+    "sc": "Reference (words)",
+    "t": "dicoiscfren",
+    "u": "http://dico.isc.cnrs.fr/dico/tr/chercher_fr?r={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.dicoz.fr",
+    "r": 0,
+    "s": "Dicoz",
+    "sc": "Reference (words)",
+    "t": "dicoz",
+    "u": "http://www.dicoz.fr/?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "michaelis.uol.com.br",
+    "r": 0,
+    "s": "Michaelis Online",
+    "sc": "Reference (words)",
+    "t": "dic-ptbr",
+    "u": "http://michaelis.uol.com.br/moderno-portugues/busca/portugues-brasileiro/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.infopedia.pt",
+    "r": 6,
+    "s": "Dicionário Infopédia da Língua Portuguesa",
+    "sc": "Reference (words)",
+    "t": "dicpt",
+    "u": "https://www.infopedia.pt/dicionarios/lingua-portuguesa/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dictionary.reference.com",
+    "r": 0,
+    "s": "Dictionary (reference)",
+    "sc": "Reference (words)",
+    "t": "dictionaryr",
+    "u": "http://dictionary.reference.com/browse/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dict-navi.com",
+    "r": 0,
+    "s": "Dict-Na'vi.com",
+    "sc": "Reference (words)",
+    "t": "dictn",
+    "u": "http://dict-navi.com/en/dictionary/list/?type=search&search_term={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.dict.org",
+    "r": 0,
+    "s": "dict.org",
+    "sc": "Reference (words)",
+    "t": "dictre",
+    "u": "http://www.dict.org/bin/Dict?Form=Dict1&Database=*&Strategy=re&Query=^{{{s}}}$"
+  },
+  {
+    "c": "Research",
+    "d": "dictzone.com",
+    "r": 0,
+    "s": "DictZone spanyol-magyar",
+    "sc": "Reference (words)",
+    "t": "dictzonespma",
+    "u": "http://dictzone.com/spanyol-magyar-szotar/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "portail.atilf.fr",
+    "r": 0,
+    "s": "Encyclopédie de Diderot et d'Alembert",
+    "sc": "Reference (words)",
+    "t": "diddal",
+    "u": "http://portail.atilf.fr/cgi-bin/search2e?title={{{s}}}&author=&class=&speech=&objtype=&word=&CONJUNCT=PHRASE&PROXY=moins+de&DISTANCE=3&OUTPUT=conc&SYSTEM_DIR=%2Fvar%2Fartfla%2Fencyclopedie%2Ftextdata%2FIMAGE%2F"
+  },
+  {
+    "c": "Research",
+    "d": "www.dictionary.com",
+    "r": 472,
+    "s": "Dictionary.com",
+    "sc": "Reference (words)",
+    "t": "di",
+    "u": "http://www.dictionary.com/browse/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dlc.iec.cat",
+    "r": 52,
+    "s": "Institut d'Estudis Catalans",
+    "sc": "Reference (words)",
+    "t": "diec",
+    "u": "https://dlc.iec.cat/results.asp?txtEntrada={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dirae.es",
+    "r": 0,
+    "s": "Dirae",
+    "sc": "Reference (words)",
+    "t": "dirae",
+    "u": "http://dirae.es/palabras/?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.divii.org",
+    "r": 0,
+    "s": "Divii",
+    "sc": "Reference (words)",
+    "t": "divii",
+    "u": "http://www.divii.org/search?q= {{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dizionario.internazionale.it",
+    "r": 3,
+    "s": "Internazionale.it",
+    "sc": "Reference (words)",
+    "t": "dizint",
+    "u": "http://dizionario.internazionale.it/cerca/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.dictjuggler.net",
+    "r": 0,
+    "s": "DictJuggler.net Japanese-English and English-Japanese Translation Dictionary",
+    "sc": "Reference (words)",
+    "t": "djtrans",
+    "u": "http://www.dictjuggler.net/en/yakugo/?word={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "mdlc.iec.cat",
+    "r": 0,
+    "s": "Diccionari de la llengua catalana",
+    "sc": "Reference (words)",
+    "t": "dlcat",
+    "u": "http://mdlc.iec.cat/results.asp?txtEntrada={{{s}}}&operEntrada=0"
+  },
+  {
+    "c": "Research",
+    "d": "dle.rae.es",
+    "r": 220,
+    "s": "Diccionario de la lengua española, 23.ª Edición, RAE",
+    "sc": "Reference (words)",
+    "t": "dle",
+    "u": "http://dle.rae.es/?w={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.merriam-webster.com",
+    "r": 58,
+    "s": "Merriam-Webster Dictionary",
+    "sc": "Reference (words)",
+    "t": "dmw",
+    "u": "https://www.merriam-webster.com/dictionary/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dict-navi.com",
+    "r": 0,
+    "s": "Dict-Na'vi.com",
+    "sc": "Reference (words)",
+    "t": "dnde",
+    "u": "http://dict-navi.com/de/dictionary/list/?type=search&search_term={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ilg.usc.es",
+    "r": 0,
+    "s": "Dicionário de Pronúncia da Língua Galega",
+    "sc": "Reference (words)",
+    "t": "dplg",
+    "u": "http://ilg.usc.es/pronuncia/?pq=&q={{{s}}}&l=1&c[]=0"
+  },
+  {
+    "c": "Research",
+    "d": "michaelis.uol.com.br",
+    "r": 0,
+    "s": "Michaelis",
+    "sc": "Reference (words)",
+    "t": "dptbr",
+    "u": "http://michaelis.uol.com.br/moderno-portugues/busca/portugues-brasileiro/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "academia.gal",
+    "r": 4,
+    "s": "Dicionario da Real Academia Galega",
+    "sc": "Reference (words)",
+    "t": "drag",
+    "u": "http://academia.gal/dicionario_rag/searchNoun.do?nounTitle={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "drw-www.adw.uni-heidelberg.de",
+    "r": 0,
+    "s": "Deutsches Rechtswörterbuch",
+    "sc": "Reference (words)",
+    "t": "drw",
+    "u": "http://drw-www.adw.uni-heidelberg.de/drw-cgi/zeige?term={{{s}}}&index=lemmata"
+  },
+  {
+    "c": "Research",
+    "d": "www.d-seite.de",
+    "r": 0,
+    "s": "D-Seite ",
+    "sc": "Reference (words)",
+    "t": "dste",
+    "u": "https://www.d-seite.de/vis/vis.php?lemma={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "woerterbuchnetz.de",
+    "r": 4,
+    "s": "Deutsches Wörterbuch von Jacob Grimm und Wilhelm Grimm",
+    "sc": "Reference (words)",
+    "t": "dwb",
+    "u": "http://woerterbuchnetz.de/DWB/?lemma={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.dictionary.com",
+    "r": 33,
+    "s": "Dictionary.com",
+    "sc": "Reference (words)",
+    "t": "dxn",
+    "u": "http://www.dictionary.com/browse/{{{s}}}?s=ts"
+  },
+  {
+    "c": "Research",
+    "d": "www.ecosia.org",
+    "r": 47,
+    "s": "Ecosia",
+    "sc": "Reference (words)",
+    "t": "eco",
+    "u": "https://www.ecosia.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "educalingo.com",
+    "r": 0,
+    "s": "Educalingo Français",
+    "sc": "Reference (words)",
+    "t": "educalingofr",
+    "u": "https://educalingo.com/fr/dic-fr/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.tanoshiijapanese.com",
+    "r": 0,
+    "s": "Tanoshii Japanese English > Japanese",
+    "sc": "Reference (words)",
+    "t": "ej",
+    "u": "http://www.tanoshiijapanese.com/dictionary/index.cfm?j=&e={{{s}}}&search=Search+%3E"
+  },
+  {
+    "c": "Research",
+    "d": "www.eki.ee",
+    "r": 0,
+    "s": "Eesti keele seletav sõnaraamat",
+    "sc": "Reference (words)",
+    "t": "ekss",
+    "u": "http://www.eki.ee/dict/ekss/index.cgi?Q={{{s}}}&F=M"
+  },
+  {
+    "c": "Research",
+    "d": "hiztegiak.elhuyar.eus",
+    "r": 0,
+    "s": "Elhuyar Hiztegia EN-->EU",
+    "sc": "Reference (words)",
+    "t": "elheneu",
+    "u": "http://hiztegiak.elhuyar.eus/en_eu/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "hiztegiak.elhuyar.eus",
+    "r": 0,
+    "s": "Elhuyar Hiztegia ES-->EU",
+    "sc": "Reference (words)",
+    "t": "elheseu",
+    "u": "http://hiztegiak.elhuyar.eus/es_eu/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "hiztegiak.elhuyar.eus",
+    "r": 0,
+    "s": "Elhuyar Hiztegia EU-->EN",
+    "sc": "Reference (words)",
+    "t": "elheuen",
+    "u": "http://hiztegiak.elhuyar.eus/eu_en/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "hiztegiak.elhuyar.eus",
+    "r": 0,
+    "s": "Elhuyar Hiztegia EU-->ES",
+    "sc": "Reference (words)",
+    "t": "elheues",
+    "u": "http://hiztegiak.elhuyar.eus/eu_es/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "hiztegiak.elhuyar.eus",
+    "r": 0,
+    "s": "Elhuyar Hiztegia EU-->FR",
+    "sc": "Reference (words)",
+    "t": "elheufr",
+    "u": "http://hiztegiak.elhuyar.eus/eu_fr/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "hiztegiak.elhuyar.eus",
+    "r": 0,
+    "s": "Elhuyar Hiztegia FR-->EU",
+    "sc": "Reference (words)",
+    "t": "elhfreu",
+    "u": "http://hiztegiak.elhuyar.eus/fr_eu/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "hiztegiak.elhuyar.org",
+    "r": 0,
+    "s": "Elhuyar Hiztegiak",
+    "sc": "Reference (words)",
+    "t": "elhuyar",
+    "u": "http://hiztegiak.elhuyar.org/es_eu/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "translate.google.com",
+    "r": 4,
+    "s": "Google Translate to Finnish",
+    "sc": "Reference (words)",
+    "t": "enfi",
+    "u": "http://translate.google.com/#en/fi/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.englishgrammar.org",
+    "r": 0,
+    "s": "English Grammar",
+    "sc": "Reference (words)",
+    "t": "enggramm",
+    "u": "https://www.englishgrammar.org/?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "translate.google.com",
+    "r": 88,
+    "s": "Google Translate",
+    "sc": "Reference (words)",
+    "t": "enru",
+    "u": "http://translate.google.com/#en/ru/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "mw.lojban.org",
+    "r": 0,
+    "s": "la sutsis",
+    "sc": "Reference (words)",
+    "t": "en-sutsis",
+    "u": "http://mw.lojban.org/extensions/ilmentufa/i/en/#sisku/http://mw.lojban.org/extensions/ilmentufa/i/en/#sisku/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 0,
+    "s": "Word Reference Definicion",
+    "sc": "Reference (words)",
+    "t": "esdef",
+    "u": "http://www.wordreference.com/definicion/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 0,
+    "s": "Word Reference Sinonimos",
+    "sc": "Reference (words)",
+    "t": "essin",
+    "u": "http://www.wordreference.com/sinonimos/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "estraviz.org",
+    "r": 6,
+    "s": "Estraviz",
+    "sc": "Reference (words)",
+    "t": "estraviz",
+    "u": "https://estraviz.org/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "etimo.it",
+    "r": 8,
+    "s": "Dizionario Etimologico",
+    "sc": "Reference (words)",
+    "t": "etimo",
+    "u": "http://etimo.it/?term={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.etymonline.com",
+    "r": 59,
+    "s": "Etymonline",
+    "sc": "Reference (words)",
+    "t": "etymonline",
+    "u": "http://www.etymonline.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.etymonline.com",
+    "r": 11,
+    "s": "Online Etymology Dictionary",
+    "sc": "Reference (words)",
+    "t": "etymo",
+    "u": "http://www.etymonline.com/index.php?term={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "etymologiebank.nl",
+    "r": 17,
+    "s": "Etymologiebank",
+    "sc": "Reference (words)",
+    "t": "etynl",
+    "u": "http://etymologiebank.nl/trefwoord/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.etymonline.com",
+    "r": 140,
+    "s": "Online Etymology Dictionary",
+    "sc": "Reference (words)",
+    "t": "ety",
+    "u": "http://www.etymonline.com/index.php?allowed_in_frame=0&search={{{s}}}&searchmode=none"
+  },
+  {
+    "c": "Research",
+    "d": "www.fundeu.es",
+    "r": 0,
+    "s": "Fundéu BBVA",
+    "sc": "Reference (words)",
+    "t": "fbbva",
+    "u": "http://www.fundeu.es/?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "finedictionary.com",
+    "r": 0,
+    "s": "finedictionary",
+    "sc": "Reference (words)",
+    "t": "fdic",
+    "u": "http://finedictionary.com/{{{s}}}.html"
+  },
+  {
+    "c": "Research",
+    "d": "translate.google.com",
+    "r": 0,
+    "s": "Google Translate",
+    "sc": "Reference (words)",
+    "t": "fien",
+    "u": "http://translate.google.com/#fi/en/{{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "www.finedictionary.com",
+    "r": 0,
+    "s": "Fine Dictionary",
+    "sc": "Reference (words)",
+    "t": "finedict",
+    "u": "http://www.finedictionary.com/{{{s}}}.html"
+  },
+  {
+    "c": "Research",
+    "d": "flexikon.doccheck.com",
+    "r": 0,
+    "s": "DocCheck Flexikon",
+    "sc": "Reference (words)",
+    "t": "fle",
+    "u": "http://flexikon.doccheck.com/de/Spezial:Suche?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "forvo.com",
+    "r": 62,
+    "s": "Forvo",
+    "sc": "Reference (words)",
+    "t": "forvo",
+    "u": "http://forvo.com/search/{{{s}}}/"
+  },
+  {
+    "c": "Research",
+    "d": "www.frag-caesar.de",
+    "r": 0,
+    "s": "Frag Cäsar",
+    "sc": "Reference (words)",
+    "t": "frc",
+    "u": "http://www.frag-caesar.de/lateinwoerterbuch/{{{s}}}-uebersetzung.html"
+  },
+  {
+    "c": "Research",
+    "d": "www.freecollocation.com",
+    "r": 0,
+    "s": "FreeCollocation.com",
+    "sc": "Reference (words)",
+    "t": "freecol",
+    "u": "http://www.freecollocation.com/search?word={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "freedictionary.org",
+    "r": 0,
+    "s": "Free Dictionary",
+    "sc": "Reference (words)",
+    "t": "freedict",
+    "u": "http://freedictionary.org/?Query={{{s}}}&button=Search"
+  },
+  {
+    "c": "Research",
+    "d": "freedictionary.org",
+    "r": 0,
+    "s": "Free Dictionary",
+    "sc": "Reference (words)",
+    "t": "freedictionary",
+    "u": "http://freedictionary.org/?Query={{{s}}}&button=Search"
+  },
+  {
+    "c": "Research",
+    "d": "www.freethesaurus.com",
+    "r": 3,
+    "s": "The Free Dictionary (Thesaurus)",
+    "sc": "Reference (words)",
+    "t": "freethesaurus",
+    "u": "http://www.freethesaurus.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "glosbe.com",
+    "r": 0,
+    "s": "Glosbe (Arabic-English)",
+    "sc": "Reference (words)",
+    "t": "garen",
+    "u": "https://glosbe.com/ar/en/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "gcide.gnu.org.ua",
+    "r": 0,
+    "s": "GCIDE",
+    "sc": "Reference (words)",
+    "t": "gcide",
+    "u": "http://gcide.gnu.org.ua/?q={{{s}}} &define=Define&strategy=."
+  },
+  {
+    "c": "Research",
+    "d": "www.gematrix.org",
+    "r": 0,
+    "s": "Gematrix",
+    "sc": "Reference (words)",
+    "t": "gematria",
+    "u": "https://www.gematrix.org/?word={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "glosbe.com",
+    "r": 3,
+    "s": "Glosbe",
+    "sc": "Reference (words)",
+    "t": "gip",
+    "u": "http://glosbe.com/it/pl/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "glosbe.com",
+    "r": 0,
+    "s": "Glosbe",
+    "sc": "Reference (words)",
+    "t": "gpi",
+    "u": "http://glosbe.com/pl/it/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.nayiri.com",
+    "r": 0,
+    "s": "Classical Armenian to Modern Armenian Dictionary",
+    "sc": "Reference (words)",
+    "t": "grabar",
+    "u": "http://www.nayiri.com/imagedDictionaryBrowser.jsp?dictionaryId=28&dt=HY_HY&query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "gramota.ru",
+    "r": 0,
+    "s": "gramota.ru",
+    "sc": "Reference (words)",
+    "t": "gramota",
+    "u": "http://gramota.ru/slovari/dic/?word={{{s}}}&all=x"
+  },
+  {
+    "c": "Research",
+    "d": "hyperdictionary.com",
+    "r": 0,
+    "s": "Hyperdictionary",
+    "sc": "Reference (words)",
+    "t": "hdict",
+    "u": "http://hyperdictionary.com/search.aspx?define={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.maxgyan.com",
+    "r": 0,
+    "s": "Max Gyan Hindi to English",
+    "sc": "Reference (words)",
+    "t": "hintoeng",
+    "u": "http://www.maxgyan.com/search/hindi-to-english/index.php?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "howjsay.com",
+    "r": 0,
+    "s": "HowJSay",
+    "sc": "Reference (words)",
+    "t": "hjs",
+    "u": "https://howjsay.com/search?word={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "howjsay.com",
+    "r": 0,
+    "s": "HowJSay",
+    "sc": "Reference (words)",
+    "t": "howjsay",
+    "u": "https://howjsay.com/search?word={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.adl.org",
+    "r": 0,
+    "s": "ADL Hate Symbols Database",
+    "sc": "Reference (words)",
+    "t": "hsdb",
+    "u": "https://www.adl.org/education-and-resources/resource-knowledge-base/hate-symbols?keys={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "idioms.thefreedictionary.com",
+    "r": 7,
+    "s": "Idioms The Free Dictionary",
+    "sc": "Reference (words)",
+    "t": "idiom",
+    "u": "http://idioms.thefreedictionary.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dlc.iec.cat",
+    "r": 20,
+    "s": "Institut d'Estudis Catalans",
+    "sc": "Reference (words)",
+    "t": "iec",
+    "u": "https://dlc.iec.cat/results.asp?txtEntrada={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ivdnt.org",
+    "r": 0,
+    "s": "Instituut voor de Nederlandse taal",
+    "sc": "Reference (words)",
+    "t": "inl",
+    "u": "https://ivdnt.org/zoeken-in-woordenboeken?w={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.investorwords.com",
+    "r": 0,
+    "s": "Investor Words",
+    "sc": "Reference (words)",
+    "t": "investorwords",
+    "u": "http://www.investorwords.com/search_cse.php?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.tanoshiijapanese.com",
+    "r": 7,
+    "s": "Tanoshii Japanese",
+    "sc": "Reference (words)",
+    "t": "je",
+    "u": "http://www.tanoshiijapanese.com/dictionary/index.cfm?j={{{s}}}&e=&search=Search+%3E"
+  },
+  {
+    "c": "Research",
+    "d": "www.kanjijapanese.com",
+    "r": 0,
+    "s": "Japanese - English Dictionary",
+    "sc": "Reference (words)",
+    "t": "jpen",
+    "u": "http://www.kanjijapanese.com/en/dictionary-japanese-english/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "app.kanjialive.com",
+    "r": 0,
+    "s": "Kanji Alive",
+    "sc": "Reference (words)",
+    "t": "kanji",
+    "u": "https://app.kanjialive.com/search/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "slovniky.korpus.sk",
+    "r": 0,
+    "s": "Slovenské slovníky",
+    "sc": "Reference (words)",
+    "t": "korpus",
+    "u": "http://slovniky.korpus.sk/?w={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.kpedia.jp",
+    "r": 16,
+    "s": "Kpedia",
+    "sc": "Reference (words)",
+    "t": "kped",
+    "u": "https://www.kpedia.jp/w/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "glosbe.com",
+    "r": 0,
+    "s": "Glosbe",
+    "sc": "Reference (words)",
+    "t": "lad",
+    "u": "https://glosbe.com/la/en/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "en.langenscheidt.com",
+    "r": 0,
+    "s": "Langenscheidt",
+    "sc": "Reference (words)",
+    "t": "langen",
+    "u": "https://en.langenscheidt.com/german-english/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "LanguageTool.org",
+    "r": 48,
+    "s": "LanguageTool",
+    "sc": "Reference (words)",
+    "t": "lang",
+    "u": "https://LanguageTool.org/?text={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.larousse.fr",
+    "r": 0,
+    "s": "Larousse Conjugaison",
+    "sc": "Reference (words)",
+    "t": "lconj",
+    "u": "https://www.larousse.fr/conjugaison/francais/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.ldoceonline.com",
+    "r": 207,
+    "s": "Longman Dictionary of Contemporary English",
+    "sc": "Reference (words)",
+    "t": "ld",
+    "u": "http://www.ldoceonline.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "thesaurus.com",
+    "r": 21,
+    "s": "Thesaurus.com",
+    "sc": "Reference (words)",
+    "t": "like",
+    "u": "http://thesaurus.com/browse/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.linguee.com.br",
+    "r": 39,
+    "s": "Linguee",
+    "sc": "Reference (words)",
+    "t": "linbr",
+    "u": "http://www.linguee.com.br/portugues-ingles/search?source=auto&query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.linguee.com",
+    "r": 19,
+    "s": "linguee",
+    "sc": "Reference (words)",
+    "t": "linef",
+    "u": "https://www.linguee.com/english-french/search?source=auto&query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.linguee.fr",
+    "r": 0,
+    "s": "Linguee",
+    "sc": "Reference (words)",
+    "t": "linfd",
+    "u": "http://www.linguee.fr/francais-allemand/search?source=auto&query={{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "www.linguee.fr",
+    "r": 9,
+    "s": "linguee",
+    "sc": "Reference (words)",
+    "t": "linfe",
+    "u": "https://www.linguee.fr/francais-anglais/search?query= {{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.netlingo.com",
+    "r": 0,
+    "s": "NetLingo",
+    "sc": "Reference (words)",
+    "t": "lingo",
+    "u": "http://www.netlingo.com/search.php?searchtxt={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.linguee.es",
+    "r": 30,
+    "s": "www.linguee.es",
+    "sc": "Reference (words)",
+    "t": "lingues",
+    "u": "https://www.linguee.es/espanol-ingles/search?source=auto&query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.linternaute.com",
+    "r": 0,
+    "s": "linternaute",
+    "sc": "Reference (words)",
+    "t": "linternaute",
+    "u": "http://www.linternaute.com/encyclopedie/recherche/?f_libelle={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "literarydevices.net",
+    "r": 0,
+    "s": "Literary Devices and Terms",
+    "sc": "Reference (words)",
+    "t": "litdev",
+    "u": "https://literarydevices.net/?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.lexico.com",
+    "r": 3,
+    "s": "Lexico (Powered by Oxford)",
+    "sc": "Reference (words)",
+    "t": "lx",
+    "u": "https://www.lexico.com/definition/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.macmillandictionary.com",
+    "r": 0,
+    "s": "Macmillan Dictionary",
+    "sc": "Reference (words)",
+    "t": "macdic",
+    "u": "http://www.macmillandictionary.com/dictionary/american/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.macmillandictionary.com",
+    "r": 0,
+    "s": "MacMillan Dictionary",
+    "sc": "Reference (words)",
+    "t": "macmillan",
+    "u": "http://www.macmillandictionary.com/dictionary/american/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.macquariedictionary.com.au",
+    "r": 0,
+    "s": "Macquarie Dictionary",
+    "sc": "Reference (words)",
+    "t": "macq",
+    "u": "https://www.macquariedictionary.com.au/features/word/search/?word={{{s}}}&search_word_type=Dictionary"
+  },
+  {
+    "c": "Research",
+    "d": "malid.is",
+    "r": 15,
+    "s": "Málið",
+    "sc": "Reference (words)",
+    "t": "malid",
+    "u": "http://malid.is/leit/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "mcpac.mcpl.lib.ny.us",
+    "r": 0,
+    "s": "Middle Country Public Library ",
+    "sc": "Reference (words)",
+    "t": "mcpl",
+    "u": "https://mcpac.mcpl.lib.ny.us/search/t?{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.mdbg.net",
+    "r": 155,
+    "s": "MDBG Dictionary",
+    "sc": "Reference (words)",
+    "t": "mdbg",
+    "u": "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "m.dict.cc",
+    "r": 12,
+    "s": "Dict.cc",
+    "sc": "Reference (words)",
+    "t": "mdcc",
+    "u": "https://m.dict.cc/?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.memidex.com",
+    "r": 0,
+    "s": "Memidex",
+    "sc": "Reference (words)",
+    "t": "memidex",
+    "u": "http://www.memidex.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.merriam-webster.com",
+    "r": 16,
+    "s": "Merriam-Webster",
+    "sc": "Reference (words)",
+    "t": "merriamwebster",
+    "u": "http://www.merriam-webster.com/dictionary/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "woerterbuchnetz.de",
+    "r": 0,
+    "s": "Meyers Großes Konversationslexikon",
+    "sc": "Reference (words)",
+    "t": "meyers",
+    "u": "http://woerterbuchnetz.de/Meyers/?lemme={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "milog.co.il",
+    "r": 0,
+    "s": "Milog",
+    "sc": "Reference (words)",
+    "t": "milog",
+    "u": "http://milog.co.il/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.learnersdictionary.com",
+    "r": 0,
+    "s": "Learner's Dictionary",
+    "sc": "Reference (words)",
+    "t": "mld",
+    "u": "http://www.learnersdictionary.com/definition/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.moby-thesaurus.org",
+    "r": 0,
+    "s": "Moby Thesaurus",
+    "sc": "Reference (words)",
+    "t": "mobythes",
+    "u": "http://www.moby-thesaurus.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.moedict.tw",
+    "r": 3,
+    "s": "Moedict",
+    "sc": "Reference (words)",
+    "t": "moedict",
+    "u": "https://www.moedict.tw/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.morfix.co.il",
+    "r": 75,
+    "s": "Morfix",
+    "sc": "Reference (words)",
+    "t": "morfix",
+    "u": "http://www.morfix.co.il/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.multitran.com",
+    "r": 13,
+    "s": "Multitran",
+    "sc": "Reference (words)",
+    "t": "mt",
+    "u": "https://www.multitran.com/m.exe?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.merriam-webster.com",
+    "r": 253,
+    "s": "Merriam-Webster Dictionary",
+    "sc": "Reference (words)",
+    "t": "mwd",
+    "u": "http://www.merriam-webster.com/dictionary/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.learnersdictionary.com",
+    "r": 0,
+    "s": "Merriam-Webster's Learner's Dictionary",
+    "sc": "Reference (words)",
+    "t": "mwl",
+    "u": "http://www.learnersdictionary.com/definition/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.merriam-webster.com",
+    "r": 4071,
+    "s": "Merriam-Webster Dictionary",
+    "sc": "Reference (words)",
+    "t": "mw",
+    "u": "http://www.merriam-webster.com/dictionary/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.merriam-webster.com",
+    "r": 187,
+    "s": "Thesaurus by Merriam-Webster ",
+    "sc": "Reference (words)",
+    "t": "mwt",
+    "u": "http://www.merriam-webster.com/thesaurus/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "unabridged.merriam-webster.com",
+    "r": 0,
+    "s": "Merriam-Webster Unabridged",
+    "sc": "Reference (words)",
+    "t": "mwunabridged",
+    "u": "http://unabridged.merriam-webster.com/unabridged/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.naob.no",
+    "r": 93,
+    "s": "NAOB – Det Norske Akademis ordbok",
+    "sc": "Reference (words)",
+    "t": "naob",
+    "u": "https://www.naob.no/s%C3%B8k/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "endic.naver.com",
+    "r": 57,
+    "s": "Naver English Dictionary",
+    "sc": "Reference (words)",
+    "t": "ndic",
+    "u": "http://endic.naver.com/search.nhn?query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "books.google.com",
+    "r": 5,
+    "s": "Google Ngram Viewer",
+    "sc": "Reference (words)",
+    "t": "ngram",
+    "u": "http://books.google.com/ngrams/graph?content={{{s}}}&year_start=1800&year_end=2000&corpus=15&smoothing=3"
+  },
+  {
+    "c": "Research",
+    "d": "books.google.com",
+    "r": 0,
+    "s": "Google ngrams",
+    "sc": "Reference (words)",
+    "t": "ngr",
+    "u": "https://books.google.com/ngrams/graph?content={{{s}}}&year_start=1850&year_end=2009&corpus=15&smoothing=0"
+  },
+  {
+    "c": "Research",
+    "d": "nhd.heinle.com",
+    "r": 0,
+    "s": "Heinle's Newbury House Dictionary of American English",
+    "sc": "Reference (words)",
+    "t": "nhd",
+    "u": "http://nhd.heinle.com/Definition.aspx?word={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "krdic.naver.com",
+    "r": 0,
+    "s": "Naver Korean Dictionary",
+    "sc": "Reference (words)",
+    "t": "nkr",
+    "u": "http://krdic.naver.com/search.nhn?query={{{s}}}&kind=all"
+  },
+  {
+    "c": "Research",
+    "d": "nutrimatic.org",
+    "r": 0,
+    "s": "Nutrimatic",
+    "sc": "Reference (words)",
+    "t": "nmt",
+    "u": "https://nutrimatic.org/?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ninjawords.com",
+    "r": 21,
+    "s": "Ninja Words",
+    "sc": "Reference (words)",
+    "t": "nw",
+    "u": "http://ninjawords.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.oxforddictionaries.com",
+    "r": 0,
+    "s": "Oxford Dictionaries (American English)",
+    "sc": "Reference (words)",
+    "t": "oad",
+    "u": "http://www.oxforddictionaries.com/definition/american_english/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "en.oxforddictionaries.com",
+    "r": 0,
+    "s": "Oxford Dictionaries",
+    "sc": "Reference (words)",
+    "t": "odic",
+    "u": "https://en.oxforddictionaries.com/search?utf8=%E2%9C%93&filter=dictionary&query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.oed.com",
+    "r": 117,
+    "s": "OED - Oxford English Dictionary",
+    "sc": "Reference (words)",
+    "t": "oed",
+    "u": "http://www.oed.com/search?searchType=dictionary&q={{{s}}}&_searchBtn=Search"
+  },
+  {
+    "c": "Research",
+    "d": "www.dizionario-italiano.it",
+    "r": 4,
+    "s": "Dizionario Italiano Olivetti",
+    "sc": "Reference (words)",
+    "t": "olivetti",
+    "u": "https://www.dizionario-italiano.it/dizionario-italiano.php?parola={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.onelook.com",
+    "r": 9,
+    "s": "Onelook Reverse Dictionary",
+    "sc": "Reference (words)",
+    "t": "olth",
+    "u": "http://www.onelook.com/reverse-dictionary.shtml?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "onelook.com",
+    "r": 69,
+    "s": "OneLook",
+    "sc": "Reference (words)",
+    "t": "onelook",
+    "u": "http://onelook.com/?w={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "onelook.com",
+    "r": 0,
+    "s": "OneLook Reverse",
+    "sc": "Reference (words)",
+    "t": "onelookr",
+    "u": "http://onelook.com/?w=*&loc=revfp2&clue={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.onelook.com",
+    "r": 0,
+    "s": "Onelook Reverse Dictionary",
+    "sc": "Reference (words)",
+    "t": "onelookth",
+    "u": "http://www.onelook.com/reverse-dictionary.shtml?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "onelook.com",
+    "r": 197,
+    "s": "OneLook.com",
+    "sc": "Reference (words)",
+    "t": "o",
+    "u": "http://onelook.com/?w={{{s}}}&ls=a"
+  },
+  {
+    "c": "Research",
+    "d": "beta.ordbogen.com",
+    "r": 0,
+    "s": "beta.ordbogen.com",
+    "sc": "Reference (words)",
+    "t": "ordbog",
+    "u": "https://beta.ordbogen.com/da/search#/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ordbok.uib.no",
+    "r": 24,
+    "s": "Bokmålsordboka | Nynorskordboka",
+    "sc": "Reference (words)",
+    "t": "ordbok",
+    "u": "http://ordbok.uib.no/perl/ordbok.cgi?OPP=+{{{s}}}&ant_bokmaal=5&ant_nynorsk=5&begge=+&ordbok=begge"
+  },
+  {
+    "c": "Research",
+    "d": "www.ordnett.no",
+    "r": 0,
+    "s": "Ordnett",
+    "sc": "Reference (words)",
+    "t": "ordnett",
+    "u": "https://www.ordnett.no/search?language=no&phrase={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "orthonet.sdv.fr",
+    "r": 0,
+    "s": "orthonet",
+    "sc": "Reference (words)",
+    "t": "orthonet",
+    "u": "http://orthonet.sdv.fr/php/rech_mot.php?mot={{{s}}}&x=0&y=0"
+  },
+  {
+    "c": "Research",
+    "d": "www.eki.ee",
+    "r": 0,
+    "s": "Eesti Õigekeelsussõnaraamat",
+    "sc": "Reference (words)",
+    "t": "õs",
+    "u": "http://www.eki.ee/dict/qs/index.cgi?Q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.ostarrichi.org",
+    "r": 0,
+    "s": "Ostarrichi",
+    "sc": "Reference (words)",
+    "t": "ostarrichi",
+    "u": "http://www.ostarrichi.org/dictionary-search.html?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.openthesaurus.de",
+    "r": 0,
+    "s": "OpenThesaurus-de",
+    "sc": "Reference (words)",
+    "t": "othde",
+    "u": "https://www.openthesaurus.de/synonyme/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "onelook.com",
+    "r": 0,
+    "s": "http://onelook.com/thesaurus/",
+    "sc": "Reference (words)",
+    "t": "otrd",
+    "u": "http://onelook.com/thesaurus/?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "webstersdictionary1828.com",
+    "r": 0,
+    "s": "Webster's Dictionary 1828 - Online Edition",
+    "sc": "Reference (words)",
+    "t": "owd",
+    "u": "http://webstersdictionary1828.com/Dictionary/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.oxforddictionaries.com",
+    "r": 0,
+    "s": "Oxford Dictionaries",
+    "sc": "Reference (words)",
+    "t": "oxed",
+    "u": "http://www.oxforddictionaries.com/definition/english/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "es.oxforddictionaries.com",
+    "r": 0,
+    "s": "Oxford Spanish to English",
+    "sc": "Reference (words)",
+    "t": "oxesen",
+    "u": "https://es.oxforddictionaries.com/translate/spanish-english/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.oxfordlearnersdictionaries.com",
+    "r": 23,
+    "s": "Oxford learners dictionary",
+    "sc": "Reference (words)",
+    "t": "oxfordlearners",
+    "u": "http://www.oxfordlearnersdictionaries.com/definition/english/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "premium.oxforddictionaries.com",
+    "r": 0,
+    "s": "Oxford French to English dictionary",
+    "sc": "Reference (words)",
+    "t": "oxfren",
+    "u": "https://premium.oxforddictionaries.com/translate/french-english/{{{s}}}?q=insoumise&searchDictCode=english-french"
+  },
+  {
+    "c": "Research",
+    "d": "www.oxfordlearnersdictionaries.com",
+    "r": 98,
+    "s": "Oxford Advanced Learners' dictionary",
+    "sc": "Reference (words)",
+    "t": "oxl",
+    "u": "https://www.oxfordlearnersdictionaries.com/definition/english/{{{s}}}_1?isEntryInOtherDict=false"
+  },
+  {
+    "c": "Research",
+    "d": "www.lexico.com",
+    "r": 20,
+    "s": "Oxford Dictionary",
+    "sc": "Reference (words)",
+    "t": "ox",
+    "u": "https://www.lexico.com/search?utf8=%E2%9C%93&filter=dictionary&dictionary=en&query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "en.oxforddictionaries.com",
+    "r": 0,
+    "s": "Oxford Dictionary Thesaurus",
+    "sc": "Reference (words)",
+    "t": "oxs",
+    "u": "https://en.oxforddictionaries.com/thesaurus/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "en.oxforddictionaries.com",
+    "r": 0,
+    "s": "Oxford Dictonaries - Thesaurus",
+    "sc": "Reference (words)",
+    "t": "oxt",
+    "u": "https://en.oxforddictionaries.com/thesaurus/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.ozdic.com",
+    "r": 0,
+    "s": "http://www.ozdic.com",
+    "sc": "Reference (words)",
+    "t": "ozdic",
+    "u": "http://www.ozdic.com/collocation-dictionary/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "panlexicon.com",
+    "r": 0,
+    "s": "Panlexicon",
+    "sc": "Reference (words)",
+    "t": "pan",
+    "u": "https://panlexicon.com/?q={{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "www.pauker.at",
+    "r": 0,
+    "s": "Pauker.at Dictionary (German-Finnish)",
+    "sc": "Reference (words)",
+    "t": "pat.fi",
+    "u": "http://www.pauker.at/pauker/DE_DE/FI/wb/?modus=&suche={{{s}}}&page=1#"
+  },
+  {
+    "c": "Research",
+    "d": "www.pauker.at",
+    "r": 0,
+    "s": "pauker.at Dictionary (Mobile)",
+    "sc": "Reference (words)",
+    "t": "patm",
+    "u": "http://www.pauker.at/app.php/DE_DE/?s={{{s}}}#suche"
+  },
+  {
+    "c": "Research",
+    "d": "www.pauker.at",
+    "r": 0,
+    "s": "pauker.at Dictionary (German-English)",
+    "sc": "Reference (words)",
+    "t": "pat",
+    "u": "http://www.pauker.at/pauker/DE_DE/EN/wb?modus=&suche={{{s}}}&page=1#"
+  },
+  {
+    "c": "Research",
+    "d": "www.pauker.at",
+    "r": 0,
+    "s": "Pauker.at",
+    "sc": "Reference (words)",
+    "t": "pat.pt",
+    "u": "http://www.pauker.at/pauker/DE_DE/PT/wb/?modus=&suche={{{s}}}&page=1#"
+  },
+  {
+    "c": "Research",
+    "d": "www.pauker.at",
+    "r": 0,
+    "s": "pauker.at Dictionary (German-Swedish)",
+    "sc": "Reference (words)",
+    "t": "pat.sv",
+    "u": "http://www.pauker.at/pauker/DE_DE/SE/wb?modus=&suche={{{s}}}&page=1#"
+  },
+  {
+    "c": "Research",
+    "d": "www.pauker.at",
+    "r": 0,
+    "s": "Pauker",
+    "sc": "Reference (words)",
+    "t": "pauker",
+    "u": "http://www.pauker.at/pauker/DE_EN/EN/wb/?modus=&suche={{{s}}}&page=1#"
+  },
+  {
+    "c": "Research",
+    "d": "www.perseus.tufts.edu",
+    "r": 12,
+    "s": "Perseus word study tool",
+    "sc": "Reference (words)",
+    "t": "pgr",
+    "u": "http://www.perseus.tufts.edu/hopper/morph?l={{{s}}}&la=greek"
+  },
+  {
+    "c": "Research",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "phrases.org.uk",
+    "sc": "Reference (words)",
+    "t": "phrase",
+    "u": "https://duckduckgo.com/?q=site:phrases.org.uk%20{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.perseus.tufts.edu",
+    "r": 4,
+    "s": "Perseus word study tool",
+    "sc": "Reference (words)",
+    "t": "pla",
+    "u": "http://www.perseus.tufts.edu/hopper/morph?l={{{s}}}&la=la"
+  },
+  {
+    "c": "Research",
+    "d": "www.poemhunter.com",
+    "r": 0,
+    "s": "PoemHunter",
+    "sc": "Reference (words)",
+    "t": "poem",
+    "u": "http://www.poemhunter.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.poetryfoundation.org",
+    "r": 0,
+    "s": "The Poetry Foundation",
+    "sc": "Reference (words)",
+    "t": "poems",
+    "u": "https://www.poetryfoundation.org/search?query={{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "de.pons.com",
+    "r": 0,
+    "s": "Pons de<>es",
+    "sc": "Reference (words)",
+    "t": "ponsdees",
+    "u": "http://de.pons.com/%C3%BCbersetzung?q={{{s}}}&l=dees&in=&lf=de"
+  },
+  {
+    "c": "Research",
+    "d": "de.pons.com",
+    "r": 15,
+    "s": "Pons de<>fr",
+    "sc": "Reference (words)",
+    "t": "ponsdefr",
+    "u": "http://de.pons.com/%C3%BCbersetzung?q={{{s}}}&l=defr&in=&lf=de"
+  },
+  {
+    "c": "Research",
+    "d": "de.pons.com",
+    "r": 0,
+    "s": "Pons de<>it",
+    "sc": "Reference (words)",
+    "t": "ponsdeit",
+    "u": "http://de.pons.com/%C3%BCbersetzung?q={{{s}}}&l=deit&in=&lf=de"
+  },
+  {
+    "c": "Research",
+    "d": "en.pons.eu",
+    "r": 0,
+    "s": "Pons.eu",
+    "sc": "Reference (words)",
+    "t": "ponsenfr",
+    "u": "http://en.pons.eu/translate?q={{{s}}}&l=enfr&in=&lf=fr"
+  },
+  {
+    "c": "Research",
+    "d": "www.powerthesaurus.org",
+    "r": 30,
+    "s": "Power Thesaurus ",
+    "sc": "Reference (words)",
+    "t": "powt",
+    "u": "https://www.powerthesaurus.org/{{{s}}}/synonyms"
+  },
+  {
+    "c": "Research",
+    "d": "dictionary.reference.com",
+    "r": 0,
+    "s": "Dictionary.com",
+    "sc": "Reference (words)",
+    "t": "pronounce",
+    "u": "http://dictionary.reference.com/browse/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "prpm.dbp.gov.my",
+    "r": 0,
+    "s": "Pusat Rujukan Persuratan Melayu",
+    "sc": "Reference (words)",
+    "t": "prpm",
+    "u": "http://prpm.dbp.gov.my/Search.aspx?k={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.powerthesaurus.org",
+    "r": 160,
+    "s": "Power Thesaurus ",
+    "sc": "Reference (words)",
+    "t": "pt",
+    "u": "https://www.powerthesaurus.org/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "context.reverso.net",
+    "r": 0,
+    "s": "Reverso Context English to French",
+    "sc": "Reference (words)",
+    "t": "rcef",
+    "u": "http://context.reverso.net/translation/english-french/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dictionary.reverso.net",
+    "r": 0,
+    "s": "Reverso",
+    "sc": "Reference (words)",
+    "t": "reespt",
+    "u": "http://dictionary.reverso.net/spanish-portuguese/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "relatedwords.org",
+    "r": 0,
+    "s": "Related Words",
+    "sc": "Reference (words)",
+    "t": "relword",
+    "u": "http://relatedwords.org/relatedto/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dictionary.reverso.net",
+    "r": 3,
+    "s": "Reverso Dictionary",
+    "sc": "Reference (words)",
+    "t": "ren",
+    "u": "http://dictionary.reverso.net/english-definition/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "renso-ruigo.com",
+    "r": 0,
+    "s": "連想類語辞典",
+    "sc": "Reference (words)",
+    "t": "rensoruigo",
+    "u": "https://renso-ruigo.com/word/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.onelook.com",
+    "r": 20,
+    "s": "Onelook Reverse Dictionary",
+    "sc": "Reference (words)",
+    "t": "revd",
+    "u": "http://www.onelook.com/reverse-dictionary.shtml?s={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dictionary.reverso.net",
+    "r": 26,
+    "s": "Reverso",
+    "sc": "Reference (words)",
+    "t": "reverso",
+    "u": "http://dictionary.reverso.net/german-english/{{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "rhymebrain.com",
+    "r": 0,
+    "s": "RhymeBrain",
+    "sc": "Reference (words)",
+    "t": "rhymebrain",
+    "u": "http://rhymebrain.com/en/What_rhymes_with_{{{s}}}.html"
+  },
+  {
+    "c": "Research",
+    "d": "www.rhymezone.com",
+    "r": 59,
+    "s": "RhymeZone",
+    "sc": "Reference (words)",
+    "t": "rhyme",
+    "u": "https://www.rhymezone.com/r/rhyme.cgi?Word={{{s}}}&typeofrhyme=perfect&org1=syl&org2=l&org3=y"
+  },
+  {
+    "c": "Research",
+    "d": "www.rimessolides.com",
+    "r": 0,
+    "s": "Rimessolides.com",
+    "sc": "Reference (words)",
+    "t": "rime",
+    "u": "http://www.rimessolides.com/rime.aspx?m={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.roget.org",
+    "r": 0,
+    "s": "Roget's Hyperlinked Thesaurus",
+    "sc": "Reference (words)",
+    "t": "roget",
+    "u": "http://www.roget.org/scripts/qq.php?seekword={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "translate.google.com",
+    "r": 39,
+    "s": "Google Translate",
+    "sc": "Reference (words)",
+    "t": "ruen",
+    "u": "http://translate.google.com/#ru/en/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.merriam-webster.com",
+    "r": 8,
+    "s": "Merriam-Webster Pronunciation",
+    "sc": "Reference (words)",
+    "t": "say",
+    "u": "https://www.merriam-webster.com/dictionary/{{{s}}}?pronunciation"
+  },
+  {
+    "c": "Research",
+    "d": "www.scrabblewordsolver.com",
+    "r": 0,
+    "s": "http://www.scrabblewordsolver.com",
+    "sc": "Reference (words)",
+    "t": "scrabble",
+    "u": "http://www.scrabblewordsolver.com/word-checker/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.seatalk.info",
+    "r": 0,
+    "s": "Nautical Dictionary",
+    "sc": "Reference (words)",
+    "t": "seatalk",
+    "u": "http://www.seatalk.info/cgi-bin/nautical-marine-sailing-dictionary/db.cgi?db=db&view_records=1&uid=default&Term={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "sentence.yourdictionary.com",
+    "r": 0,
+    "s": "Your Dictionary",
+    "sc": "Reference (words)",
+    "t": "sentence",
+    "u": "http://sentence.yourdictionary.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.seslisozluk.net",
+    "r": 7,
+    "s": "Sesli Sözlük",
+    "sc": "Reference (words)",
+    "t": "sesli",
+    "u": "http://www.seslisozluk.net/?ssQBy=0&word={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.seslisozluk.com",
+    "r": 0,
+    "s": "sesli sözlük",
+    "sc": "Reference (words)",
+    "t": "seslisozluk",
+    "u": "http://www.seslisozluk.com/?word={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "slovnik.seznam.cz",
+    "r": 0,
+    "s": "Seznam.cz Slovník En-Cz",
+    "sc": "Reference (words)",
+    "t": "sezs",
+    "u": "http://slovnik.seznam.cz/en-cz/word/?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.shabdkosh.com",
+    "r": 0,
+    "s": "Shabdkosh",
+    "sc": "Reference (words)",
+    "t": "shbd",
+    "u": "http://www.shabdkosh.com/translate/{{{s}}}/"
+  },
+  {
+    "c": "Research",
+    "d": "www.signingsavvy.com",
+    "r": 0,
+    "s": "Signing Savvy",
+    "sc": "Reference (words)",
+    "t": "signingsavvy",
+    "u": "https://www.signingsavvy.com/search/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.sinonimos.com.br",
+    "r": 5,
+    "s": "Dicionário de Sinônimos",
+    "sc": "Reference (words)",
+    "t": "sin",
+    "u": "https://www.sinonimos.com.br/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "slovniky.korpus.sk",
+    "r": 0,
+    "s": "Slovenské slovníky",
+    "sc": "Reference (words)",
+    "t": "skd",
+    "u": "http://slovniky.korpus.sk/?w={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.slang.gr",
+    "r": 0,
+    "s": "SLANG.gr",
+    "sc": "Reference (words)",
+    "t": "slanggr",
+    "u": "http://www.slang.gr/lemmas?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "slovniky.korpus.sk",
+    "r": 4,
+    "s": "Slovenské slovníky",
+    "sc": "Reference (words)",
+    "t": "slovak",
+    "u": "http://slovniky.korpus.sk/?w={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "slovniky.korpus.sk",
+    "r": 0,
+    "s": "Slovenské slovníky",
+    "sc": "Reference (words)",
+    "t": "slovniky",
+    "u": "http://slovniky.korpus.sk/?w={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.snappywords.com",
+    "r": 0,
+    "s": "Snappy Words",
+    "sc": "Reference (words)",
+    "t": "snappywords",
+    "u": "http://www.snappywords.com/?lookup={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.sinonimi-contrari.it",
+    "r": 0,
+    "s": "Sinonimi - Contrari",
+    "sc": "Reference (words)",
+    "t": "snit",
+    "u": "http://www.sinonimi-contrari.it/{{{s}}}/"
+  },
+  {
+    "c": "Research",
+    "d": "sonaveeb.ee",
+    "r": 0,
+    "s": "Sõnaveeb",
+    "sc": "Reference (words)",
+    "t": "sonaveeb",
+    "u": "https://sonaveeb.ee/search/est-est/detail/{{{s}}}/"
+  },
+  {
+    "c": "Research",
+    "d": "sproget.dk",
+    "r": 0,
+    "s": "Sproget",
+    "sc": "Reference (words)",
+    "t": "sproget",
+    "u": "https://sproget.dk/lookup?SearchableText={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "dictionnaire.sensagent.leparisien.fr",
+    "r": 0,
+    "s": "Sensagent",
+    "sc": "Reference (words)",
+    "t": "ssg",
+    "u": "http://dictionnaire.sensagent.leparisien.fr/{{{s}}}/fr-fr/"
+  },
+  {
+    "c": "Research",
+    "d": "ssjc.ujc.cas.cz",
+    "r": 0,
+    "s": "Slovník spisovného jazyka českého",
+    "sc": "Reference (words)",
+    "t": "ssjc",
+    "u": "http://ssjc.ujc.cas.cz/search.php?heslo={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "mw.lojban.org",
+    "r": 0,
+    "s": "la sutysisku",
+    "sc": "Reference (words)",
+    "t": "sutysisku",
+    "u": "http://mw.lojban.org/extensions/ilmentufa/i/en/index.html#sisku/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "svenska.se",
+    "r": 4,
+    "s": "Svenska Akademiens Ordböcker",
+    "sc": "Reference (words)",
+    "t": "svao",
+    "u": "https://svenska.se/tre/?sok={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "words.bighugelabs.com",
+    "r": 0,
+    "s": "Big Huge  Thesaurus",
+    "sc": "Reference (words)",
+    "t": "sy",
+    "u": "http://words.bighugelabs.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "synoniemen.net",
+    "r": 0,
+    "s": "Synoniemen.net",
+    "sc": "Reference (words)",
+    "t": "synoniemen",
+    "u": "http://synoniemen.net/index.php?zoekterm={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.slovnik-synonym.cz",
+    "r": 0,
+    "s": "ABZ slovník českých synonym",
+    "sc": "Reference (words)",
+    "t": "synonyma",
+    "u": "http://www.slovnik-synonym.cz/web.php/hledat?typ_hledani=prefix&cizi_slovo={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.synonymer.se",
+    "r": 4,
+    "s": "Synonymer",
+    "sc": "Reference (words)",
+    "t": "synonymer",
+    "u": "https://www.synonymer.se/sv-syn/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.thesaurus.com",
+    "r": 124,
+    "s": "Thesaurus.com",
+    "sc": "Reference (words)",
+    "t": "synonym",
+    "u": "http://www.thesaurus.com/browse/{{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "www.synonymo.fr",
+    "r": 29,
+    "s": "Synonymo.fr",
+    "sc": "Reference (words)",
+    "t": "syno",
+    "u": "http://www.synonymo.fr/syno/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.synonimy.pl",
+    "r": 0,
+    "s": "Synonimy.pl",
+    "sc": "Reference (words)",
+    "t": "synpl",
+    "u": "https://www.synonimy.pl/synonim/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "thesaurus.com",
+    "r": 183,
+    "s": "thesaurus.com",
+    "sc": "Reference (words)",
+    "t": "syn",
+    "u": "http://thesaurus.com/browse/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "taaladvies.net",
+    "r": 0,
+    "s": "Taaladvies",
+    "sc": "Reference (words)",
+    "t": "taal",
+    "u": "http://taaladvies.net/taal/advies/zoek.php?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "takoboto.jp",
+    "r": 19,
+    "s": "Takoboto",
+    "sc": "Reference (words)",
+    "t": "takoboto",
+    "u": "http://takoboto.jp/?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "takoboto.jp",
+    "r": 0,
+    "s": "TAKOBOTO",
+    "sc": "Reference (words)",
+    "t": "tako",
+    "u": "http://takoboto.jp/?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "sozluk.gov.tr",
+    "r": 92,
+    "s": "Türk Dil Kurumu",
+    "sc": "Reference (words)",
+    "t": "tdk",
+    "u": "https://sozluk.gov.tr/?kelime={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.termcat.cat",
+    "r": 0,
+    "s": "Termcat",
+    "sc": "Reference (words)",
+    "t": "termcat",
+    "u": "https://www.termcat.cat/cercaterm/{{{s}}}?type=basic"
+  },
+  {
+    "c": "Research",
+    "d": "acronyms.thefreedictionary.com",
+    "r": 0,
+    "s": "The Free Dictionary (Acronyms)",
+    "sc": "Reference (words)",
+    "t": "tfdacronyms",
+    "u": "http://acronyms.thefreedictionary.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "de.thefreedictionary.com",
+    "r": 39,
+    "s": "The Free Dictionary DE",
+    "sc": "Reference (words)",
+    "t": "tfdde",
+    "u": "http://de.thefreedictionary.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "encyclopedia2.thefreedictionary.com",
+    "r": 0,
+    "s": "The Free Dictionary (Encyclopedia)",
+    "sc": "Reference (words)",
+    "t": "tfdencyclopedia",
+    "u": "http://encyclopedia2.thefreedictionary.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "financial-dictionary.thefreedictionary.com",
+    "r": 0,
+    "s": "The Free Dictionary (Financial Dictionary)",
+    "sc": "Reference (words)",
+    "t": "tfdfinancial",
+    "u": "http://financial-dictionary.thefreedictionary.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "idioms.thefreedictionary.com",
+    "r": 0,
+    "s": "The Free Dictionary (Idioms)",
+    "sc": "Reference (words)",
+    "t": "tfdidioms",
+    "u": "http://idioms.thefreedictionary.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "legal-dictionary.thefreedictionary.com",
+    "r": 0,
+    "s": "The Free Dictionary (Legal Dictionary)",
+    "sc": "Reference (words)",
+    "t": "tfdlegal",
+    "u": "http://legal-dictionary.thefreedictionary.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "medical-dictionary.thefreedictionary.com",
+    "r": 0,
+    "s": "The Free Dictionary (Medical Dictionary)",
+    "sc": "Reference (words)",
+    "t": "tfdmedical",
+    "u": "http://medical-dictionary.thefreedictionary.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.thefreedictionary.com",
+    "r": 263,
+    "s": "The Free Dictionary",
+    "sc": "Reference (words)",
+    "t": "tfd",
+    "u": "http://www.thefreedictionary.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.thesaurus.com",
+    "r": 270,
+    "s": "Thesaurus",
+    "sc": "Reference (words)",
+    "t": "thes",
+    "u": "http://www.thesaurus.com/browse/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "llevatilde.es",
+    "r": 0,
+    "s": "Lleva Tilde",
+    "sc": "Reference (words)",
+    "t": "tilde",
+    "u": "https://llevatilde.es/palabra/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "tradukka.com",
+    "r": 0,
+    "s": "Tradukka detect language to spanish",
+    "sc": "Reference (words)",
+    "t": "tkk2es",
+    "u": "http://tradukka.com/translate/es/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "tradukka.com",
+    "r": 0,
+    "s": "Tradukka detect language to English",
+    "sc": "Reference (words)",
+    "t": "tkk",
+    "u": "http://tradukka.com/translate/en/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "thesaurus.plus",
+    "r": 11,
+    "s": "Thesaurus Plus",
+    "sc": "Reference (words)",
+    "t": "tp",
+    "u": "https://thesaurus.plus/search?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.thesaurus.com",
+    "r": 1931,
+    "s": "Thesaurus.com",
+    "sc": "Reference (words)",
+    "t": "t",
+    "u": "http://www.thesaurus.com/browse/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "techterms.com",
+    "r": 0,
+    "s": "The Tech Terms",
+    "sc": "Reference (words)",
+    "t": "ttt",
+    "u": "https://techterms.com/search?query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "tureng.com",
+    "r": 105,
+    "s": "Tureng",
+    "sc": "Reference (words)",
+    "t": "tur",
+    "u": "http://tureng.com/tr/turkce-ingilizce/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.treccani.it",
+    "r": 18,
+    "s": "Treccani Vocabolario",
+    "sc": "Reference (words)",
+    "t": "tvoc",
+    "u": "http://www.treccani.it/vocabolario/tag/{{{s}}}/"
+  },
+  {
+    "c": "Research",
+    "d": "tyda.se",
+    "r": 0,
+    "s": "Tyda.se Dictionary (Swedish-German)",
+    "sc": "Reference (words)",
+    "t": "tydade",
+    "u": "http://tyda.se/search/{{{s}}}?lang%5B0%5D=de&lang%5B1%5D=sv"
+  },
+  {
+    "c": "Research",
+    "d": "www.uitmuntend.de",
+    "r": 16,
+    "s": "Uitmuntend",
+    "sc": "Reference (words)",
+    "t": "uitm",
+    "u": "http://www.uitmuntend.de/woerterbuch/{{{s}}}/"
+  },
+  {
+    "c": "Research",
+    "d": "unicode-table.com",
+    "r": 5,
+    "s": "Unicode Character Table",
+    "sc": "Reference (words)",
+    "t": "unic",
+    "u": "https://unicode-table.com/en/search/?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "urbaanisanakirja.com",
+    "r": 0,
+    "s": "Urbaani Sanakirja",
+    "sc": "Reference (words)",
+    "t": "urbaani",
+    "u": "http://urbaanisanakirja.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "vajehyab.com",
+    "r": 0,
+    "s": "Vajehyab",
+    "sc": "Reference (words)",
+    "t": "vajeh",
+    "u": "https://vajehyab.com/?q={{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "www.verbs.cat",
+    "r": 0,
+    "s": "Verbs.cat",
+    "sc": "Reference (words)",
+    "t": "verbcat",
+    "u": "http://www.verbs.cat/ca/conjugacio.html?infinitive={{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "www.verbformen.de",
+    "r": 0,
+    "s": "VerbFormen",
+    "sc": "Reference (words)",
+    "t": "verben",
+    "u": "http://www.verbformen.de/konjugation/?i={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.verbix.com",
+    "r": 0,
+    "s": "Verbix (English conjugation verb)",
+    "sc": "Reference (words)",
+    "t": "verbixeng",
+    "u": "http://www.verbix.com/webverbix/English/{{{s}}}r.html"
+  },
+  {
+    "c": "Research",
+    "d": "verbix.com",
+    "r": 3,
+    "s": "Verbix",
+    "sc": "Reference (words)",
+    "t": "verbix",
+    "u": "http://verbix.com/find-verb/?verb={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "conjugator.reverso.net",
+    "r": 0,
+    "s": "Verb-o-Matic",
+    "sc": "Reference (words)",
+    "t": "verbomatic",
+    "u": "http://conjugator.reverso.net/conjugation-english-verb-{{{s}}}.html"
+  },
+  {
+    "c": "Research",
+    "d": "conjugator.reverso.net",
+    "r": 3,
+    "s": "Verb-o-Matic",
+    "sc": "Reference (words)",
+    "t": "verb",
+    "u": "http://conjugator.reverso.net/conjugation-english-verb-{{{s}}}.html"
+  },
+  {
+    "c": "Research",
+    "d": "www.vertalen.nu",
+    "r": 4,
+    "s": "vertalen.nu",
+    "sc": "Reference (words)",
+    "t": "vertalen",
+    "u": "http://www.vertalen.nu/vertaal?van=nl&naar=en&vertaal={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.verbformen.de",
+    "r": 0,
+    "s": "VerbFormen",
+    "sc": "Reference (words)",
+    "t": "vf",
+    "u": "http://www.verbformen.de/konjugation/?i={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "visuwords.com",
+    "r": 0,
+    "s": "Visuwords",
+    "sc": "Reference (words)",
+    "t": "visuwords",
+    "u": "https://visuwords.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "visuwords.com",
+    "r": 0,
+    "s": "visuwords.com",
+    "sc": "Reference (words)",
+    "t": "vis",
+    "u": "http://visuwords.com/?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.vocabulary.com",
+    "r": 0,
+    "s": "Vocabulary",
+    "sc": "Reference (words)",
+    "t": "vocabulary",
+    "u": "https://www.vocabulary.com/dictionary/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.vocabulary.com",
+    "r": 22,
+    "s": "Vocabulary.com",
+    "sc": "Reference (words)",
+    "t": "vocab",
+    "u": "http://www.vocabulary.com/dictionary/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "sapere.virgilio.it",
+    "r": 3,
+    "s": "Virgilio - Sinonimi e Contrari",
+    "sc": "Reference (words)",
+    "t": "vsc",
+    "u": "https://sapere.virgilio.it/parole/sinonimi-e-contrari/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.vajehyab.com",
+    "r": 3,
+    "s": "Vajeh Yab",
+    "sc": "Reference (words)",
+    "t": "vy",
+    "u": "https://www.vajehyab.com/?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "en.wiktionary.org",
+    "r": 195,
+    "s": "wiktionary",
+    "sc": "Reference (words)",
+    "t": "wdic",
+    "u": "https://en.wiktionary.org/wiki/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.websters1913.com",
+    "r": 16,
+    "s": "Webster's Dictionary (1913) !websters Webster's Dictionary 1828 - Online Edition !owd Merriam-Webster Dictionary !mw Merriam-Webster Pronunciation !say Merriam-Webster's Learner's Dictionary !mwl Webster's Revised Unabridged Dictionary (1913)",
+    "sc": "Reference (words)",
+    "t": "web1913",
+    "u": "https://www.websters1913.com/words/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "thesaurus.weblio.jp",
+    "r": 0,
+    "s": "Weblio",
+    "sc": "Reference (words)",
+    "t": "webliot",
+    "u": "http://thesaurus.weblio.jp/content/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.webster-dictionary.org",
+    "r": 4,
+    "s": "Online Dictionary and Translations",
+    "sc": "Reference (words)",
+    "t": "websters",
+    "u": "http://www.webster-dictionary.org/definition/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 60,
+    "s": "wordreference ",
+    "sc": "Reference (words)",
+    "t": "wenfr",
+    "u": "http://www.wordreference.com/enfr/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "whatis.techtarget.com",
+    "r": 0,
+    "s": "WhatIs.com",
+    "sc": "Reference (words)",
+    "t": "whatis",
+    "u": "http://whatis.techtarget.com/wsearchResults/1,290214,sid9,00.html?query={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.vocabulary.com",
+    "r": 5,
+    "s": "vocabulary.com",
+    "sc": "Reference (words)",
+    "t": "whats",
+    "u": "https://www.vocabulary.com/dictionary/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "fr.wiktionary.org",
+    "r": 37,
+    "s": "Wiktionary (Français)",
+    "sc": "Reference (words)",
+    "t": "wifr",
+    "u": "https://fr.wiktionary.org/wiki/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "wikirhymer.com",
+    "r": 0,
+    "s": "WikiRhymer",
+    "sc": "Reference (words)",
+    "t": "wikirhymer",
+    "u": "http://wikirhymer.com/words/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "en.wiktionary.org",
+    "r": 1000,
+    "s": "Wiktionary",
+    "sc": "Reference (words)",
+    "t": "wikten",
+    "u": "http://en.wiktionary.org/wiki/Special:Search?search={{{s}}}&go=Define"
+  },
+  {
+    "c": "Research",
+    "d": "eo.wiktionary.org",
+    "r": 0,
+    "s": "Vikivortaro",
+    "sc": "Reference (words)",
+    "t": "wikteo",
+    "u": "https://eo.wiktionary.org/w/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "en.wiktionary.org",
+    "r": 3317,
+    "s": "Wiktionary",
+    "sc": "Reference (words)",
+    "t": "wiktionary",
+    "u": "http://en.wiktionary.org/wiki/Special:Search?search={{{s}}}&go=Define"
+  },
+  {
+    "c": "Research",
+    "d": "it.wiktionary.org",
+    "r": 3,
+    "s": "Wikizionario, il dizionario libero",
+    "sc": "Reference (words)",
+    "t": "wiktit",
+    "u": "http://it.wiktionary.org/w/index.php?search={{{s}}}&title=Speciale%3ARicerca"
+  },
+  {
+    "c": "Research",
+    "d": "ko.wiktionary.org",
+    "r": 0,
+    "s": "위키낱말사전",
+    "sc": "Reference (words)",
+    "t": "wiktko",
+    "u": "https://ko.wiktionary.org/wiki/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "pt.wiktionary.org",
+    "r": 31,
+    "s": "Wikcionário (PT)",
+    "sc": "Reference (words)",
+    "t": "wiktpt",
+    "u": "https://pt.wiktionary.org/wiki/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ru.wiktionary.org",
+    "r": 19,
+    "s": "Wiktionary (RU)",
+    "sc": "Reference (words)",
+    "t": "wiktru",
+    "u": "https://ru.wiktionary.org/w/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "en.wiktionary.org",
+    "r": 7611,
+    "s": "Wiktionary",
+    "sc": "Reference (words)",
+    "t": "wikt",
+    "u": "http://en.wiktionary.org/wiki/Special:Search?search={{{s}}}&go=Define"
+  },
+  {
+    "c": "Research",
+    "d": "zh.wikipedia.org",
+    "r": 20,
+    "s": "wikipedia(Chinese)",
+    "sc": "Reference (words)",
+    "t": "wizh",
+    "u": "https://zh.wikipedia.org/w/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "lt.wiktionary.org",
+    "r": 0,
+    "s": "Lithuanian Wiktionary (Vikižodynas)",
+    "sc": "Reference (words)",
+    "t": "wklt",
+    "u": "https://lt.wiktionary.org/w/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "en.wiktionary.org",
+    "r": 733,
+    "s": "Wiktionary English",
+    "sc": "Reference (words)",
+    "t": "wkten",
+    "u": "https://en.wiktionary.org/wiki/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ml.wikipedia.org",
+    "r": 0,
+    "s": "Wikipedia (Malayalam)",
+    "sc": "Reference (words)",
+    "t": "wml",
+    "u": "https://ml.wikipedia.org/w/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordnik.com",
+    "r": 45,
+    "s": "Wordnik",
+    "sc": "Reference (words)",
+    "t": "wnk",
+    "u": "https://www.wordnik.com/words/?myWord={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "woordenlijst.org",
+    "r": 0,
+    "s": "Woordenlijst",
+    "sc": "Reference (words)",
+    "t": "woordenlijst",
+    "u": "http://woordenlijst.org/zoek/?q={{{s}}}&w=w"
+  },
+  {
+    "c": "Research",
+    "d": "www.woorden.org",
+    "r": 3,
+    "s": "Woorden.org",
+    "sc": "Reference (words)",
+    "t": "woord",
+    "u": "https://www.woorden.org/woord/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "wordcentral.com",
+    "r": 0,
+    "s": "Merriam-Webster's Word Central",
+    "sc": "Reference (words)",
+    "t": "wordcentral",
+    "u": "http://wordcentral.com/cgi-bin/student?book=Student&va={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "wordinfo.info",
+    "r": 0,
+    "s": "Word Information",
+    "sc": "Reference (words)",
+    "t": "wordinfo",
+    "u": "http://wordinfo.info/results?searchString={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordnik.com",
+    "r": 68,
+    "s": "Wordnik",
+    "sc": "Reference (words)",
+    "t": "wordnik",
+    "u": "http://www.wordnik.com/words/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 143,
+    "s": "WordReference",
+    "sc": "Reference (words)",
+    "t": "wordreference",
+    "u": "http://www.wordreference.com/es/translation.asp?tranword={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordsmyth.net",
+    "r": 0,
+    "s": "Wordsmyth",
+    "sc": "Reference (words)",
+    "t": "wordsmyth",
+    "u": "http://www.wordsmyth.net/?level=3&ent={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordwebonline.com",
+    "r": 0,
+    "s": "WordWeb Online",
+    "sc": "Reference (words)",
+    "t": "wordweb",
+    "u": "http://www.wordwebonline.com/search.pl?w={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "synonyme.woxikon.de",
+    "r": 0,
+    "s": "Woxikon",
+    "sc": "Reference (words)",
+    "t": "woxikon",
+    "u": "http://synonyme.woxikon.de/synonyme/{{{s}}}.php"
+  },
+  {
+    "c": "Research",
+    "d": "de.wikiquote.org",
+    "r": 0,
+    "s": "Wikiquote German",
+    "sc": "Reference (words)",
+    "t": "wqde",
+    "u": "https://de.wikiquote.org/w/index.php?search={{{s}}}&title=Spezial%3ASuche"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 5,
+    "s": "Word Reference French Conjugate",
+    "sc": "Reference (words)",
+    "t": "wrcfr",
+    "u": "http://www.wordreference.com/conj/FrVerbs.aspx?v={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 630,
+    "s": "Wordreference en->fr",
+    "sc": "Reference (words)",
+    "t": "wref",
+    "u": "https://www.wordreference.com/enfr/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 6,
+    "s": "WordReference en->de",
+    "sc": "Reference (words)",
+    "t": "wrende",
+    "u": "http://www.wordreference.com/ende/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 353,
+    "s": "Wordreference en->it",
+    "sc": "Reference (words)",
+    "t": "wrenit",
+    "u": "http://www.wordreference.com/enit/{{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 0,
+    "s": "WordReference",
+    "sc": "Reference (words)",
+    "t": "wrennl",
+    "u": "http://www.wordreference.com/ennl/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 0,
+    "s": "WordReference en->sv",
+    "sc": "Reference (words)",
+    "t": "wrensv",
+    "u": "https://www.wordreference.com/ensv/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 18,
+    "s": "WordReference es > it",
+    "sc": "Reference (words)",
+    "t": "wresit",
+    "u": "http://www.wordreference.com/esit/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 3,
+    "s": "WordReference",
+    "sc": "Reference (words)",
+    "t": "wrespt",
+    "u": "http://www.wordreference.com/espt/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 320,
+    "s": "Wordreference fr->en",
+    "sc": "Reference (words)",
+    "t": "wrfe",
+    "u": "http://www.wordreference.com/fren/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 187,
+    "s": "Word Reference",
+    "sc": "Reference (words)",
+    "t": "wrfren",
+    "u": "http://www.wordreference.com/fren/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 8,
+    "s": "Wordreference",
+    "sc": "Reference (words)",
+    "t": "wrfres",
+    "u": "http://www.wordreference.com/fres/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "wikirhymer.com",
+    "r": 0,
+    "s": "Wiki Rhymer",
+    "sc": "Reference (words)",
+    "t": "wrhymer",
+    "u": "http://wikirhymer.com/words/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 182,
+    "s": "Wordreference it->en",
+    "sc": "Reference (words)",
+    "t": "writen",
+    "u": "http://www.wordreference.com/iten/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 0,
+    "s": "WordReference",
+    "sc": "Reference (words)",
+    "t": "writes",
+    "u": "https://www.wordreference.com/iten/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 0,
+    "s": "WordReference NL -> EN",
+    "sc": "Reference (words)",
+    "t": "wrnlen",
+    "u": "http://www.wordreference.com/nlen/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 0,
+    "s": "WordReference Spanish synonims",
+    "sc": "Reference (words)",
+    "t": "wrss",
+    "u": "http://www.wordreference.com/sinonimos/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.wordreference.com",
+    "r": 0,
+    "s": "WordReference sv->en",
+    "sc": "Reference (words)",
+    "t": "wrsven",
+    "u": "https://www.wordreference.com/ensv/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "wsjp.pl",
+    "r": 9,
+    "s": "Wielki Słownik Języka Polskiego",
+    "sc": "Reference (words)",
+    "t": "wsjp",
+    "u": "http://wsjp.pl/index.php?szukaj={{{s}}}&pwh=0"
+  },
+  {
+    "c": "Research",
+    "d": "words.bighugelabs.com",
+    "r": 0,
+    "s": "Big Huge Words Thesaurus",
+    "sc": "Reference (words)",
+    "t": "wsyn",
+    "u": "http://words.bighugelabs.com/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "el.wiktionary.org",
+    "r": 0,
+    "s": "Wiktionary (Greek)",
+    "sc": "Reference (words)",
+    "t": "wtel",
+    "u": "https://el.wiktionary.org/wiki/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "en.wiktionary.org",
+    "r": 2351,
+    "s": "Wiktionary",
+    "sc": "Reference (words)",
+    "t": "wten",
+    "u": "http://en.wiktionary.org/w/index.php?search={{{s}}}&button=&title=Special%3ASearch"
+  },
+  {
+    "c": "Research",
+    "d": "es.wiktionary.org",
+    "r": 26,
+    "s": "Wikcionario",
+    "sc": "Reference (words)",
+    "t": "wtes",
+    "u": "https://es.wiktionary.org/w/index.php?search={{{s}}}&button=&title=Especial%3ABuscar"
+  },
+  {
+    "c": "Research",
+    "d": "www.mirbsd.org",
+    "r": 0,
+    "s": "MirBSD Acronyms Database",
+    "sc": "Reference (words)",
+    "t": "wtf",
+    "u": "https://www.mirbsd.org/wtf.cgi?q={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "fr.wiktionary.org",
+    "r": 575,
+    "s": "Wiktionary french",
+    "sc": "Reference (words)",
+    "t": "wtfr",
+    "u": "https://fr.wiktionary.org/wiki/{{{s}}} "
+  },
+  {
+    "c": "Research",
+    "d": "hi.wiktionary.org",
+    "r": 0,
+    "s": "Wiktionary (Hindi)",
+    "sc": "Reference (words)",
+    "t": "wth",
+    "u": "https://hi.wiktionary.org/w/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "it.wiktionary.org",
+    "r": 10,
+    "s": "Wiktionary",
+    "sc": "Reference (words)",
+    "t": "wtit",
+    "u": "http://it.wiktionary.org/w/index.php?search={{{s}}}&title=Speciale%3ARicerca"
+  },
+  {
+    "c": "Research",
+    "d": "en.m.wiktionary.org",
+    "r": 26,
+    "s": "Wiktionary Mobile",
+    "sc": "Reference (words)",
+    "t": "wtm",
+    "u": "https://en.m.wiktionary.org/wiki/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "pl.wiktionary.org",
+    "r": 47,
+    "s": "Wiktionary (PL)",
+    "sc": "Reference (words)",
+    "t": "wtpl",
+    "u": "https://pl.wiktionary.org/w/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ro.wiktionary.org",
+    "r": 0,
+    "s": "Wiktionary (RO)",
+    "sc": "Reference (words)",
+    "t": "wtro",
+    "u": "https://ro.wiktionary.org/wiki/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ru.wiktionary.org",
+    "r": 88,
+    "s": "ru.wiktionary.org",
+    "sc": "Reference (words)",
+    "t": "wtru",
+    "u": "http://ru.wiktionary.org/wiki/Special:Search?search={{{s}}}&go=Go"
+  },
+  {
+    "c": "Research",
+    "d": "vi.wiktionary.org",
+    "r": 3,
+    "s": "Wiktionary tiếng Việt",
+    "sc": "Reference (words)",
+    "t": "wtvi",
+    "u": "https://vi.wiktionary.org/w/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "en.wiktionary.org",
+    "r": 16682,
+    "s": "Wiktionary",
+    "sc": "Reference (words)",
+    "t": "wt",
+    "u": "https://en.wiktionary.org/w/index.php?search={{{s}}}&title=Special%3ASearch&go=Go"
+  },
+  {
+    "c": "Research",
+    "d": "nihongo.monash.edu",
+    "r": 3,
+    "s": "WWWJDIC",
+    "sc": "Reference (words)",
+    "t": "wwwjdic",
+    "u": "http://nihongo.monash.edu/cgi-bin/wwwjdic?1MUE{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "synonyme.woxikon.de",
+    "r": 4,
+    "s": "Woxikon.de",
+    "sc": "Reference (words)",
+    "t": "wxd",
+    "u": "http://synonyme.woxikon.de/synonyme/{{{s}}}.php"
+  },
+  {
+    "c": "Research",
+    "d": "www.yourdictionary.com",
+    "r": 15,
+    "s": "YourDictionary",
+    "sc": "Reference (words)",
+    "t": "yd",
+    "u": "http://www.yourdictionary.com/search/?ydQ={{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "slovari.yandex.ru",
+    "r": 3,
+    "s": "Яндекс.Словари",
+    "sc": "Reference (words)",
+    "t": "ys",
+    "u": "https://slovari.yandex.ru/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "www.morfix.co.il",
+    "r": 0,
+    "s": "מורפיקס",
+    "sc": "Reference (words)",
+    "t": "מורפיקס",
+    "u": "http://www.morfix.co.il/{{{s}}}"
+  },
+  {
+    "c": "Research",
+    "d": "ru.wiktionary.org",
+    "r": 0,
+    "s": "Викисловарь",
+    "sc": "Reference (words)",
+    "t": "вс",
+    "u": "https://ru.wiktionary.org/w/index.php?search={{{s}}}&ns0=1"
+  }
+]

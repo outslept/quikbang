@@ -1,0 +1,2211 @@
+
+// Auto-generated Specialty bang commands from DuckDuckGo
+// Generated on: 2025-03-01T15:43:18.525Z
+
+import { BangCommand } from '../bangs';
+
+export const bangs: BangCommand[] = [
+  {
+    "c": "News",
+    "d": "events.ccc.de",
+    "r": 0,
+    "s": "35C3 Wiki",
+    "sc": "Specialty",
+    "t": "35c3",
+    "u": "https://events.ccc.de/congress/2018/wiki/index.php?search={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "anilist.co",
+    "r": 4,
+    "s": "AniList",
+    "sc": "Specialty",
+    "t": "an",
+    "u": "http://anilist.co/search?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.androidpolice.com",
+    "r": 0,
+    "s": "Android Police",
+    "sc": "Specialty",
+    "t": "andpol",
+    "u": "http://www.androidpolice.com/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "antyweb.pl",
+    "r": 0,
+    "s": "Antyweb",
+    "sc": "Specialty",
+    "t": "antyweb",
+    "u": "http://antyweb.pl/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.april.org",
+    "r": 0,
+    "s": "April",
+    "sc": "Specialty",
+    "t": "april",
+    "u": "https://www.april.org/search/node/{{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.archdaily.com",
+    "r": 0,
+    "s": "ArchDaily",
+    "sc": "Specialty",
+    "t": "archdaily",
+    "u": "https://www.archdaily.com/search/all?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "arstechnica.com",
+    "r": 3,
+    "s": "Ars Technica",
+    "sc": "Specialty",
+    "t": "arstechnica",
+    "u": "https://arstechnica.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "allthingsd.com",
+    "r": 0,
+    "s": "allthingsd",
+    "sc": "Specialty",
+    "t": "atd",
+    "u": "http://allthingsd.com/?s={{{s}}}:"
+  },
+  {
+    "c": "News",
+    "d": "www.blockchainwalls.com",
+    "r": 0,
+    "s": "Blockchainwalls",
+    "sc": "Specialty",
+    "t": "bcwalls",
+    "u": "https://www.blockchainwalls.com/category/{{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.basketusa.com",
+    "r": 0,
+    "s": "Basket USA",
+    "sc": "Specialty",
+    "t": "busa",
+    "u": "http://www.basketusa.com/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "stadt-bremerhaven.de",
+    "r": 0,
+    "s": "Caschys Blog",
+    "sc": "Specialty",
+    "t": "caschy",
+    "u": "http://stadt-bremerhaven.de/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "canadiancouchpotato.com",
+    "r": 0,
+    "s": "Canadian Couch Potato",
+    "sc": "Specialty",
+    "t": "ccp",
+    "u": "http://canadiancouchpotato.com/?s={{{s}}}&submit=Search"
+  },
+  {
+    "c": "News",
+    "d": "www.churchofsatan.com",
+    "r": 0,
+    "s": "Church of Satan Official Site",
+    "sc": "Specialty",
+    "t": "churchofsatan",
+    "u": "http://www.churchofsatan.com/search-results.php?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "conjour.world",
+    "r": 0,
+    "s": "Conjour",
+    "sc": "Specialty",
+    "t": "cj",
+    "u": "https://conjour.world/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "clark.com",
+    "r": 0,
+    "s": "Clark Howard",
+    "sc": "Specialty",
+    "t": "clark",
+    "u": "https://clark.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "casinonews.today",
+    "r": 0,
+    "s": "Casino News Today",
+    "sc": "Specialty",
+    "t": "cnt",
+    "u": "http://casinonews.today/?s={{{s}}} "
+  },
+  {
+    "c": "News",
+    "d": "cannanewswire.co",
+    "r": 0,
+    "s": "Canna Newswire",
+    "sc": "Specialty",
+    "t": "cnw",
+    "u": "https://cannanewswire.co/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "contamet.wordpress.com",
+    "r": 0,
+    "s": "contamet.wordpress.com",
+    "sc": "Specialty",
+    "t": "contamet",
+    "u": "http://contamet.wordpress.com/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "theconversation.com",
+    "r": 0,
+    "s": "The Conversation",
+    "sc": "Specialty",
+    "t": "conv",
+    "u": "https://theconversation.com/search?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "cottrillcompass.com",
+    "r": 0,
+    "s": "Cottrill Compass blog",
+    "sc": "Specialty",
+    "t": "cottrillcompassblog",
+    "u": "http://cottrillcompass.com/blog/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.rollcall.com",
+    "r": 0,
+    "s": "CQ Roll Call",
+    "sc": "Specialty",
+    "t": "cqrq",
+    "u": "https://www.rollcall.com/page/search?keyword={{{s}}}&advanced=false&sort=relevance"
+  },
+  {
+    "c": "News",
+    "d": "www.crol.hr",
+    "r": 0,
+    "s": "CroL",
+    "sc": "Specialty",
+    "t": "crol",
+    "u": "https://www.crol.hr/index.php/search?searchword={{{s}}}&searchphrase=all"
+  },
+  {
+    "c": "News",
+    "d": "www.cryptoanalyst.co",
+    "r": 0,
+    "s": "CryptoAnalyst",
+    "sc": "Specialty",
+    "t": "cryptoanalyst",
+    "u": "https://www.cryptoanalyst.co/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "noname.c64.org",
+    "r": 0,
+    "s": "The C64 Scene Database",
+    "sc": "Specialty",
+    "t": "csdb",
+    "u": "http://noname.c64.org/csdb/search/?seinsel=all&search={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.cyberscoop.com",
+    "r": 0,
+    "s": "Cyberscoop",
+    "sc": "Specialty",
+    "t": "cyber",
+    "u": "https://www.cyberscoop.com/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.darknetmarkets.net",
+    "r": 0,
+    "s": "Darknet Markets News",
+    "sc": "Specialty",
+    "t": "darknetmarkets",
+    "u": "https://www.darknetmarkets.net/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.dcrainmaker.com",
+    "r": 0,
+    "s": "dcrainmaker.com",
+    "sc": "Specialty",
+    "t": "dcr",
+    "u": "http://www.dcrainmaker.com/?s={{{s}}} "
+  },
+  {
+    "c": "News",
+    "d": "www.delijn.be",
+    "r": 0,
+    "s": "De Lijn",
+    "sc": "Specialty",
+    "t": "delijn",
+    "u": "https://www.delijn.be/nl/zoekresultaten/index.html?searchtext={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.democracynow.org",
+    "r": 0,
+    "s": "Democracy Now!",
+    "sc": "Specialty",
+    "t": "democracynow",
+    "u": "http://www.democracynow.org/search?query={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.designernews.co",
+    "r": 0,
+    "s": "Designer News",
+    "sc": "Specialty",
+    "t": "designernews",
+    "u": "https://www.designernews.co/search?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.dexigner.com",
+    "r": 0,
+    "s": "Dexigner",
+    "sc": "Specialty",
+    "t": "dexigner",
+    "u": "http://www.dexigner.com/search?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.dnt.no",
+    "r": 0,
+    "s": "Norwegian Trekking Association",
+    "sc": "Specialty",
+    "t": "dnt",
+    "u": "https://www.dnt.no/søk/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.dpreview.com",
+    "r": 6,
+    "s": "DPReview",
+    "sc": "Specialty",
+    "t": "dpreview",
+    "u": "http://www.dpreview.com/search/?query={{{s}}}&terms={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.drudgereportarchives.com",
+    "r": 0,
+    "s": "Drudge Report",
+    "sc": "Specialty",
+    "t": "drudge",
+    "u": "http://www.drudgereportarchives.com/dsp/search.htm?searchFor={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "london.eater.com",
+    "r": 0,
+    "s": "Eater London",
+    "sc": "Specialty",
+    "t": "eaterlon",
+    "u": "https://london.eater.com/search?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "search.theregister.co.uk",
+    "r": 0,
+    "s": "The Register",
+    "sc": "Specialty",
+    "t": "elreg",
+    "u": "http://search.theregister.co.uk/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Equestria Daily",
+    "sc": "Specialty",
+    "t": "equestriadaily",
+    "u": "http://duckduckgo.com/?q=site:equestriadaily.com+{{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "fair.org",
+    "r": 0,
+    "s": "Fairness and Accuracy in Reporting",
+    "sc": "Specialty",
+    "t": "fair",
+    "u": "https://fair.org/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.fantasy.fr",
+    "r": 0,
+    "s": "fantasy.fr",
+    "sc": "Specialty",
+    "t": "fantasy",
+    "u": "http://www.fantasy.fr/searches/index/{{{s}}} "
+  },
+  {
+    "c": "News",
+    "d": "www.farmfor.com.br",
+    "r": 0,
+    "s": "Blog do Farmfor",
+    "sc": "Specialty",
+    "t": "farmfor",
+    "u": "https://www.farmfor.com.br/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "ffbbunt.wordpress.com",
+    "r": 0,
+    "s": "Fürstenfeldbruck ist bunt!",
+    "sc": "Specialty",
+    "t": "ffbbunt",
+    "u": "https://ffbbunt.wordpress.com/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.freerepublic.com",
+    "r": 3,
+    "s": "Freerepublic",
+    "sc": "Specialty",
+    "t": "freep",
+    "u": "https://www.freerepublic.com/tag/{{{s}}}/index?tab=articles"
+  },
+  {
+    "c": "News",
+    "d": "futurism.com",
+    "r": 0,
+    "s": "Futurism",
+    "sc": "Specialty",
+    "t": "fsm",
+    "u": "http://futurism.com/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.goettingen.de",
+    "r": 0,
+    "s": "Stadtportal Göttingen",
+    "sc": "Specialty",
+    "t": "goe",
+    "u": "https://www.goettingen.de/portalsuche.html?keyword={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "suche.golem.de",
+    "r": 0,
+    "s": "Golem.de",
+    "sc": "Specialty",
+    "t": "golem",
+    "u": "http://suche.golem.de/search.php?l=10&q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace Africa",
+    "sc": "Specialty",
+    "t": "gpafrica",
+    "u": "http://www.greenpeace.org/africa/en/Search-results/?all={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace Australia",
+    "sc": "Specialty",
+    "t": "gpau",
+    "u": "http://www.greenpeace.org/australia/en/System-templates/Site-Settings-Pages/Search/?all={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace Canada (French)",
+    "sc": "Specialty",
+    "t": "gpcanfr",
+    "u": "http://www.greenpeace.org/canada/fr/System-templates/Site-Settings-Pages/Recherche/?all={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace Canada",
+    "sc": "Specialty",
+    "t": "gpcan",
+    "u": "http://www.greenpeace.org/canada/en/System-templates/Site-Settings-Pages/Search/?all={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace East Asia",
+    "sc": "Specialty",
+    "t": "gpea",
+    "u": "http://www.greenpeace.org/eastasia/system-templates/search-results/?all={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace EU Unit",
+    "sc": "Specialty",
+    "t": "gpeu",
+    "u": "http://www.greenpeace.org/eu-unit/en/System-templates/such-resultate/?all={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace India",
+    "sc": "Specialty",
+    "t": "gpindia",
+    "u": "http://www.greenpeace.org/india/en/System-templates/Search-results/?all={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace New Zealand",
+    "sc": "Specialty",
+    "t": "gpnz",
+    "u": "http://www.greenpeace.org/new-zealand/en/System-templates/Search-results/?all={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace Philippines",
+    "sc": "Specialty",
+    "t": "gpphilip",
+    "u": "http://www.greenpeace.org/seasia/ph/System-templates/Search-results/?all={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace Southeast Asia",
+    "sc": "Specialty",
+    "t": "gpseasia",
+    "u": "http://www.greenpeace.org/seasia/System-templates/Search-results/?all={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.greenpeace.org.uk",
+    "r": 0,
+    "s": "Greenpeace UK",
+    "sc": "Specialty",
+    "t": "gpuk",
+    "u": "http://www.greenpeace.org.uk/search/node/{{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace",
+    "sc": "Specialty",
+    "t": "greenpeace",
+    "u": "http://www.greenpeace.org/usa/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.geekzone.fr",
+    "r": 3,
+    "s": "GeekZone",
+    "sc": "Specialty",
+    "t": "gz",
+    "u": "http://www.geekzone.fr/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.hardocp.com",
+    "r": 0,
+    "s": "[H]ardOCP",
+    "sc": "Specialty",
+    "t": "hardocp",
+    "u": "https://www.hardocp.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "hi-news.ru",
+    "r": 0,
+    "s": "Hi-News.ru",
+    "sc": "Specialty",
+    "t": "hinews",
+    "u": "http://hi-news.ru/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.huffingtonpost.com",
+    "r": 0,
+    "s": "Huffington Post",
+    "sc": "Specialty",
+    "t": "huffpost",
+    "u": "https://www.huffingtonpost.com/search?keywords={{{s}}}&sortBy=recency&sortOrder=desc"
+  },
+  {
+    "c": "News",
+    "d": "inkeri-klubi.radioviola.net",
+    "r": 0,
+    "s": "Inkeri Klubi – Клуб Ингрия",
+    "sc": "Specialty",
+    "t": "inkeri",
+    "u": "http://inkeri-klubi.radioviola.net/system/app/pages/search?scope=search-site&q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "theintercept.com",
+    "r": 0,
+    "s": "The Intercept",
+    "sc": "Specialty",
+    "t": "intercept",
+    "u": "https://theintercept.com/search/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "it-news.press",
+    "r": 0,
+    "s": "IT-NEWS: Новости Интернета",
+    "sc": "Specialty",
+    "t": "itnews",
+    "u": "https://it-news.press/search?searchword={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "jacobinmag.com",
+    "r": 33,
+    "s": "Jacobin Magazine",
+    "sc": "Specialty",
+    "t": "jacobin",
+    "u": "https://jacobinmag.com/search?query={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.jean-luc-melenchon.fr",
+    "r": 0,
+    "s": "Jean-Luc Mélenchon",
+    "sc": "Specialty",
+    "t": "jlm",
+    "u": "http://www.jean-luc-melenchon.fr/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "jpralves.net",
+    "r": 0,
+    "s": "jpralves.net",
+    "sc": "Specialty",
+    "t": "jpralves",
+    "u": "https://jpralves.net/search.html?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.jw.org",
+    "r": 7,
+    "s": "Jehovas Zeugen — Offizielle Website: jw.org",
+    "sc": "Specialty",
+    "t": "jwde",
+    "u": "https://www.jw.org/de/suche/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.kicktraq.com",
+    "r": 11,
+    "s": "Kicktraq",
+    "sc": "Specialty",
+    "t": "kt",
+    "u": "http://www.kicktraq.com/search/?find={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "LewRockwell.com",
+    "sc": "Specialty",
+    "t": "lewrockwell",
+    "u": "https://duckduckgo.com/?q=site%3Alewrockwell.com+{{{s}}} "
+  },
+  {
+    "c": "News",
+    "d": "logbuch-netzpolitik.de",
+    "r": 0,
+    "s": "Logbuch:Netzpolitik",
+    "sc": "Specialty",
+    "t": "lnp",
+    "u": "https://logbuch-netzpolitik.de/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.latoilescoute.net",
+    "r": 0,
+    "s": "LaToileScoute",
+    "sc": "Specialty",
+    "t": "lts",
+    "u": "http://www.latoilescoute.net/spip.php?page=recherche&recherche={{{s}}} "
+  },
+  {
+    "c": "News",
+    "d": "myanimelist.net",
+    "r": 8,
+    "s": "MyAnimeList",
+    "sc": "Specialty",
+    "t": "malist",
+    "u": "http://myanimelist.net/anime.php?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "manualdousuario.net",
+    "r": 29,
+    "s": "Manual do Usuário",
+    "sc": "Specialty",
+    "t": "mdu",
+    "u": "https://manualdousuario.net/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.medicalnewstoday.com",
+    "r": 0,
+    "s": "Medical News Today",
+    "sc": "Specialty",
+    "t": "mnt",
+    "u": "http://www.medicalnewstoday.com/search?q={{{s}}} "
+  },
+  {
+    "c": "News",
+    "d": "www.mobilegeeks.com",
+    "r": 0,
+    "s": "Mobile Geeks",
+    "sc": "Specialty",
+    "t": "mobilegeeks",
+    "u": "http://www.mobilegeeks.com/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.musicradar.com",
+    "r": 0,
+    "s": "MusicRadar",
+    "sc": "Specialty",
+    "t": "msrd",
+    "u": "http://www.musicradar.com/search?searchTerm={{{s}}}:"
+  },
+  {
+    "c": "News",
+    "d": "www.nationalreview.com",
+    "r": 0,
+    "s": "National Review",
+    "sc": "Specialty",
+    "t": "nationalreview",
+    "u": "https://www.nationalreview.com/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.nationalobserver.com",
+    "r": 0,
+    "s": "National Observer",
+    "sc": "Specialty",
+    "t": "natobserver",
+    "u": "https://www.nationalobserver.com/search?keywords={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "naturvin.wordpress.com",
+    "r": 0,
+    "s": "Naturvin – The Sound of Soil",
+    "sc": "Specialty",
+    "t": "naturvin",
+    "u": "https://naturvin.wordpress.com/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.nachdenkseiten.de",
+    "r": 6,
+    "s": "Nachdenkseiten",
+    "sc": "Specialty",
+    "t": "nds",
+    "u": "http://www.nachdenkseiten.de/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "netzpolitik.org",
+    "r": 0,
+    "s": "Netzpolitik.org",
+    "sc": "Specialty",
+    "t": "netzpolitik",
+    "u": "https://netzpolitik.org/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.google.com",
+    "r": 0,
+    "s": "Google News Archive",
+    "sc": "Specialty",
+    "t": "newsarchive",
+    "u": "http://www.google.com/#q={{{s}}}&hl=en&tbm=nws&prmd=imvnsfd&source=lnt&tbs=ar:1&sa=X&ei=UJrnT8LwO8Sf6QGHmIjhDg&ved=0CCcQpwUoBQ&bav=on.2,or.r_gc.r_pw.r_cp.r_qf.,cf.osb&fp=3c6a142c5aa1edc2&biw=1366&bih=706"
+  },
+  {
+    "c": "News",
+    "d": "www.infowars.com",
+    "r": 0,
+    "s": "Infowars",
+    "sc": "Specialty",
+    "t": "nfowrs",
+    "u": "http://www.infowars.com/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.niferry.co.uk",
+    "r": 0,
+    "s": "NI Ferry Site",
+    "sc": "Specialty",
+    "t": "nifs",
+    "u": "https://www.niferry.co.uk/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.naturalnews.com",
+    "r": 0,
+    "s": "Natural News",
+    "sc": "Specialty",
+    "t": "nn",
+    "u": "https://www.naturalnews.com/SearchResults.asp?query={{{s}}}&pr=NN"
+  },
+  {
+    "c": "News",
+    "d": "history.newtheatre.org.uk",
+    "r": 0,
+    "s": "New Theatre History Project",
+    "sc": "Specialty",
+    "t": "nthp",
+    "u": "https://history.newtheatre.org.uk/search/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "m.nextinpact.com",
+    "r": 0,
+    "s": "Next Inpact Mobile",
+    "sc": "Specialty",
+    "t": "nxim",
+    "u": "https://m.nextinpact.com/rechercher?term={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.nybooks.com",
+    "r": 0,
+    "s": "New York Review of Books",
+    "sc": "Specialty",
+    "t": "nyrb",
+    "u": "http://www.nybooks.com/search/?s={{{s}}}&option_match=&year_after=1963&year_before=2017&type=all&orderby=relevance"
+  },
+  {
+    "c": "News",
+    "d": "www.pcper.com",
+    "r": 0,
+    "s": "PC Perspective",
+    "sc": "Specialty",
+    "t": "pcper",
+    "u": "http://www.pcper.com/search/node/{{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.petitweb.fr",
+    "r": 0,
+    "s": "Petit Web",
+    "sc": "Specialty",
+    "t": "petitweb",
+    "u": "http://www.petitweb.fr/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.phonemore.com",
+    "r": 0,
+    "s": "PhoneMore",
+    "sc": "Specialty",
+    "t": "phonemore",
+    "u": "https://www.phonemore.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.phoronix.com",
+    "r": 12,
+    "s": "Phoronix",
+    "sc": "Specialty",
+    "t": "phoronix",
+    "u": "https://www.phoronix.com/scan.php?page=search&q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "pjmedia.com",
+    "r": 0,
+    "s": "PJ Media",
+    "sc": "Specialty",
+    "t": "pjm",
+    "u": "https://pjmedia.com/search/?s={{{s}}} "
+  },
+  {
+    "c": "News",
+    "d": "www.politifact.com",
+    "r": 0,
+    "s": "PolitiFact",
+    "sc": "Specialty",
+    "t": "politifact",
+    "u": "http://www.politifact.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.realclearpolitics.com",
+    "r": 23,
+    "s": "RealClear Politics",
+    "sc": "Specialty",
+    "t": "rcp",
+    "u": "http://www.realclearpolitics.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "reason.com",
+    "r": 0,
+    "s": "Reason.com",
+    "sc": "Specialty",
+    "t": "reason",
+    "u": "http://reason.com/search?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "search.theregister.co.uk",
+    "r": 6,
+    "s": "The Register",
+    "sc": "Specialty",
+    "t": "register",
+    "u": "http://search.theregister.co.uk/?q={{{s}}}&advanced=1&author=&date=the+dawn+of+time&site=all+The+Register+sites&results_per_page=100"
+  },
+  {
+    "c": "News",
+    "d": "www.rijnmond.nl",
+    "r": 0,
+    "s": "rijnmond.nl",
+    "sc": "Specialty",
+    "t": "rijnmond",
+    "u": "http://www.rijnmond.nl/zoeken?query={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.reddit.com",
+    "r": 0,
+    "s": "Reddit's Mechanical Keyboards Subreddit",
+    "sc": "Specialty",
+    "t": "rmk",
+    "u": "https://www.reddit.com/r/MechanicalKeyboards/search?q={{{s}}}&sort=relevance&t=all"
+  },
+  {
+    "c": "News",
+    "d": "www.rockpapershotgun.com",
+    "r": 0,
+    "s": "Rock Paper Shotgun",
+    "sc": "Specialty",
+    "t": "rockpapershotgun",
+    "u": "http://www.rockpapershotgun.com/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.samaritanspurse.org",
+    "r": 0,
+    "s": "Samaritan's Purse",
+    "sc": "Specialty",
+    "t": "samaritans",
+    "u": "http://www.samaritanspurse.org/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.scientificamerican.com",
+    "r": 9,
+    "s": "Scientific American",
+    "sc": "Specialty",
+    "t": "sa",
+    "u": "http://www.scientificamerican.com/search/?q={{{s}}}&x=-783&y=-180 "
+  },
+  {
+    "c": "News",
+    "d": "www.scottsradiosite.co.uk",
+    "r": 0,
+    "s": "Scott's Radio Site",
+    "sc": "Specialty",
+    "t": "scottsradiosite",
+    "u": "http://www.scottsradiosite.co.uk/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "search.searchengineland.com",
+    "r": 0,
+    "s": "Search Engine Land",
+    "sc": "Specialty",
+    "t": "seland",
+    "u": "http://search.searchengineland.com/search?w={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.ohg-ka.de",
+    "r": 0,
+    "s": "SMV des OHG in KA",
+    "sc": "Specialty",
+    "t": "smv",
+    "u": "http://www.ohg-ka.de/smv/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.snopes.com",
+    "r": 0,
+    "s": "snopes.com",
+    "sc": "Specialty",
+    "t": "snp",
+    "u": "http://www.snopes.com/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "t3n.de",
+    "r": 0,
+    "s": "t3n",
+    "sc": "Specialty",
+    "t": "t3n",
+    "u": "http://t3n.de/search?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "tandemtech.be",
+    "r": 0,
+    "s": "Tandem Tech",
+    "sc": "Specialty",
+    "t": "tandemtech",
+    "u": "https://tandemtech.be/search?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "conservativepapers.com",
+    "r": 0,
+    "s": "The Conservative Papers",
+    "sc": "Specialty",
+    "t": "tcp",
+    "u": "http://conservativepapers.com/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.techspot.com",
+    "r": 0,
+    "s": "Techspot",
+    "sc": "Specialty",
+    "t": "techspot",
+    "u": "https://www.techspot.com/search/?cx=partner-pub-7395890353660701%3Aj5claj-6kfy&cof=FORID%3A11&ie=UTF-8&q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.thecheckeredflag.co.uk",
+    "r": 0,
+    "s": "The Checkered Flag",
+    "sc": "Specialty",
+    "t": "thecheckeredflag",
+    "u": "http://www.thecheckeredflag.co.uk/?s={{{s}}} "
+  },
+  {
+    "c": "News",
+    "d": "thelogicalindian.com",
+    "r": 0,
+    "s": "The Logical Indian",
+    "sc": "Specialty",
+    "t": "tli",
+    "u": "http://thelogicalindian.com/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "torrentfreak.com",
+    "r": 8,
+    "s": "Torrent Freak",
+    "sc": "Specialty",
+    "t": "torrentfreak",
+    "u": "http://torrentfreak.com/search/{{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "tpo.nl",
+    "r": 0,
+    "s": "ThePostOnline",
+    "sc": "Specialty",
+    "t": "tpo",
+    "u": "http://tpo.nl/?s={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.transfermarkt.co.uk",
+    "r": 0,
+    "s": "Transfermarkt",
+    "sc": "Specialty",
+    "t": "trfuk",
+    "u": "http://www.transfermarkt.co.uk/schnellsuche/ergebnis/schnellsuche?query={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.timeanddate.com",
+    "r": 11,
+    "s": "timeanddate",
+    "sc": "Specialty",
+    "t": "tz",
+    "u": "http://www.timeanddate.com/worldclock/results.html?query={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.vice.com",
+    "r": 0,
+    "s": "Vice",
+    "sc": "Specialty",
+    "t": "vice",
+    "u": "https://www.vice.com/en_us/search?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "vote.us.org",
+    "r": 0,
+    "s": "Vote",
+    "sc": "Specialty",
+    "t": "vote",
+    "u": "https://vote.us.org/search/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "en.wikinews.org",
+    "r": 0,
+    "s": "Wikinews",
+    "sc": "Specialty",
+    "t": "wikinews",
+    "u": "http://en.wikinews.org/w/index.php?title=Special%3ASearch&redirs=0&search={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "winfuture.de",
+    "r": 0,
+    "s": "WinFuture",
+    "sc": "Specialty",
+    "t": "winfu",
+    "u": "http://winfuture.de/suche/?cx=001589123709424097799%3Asbdrzmcykc8&cof=FORID%3A11&ie=ISO-8859-1&q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "xmostrata.com",
+    "r": 0,
+    "s": "Xmo Strata",
+    "sc": "Specialty",
+    "t": "xmostrata",
+    "u": "http://xmostrata.com/?s={{{s}}}"
+  }
+];
+
+export const bangIndex: Record<string, BangCommand> = {
+  "35c3": {
+    "c": "News",
+    "d": "events.ccc.de",
+    "r": 0,
+    "s": "35C3 Wiki",
+    "sc": "Specialty",
+    "t": "35c3",
+    "u": "https://events.ccc.de/congress/2018/wiki/index.php?search={{{s}}}"
+  },
+  "an": {
+    "c": "News",
+    "d": "anilist.co",
+    "r": 4,
+    "s": "AniList",
+    "sc": "Specialty",
+    "t": "an",
+    "u": "http://anilist.co/search?q={{{s}}}"
+  },
+  "andpol": {
+    "c": "News",
+    "d": "www.androidpolice.com",
+    "r": 0,
+    "s": "Android Police",
+    "sc": "Specialty",
+    "t": "andpol",
+    "u": "http://www.androidpolice.com/?s={{{s}}}"
+  },
+  "antyweb": {
+    "c": "News",
+    "d": "antyweb.pl",
+    "r": 0,
+    "s": "Antyweb",
+    "sc": "Specialty",
+    "t": "antyweb",
+    "u": "http://antyweb.pl/?s={{{s}}}"
+  },
+  "april": {
+    "c": "News",
+    "d": "www.april.org",
+    "r": 0,
+    "s": "April",
+    "sc": "Specialty",
+    "t": "april",
+    "u": "https://www.april.org/search/node/{{{s}}}"
+  },
+  "archdaily": {
+    "c": "News",
+    "d": "www.archdaily.com",
+    "r": 0,
+    "s": "ArchDaily",
+    "sc": "Specialty",
+    "t": "archdaily",
+    "u": "https://www.archdaily.com/search/all?q={{{s}}}"
+  },
+  "arstechnica": {
+    "c": "News",
+    "d": "arstechnica.com",
+    "r": 3,
+    "s": "Ars Technica",
+    "sc": "Specialty",
+    "t": "arstechnica",
+    "u": "https://arstechnica.com/search/?q={{{s}}}"
+  },
+  "atd": {
+    "c": "News",
+    "d": "allthingsd.com",
+    "r": 0,
+    "s": "allthingsd",
+    "sc": "Specialty",
+    "t": "atd",
+    "u": "http://allthingsd.com/?s={{{s}}}:"
+  },
+  "bcwalls": {
+    "c": "News",
+    "d": "www.blockchainwalls.com",
+    "r": 0,
+    "s": "Blockchainwalls",
+    "sc": "Specialty",
+    "t": "bcwalls",
+    "u": "https://www.blockchainwalls.com/category/{{{s}}}"
+  },
+  "busa": {
+    "c": "News",
+    "d": "www.basketusa.com",
+    "r": 0,
+    "s": "Basket USA",
+    "sc": "Specialty",
+    "t": "busa",
+    "u": "http://www.basketusa.com/?s={{{s}}}"
+  },
+  "caschy": {
+    "c": "News",
+    "d": "stadt-bremerhaven.de",
+    "r": 0,
+    "s": "Caschys Blog",
+    "sc": "Specialty",
+    "t": "caschy",
+    "u": "http://stadt-bremerhaven.de/?s={{{s}}}"
+  },
+  "ccp": {
+    "c": "News",
+    "d": "canadiancouchpotato.com",
+    "r": 0,
+    "s": "Canadian Couch Potato",
+    "sc": "Specialty",
+    "t": "ccp",
+    "u": "http://canadiancouchpotato.com/?s={{{s}}}&submit=Search"
+  },
+  "churchofsatan": {
+    "c": "News",
+    "d": "www.churchofsatan.com",
+    "r": 0,
+    "s": "Church of Satan Official Site",
+    "sc": "Specialty",
+    "t": "churchofsatan",
+    "u": "http://www.churchofsatan.com/search-results.php?q={{{s}}}"
+  },
+  "cj": {
+    "c": "News",
+    "d": "conjour.world",
+    "r": 0,
+    "s": "Conjour",
+    "sc": "Specialty",
+    "t": "cj",
+    "u": "https://conjour.world/?s={{{s}}}"
+  },
+  "clark": {
+    "c": "News",
+    "d": "clark.com",
+    "r": 0,
+    "s": "Clark Howard",
+    "sc": "Specialty",
+    "t": "clark",
+    "u": "https://clark.com/search/?q={{{s}}}"
+  },
+  "cnt": {
+    "c": "News",
+    "d": "casinonews.today",
+    "r": 0,
+    "s": "Casino News Today",
+    "sc": "Specialty",
+    "t": "cnt",
+    "u": "http://casinonews.today/?s={{{s}}} "
+  },
+  "cnw": {
+    "c": "News",
+    "d": "cannanewswire.co",
+    "r": 0,
+    "s": "Canna Newswire",
+    "sc": "Specialty",
+    "t": "cnw",
+    "u": "https://cannanewswire.co/?s={{{s}}}"
+  },
+  "contamet": {
+    "c": "News",
+    "d": "contamet.wordpress.com",
+    "r": 0,
+    "s": "contamet.wordpress.com",
+    "sc": "Specialty",
+    "t": "contamet",
+    "u": "http://contamet.wordpress.com/?s={{{s}}}"
+  },
+  "conv": {
+    "c": "News",
+    "d": "theconversation.com",
+    "r": 0,
+    "s": "The Conversation",
+    "sc": "Specialty",
+    "t": "conv",
+    "u": "https://theconversation.com/search?q={{{s}}}"
+  },
+  "cottrillcompassblog": {
+    "c": "News",
+    "d": "cottrillcompass.com",
+    "r": 0,
+    "s": "Cottrill Compass blog",
+    "sc": "Specialty",
+    "t": "cottrillcompassblog",
+    "u": "http://cottrillcompass.com/blog/?s={{{s}}}"
+  },
+  "cqrq": {
+    "c": "News",
+    "d": "www.rollcall.com",
+    "r": 0,
+    "s": "CQ Roll Call",
+    "sc": "Specialty",
+    "t": "cqrq",
+    "u": "https://www.rollcall.com/page/search?keyword={{{s}}}&advanced=false&sort=relevance"
+  },
+  "crol": {
+    "c": "News",
+    "d": "www.crol.hr",
+    "r": 0,
+    "s": "CroL",
+    "sc": "Specialty",
+    "t": "crol",
+    "u": "https://www.crol.hr/index.php/search?searchword={{{s}}}&searchphrase=all"
+  },
+  "cryptoanalyst": {
+    "c": "News",
+    "d": "www.cryptoanalyst.co",
+    "r": 0,
+    "s": "CryptoAnalyst",
+    "sc": "Specialty",
+    "t": "cryptoanalyst",
+    "u": "https://www.cryptoanalyst.co/?s={{{s}}}"
+  },
+  "csdb": {
+    "c": "News",
+    "d": "noname.c64.org",
+    "r": 0,
+    "s": "The C64 Scene Database",
+    "sc": "Specialty",
+    "t": "csdb",
+    "u": "http://noname.c64.org/csdb/search/?seinsel=all&search={{{s}}}"
+  },
+  "cyber": {
+    "c": "News",
+    "d": "www.cyberscoop.com",
+    "r": 0,
+    "s": "Cyberscoop",
+    "sc": "Specialty",
+    "t": "cyber",
+    "u": "https://www.cyberscoop.com/?s={{{s}}}"
+  },
+  "darknetmarkets": {
+    "c": "News",
+    "d": "www.darknetmarkets.net",
+    "r": 0,
+    "s": "Darknet Markets News",
+    "sc": "Specialty",
+    "t": "darknetmarkets",
+    "u": "https://www.darknetmarkets.net/?s={{{s}}}"
+  },
+  "dcr": {
+    "c": "News",
+    "d": "www.dcrainmaker.com",
+    "r": 0,
+    "s": "dcrainmaker.com",
+    "sc": "Specialty",
+    "t": "dcr",
+    "u": "http://www.dcrainmaker.com/?s={{{s}}} "
+  },
+  "delijn": {
+    "c": "News",
+    "d": "www.delijn.be",
+    "r": 0,
+    "s": "De Lijn",
+    "sc": "Specialty",
+    "t": "delijn",
+    "u": "https://www.delijn.be/nl/zoekresultaten/index.html?searchtext={{{s}}}"
+  },
+  "democracynow": {
+    "c": "News",
+    "d": "www.democracynow.org",
+    "r": 0,
+    "s": "Democracy Now!",
+    "sc": "Specialty",
+    "t": "democracynow",
+    "u": "http://www.democracynow.org/search?query={{{s}}}"
+  },
+  "designernews": {
+    "c": "News",
+    "d": "www.designernews.co",
+    "r": 0,
+    "s": "Designer News",
+    "sc": "Specialty",
+    "t": "designernews",
+    "u": "https://www.designernews.co/search?q={{{s}}}"
+  },
+  "dexigner": {
+    "c": "News",
+    "d": "www.dexigner.com",
+    "r": 0,
+    "s": "Dexigner",
+    "sc": "Specialty",
+    "t": "dexigner",
+    "u": "http://www.dexigner.com/search?q={{{s}}}"
+  },
+  "dnt": {
+    "c": "News",
+    "d": "www.dnt.no",
+    "r": 0,
+    "s": "Norwegian Trekking Association",
+    "sc": "Specialty",
+    "t": "dnt",
+    "u": "https://www.dnt.no/søk/?q={{{s}}}"
+  },
+  "dpreview": {
+    "c": "News",
+    "d": "www.dpreview.com",
+    "r": 6,
+    "s": "DPReview",
+    "sc": "Specialty",
+    "t": "dpreview",
+    "u": "http://www.dpreview.com/search/?query={{{s}}}&terms={{{s}}}"
+  },
+  "drudge": {
+    "c": "News",
+    "d": "www.drudgereportarchives.com",
+    "r": 0,
+    "s": "Drudge Report",
+    "sc": "Specialty",
+    "t": "drudge",
+    "u": "http://www.drudgereportarchives.com/dsp/search.htm?searchFor={{{s}}}"
+  },
+  "eaterlon": {
+    "c": "News",
+    "d": "london.eater.com",
+    "r": 0,
+    "s": "Eater London",
+    "sc": "Specialty",
+    "t": "eaterlon",
+    "u": "https://london.eater.com/search?q={{{s}}}"
+  },
+  "elreg": {
+    "c": "News",
+    "d": "search.theregister.co.uk",
+    "r": 0,
+    "s": "The Register",
+    "sc": "Specialty",
+    "t": "elreg",
+    "u": "http://search.theregister.co.uk/?q={{{s}}}"
+  },
+  "equestriadaily": {
+    "c": "News",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Equestria Daily",
+    "sc": "Specialty",
+    "t": "equestriadaily",
+    "u": "http://duckduckgo.com/?q=site:equestriadaily.com+{{{s}}}"
+  },
+  "fair": {
+    "c": "News",
+    "d": "fair.org",
+    "r": 0,
+    "s": "Fairness and Accuracy in Reporting",
+    "sc": "Specialty",
+    "t": "fair",
+    "u": "https://fair.org/?s={{{s}}}"
+  },
+  "fantasy": {
+    "c": "News",
+    "d": "www.fantasy.fr",
+    "r": 0,
+    "s": "fantasy.fr",
+    "sc": "Specialty",
+    "t": "fantasy",
+    "u": "http://www.fantasy.fr/searches/index/{{{s}}} "
+  },
+  "farmfor": {
+    "c": "News",
+    "d": "www.farmfor.com.br",
+    "r": 0,
+    "s": "Blog do Farmfor",
+    "sc": "Specialty",
+    "t": "farmfor",
+    "u": "https://www.farmfor.com.br/?s={{{s}}}"
+  },
+  "ffbbunt": {
+    "c": "News",
+    "d": "ffbbunt.wordpress.com",
+    "r": 0,
+    "s": "Fürstenfeldbruck ist bunt!",
+    "sc": "Specialty",
+    "t": "ffbbunt",
+    "u": "https://ffbbunt.wordpress.com/?s={{{s}}}"
+  },
+  "freep": {
+    "c": "News",
+    "d": "www.freerepublic.com",
+    "r": 3,
+    "s": "Freerepublic",
+    "sc": "Specialty",
+    "t": "freep",
+    "u": "https://www.freerepublic.com/tag/{{{s}}}/index?tab=articles"
+  },
+  "fsm": {
+    "c": "News",
+    "d": "futurism.com",
+    "r": 0,
+    "s": "Futurism",
+    "sc": "Specialty",
+    "t": "fsm",
+    "u": "http://futurism.com/?s={{{s}}}"
+  },
+  "goe": {
+    "c": "News",
+    "d": "www.goettingen.de",
+    "r": 0,
+    "s": "Stadtportal Göttingen",
+    "sc": "Specialty",
+    "t": "goe",
+    "u": "https://www.goettingen.de/portalsuche.html?keyword={{{s}}}"
+  },
+  "golem": {
+    "c": "News",
+    "d": "suche.golem.de",
+    "r": 0,
+    "s": "Golem.de",
+    "sc": "Specialty",
+    "t": "golem",
+    "u": "http://suche.golem.de/search.php?l=10&q={{{s}}}"
+  },
+  "gpafrica": {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace Africa",
+    "sc": "Specialty",
+    "t": "gpafrica",
+    "u": "http://www.greenpeace.org/africa/en/Search-results/?all={{{s}}}"
+  },
+  "gpau": {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace Australia",
+    "sc": "Specialty",
+    "t": "gpau",
+    "u": "http://www.greenpeace.org/australia/en/System-templates/Site-Settings-Pages/Search/?all={{{s}}}"
+  },
+  "gpcanfr": {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace Canada (French)",
+    "sc": "Specialty",
+    "t": "gpcanfr",
+    "u": "http://www.greenpeace.org/canada/fr/System-templates/Site-Settings-Pages/Recherche/?all={{{s}}}"
+  },
+  "gpcan": {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace Canada",
+    "sc": "Specialty",
+    "t": "gpcan",
+    "u": "http://www.greenpeace.org/canada/en/System-templates/Site-Settings-Pages/Search/?all={{{s}}}"
+  },
+  "gpea": {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace East Asia",
+    "sc": "Specialty",
+    "t": "gpea",
+    "u": "http://www.greenpeace.org/eastasia/system-templates/search-results/?all={{{s}}}"
+  },
+  "gpeu": {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace EU Unit",
+    "sc": "Specialty",
+    "t": "gpeu",
+    "u": "http://www.greenpeace.org/eu-unit/en/System-templates/such-resultate/?all={{{s}}}"
+  },
+  "gpindia": {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace India",
+    "sc": "Specialty",
+    "t": "gpindia",
+    "u": "http://www.greenpeace.org/india/en/System-templates/Search-results/?all={{{s}}}"
+  },
+  "gpnz": {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace New Zealand",
+    "sc": "Specialty",
+    "t": "gpnz",
+    "u": "http://www.greenpeace.org/new-zealand/en/System-templates/Search-results/?all={{{s}}}"
+  },
+  "gpphilip": {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace Philippines",
+    "sc": "Specialty",
+    "t": "gpphilip",
+    "u": "http://www.greenpeace.org/seasia/ph/System-templates/Search-results/?all={{{s}}}"
+  },
+  "gpseasia": {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace Southeast Asia",
+    "sc": "Specialty",
+    "t": "gpseasia",
+    "u": "http://www.greenpeace.org/seasia/System-templates/Search-results/?all={{{s}}}"
+  },
+  "gpuk": {
+    "c": "News",
+    "d": "www.greenpeace.org.uk",
+    "r": 0,
+    "s": "Greenpeace UK",
+    "sc": "Specialty",
+    "t": "gpuk",
+    "u": "http://www.greenpeace.org.uk/search/node/{{{s}}}"
+  },
+  "greenpeace": {
+    "c": "News",
+    "d": "www.greenpeace.org",
+    "r": 0,
+    "s": "Greenpeace",
+    "sc": "Specialty",
+    "t": "greenpeace",
+    "u": "http://www.greenpeace.org/usa/?s={{{s}}}"
+  },
+  "gz": {
+    "c": "News",
+    "d": "www.geekzone.fr",
+    "r": 3,
+    "s": "GeekZone",
+    "sc": "Specialty",
+    "t": "gz",
+    "u": "http://www.geekzone.fr/?s={{{s}}}"
+  },
+  "hardocp": {
+    "c": "News",
+    "d": "www.hardocp.com",
+    "r": 0,
+    "s": "[H]ardOCP",
+    "sc": "Specialty",
+    "t": "hardocp",
+    "u": "https://www.hardocp.com/search/?q={{{s}}}"
+  },
+  "hinews": {
+    "c": "News",
+    "d": "hi-news.ru",
+    "r": 0,
+    "s": "Hi-News.ru",
+    "sc": "Specialty",
+    "t": "hinews",
+    "u": "http://hi-news.ru/?s={{{s}}}"
+  },
+  "huffpost": {
+    "c": "News",
+    "d": "www.huffingtonpost.com",
+    "r": 0,
+    "s": "Huffington Post",
+    "sc": "Specialty",
+    "t": "huffpost",
+    "u": "https://www.huffingtonpost.com/search?keywords={{{s}}}&sortBy=recency&sortOrder=desc"
+  },
+  "inkeri": {
+    "c": "News",
+    "d": "inkeri-klubi.radioviola.net",
+    "r": 0,
+    "s": "Inkeri Klubi – Клуб Ингрия",
+    "sc": "Specialty",
+    "t": "inkeri",
+    "u": "http://inkeri-klubi.radioviola.net/system/app/pages/search?scope=search-site&q={{{s}}}"
+  },
+  "intercept": {
+    "c": "News",
+    "d": "theintercept.com",
+    "r": 0,
+    "s": "The Intercept",
+    "sc": "Specialty",
+    "t": "intercept",
+    "u": "https://theintercept.com/search/?s={{{s}}}"
+  },
+  "itnews": {
+    "c": "News",
+    "d": "it-news.press",
+    "r": 0,
+    "s": "IT-NEWS: Новости Интернета",
+    "sc": "Specialty",
+    "t": "itnews",
+    "u": "https://it-news.press/search?searchword={{{s}}}"
+  },
+  "jacobin": {
+    "c": "News",
+    "d": "jacobinmag.com",
+    "r": 33,
+    "s": "Jacobin Magazine",
+    "sc": "Specialty",
+    "t": "jacobin",
+    "u": "https://jacobinmag.com/search?query={{{s}}}"
+  },
+  "jlm": {
+    "c": "News",
+    "d": "www.jean-luc-melenchon.fr",
+    "r": 0,
+    "s": "Jean-Luc Mélenchon",
+    "sc": "Specialty",
+    "t": "jlm",
+    "u": "http://www.jean-luc-melenchon.fr/?s={{{s}}}"
+  },
+  "jpralves": {
+    "c": "News",
+    "d": "jpralves.net",
+    "r": 0,
+    "s": "jpralves.net",
+    "sc": "Specialty",
+    "t": "jpralves",
+    "u": "https://jpralves.net/search.html?q={{{s}}}"
+  },
+  "jwde": {
+    "c": "News",
+    "d": "www.jw.org",
+    "r": 7,
+    "s": "Jehovas Zeugen — Offizielle Website: jw.org",
+    "sc": "Specialty",
+    "t": "jwde",
+    "u": "https://www.jw.org/de/suche/?q={{{s}}}"
+  },
+  "kt": {
+    "c": "News",
+    "d": "www.kicktraq.com",
+    "r": 11,
+    "s": "Kicktraq",
+    "sc": "Specialty",
+    "t": "kt",
+    "u": "http://www.kicktraq.com/search/?find={{{s}}}"
+  },
+  "lewrockwell": {
+    "c": "News",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "LewRockwell.com",
+    "sc": "Specialty",
+    "t": "lewrockwell",
+    "u": "https://duckduckgo.com/?q=site%3Alewrockwell.com+{{{s}}} "
+  },
+  "lnp": {
+    "c": "News",
+    "d": "logbuch-netzpolitik.de",
+    "r": 0,
+    "s": "Logbuch:Netzpolitik",
+    "sc": "Specialty",
+    "t": "lnp",
+    "u": "https://logbuch-netzpolitik.de/?s={{{s}}}"
+  },
+  "lts": {
+    "c": "News",
+    "d": "www.latoilescoute.net",
+    "r": 0,
+    "s": "LaToileScoute",
+    "sc": "Specialty",
+    "t": "lts",
+    "u": "http://www.latoilescoute.net/spip.php?page=recherche&recherche={{{s}}} "
+  },
+  "malist": {
+    "c": "News",
+    "d": "myanimelist.net",
+    "r": 8,
+    "s": "MyAnimeList",
+    "sc": "Specialty",
+    "t": "malist",
+    "u": "http://myanimelist.net/anime.php?q={{{s}}}"
+  },
+  "mdu": {
+    "c": "News",
+    "d": "manualdousuario.net",
+    "r": 29,
+    "s": "Manual do Usuário",
+    "sc": "Specialty",
+    "t": "mdu",
+    "u": "https://manualdousuario.net/?s={{{s}}}"
+  },
+  "mnt": {
+    "c": "News",
+    "d": "www.medicalnewstoday.com",
+    "r": 0,
+    "s": "Medical News Today",
+    "sc": "Specialty",
+    "t": "mnt",
+    "u": "http://www.medicalnewstoday.com/search?q={{{s}}} "
+  },
+  "mobilegeeks": {
+    "c": "News",
+    "d": "www.mobilegeeks.com",
+    "r": 0,
+    "s": "Mobile Geeks",
+    "sc": "Specialty",
+    "t": "mobilegeeks",
+    "u": "http://www.mobilegeeks.com/?s={{{s}}}"
+  },
+  "msrd": {
+    "c": "News",
+    "d": "www.musicradar.com",
+    "r": 0,
+    "s": "MusicRadar",
+    "sc": "Specialty",
+    "t": "msrd",
+    "u": "http://www.musicradar.com/search?searchTerm={{{s}}}:"
+  },
+  "nationalreview": {
+    "c": "News",
+    "d": "www.nationalreview.com",
+    "r": 0,
+    "s": "National Review",
+    "sc": "Specialty",
+    "t": "nationalreview",
+    "u": "https://www.nationalreview.com/?s={{{s}}}"
+  },
+  "natobserver": {
+    "c": "News",
+    "d": "www.nationalobserver.com",
+    "r": 0,
+    "s": "National Observer",
+    "sc": "Specialty",
+    "t": "natobserver",
+    "u": "https://www.nationalobserver.com/search?keywords={{{s}}}"
+  },
+  "naturvin": {
+    "c": "News",
+    "d": "naturvin.wordpress.com",
+    "r": 0,
+    "s": "Naturvin – The Sound of Soil",
+    "sc": "Specialty",
+    "t": "naturvin",
+    "u": "https://naturvin.wordpress.com/?s={{{s}}}"
+  },
+  "nds": {
+    "c": "News",
+    "d": "www.nachdenkseiten.de",
+    "r": 6,
+    "s": "Nachdenkseiten",
+    "sc": "Specialty",
+    "t": "nds",
+    "u": "http://www.nachdenkseiten.de/?s={{{s}}}"
+  },
+  "netzpolitik": {
+    "c": "News",
+    "d": "netzpolitik.org",
+    "r": 0,
+    "s": "Netzpolitik.org",
+    "sc": "Specialty",
+    "t": "netzpolitik",
+    "u": "https://netzpolitik.org/?s={{{s}}}"
+  },
+  "newsarchive": {
+    "c": "News",
+    "d": "www.google.com",
+    "r": 0,
+    "s": "Google News Archive",
+    "sc": "Specialty",
+    "t": "newsarchive",
+    "u": "http://www.google.com/#q={{{s}}}&hl=en&tbm=nws&prmd=imvnsfd&source=lnt&tbs=ar:1&sa=X&ei=UJrnT8LwO8Sf6QGHmIjhDg&ved=0CCcQpwUoBQ&bav=on.2,or.r_gc.r_pw.r_cp.r_qf.,cf.osb&fp=3c6a142c5aa1edc2&biw=1366&bih=706"
+  },
+  "nfowrs": {
+    "c": "News",
+    "d": "www.infowars.com",
+    "r": 0,
+    "s": "Infowars",
+    "sc": "Specialty",
+    "t": "nfowrs",
+    "u": "http://www.infowars.com/?q={{{s}}}"
+  },
+  "nifs": {
+    "c": "News",
+    "d": "www.niferry.co.uk",
+    "r": 0,
+    "s": "NI Ferry Site",
+    "sc": "Specialty",
+    "t": "nifs",
+    "u": "https://www.niferry.co.uk/?s={{{s}}}"
+  },
+  "nn": {
+    "c": "News",
+    "d": "www.naturalnews.com",
+    "r": 0,
+    "s": "Natural News",
+    "sc": "Specialty",
+    "t": "nn",
+    "u": "https://www.naturalnews.com/SearchResults.asp?query={{{s}}}&pr=NN"
+  },
+  "nthp": {
+    "c": "News",
+    "d": "history.newtheatre.org.uk",
+    "r": 0,
+    "s": "New Theatre History Project",
+    "sc": "Specialty",
+    "t": "nthp",
+    "u": "https://history.newtheatre.org.uk/search/?q={{{s}}}"
+  },
+  "nxim": {
+    "c": "News",
+    "d": "m.nextinpact.com",
+    "r": 0,
+    "s": "Next Inpact Mobile",
+    "sc": "Specialty",
+    "t": "nxim",
+    "u": "https://m.nextinpact.com/rechercher?term={{{s}}}"
+  },
+  "nyrb": {
+    "c": "News",
+    "d": "www.nybooks.com",
+    "r": 0,
+    "s": "New York Review of Books",
+    "sc": "Specialty",
+    "t": "nyrb",
+    "u": "http://www.nybooks.com/search/?s={{{s}}}&option_match=&year_after=1963&year_before=2017&type=all&orderby=relevance"
+  },
+  "pcper": {
+    "c": "News",
+    "d": "www.pcper.com",
+    "r": 0,
+    "s": "PC Perspective",
+    "sc": "Specialty",
+    "t": "pcper",
+    "u": "http://www.pcper.com/search/node/{{{s}}}"
+  },
+  "petitweb": {
+    "c": "News",
+    "d": "www.petitweb.fr",
+    "r": 0,
+    "s": "Petit Web",
+    "sc": "Specialty",
+    "t": "petitweb",
+    "u": "http://www.petitweb.fr/?s={{{s}}}"
+  },
+  "phonemore": {
+    "c": "News",
+    "d": "www.phonemore.com",
+    "r": 0,
+    "s": "PhoneMore",
+    "sc": "Specialty",
+    "t": "phonemore",
+    "u": "https://www.phonemore.com/search/?q={{{s}}}"
+  },
+  "phoronix": {
+    "c": "News",
+    "d": "www.phoronix.com",
+    "r": 12,
+    "s": "Phoronix",
+    "sc": "Specialty",
+    "t": "phoronix",
+    "u": "https://www.phoronix.com/scan.php?page=search&q={{{s}}}"
+  },
+  "pjm": {
+    "c": "News",
+    "d": "pjmedia.com",
+    "r": 0,
+    "s": "PJ Media",
+    "sc": "Specialty",
+    "t": "pjm",
+    "u": "https://pjmedia.com/search/?s={{{s}}} "
+  },
+  "politifact": {
+    "c": "News",
+    "d": "www.politifact.com",
+    "r": 0,
+    "s": "PolitiFact",
+    "sc": "Specialty",
+    "t": "politifact",
+    "u": "http://www.politifact.com/search/?q={{{s}}}"
+  },
+  "rcp": {
+    "c": "News",
+    "d": "www.realclearpolitics.com",
+    "r": 23,
+    "s": "RealClear Politics",
+    "sc": "Specialty",
+    "t": "rcp",
+    "u": "http://www.realclearpolitics.com/search/?q={{{s}}}"
+  },
+  "reason": {
+    "c": "News",
+    "d": "reason.com",
+    "r": 0,
+    "s": "Reason.com",
+    "sc": "Specialty",
+    "t": "reason",
+    "u": "http://reason.com/search?q={{{s}}}"
+  },
+  "register": {
+    "c": "News",
+    "d": "search.theregister.co.uk",
+    "r": 6,
+    "s": "The Register",
+    "sc": "Specialty",
+    "t": "register",
+    "u": "http://search.theregister.co.uk/?q={{{s}}}&advanced=1&author=&date=the+dawn+of+time&site=all+The+Register+sites&results_per_page=100"
+  },
+  "rijnmond": {
+    "c": "News",
+    "d": "www.rijnmond.nl",
+    "r": 0,
+    "s": "rijnmond.nl",
+    "sc": "Specialty",
+    "t": "rijnmond",
+    "u": "http://www.rijnmond.nl/zoeken?query={{{s}}}"
+  },
+  "rmk": {
+    "c": "News",
+    "d": "www.reddit.com",
+    "r": 0,
+    "s": "Reddit's Mechanical Keyboards Subreddit",
+    "sc": "Specialty",
+    "t": "rmk",
+    "u": "https://www.reddit.com/r/MechanicalKeyboards/search?q={{{s}}}&sort=relevance&t=all"
+  },
+  "rockpapershotgun": {
+    "c": "News",
+    "d": "www.rockpapershotgun.com",
+    "r": 0,
+    "s": "Rock Paper Shotgun",
+    "sc": "Specialty",
+    "t": "rockpapershotgun",
+    "u": "http://www.rockpapershotgun.com/?s={{{s}}}"
+  },
+  "samaritans": {
+    "c": "News",
+    "d": "www.samaritanspurse.org",
+    "r": 0,
+    "s": "Samaritan's Purse",
+    "sc": "Specialty",
+    "t": "samaritans",
+    "u": "http://www.samaritanspurse.org/?s={{{s}}}"
+  },
+  "sa": {
+    "c": "News",
+    "d": "www.scientificamerican.com",
+    "r": 9,
+    "s": "Scientific American",
+    "sc": "Specialty",
+    "t": "sa",
+    "u": "http://www.scientificamerican.com/search/?q={{{s}}}&x=-783&y=-180 "
+  },
+  "scottsradiosite": {
+    "c": "News",
+    "d": "www.scottsradiosite.co.uk",
+    "r": 0,
+    "s": "Scott's Radio Site",
+    "sc": "Specialty",
+    "t": "scottsradiosite",
+    "u": "http://www.scottsradiosite.co.uk/?s={{{s}}}"
+  },
+  "seland": {
+    "c": "News",
+    "d": "search.searchengineland.com",
+    "r": 0,
+    "s": "Search Engine Land",
+    "sc": "Specialty",
+    "t": "seland",
+    "u": "http://search.searchengineland.com/search?w={{{s}}}"
+  },
+  "smv": {
+    "c": "News",
+    "d": "www.ohg-ka.de",
+    "r": 0,
+    "s": "SMV des OHG in KA",
+    "sc": "Specialty",
+    "t": "smv",
+    "u": "http://www.ohg-ka.de/smv/?s={{{s}}}"
+  },
+  "snp": {
+    "c": "News",
+    "d": "www.snopes.com",
+    "r": 0,
+    "s": "snopes.com",
+    "sc": "Specialty",
+    "t": "snp",
+    "u": "http://www.snopes.com/?s={{{s}}}"
+  },
+  "t3n": {
+    "c": "News",
+    "d": "t3n.de",
+    "r": 0,
+    "s": "t3n",
+    "sc": "Specialty",
+    "t": "t3n",
+    "u": "http://t3n.de/search?q={{{s}}}"
+  },
+  "tandemtech": {
+    "c": "News",
+    "d": "tandemtech.be",
+    "r": 0,
+    "s": "Tandem Tech",
+    "sc": "Specialty",
+    "t": "tandemtech",
+    "u": "https://tandemtech.be/search?q={{{s}}}"
+  },
+  "tcp": {
+    "c": "News",
+    "d": "conservativepapers.com",
+    "r": 0,
+    "s": "The Conservative Papers",
+    "sc": "Specialty",
+    "t": "tcp",
+    "u": "http://conservativepapers.com/?s={{{s}}}"
+  },
+  "techspot": {
+    "c": "News",
+    "d": "www.techspot.com",
+    "r": 0,
+    "s": "Techspot",
+    "sc": "Specialty",
+    "t": "techspot",
+    "u": "https://www.techspot.com/search/?cx=partner-pub-7395890353660701%3Aj5claj-6kfy&cof=FORID%3A11&ie=UTF-8&q={{{s}}}"
+  },
+  "thecheckeredflag": {
+    "c": "News",
+    "d": "www.thecheckeredflag.co.uk",
+    "r": 0,
+    "s": "The Checkered Flag",
+    "sc": "Specialty",
+    "t": "thecheckeredflag",
+    "u": "http://www.thecheckeredflag.co.uk/?s={{{s}}} "
+  },
+  "tli": {
+    "c": "News",
+    "d": "thelogicalindian.com",
+    "r": 0,
+    "s": "The Logical Indian",
+    "sc": "Specialty",
+    "t": "tli",
+    "u": "http://thelogicalindian.com/?s={{{s}}}"
+  },
+  "torrentfreak": {
+    "c": "News",
+    "d": "torrentfreak.com",
+    "r": 8,
+    "s": "Torrent Freak",
+    "sc": "Specialty",
+    "t": "torrentfreak",
+    "u": "http://torrentfreak.com/search/{{{s}}}"
+  },
+  "tpo": {
+    "c": "News",
+    "d": "tpo.nl",
+    "r": 0,
+    "s": "ThePostOnline",
+    "sc": "Specialty",
+    "t": "tpo",
+    "u": "http://tpo.nl/?s={{{s}}}"
+  },
+  "trfuk": {
+    "c": "News",
+    "d": "www.transfermarkt.co.uk",
+    "r": 0,
+    "s": "Transfermarkt",
+    "sc": "Specialty",
+    "t": "trfuk",
+    "u": "http://www.transfermarkt.co.uk/schnellsuche/ergebnis/schnellsuche?query={{{s}}}"
+  },
+  "tz": {
+    "c": "News",
+    "d": "www.timeanddate.com",
+    "r": 11,
+    "s": "timeanddate",
+    "sc": "Specialty",
+    "t": "tz",
+    "u": "http://www.timeanddate.com/worldclock/results.html?query={{{s}}}"
+  },
+  "vice": {
+    "c": "News",
+    "d": "www.vice.com",
+    "r": 0,
+    "s": "Vice",
+    "sc": "Specialty",
+    "t": "vice",
+    "u": "https://www.vice.com/en_us/search?q={{{s}}}"
+  },
+  "vote": {
+    "c": "News",
+    "d": "vote.us.org",
+    "r": 0,
+    "s": "Vote",
+    "sc": "Specialty",
+    "t": "vote",
+    "u": "https://vote.us.org/search/?q={{{s}}}"
+  },
+  "wikinews": {
+    "c": "News",
+    "d": "en.wikinews.org",
+    "r": 0,
+    "s": "Wikinews",
+    "sc": "Specialty",
+    "t": "wikinews",
+    "u": "http://en.wikinews.org/w/index.php?title=Special%3ASearch&redirs=0&search={{{s}}}"
+  },
+  "winfu": {
+    "c": "News",
+    "d": "winfuture.de",
+    "r": 0,
+    "s": "WinFuture",
+    "sc": "Specialty",
+    "t": "winfu",
+    "u": "http://winfuture.de/suche/?cx=001589123709424097799%3Asbdrzmcykc8&cof=FORID%3A11&ie=ISO-8859-1&q={{{s}}}"
+  },
+  "xmostrata": {
+    "c": "News",
+    "d": "xmostrata.com",
+    "r": 0,
+    "s": "Xmo Strata",
+    "sc": "Specialty",
+    "t": "xmostrata",
+    "u": "http://xmostrata.com/?s={{{s}}}"
+  }
+};
+
+export const categories = [
+  "News"
+];

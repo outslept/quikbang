@@ -1,0 +1,38 @@
+[
+  {
+    "c": "Tech",
+    "d": "clojuredocs.org",
+    "r": 45,
+    "s": "ClojureDocs",
+    "sc": "Languages (clojure)",
+    "t": "clj",
+    "u": "https://clojuredocs.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "cljdoc.org",
+    "r": 0,
+    "s": "cljdoc",
+    "sc": "Languages (clojure)",
+    "t": "cljdoc",
+    "u": "https://cljdoc.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "clojars.org",
+    "r": 0,
+    "s": "Clojars",
+    "sc": "Languages (clojure)",
+    "t": "clojars",
+    "u": "https://clojars.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "crossclj.info",
+    "r": 0,
+    "s": "CrossClj",
+    "sc": "Languages (clojure)",
+    "t": "crossclj",
+    "u": "http://crossclj.info/search?q={{{s}}}"
+  }
+]

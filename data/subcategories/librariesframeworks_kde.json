@@ -1,0 +1,11 @@
+[
+  {
+    "c": "Tech",
+    "d": "api.kde.org",
+    "r": 0,
+    "s": "KDE API Reference",
+    "sc": "Libraries/Frameworks (KDE)",
+    "t": "kapi",
+    "u": "http://api.kde.org/mapsearcher.php?class={{{s}}}&module=ALL&version=ALL&go=Go"
+  }
+]

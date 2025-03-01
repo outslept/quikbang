@@ -1,0 +1,627 @@
+
+// Auto-generated Games (Pokemon) bang commands from DuckDuckGo
+// Generated on: 2025-03-01T15:43:19.220Z
+
+import { BangCommand } from '../bangs';
+
+export const bangs: BangCommand[] = [
+  {
+    "c": "Entertainment",
+    "d": "pokemongohub.net",
+    "r": 0,
+    "s": "Pokemon Go Hub Battledex",
+    "sc": "Games (Pokemon)",
+    "t": "battledex",
+    "u": "https://pokemongohub.net/?s={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "bulbapedia.bulbagarden.net",
+    "r": 53,
+    "s": "Bulbapedia",
+    "sc": "Games (Pokemon)",
+    "t": "bpa",
+    "u": "http://bulbapedia.bulbagarden.net/wiki/{{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "bulbapedia.bulbagarden.net",
+    "r": 34,
+    "s": "Bulbapedia",
+    "sc": "Games (Pokemon)",
+    "t": "bpedia",
+    "u": "http://bulbapedia.bulbagarden.net/w/index.php?title=Special:Search&search={{{s}}}&go=Go"
+  },
+  {
+    "c": "Entertainment",
+    "d": "bulbapedia.bulbagarden.net",
+    "r": 97,
+    "s": "Bulbapedia",
+    "sc": "Games (Pokemon)",
+    "t": "bulbapedia",
+    "u": "http://bulbapedia.bulbagarden.net/w/index.php?title=Special:Search&search={{{s}}}&go=Go"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.pokebip.com",
+    "r": 0,
+    "s": "Pokdex Pokebip",
+    "sc": "Games (Pokemon)",
+    "t": "dex6g",
+    "u": "https://www.pokebip.com/pokedex/index.php?phppage=recherche&req={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "wiki.pokemoncentral.it",
+    "r": 0,
+    "s": "Pokémon Central Wiki",
+    "sc": "Games (Pokemon)",
+    "t": "pkmce",
+    "u": "http://wiki.pokemoncentral.it/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "wiki.pokemoncentral.it",
+    "r": 7,
+    "s": "Pokémon Central Wiki",
+    "sc": "Games (Pokemon)",
+    "t": "pocewiki",
+    "u": "http://wiki.pokemoncentral.it/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "brickbronze.wikia.com",
+    "r": 0,
+    "s": "Pokémon Brick Bronze Wikia",
+    "sc": "Games (Pokemon)",
+    "t": "pokebrickbronze",
+    "u": "http://brickbronze.wikia.com/wiki/Special:Search?query={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.pokecommunity.com",
+    "r": 0,
+    "s": "Pokécommunity",
+    "sc": "Games (Pokemon)",
+    "t": "pokecommunity",
+    "u": "https://www.pokecommunity.com/search.php?do=q{{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "pokemondb.net",
+    "r": 36,
+    "s": "Pokemon Database",
+    "sc": "Games (Pokemon)",
+    "t": "pokedb",
+    "u": "http://pokemondb.net/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.pokemon.com",
+    "r": 0,
+    "s": "Pokemon Official Website Pokedex",
+    "sc": "Games (Pokemon)",
+    "t": "pokedex",
+    "u": "https://www.pokemon.com/us/pokedex/{{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "pokemmo.wikia.com",
+    "r": 0,
+    "s": "Pokemon MMO Wiki",
+    "sc": "Games (Pokemon)",
+    "t": "pokemmo",
+    "u": "http://pokemmo.wikia.com/wiki/Special:Search?search={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "pokemondb.net",
+    "r": 26,
+    "s": "Pokémon Database",
+    "sc": "Games (Pokemon)",
+    "t": "pokemondb",
+    "u": "http://pokemondb.net/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.pokepedia.fr",
+    "r": 3,
+    "s": "Pokepedia",
+    "sc": "Games (Pokemon)",
+    "t": "pokepedia",
+    "u": "http://www.pokepedia.fr/index.php?title=Special%3ARecherche&search={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.pokewiki.de",
+    "r": 13,
+    "s": "PokéWiki",
+    "sc": "Games (Pokemon)",
+    "t": "pokewiki",
+    "u": "http://www.pokewiki.de/index.php?search={{{s}}}&button=&title=Spezial%3ASuche"
+  },
+  {
+    "c": "Entertainment",
+    "d": "pkmncards.com",
+    "r": 23,
+    "s": "PkmnCards",
+    "sc": "Games (Pokemon)",
+    "t": "ptcg",
+    "u": "http://pkmncards.com/?s={{{s}}}&display=card&sort=date"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.pokewiki.de",
+    "r": 18,
+    "s": "http://www.pokewiki.de/",
+    "sc": "Games (Pokemon)",
+    "t": "pwde",
+    "u": "http://www.pokewiki.de/index.php?search={{{s}}}&title=Spezial%3ASuche&go=Seite"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.serebii.net",
+    "r": 104,
+    "s": "Serebii",
+    "sc": "Games (Pokemon)",
+    "t": "serebii",
+    "u": "http://www.serebii.net/search.shtml?cx=018410473690156091934%3A6gahkiyodbi&cof=FORID%3A11&q={{{s}}}&sa=Search&siteurl=www.serebii.net%2Findex2.shtml"
+  },
+  {
+    "c": "Entertainment",
+    "d": "dex.pokemonshowdown.com",
+    "r": 10,
+    "s": "Pokémon Showdown",
+    "sc": "Games (Pokemon)",
+    "t": "showdown",
+    "u": "http://dex.pokemonshowdown.com/?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Smogon Dex Sun and Moon",
+    "sc": "Games (Pokemon)",
+    "t": "smgsm",
+    "u": "http://www.smogon.com/dex/sm/pokemon/{{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Strategy Pokedex Black and White Smogon",
+    "sc": "Games (Pokemon)",
+    "t": "smogonbw",
+    "u": "http://www.smogon.com/dex/bw/pokemon/{{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Strategy Pokedex Diamond Perl Smogon",
+    "sc": "Games (Pokemon)",
+    "t": "smogondp",
+    "u": "http://www.smogon.com/dex/dp/pokemon/{{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Strategy Pokedex Gold Silver Smogon",
+    "sc": "Games (Pokemon)",
+    "t": "smogongs",
+    "u": "http://www.smogon.com/dex/gs/pokemon/{{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Strategy Pokedex Re Blue Smogon",
+    "sc": "Games (Pokemon)",
+    "t": "smogonrb",
+    "u": "http://www.smogon.com/dex/rb/pokemon/{{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 112,
+    "s": "Smogon University",
+    "sc": "Games (Pokemon)",
+    "t": "smogon",
+    "u": "https://www.smogon.com/dex/sm/pokemon/{{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Smogon",
+    "sc": "Games (Pokemon)",
+    "t": "smogonsm",
+    "u": "http://www.smogon.com/dex/sm/pokemon/{{{s}}}/"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Smogon X/Y strategydex",
+    "sc": "Games (Pokemon)",
+    "t": "smogonxy",
+    "u": "http://www.smogon.com/dex/xy/pokemon/{{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Smogon R_S",
+    "sc": "Games (Pokemon)",
+    "t": "smogrs",
+    "u": "http://www.smogon.com/dex/rs/pokemon/{{{s}}}/"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Smogon University",
+    "sc": "Games (Pokemon)",
+    "t": "smog",
+    "u": "http://www.smogon.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "veekun.com",
+    "r": 31,
+    "s": "Veekun Pokedex",
+    "sc": "Games (Pokemon)",
+    "t": "veekun",
+    "u": "http://veekun.com/dex/lookup?lookup={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "waapt.wiki.tropi.us",
+    "r": 0,
+    "s": "We Are All Pokémon Trainers Wiki",
+    "sc": "Games (Pokemon)",
+    "t": "waapt",
+    "u": "https://waapt.wiki.tropi.us/wiki/Special:Search/{{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "es.pokemon.wikia.com",
+    "r": 0,
+    "s": "WikiDex",
+    "sc": "Games (Pokemon)",
+    "t": "wdex",
+    "u": "http://es.pokemon.wikia.com/wiki/Especial:Buscar?query={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.wikidex.net",
+    "r": 24,
+    "s": "WikiDex",
+    "sc": "Games (Pokemon)",
+    "t": "wikidex",
+    "u": "https://www.wikidex.net/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.wikidex.net",
+    "r": 8,
+    "s": "Wikidex",
+    "sc": "Games (Pokemon)",
+    "t": "wkdx",
+    "u": "https://www.wikidex.net/index.php?title=Especial:Buscar&search={{{s}}}"
+  }
+];
+
+export const bangIndex: Record<string, BangCommand> = {
+  "battledex": {
+    "c": "Entertainment",
+    "d": "pokemongohub.net",
+    "r": 0,
+    "s": "Pokemon Go Hub Battledex",
+    "sc": "Games (Pokemon)",
+    "t": "battledex",
+    "u": "https://pokemongohub.net/?s={{{s}}}"
+  },
+  "bpa": {
+    "c": "Entertainment",
+    "d": "bulbapedia.bulbagarden.net",
+    "r": 53,
+    "s": "Bulbapedia",
+    "sc": "Games (Pokemon)",
+    "t": "bpa",
+    "u": "http://bulbapedia.bulbagarden.net/wiki/{{{s}}}"
+  },
+  "bpedia": {
+    "c": "Entertainment",
+    "d": "bulbapedia.bulbagarden.net",
+    "r": 34,
+    "s": "Bulbapedia",
+    "sc": "Games (Pokemon)",
+    "t": "bpedia",
+    "u": "http://bulbapedia.bulbagarden.net/w/index.php?title=Special:Search&search={{{s}}}&go=Go"
+  },
+  "bulbapedia": {
+    "c": "Entertainment",
+    "d": "bulbapedia.bulbagarden.net",
+    "r": 97,
+    "s": "Bulbapedia",
+    "sc": "Games (Pokemon)",
+    "t": "bulbapedia",
+    "u": "http://bulbapedia.bulbagarden.net/w/index.php?title=Special:Search&search={{{s}}}&go=Go"
+  },
+  "dex6g": {
+    "c": "Entertainment",
+    "d": "www.pokebip.com",
+    "r": 0,
+    "s": "Pokdex Pokebip",
+    "sc": "Games (Pokemon)",
+    "t": "dex6g",
+    "u": "https://www.pokebip.com/pokedex/index.php?phppage=recherche&req={{{s}}}"
+  },
+  "pkmce": {
+    "c": "Entertainment",
+    "d": "wiki.pokemoncentral.it",
+    "r": 0,
+    "s": "Pokémon Central Wiki",
+    "sc": "Games (Pokemon)",
+    "t": "pkmce",
+    "u": "http://wiki.pokemoncentral.it/index.php?search={{{s}}}"
+  },
+  "pocewiki": {
+    "c": "Entertainment",
+    "d": "wiki.pokemoncentral.it",
+    "r": 7,
+    "s": "Pokémon Central Wiki",
+    "sc": "Games (Pokemon)",
+    "t": "pocewiki",
+    "u": "http://wiki.pokemoncentral.it/index.php?search={{{s}}}"
+  },
+  "pokebrickbronze": {
+    "c": "Entertainment",
+    "d": "brickbronze.wikia.com",
+    "r": 0,
+    "s": "Pokémon Brick Bronze Wikia",
+    "sc": "Games (Pokemon)",
+    "t": "pokebrickbronze",
+    "u": "http://brickbronze.wikia.com/wiki/Special:Search?query={{{s}}}"
+  },
+  "pokecommunity": {
+    "c": "Entertainment",
+    "d": "www.pokecommunity.com",
+    "r": 0,
+    "s": "Pokécommunity",
+    "sc": "Games (Pokemon)",
+    "t": "pokecommunity",
+    "u": "https://www.pokecommunity.com/search.php?do=q{{{s}}}"
+  },
+  "pokedb": {
+    "c": "Entertainment",
+    "d": "pokemondb.net",
+    "r": 36,
+    "s": "Pokemon Database",
+    "sc": "Games (Pokemon)",
+    "t": "pokedb",
+    "u": "http://pokemondb.net/search?q={{{s}}}"
+  },
+  "pokedex": {
+    "c": "Entertainment",
+    "d": "www.pokemon.com",
+    "r": 0,
+    "s": "Pokemon Official Website Pokedex",
+    "sc": "Games (Pokemon)",
+    "t": "pokedex",
+    "u": "https://www.pokemon.com/us/pokedex/{{{s}}}"
+  },
+  "pokemmo": {
+    "c": "Entertainment",
+    "d": "pokemmo.wikia.com",
+    "r": 0,
+    "s": "Pokemon MMO Wiki",
+    "sc": "Games (Pokemon)",
+    "t": "pokemmo",
+    "u": "http://pokemmo.wikia.com/wiki/Special:Search?search={{{s}}}"
+  },
+  "pokemondb": {
+    "c": "Entertainment",
+    "d": "pokemondb.net",
+    "r": 26,
+    "s": "Pokémon Database",
+    "sc": "Games (Pokemon)",
+    "t": "pokemondb",
+    "u": "http://pokemondb.net/search?q={{{s}}}"
+  },
+  "pokepedia": {
+    "c": "Entertainment",
+    "d": "www.pokepedia.fr",
+    "r": 3,
+    "s": "Pokepedia",
+    "sc": "Games (Pokemon)",
+    "t": "pokepedia",
+    "u": "http://www.pokepedia.fr/index.php?title=Special%3ARecherche&search={{{s}}}"
+  },
+  "pokewiki": {
+    "c": "Entertainment",
+    "d": "www.pokewiki.de",
+    "r": 13,
+    "s": "PokéWiki",
+    "sc": "Games (Pokemon)",
+    "t": "pokewiki",
+    "u": "http://www.pokewiki.de/index.php?search={{{s}}}&button=&title=Spezial%3ASuche"
+  },
+  "ptcg": {
+    "c": "Entertainment",
+    "d": "pkmncards.com",
+    "r": 23,
+    "s": "PkmnCards",
+    "sc": "Games (Pokemon)",
+    "t": "ptcg",
+    "u": "http://pkmncards.com/?s={{{s}}}&display=card&sort=date"
+  },
+  "pwde": {
+    "c": "Entertainment",
+    "d": "www.pokewiki.de",
+    "r": 18,
+    "s": "http://www.pokewiki.de/",
+    "sc": "Games (Pokemon)",
+    "t": "pwde",
+    "u": "http://www.pokewiki.de/index.php?search={{{s}}}&title=Spezial%3ASuche&go=Seite"
+  },
+  "serebii": {
+    "c": "Entertainment",
+    "d": "www.serebii.net",
+    "r": 104,
+    "s": "Serebii",
+    "sc": "Games (Pokemon)",
+    "t": "serebii",
+    "u": "http://www.serebii.net/search.shtml?cx=018410473690156091934%3A6gahkiyodbi&cof=FORID%3A11&q={{{s}}}&sa=Search&siteurl=www.serebii.net%2Findex2.shtml"
+  },
+  "showdown": {
+    "c": "Entertainment",
+    "d": "dex.pokemonshowdown.com",
+    "r": 10,
+    "s": "Pokémon Showdown",
+    "sc": "Games (Pokemon)",
+    "t": "showdown",
+    "u": "http://dex.pokemonshowdown.com/?q={{{s}}}"
+  },
+  "smgsm": {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Smogon Dex Sun and Moon",
+    "sc": "Games (Pokemon)",
+    "t": "smgsm",
+    "u": "http://www.smogon.com/dex/sm/pokemon/{{{s}}}"
+  },
+  "smogonbw": {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Strategy Pokedex Black and White Smogon",
+    "sc": "Games (Pokemon)",
+    "t": "smogonbw",
+    "u": "http://www.smogon.com/dex/bw/pokemon/{{{s}}}"
+  },
+  "smogondp": {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Strategy Pokedex Diamond Perl Smogon",
+    "sc": "Games (Pokemon)",
+    "t": "smogondp",
+    "u": "http://www.smogon.com/dex/dp/pokemon/{{{s}}}"
+  },
+  "smogongs": {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Strategy Pokedex Gold Silver Smogon",
+    "sc": "Games (Pokemon)",
+    "t": "smogongs",
+    "u": "http://www.smogon.com/dex/gs/pokemon/{{{s}}}"
+  },
+  "smogonrb": {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Strategy Pokedex Re Blue Smogon",
+    "sc": "Games (Pokemon)",
+    "t": "smogonrb",
+    "u": "http://www.smogon.com/dex/rb/pokemon/{{{s}}}"
+  },
+  "smogon": {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 112,
+    "s": "Smogon University",
+    "sc": "Games (Pokemon)",
+    "t": "smogon",
+    "u": "https://www.smogon.com/dex/sm/pokemon/{{{s}}}"
+  },
+  "smogonsm": {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Smogon",
+    "sc": "Games (Pokemon)",
+    "t": "smogonsm",
+    "u": "http://www.smogon.com/dex/sm/pokemon/{{{s}}}/"
+  },
+  "smogonxy": {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Smogon X/Y strategydex",
+    "sc": "Games (Pokemon)",
+    "t": "smogonxy",
+    "u": "http://www.smogon.com/dex/xy/pokemon/{{{s}}}"
+  },
+  "smogrs": {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Smogon R_S",
+    "sc": "Games (Pokemon)",
+    "t": "smogrs",
+    "u": "http://www.smogon.com/dex/rs/pokemon/{{{s}}}/"
+  },
+  "smog": {
+    "c": "Entertainment",
+    "d": "www.smogon.com",
+    "r": 0,
+    "s": "Smogon University",
+    "sc": "Games (Pokemon)",
+    "t": "smog",
+    "u": "http://www.smogon.com/search/?q={{{s}}}"
+  },
+  "veekun": {
+    "c": "Entertainment",
+    "d": "veekun.com",
+    "r": 31,
+    "s": "Veekun Pokedex",
+    "sc": "Games (Pokemon)",
+    "t": "veekun",
+    "u": "http://veekun.com/dex/lookup?lookup={{{s}}}"
+  },
+  "waapt": {
+    "c": "Entertainment",
+    "d": "waapt.wiki.tropi.us",
+    "r": 0,
+    "s": "We Are All Pokémon Trainers Wiki",
+    "sc": "Games (Pokemon)",
+    "t": "waapt",
+    "u": "https://waapt.wiki.tropi.us/wiki/Special:Search/{{{s}}}"
+  },
+  "wdex": {
+    "c": "Entertainment",
+    "d": "es.pokemon.wikia.com",
+    "r": 0,
+    "s": "WikiDex",
+    "sc": "Games (Pokemon)",
+    "t": "wdex",
+    "u": "http://es.pokemon.wikia.com/wiki/Especial:Buscar?query={{{s}}}"
+  },
+  "wikidex": {
+    "c": "Entertainment",
+    "d": "www.wikidex.net",
+    "r": 24,
+    "s": "WikiDex",
+    "sc": "Games (Pokemon)",
+    "t": "wikidex",
+    "u": "https://www.wikidex.net/index.php?search={{{s}}}"
+  },
+  "wkdx": {
+    "c": "Entertainment",
+    "d": "www.wikidex.net",
+    "r": 8,
+    "s": "Wikidex",
+    "sc": "Games (Pokemon)",
+    "t": "wkdx",
+    "u": "https://www.wikidex.net/index.php?title=Especial:Buscar&search={{{s}}}"
+  }
+};
+
+export const categories = [
+  "Entertainment"
+];

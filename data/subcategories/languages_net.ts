@@ -1,0 +1,195 @@
+
+// Auto-generated Languages (.net) bang commands from DuckDuckGo
+// Generated on: 2025-03-01T15:43:19.367Z
+
+import { BangCommand } from '../bangs';
+
+export const bangs: BangCommand[] = [
+  {
+    "c": "Tech",
+    "d": "learn.microsoft.com",
+    "r": 0,
+    "s": ".NET API Browser",
+    "sc": "Languages (.net)",
+    "t": "dnab",
+    "u": "https://learn.microsoft.com/en-us/dotnet/api/?term={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "learn.microsoft.com",
+    "r": 6,
+    "s": ".NET API",
+    "sc": "Languages (.net)",
+    "t": "dotnetapi",
+    "u": "https://learn.microsoft.com/en-us/dotnet/api/?term={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "learn.microsoft.com",
+    "r": 43,
+    "s": "Microsoft Docs",
+    "sc": "Languages (.net)",
+    "t": "dotnet",
+    "u": "https://learn.microsoft.com/en-us/search/?terms={{{s}}}&products=%2Fdevrel%2F7696cda6-0510-47f6-8302-71bb5d2e28cf"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.microsoft.com",
+    "r": 0,
+    "s": "Microsoft Docs",
+    "sc": "Languages (.net)",
+    "t": "msdotnet",
+    "u": "https://docs.microsoft.com/en-us/search/index?search={{{s}}}&scope=.NET"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.microsoft.com",
+    "r": 0,
+    "s": "Microsoft .Net API",
+    "sc": "Languages (.net)",
+    "t": "ms.net",
+    "u": "https://docs.microsoft.com/en-us/dotnet/api/?view=netframework-4.7&term={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.microsoft.com",
+    "r": 0,
+    "s": ".NET API Browser - .NET Core 2.0",
+    "sc": "Languages (.net)",
+    "t": "netcore2api",
+    "u": "https://docs.microsoft.com/en-us/dotnet/api/?view=netcore-2.0&term={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.searchdotnet.com",
+    "r": 5,
+    "s": "DotNet Docs",
+    "sc": "Languages (.net)",
+    "t": ".net",
+    "u": "http://www.searchdotnet.com/results.aspx?cx=002213837942349435108:jki1okx03jq&q={{{s}}}&sa=Search+.NET+sites&cof=FORID:9&siteurl=www.searchdotnet.com/"
+  },
+  {
+    "c": "Tech",
+    "d": "referencesource.microsoft.com",
+    "r": 0,
+    "s": "DotNet Reference Sources",
+    "sc": "Languages (.net)",
+    "t": "netsrc",
+    "u": "http://referencesource.microsoft.com/#q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "nuget.org",
+    "r": 191,
+    "s": "nuget gallery",
+    "sc": "Languages (.net)",
+    "t": "nuget",
+    "u": "http://nuget.org/packages?q={{{s}}}&sortOrder=package-download-count"
+  },
+  {
+    "c": "Tech",
+    "d": "pinvoke.net",
+    "r": 0,
+    "s": "Pinvoke.net",
+    "sc": "Languages (.net)",
+    "t": "pinvoke",
+    "u": "http://pinvoke.net/search.aspx?search={{{s}}}"
+  }
+];
+
+export const bangIndex: Record<string, BangCommand> = {
+  "dnab": {
+    "c": "Tech",
+    "d": "learn.microsoft.com",
+    "r": 0,
+    "s": ".NET API Browser",
+    "sc": "Languages (.net)",
+    "t": "dnab",
+    "u": "https://learn.microsoft.com/en-us/dotnet/api/?term={{{s}}}"
+  },
+  "dotnetapi": {
+    "c": "Tech",
+    "d": "learn.microsoft.com",
+    "r": 6,
+    "s": ".NET API",
+    "sc": "Languages (.net)",
+    "t": "dotnetapi",
+    "u": "https://learn.microsoft.com/en-us/dotnet/api/?term={{{s}}}"
+  },
+  "dotnet": {
+    "c": "Tech",
+    "d": "learn.microsoft.com",
+    "r": 43,
+    "s": "Microsoft Docs",
+    "sc": "Languages (.net)",
+    "t": "dotnet",
+    "u": "https://learn.microsoft.com/en-us/search/?terms={{{s}}}&products=%2Fdevrel%2F7696cda6-0510-47f6-8302-71bb5d2e28cf"
+  },
+  "msdotnet": {
+    "c": "Tech",
+    "d": "docs.microsoft.com",
+    "r": 0,
+    "s": "Microsoft Docs",
+    "sc": "Languages (.net)",
+    "t": "msdotnet",
+    "u": "https://docs.microsoft.com/en-us/search/index?search={{{s}}}&scope=.NET"
+  },
+  "ms.net": {
+    "c": "Tech",
+    "d": "docs.microsoft.com",
+    "r": 0,
+    "s": "Microsoft .Net API",
+    "sc": "Languages (.net)",
+    "t": "ms.net",
+    "u": "https://docs.microsoft.com/en-us/dotnet/api/?view=netframework-4.7&term={{{s}}}"
+  },
+  "netcore2api": {
+    "c": "Tech",
+    "d": "docs.microsoft.com",
+    "r": 0,
+    "s": ".NET API Browser - .NET Core 2.0",
+    "sc": "Languages (.net)",
+    "t": "netcore2api",
+    "u": "https://docs.microsoft.com/en-us/dotnet/api/?view=netcore-2.0&term={{{s}}}"
+  },
+  ".net": {
+    "c": "Tech",
+    "d": "www.searchdotnet.com",
+    "r": 5,
+    "s": "DotNet Docs",
+    "sc": "Languages (.net)",
+    "t": ".net",
+    "u": "http://www.searchdotnet.com/results.aspx?cx=002213837942349435108:jki1okx03jq&q={{{s}}}&sa=Search+.NET+sites&cof=FORID:9&siteurl=www.searchdotnet.com/"
+  },
+  "netsrc": {
+    "c": "Tech",
+    "d": "referencesource.microsoft.com",
+    "r": 0,
+    "s": "DotNet Reference Sources",
+    "sc": "Languages (.net)",
+    "t": "netsrc",
+    "u": "http://referencesource.microsoft.com/#q={{{s}}}"
+  },
+  "nuget": {
+    "c": "Tech",
+    "d": "nuget.org",
+    "r": 191,
+    "s": "nuget gallery",
+    "sc": "Languages (.net)",
+    "t": "nuget",
+    "u": "http://nuget.org/packages?q={{{s}}}&sortOrder=package-download-count"
+  },
+  "pinvoke": {
+    "c": "Tech",
+    "d": "pinvoke.net",
+    "r": 0,
+    "s": "Pinvoke.net",
+    "sc": "Languages (.net)",
+    "t": "pinvoke",
+    "u": "http://pinvoke.net/search.aspx?search={{{s}}}"
+  }
+};
+
+export const categories = [
+  "Tech"
+];

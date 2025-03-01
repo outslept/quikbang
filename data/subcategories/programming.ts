@@ -1,0 +1,7161 @@
+
+// Auto-generated Programming bang commands from DuckDuckGo
+// Generated on: 2025-03-01T15:43:18.551Z
+
+import { BangCommand } from '../bangs';
+
+export const bangs: BangCommand[] = [
+  {
+    "c": "Tech",
+    "d": "3dbrew.org",
+    "r": 0,
+    "s": "3DBrew",
+    "sc": "Programming",
+    "t": "3dbrew",
+    "u": "http://3dbrew.org/wiki/Special:Search?search={{{s}}}&go=Go"
+  },
+  {
+    "c": "Tech",
+    "d": "profile.intra.42.fr",
+    "r": 122,
+    "s": "42 Intra",
+    "sc": "Programming",
+    "t": "42",
+    "u": "https://profile.intra.42.fr/searches/search?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "plugins.cordova.io",
+    "r": 0,
+    "s": "Apache Cordova Plugins Registry",
+    "sc": "Programming",
+    "t": "acp",
+    "u": "http://plugins.cordova.io/#/search?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "developer.apple.com",
+    "r": 0,
+    "s": "Apple Developer Center",
+    "sc": "Programming",
+    "t": "adc",
+    "u": "https://developer.apple.com/search/index.php?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "developer.apple.com",
+    "r": 50,
+    "s": "Apple Developer",
+    "sc": "Programming",
+    "t": "adev",
+    "u": "https://developer.apple.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "forums.developer.apple.com",
+    "r": 0,
+    "s": "Apple dev form",
+    "sc": "Programming",
+    "t": "adf",
+    "u": "https://forums.developer.apple.com/search.jspa?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "android-review.googlesource.com",
+    "r": 0,
+    "s": "Android Code Review (Gerrit)",
+    "sc": "Programming",
+    "t": "agerrit",
+    "u": "https://android-review.googlesource.com/q/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.autohotkey.com",
+    "r": 4,
+    "s": "AutoHotkey",
+    "sc": "Programming",
+    "t": "ahk",
+    "u": "http://www.autohotkey.com/search/search.php?site=4&refine=0&template_demo=phpdig.html&result_page=search.php&search=Go+...&limite=100&option=start&path=docs/&query_string={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.alfredapp.com",
+    "r": 0,
+    "s": "Alfred",
+    "sc": "Programming",
+    "t": "alfred",
+    "u": "https://www.alfredapp.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.algomation.com",
+    "r": 0,
+    "s": "Algomation",
+    "sc": "Programming",
+    "t": "alg",
+    "u": "http://www.algomation.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "algorithmia.com",
+    "r": 0,
+    "s": "Algorithmia",
+    "sc": "Programming",
+    "t": "algo",
+    "u": "https://algorithmia.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.amp-what.com",
+    "r": 0,
+    "s": "&what;",
+    "sc": "Programming",
+    "t": "ampwhat",
+    "u": "http://www.amp-what.com/unicode/search/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "android-arsenal.com",
+    "r": 0,
+    "s": "Android Arsenal",
+    "sc": "Programming",
+    "t": "andar",
+    "u": "https://android-arsenal.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "developer.android.com",
+    "r": 0,
+    "s": "Android Developers",
+    "sc": "Programming",
+    "t": "andev",
+    "u": "https://developer.android.com/s/results/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "developer.android.com",
+    "r": 31,
+    "s": "Android Developers",
+    "sc": "Programming",
+    "t": "android",
+    "u": "https://developer.android.com/s/results/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "atom.io",
+    "r": 0,
+    "s": "Atom Packages",
+    "sc": "Programming",
+    "t": "apm",
+    "u": "https://atom.io/packages/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "code.google.com",
+    "r": 0,
+    "s": "App Engine Docs",
+    "sc": "Programming",
+    "t": "appengine",
+    "u": "http://code.google.com/query/#p=appengine&q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "ruby.libhunt.com",
+    "r": 0,
+    "s": "Awesome Ruby (LibHun)",
+    "sc": "Programming",
+    "t": "arb",
+    "u": "https://ruby.libhunt.com/search?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "resources.arcgis.com",
+    "r": 0,
+    "s": "ArcGIS Resource Center",
+    "sc": "Programming",
+    "t": "arcgisres",
+    "u": "http://resources.arcgis.com/content/search-result?searchKeyWord={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "arduino.stackexchange.com",
+    "r": 0,
+    "s": "Arduino Stack Exchange",
+    "sc": "Programming",
+    "t": "arduino",
+    "u": "http://arduino.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.armadeus.com",
+    "r": 0,
+    "s": "Armadeus Project",
+    "sc": "Programming",
+    "t": "armadeus",
+    "u": "http://www.armadeus.com/wiki/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "azure.microsoft.com",
+    "r": 0,
+    "s": "Azure Quickstart Templates",
+    "sc": "Programming",
+    "t": "armtemp",
+    "u": "https://azure.microsoft.com/de-de/resources/templates/?term={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "askubuntu.com",
+    "r": 0,
+    "s": "Ask Ubuntu",
+    "sc": "Programming",
+    "t": "askubuntu",
+    "u": "http://askubuntu.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.autoitscript.com",
+    "r": 0,
+    "s": "AutoIt Forums",
+    "sc": "Programming",
+    "t": "au3",
+    "u": "https://www.autoitscript.com/forum/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.autosar.org",
+    "r": 0,
+    "s": "Autosar",
+    "sc": "Programming",
+    "t": "autosar",
+    "u": "https://www.autosar.org/nc/document-search/?tx_sysgsearch_pi1%5Bquery%5D={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.baeldung.com",
+    "r": 0,
+    "s": "Baeldung",
+    "sc": "Programming",
+    "t": "baeldung",
+    "u": "https://www.baeldung.com/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 7,
+    "s": "Bash",
+    "sc": "Programming",
+    "t": "bash",
+    "u": "http://duckduckgo.com/?q={{{s}}}+site:mywiki.wooledge.org,wiki.bash-hackers.org"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.bazel.build",
+    "r": 0,
+    "s": "bazel documentation",
+    "sc": "Programming",
+    "t": "bazel",
+    "u": "https://docs.bazel.build/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "bitbucket.org",
+    "r": 32,
+    "s": "Bitbucket",
+    "sc": "Programming",
+    "t": "bb",
+    "u": "https://bitbucket.org/repo/all/?name={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "bitbucket.org",
+    "r": 16,
+    "s": "Bitbucket Code Search",
+    "sc": "Programming",
+    "t": "bbcs",
+    "u": "https://bitbucket.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "doc.babylonjs.com",
+    "r": 0,
+    "s": " Babylon.js documentation",
+    "sc": "Programming",
+    "t": "bbjs",
+    "u": "https://doc.babylonjs.com/search/?bjsq={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "bitbucket.org",
+    "r": 0,
+    "s": "Bitbucket User",
+    "sc": "Programming",
+    "t": "bbus",
+    "u": "https://bitbucket.org/{{{s}}}/"
+  },
+  {
+    "c": "Tech",
+    "d": "tools.ietf.org",
+    "r": 0,
+    "s": "Best Current Practices",
+    "sc": "Programming",
+    "t": "bcp",
+    "u": "http://tools.ietf.org/html/bcp{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "en.bitcoin.it",
+    "r": 0,
+    "s": "Bitcoin Wiki",
+    "sc": "Programming",
+    "t": "bcwiki",
+    "u": "https://en.bitcoin.it/w/index.php?title=Special%3ASearch&search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.bitdegree.org",
+    "r": 0,
+    "s": "BitDegree Online Courses",
+    "sc": "Programming",
+    "t": "bdgc",
+    "u": "https://www.bitdegree.org/search?q={{{s}}}&src=ukw"
+  },
+  {
+    "c": "Tech",
+    "d": "www.bitdegree.org",
+    "r": 0,
+    "s": "BitDegree Learn",
+    "sc": "Programming",
+    "t": "bdgl",
+    "u": "https://www.bitdegree.org/learn/search?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "live.blockcypher.com",
+    "r": 0,
+    "s": "BlockCypher",
+    "sc": "Programming",
+    "t": "blcy",
+    "u": "https://live.blockcypher.com/btc/address/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.blender.org",
+    "r": 0,
+    "s": "Blender API",
+    "sc": "Programming",
+    "t": "blenderapi",
+    "u": "https://docs.blender.org/api/current/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "bugzilla.mozilla.org",
+    "r": 0,
+    "s": "Mozilla Bugzilla",
+    "sc": "Programming",
+    "t": "bmo",
+    "u": "https://bugzilla.mozilla.org/buglist.cgi?quicksearch={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "boto3.readthedocs.io",
+    "r": 7,
+    "s": "Boto 3 Docs",
+    "sc": "Programming",
+    "t": "boto3",
+    "u": "https://boto3.readthedocs.io/en/latest/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  {
+    "c": "Tech",
+    "d": "www.bountysource.com",
+    "r": 0,
+    "s": "Bountysource",
+    "sc": "Programming",
+    "t": "bountysource",
+    "u": "https://www.bountysource.com/search?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "bugzilla.mozilla.org",
+    "r": 3,
+    "s": "Bugzilla",
+    "sc": "Programming",
+    "t": "bugzilla",
+    "u": "https://bugzilla.mozilla.org/buglist.cgi?quicksearch={{{s}}} "
+  },
+  {
+    "c": "Tech",
+    "d": "cycling74.com",
+    "r": 0,
+    "s": "Cycling '74",
+    "sc": "Programming",
+    "t": "c74",
+    "u": "https://cycling74.com/search/page/1/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "codebottle.io",
+    "r": 0,
+    "s": "Codebottle",
+    "sc": "Programming",
+    "t": "cbottle",
+    "u": "https://codebottle.io/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.aws.amazon.com",
+    "r": 15,
+    "s": "AWS CloudFormation Documentation",
+    "sc": "Programming",
+    "t": "cfn",
+    "u": "http://docs.aws.amazon.com/search/doc-search.html?searchPath=documentation-guide&searchQuery={{{s}}}&this_doc_product=AWS+CloudFormation&this_doc_guide=User+Guide&doc_locale=en_us#facet_doc_product=AWS%20CloudFormation&facet_doc_guide=User%20Guide"
+  },
+  {
+    "c": "Tech",
+    "d": "devhints.io",
+    "r": 9,
+    "s": "https://devhints.io/",
+    "sc": "Programming",
+    "t": "cheat",
+    "u": "https://devhints.io/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "chmodcommand.com",
+    "r": 0,
+    "s": "Chmod Calculator",
+    "sc": "Programming",
+    "t": "chmod",
+    "u": "https://chmodcommand.com/chmod-{{{s}}}/"
+  },
+  {
+    "c": "Tech",
+    "d": "www.creationkit.com",
+    "r": 0,
+    "s": "Creation Kit",
+    "sc": "Programming",
+    "t": "ckt",
+    "u": "http://www.creationkit.com/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "cloogle.org",
+    "r": 0,
+    "s": "Cloogle",
+    "sc": "Programming",
+    "t": "cloogle",
+    "u": "http://cloogle.org/#{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "cmake.org",
+    "r": 118,
+    "s": "CMake documentation",
+    "sc": "Programming",
+    "t": "cmake",
+    "u": "https://cmake.org/cmake/help/latest/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  {
+    "c": "Tech",
+    "d": "codebottle.io",
+    "r": 0,
+    "s": "CodeBottle",
+    "sc": "Programming",
+    "t": "codebottle",
+    "u": "https://codebottle.io/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "codedgar.com.ve",
+    "r": 0,
+    "s": "Codedgar",
+    "sc": "Programming",
+    "t": "codedgar",
+    "u": "https://codedgar.com.ve/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "codeforces.com",
+    "r": 34,
+    "s": "Codeforces",
+    "sc": "Programming",
+    "t": "codeforces",
+    "u": "http://codeforces.com/search?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "code.gov",
+    "r": 0,
+    "s": "Code.gov",
+    "sc": "Programming",
+    "t": "codegov",
+    "u": "https://code.gov/search?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "code.kx.com",
+    "r": 0,
+    "s": "code.kx",
+    "sc": "Programming",
+    "t": "codekx",
+    "u": "https://code.kx.com/q/search?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.computerhope.com",
+    "r": 0,
+    "s": "Computer Hope",
+    "sc": "Programming",
+    "t": "computerhope",
+    "u": "https://www.computerhope.com/search2.htm?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "plugins.cordova.io",
+    "r": 0,
+    "s": "Apache Cordova Plugins Registry",
+    "sc": "Programming",
+    "t": "cordovapl",
+    "u": "http://plugins.cordova.io/#/search?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "codepen.io",
+    "r": 0,
+    "s": "Codepen",
+    "sc": "Programming",
+    "t": "cpen",
+    "u": "http://codepen.io/search?q={{{s}}}&limit=all&depth=everything&show_forks=false"
+  },
+  {
+    "c": "Tech",
+    "d": "www.codeproject.com",
+    "r": 0,
+    "s": "Code Project",
+    "sc": "Programming",
+    "t": "cproj",
+    "u": "http://www.codeproject.com/search.aspx?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "crate.io",
+    "r": 54,
+    "s": "crate.io",
+    "sc": "Programming",
+    "t": "crate",
+    "u": "https://crate.io/docs/stable/search.html?check_keywords=yes&area=default&q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "bugs.chromium.org",
+    "r": 0,
+    "s": "Chromium bugs",
+    "sc": "Programming",
+    "t": "crbug",
+    "u": "https://bugs.chromium.org/p/chromium/issues/list?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "codereview.stackexchange.com",
+    "r": 4,
+    "s": "codereview.stackexchange.com",
+    "sc": "Programming",
+    "t": "cr",
+    "u": "http://codereview.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.cockroachlabs.com",
+    "r": 0,
+    "s": "CockroachDB Docs",
+    "sc": "Programming",
+    "t": "crdb",
+    "u": "https://www.cockroachlabs.com/docs/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "crypto.stackexchange.com",
+    "r": 0,
+    "s": "Crypto Stack Exchange",
+    "sc": "Programming",
+    "t": "crypto",
+    "u": "http://crypto.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "social.msdn.microsoft.com",
+    "r": 10,
+    "s": "C# MSDN",
+    "sc": "Programming",
+    "t": "csharp",
+    "u": "http://social.msdn.microsoft.com/Search/en-US?query={{{s}}}&Refinement=126&ac=8"
+  },
+  {
+    "c": "Tech",
+    "d": "www.csounds.com",
+    "r": 0,
+    "s": "csounds",
+    "sc": "Programming",
+    "t": "csound",
+    "u": "http://www.csounds.com/manual/html/{{{s}}}.html"
+  },
+  {
+    "c": "Tech",
+    "d": "css-tricks.com",
+    "r": 0,
+    "s": "CSS-Tricks",
+    "sc": "Programming",
+    "t": "csst",
+    "u": "https://css-tricks.com/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "cstheory.stackexchange.com",
+    "r": 0,
+    "s": "Theoretical Computer Science - Stack Exchange",
+    "sc": "Programming",
+    "t": "cstheory",
+    "u": "http://cstheory.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "stats.stackexchange.com",
+    "r": 0,
+    "s": "Cross Validated",
+    "sc": "Programming",
+    "t": "cv",
+    "u": "https://stats.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.codewars.com",
+    "r": 7,
+    "s": "CodeWars",
+    "sc": "Programming",
+    "t": "cw",
+    "u": "https://www.codewars.com/kata/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "cse.google.com",
+    "r": 0,
+    "s": "Common Weakness Enumeration",
+    "sc": "Programming",
+    "t": "cwe",
+    "u": "https://cse.google.com/cse?oe=utf8&ie=utf8&source=uds&q={{{s}}}&start=0&cx=012899561505164599335:tb0er0xsk_o"
+  },
+  {
+    "c": "Tech",
+    "d": "cygwin.com",
+    "r": 0,
+    "s": "Cygwin Package Search",
+    "sc": "Programming",
+    "t": "cyg64",
+    "u": "https://cygwin.com/cgi-bin2/package-grep.cgi?grep={{{s}}}&arch=x86_64"
+  },
+  {
+    "c": "Tech",
+    "d": "www.daniweb.com",
+    "r": 0,
+    "s": "DaniWeb",
+    "sc": "Programming",
+    "t": "daniweb",
+    "u": "https://www.daniweb.com/search/index?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.dartlang.org",
+    "r": 0,
+    "s": "dartlang",
+    "sc": "Programming",
+    "t": "dart",
+    "u": "http://www.dartlang.org/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "pub.dartlang.org",
+    "r": 8,
+    "s": "Dart Packages",
+    "sc": "Programming",
+    "t": "dartpub",
+    "u": "https://pub.dartlang.org/packages?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "dba.stackexchange.com",
+    "r": 0,
+    "s": "DBA StackExchange",
+    "sc": "Programming",
+    "t": "dbasx",
+    "u": "http://dba.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "dev.bukkit.org",
+    "r": 0,
+    "s": "BukkitDev",
+    "sc": "Programming",
+    "t": "dbo",
+    "u": "https://dev.bukkit.org/search?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "devdocs.io",
+    "r": 137,
+    "s": "DevDocs",
+    "sc": "Programming",
+    "t": "dd",
+    "u": "https://devdocs.io/#q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "ddh1.duckduckgo.com",
+    "r": 0,
+    "s": "ddh1",
+    "sc": "Programming",
+    "t": "ddh1",
+    "u": "http://ddh1.duckduckgo.com/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duck.co",
+    "r": 10,
+    "s": "DuckDuckHack",
+    "sc": "Programming",
+    "t": "ddh",
+    "u": "https://duck.co/ia?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 12,
+    "s": "Stack Overflow via DuckDuckGo",
+    "sc": "Programming",
+    "t": "ddso",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site:stackoverflow.com"
+  },
+  {
+    "c": "Tech",
+    "d": "defkey.com",
+    "r": 0,
+    "s": "defkey",
+    "sc": "Programming",
+    "t": "defkey",
+    "u": "https://defkey.com/search?irq={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "devdocs.io",
+    "r": 4,
+    "s": "DevDocs",
+    "sc": "Programming",
+    "t": "dev",
+    "u": "https://devdocs.io/#q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "devdocs.io",
+    "r": 3,
+    "s": "DevDocs",
+    "sc": "Programming",
+    "t": "devdocs",
+    "u": "https://devdocs.io/#q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.developpez.com",
+    "r": 0,
+    "s": "Developpez.com",
+    "sc": "Programming",
+    "t": "developpez",
+    "u": "http://www.developpez.com/recherche/?q={{{s}}}&sa.x=0&sa.y=0&sa=Go&cx=006424388311999799839:-31tnf0iuqy&cof=FORID:9&ie=ISO-8859-1&siteurl=www.developpez.com/"
+  },
+  {
+    "c": "Tech",
+    "d": "devhints.io",
+    "r": 0,
+    "s": "Dev Hints",
+    "sc": "Programming",
+    "t": "devhints",
+    "u": "https://devhints.io/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "dev.opera.com",
+    "r": 0,
+    "s": "Dev.Opera ",
+    "sc": "Programming",
+    "t": "devo",
+    "u": "http://dev.opera.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "dev.to",
+    "r": 0,
+    "s": "dev.to",
+    "sc": "Programming",
+    "t": "dev.to",
+    "u": "https://dev.to/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "dev.tube",
+    "r": 0,
+    "s": "DevTube",
+    "sc": "Programming",
+    "t": "devtube",
+    "u": "http://dev.tube?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "leaf.dragonflybsd.org",
+    "r": 3,
+    "s": "DragonFly BSD manual pages",
+    "sc": "Programming",
+    "t": "dfman",
+    "u": "http://leaf.dragonflybsd.org/cgi/web-man?command={{{s}}}&section=ANY"
+  },
+  {
+    "c": "Tech",
+    "d": "hub.docker.com",
+    "r": 630,
+    "s": "Docker Hub",
+    "sc": "Programming",
+    "t": "dh",
+    "u": "https://hub.docker.com/search/?q={{{s}}}&page=1&isAutomated=0&isOfficial=0&starCount=0&pullCount=0"
+  },
+  {
+    "c": "Tech",
+    "d": "www.die.net",
+    "r": 16,
+    "s": "Linux.die.net man pages",
+    "sc": "Programming",
+    "t": "die",
+    "u": "http://www.die.net/search/?q={{{s}}}&sa=Search&ie=ISO-8859-1&cx=partner-pub-5823754184406795%3A54htp1rtx5u&cof=FORID%3A9"
+  },
+  {
+    "c": "Tech",
+    "d": "networking.ringofsaturn.com",
+    "r": 15,
+    "s": "dig Lookup",
+    "sc": "Programming",
+    "t": "dig",
+    "u": "http://networking.ringofsaturn.com/Tools/dig.php?domain=ANY+{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.djangoproject.com",
+    "r": 102,
+    "s": "Django Docs",
+    "sc": "Programming",
+    "t": "django",
+    "u": "http://docs.djangoproject.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "code.djangoproject.com",
+    "r": 0,
+    "s": "Django Ticket",
+    "sc": "Programming",
+    "t": "djticket",
+    "u": "https://code.djangoproject.com/ticket/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docksal.readthedocs.io",
+    "r": 0,
+    "s": "Docksal",
+    "sc": "Programming",
+    "t": "docksal",
+    "u": "https://docksal.readthedocs.io/en/master/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.rs",
+    "r": 85,
+    "s": "docs.rs",
+    "sc": "Programming",
+    "t": "docs.rs",
+    "u": "https://docs.rs/releases/search?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "PCsoft",
+    "sc": "Programming",
+    "t": "dpcs",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site:doc.pcsoft.fr&ia=web"
+  },
+  {
+    "c": "Tech",
+    "d": "www.debian.org",
+    "r": 0,
+    "s": "Debian Policy Manual",
+    "sc": "Programming",
+    "t": "dpolicy",
+    "u": "https://www.debian.org/doc/debian-policy {{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "pub.dartlang.org",
+    "r": 0,
+    "s": "Dartlang Packages",
+    "sc": "Programming",
+    "t": "dpub",
+    "u": "http://pub.dartlang.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.dreamincode.net",
+    "r": 0,
+    "s": "Dream In Code",
+    "sc": "Programming",
+    "t": "dreamincode",
+    "u": "http://www.dreamincode.net/forums/index.php?app=core&module=search&section=search&do=quick_search&search_app=core&fromsearch=1&search_term={{{s}}}&search_app=forums"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.rs",
+    "r": 1042,
+    "s": "Docs.rs - Documentation for Rust packages",
+    "sc": "Programming",
+    "t": "drs",
+    "u": "https://docs.rs/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "help.appducx.com",
+    "r": 0,
+    "s": "Fabasoft app.ducx Help",
+    "sc": "Programming",
+    "t": "ducx",
+    "u": "http://help.appducx.com/index.php?topic=doc/Search-Result/index_en.htm&q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.developpez.com",
+    "r": 0,
+    "s": "developpez.com",
+    "sc": "Programming",
+    "t": "dvlp",
+    "u": "http://www.developpez.com/recherche/?q={{{s}}}&sa.x=-1376&sa.y=-2&cx=006424388311999799839%3A-31tnf0iuqy&cof=FORID%3A9&ie=ISO-8859-1&siteurl=www.developpez.com%2F%3Fq%3Dmicrosoft&ref=&ss=1463j290467j10"
+  },
+  {
+    "c": "Tech",
+    "d": "www.developpez.com",
+    "r": 0,
+    "s": "Developpez.com",
+    "sc": "Programming",
+    "t": "dvp",
+    "u": "http://www.developpez.com/recherche/?cx=006424388311999799839%3A-31tnf0iuqy&cof=FORID%3A9&ie=ISO-8859-1&q={{{s}}}&sa=Rechercher"
+  },
+  {
+    "c": "Tech",
+    "d": "dxr.mozilla.org",
+    "r": 0,
+    "s": "Mozilla DXR Code Search",
+    "sc": "Programming",
+    "t": "dxr",
+    "u": "https://dxr.mozilla.org/mozilla-central/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "wiki.eclipse.org",
+    "r": 0,
+    "s": "Eclipse Wiki (Eclipsepedia)",
+    "sc": "Programming",
+    "t": "eclipsewiki",
+    "u": "https://wiki.eclipse.org/index.php?search={{{s}}}&fulltext=search"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.expressionengine.com",
+    "r": 0,
+    "s": "ExpressionEngine User Guide",
+    "sc": "Programming",
+    "t": "eecms",
+    "u": "https://docs.expressionengine.com/search/latest/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "ellislab",
+    "sc": "Programming",
+    "t": "ee",
+    "u": "https://duckduckgo.com/?q=site%3Ahttp%3A%2F%2Fellislab.com%2Fforums%2F+{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.elastic.co",
+    "r": 0,
+    "s": "Elasticsearch Documentation",
+    "sc": "Programming",
+    "t": "elastic",
+    "u": "https://www.elastic.co/search?q={{{s}}}&section=Learn%2FDocs%2F"
+  },
+  {
+    "c": "Tech",
+    "d": "elbauldelprogramador.com",
+    "r": 0,
+    "s": "El Baul del Programador",
+    "sc": "Programming",
+    "t": "elbaul",
+    "u": "http://elbauldelprogramador.com/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "electronjs.org",
+    "r": 0,
+    "s": "Electron",
+    "sc": "Programming",
+    "t": "ele",
+    "u": "https://electronjs.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 3,
+    "s": "EmacsWiki.org",
+    "sc": "Programming",
+    "t": "emacswiki",
+    "u": "https://duckduckgo.com/?q=site:emacswiki.org+{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "emaculation.com",
+    "r": 0,
+    "s": "E-Maculation",
+    "sc": "Programming",
+    "t": "emacu",
+    "u": "https://emaculation.com/doku.php/mac_emulation?do=search&id=mac_emulation&q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "emacs.stackexchange.com",
+    "r": 0,
+    "s": "Emacs Stack Exchange",
+    "sc": "Programming",
+    "t": "est",
+    "u": "http://emacs.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "filext.com",
+    "r": 3,
+    "s": "FILExt",
+    "sc": "Programming",
+    "t": "ext",
+    "u": "http://filext.com/file-extension/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docops.ca.com",
+    "r": 0,
+    "s": "Easytrieve Document",
+    "sc": "Programming",
+    "t": "ezt",
+    "u": "https://docops.ca.com/ca-easytrieve/11-6/en/search?q={{{s}}}&max=10&key=CAET116"
+  },
+  {
+    "c": "Tech",
+    "d": "forums.fast.ai",
+    "r": 0,
+    "s": "fast.ai forums",
+    "sc": "Programming",
+    "t": "fastai",
+    "u": "https://forums.fast.ai/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.freecodecamp.org",
+    "r": 0,
+    "s": "freeCodeCamp Forum",
+    "sc": "Programming",
+    "t": "fccf",
+    "u": "https://www.freecodecamp.org/forum/search?q= {{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "bugs.freedesktop.org",
+    "r": 0,
+    "s": "freedesktop.org bugs",
+    "sc": "Programming",
+    "t": "fdobugs",
+    "u": "https://bugs.freedesktop.org/buglist.cgi?quicksearch={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.safe.com",
+    "r": 0,
+    "s": "Safe software FME documentation",
+    "sc": "Programming",
+    "t": "fmedoc",
+    "u": "https://www.safe.com/search/?site-search={{{s}}}&site=docs.safe.com"
+  },
+  {
+    "c": "Tech",
+    "d": "knowledge.safe.com",
+    "r": 0,
+    "s": "Safe.com knowledge center",
+    "sc": "Programming",
+    "t": "fmekb",
+    "u": "https://knowledge.safe.com/search.html?f=&type=question+OR+idea+OR+kbentry&c=&redirect=search%2Fsearch&sort=relevance&q={{{s}}}:"
+  },
+  {
+    "c": "Tech",
+    "d": "community.filemaker.com",
+    "r": 0,
+    "s": "FileMaker Community",
+    "sc": "Programming",
+    "t": "fmp",
+    "u": "https://community.filemaker.com/en/s/global-search/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "apps.fedoraproject.org",
+    "r": 0,
+    "s": "Fedora Packages Search",
+    "sc": "Programming",
+    "t": "fps",
+    "u": "https://apps.fedoraproject.org/packages/s/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.futureboy.us",
+    "r": 0,
+    "s": "Frink Web Interface",
+    "sc": "Programming",
+    "t": "frink",
+    "u": "http://www.futureboy.us/fsp/frink.fsp?fromVal={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.larousse.fr",
+    "r": 150,
+    "s": "Larousse French Dictionary",
+    "sc": "Programming",
+    "t": "fr",
+    "u": "http://www.larousse.fr/dictionnaires/francais/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "fxr.watson.org",
+    "r": 0,
+    "s": "FreeBSD Cross Reference",
+    "sc": "Programming",
+    "t": "fxr",
+    "u": "http://fxr.watson.org/fxr/ident?i={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "bugs.gentoo.org",
+    "r": 23,
+    "s": "Gentoo's Bugzilla",
+    "sc": "Programming",
+    "t": "gbugs",
+    "u": "https://bugs.gentoo.org/buglist.cgi?quicksearch={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "cloud.google.com",
+    "r": 5,
+    "s": "Google Cloud Platform",
+    "sc": "Programming",
+    "t": "gcp",
+    "u": "https://cloud.google.com/s/results/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "GDB Debugger",
+    "sc": "Programming",
+    "t": "gdb",
+    "u": "http://duckduckgo.com/?q=site:sourceware.org/gdb/current/onlinedocs/gdb/+{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.godotengine.org",
+    "r": 6,
+    "s": "Godot Engine Documentation",
+    "sc": "Programming",
+    "t": "gdd",
+    "u": "http://docs.godotengine.org/en/latest/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  {
+    "c": "Tech",
+    "d": "gamedev.stackexchange.com",
+    "r": 0,
+    "s": "Gamedev Stackexchange",
+    "sc": "Programming",
+    "t": "gdev",
+    "u": "https://gamedev.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "browser.geekbench.com",
+    "r": 0,
+    "s": "Geekbench Browser",
+    "sc": "Programming",
+    "t": "geekbench",
+    "u": "http://browser.geekbench.com/v4/cpu/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.geeksforgeeks.org",
+    "r": 21,
+    "s": "geeksforgeeks",
+    "sc": "Programming",
+    "t": "gfg",
+    "u": "https://www.geeksforgeeks.org/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 96,
+    "s": "GitHub Code",
+    "sc": "Programming",
+    "t": "ghc",
+    "u": "https://github.com/search?utf8=✓&q={{{s}}}&type=Code"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 49,
+    "s": "Github (code search)",
+    "sc": "Programming",
+    "t": "ghcode",
+    "u": "https://github.com/search?utf8=✓&q={{{s}}}&type=Code"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 15975,
+    "s": "GitHub",
+    "sc": "Programming",
+    "t": "gh",
+    "u": "https://github.com/search?utf8=%E2%9C%93&q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Github User Pages",
+    "sc": "Programming",
+    "t": "ghio",
+    "u": "https://duckduckgo.com/?q=site%3Agithub.io+{{{s}}}&ia=web"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 8,
+    "s": "GitHub Repo",
+    "sc": "Programming",
+    "t": "ghrepo",
+    "u": "https://github.com/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 26,
+    "s": "Github",
+    "sc": "Programming",
+    "t": "ghr",
+    "u": "https://github.com/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 6,
+    "s": "Github - Trending",
+    "sc": "Programming",
+    "t": "ght",
+    "u": "https://github.com/trending/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 0,
+    "s": "GitHub Topic",
+    "sc": "Programming",
+    "t": "ghtopic",
+    "u": "https://github.com/topic/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 3,
+    "s": "GitHub",
+    "sc": "Programming",
+    "t": "ghuser",
+    "u": "https://github.com/search?type=Users&q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 42,
+    "s": "Github User",
+    "sc": "Programming",
+    "t": "ghus",
+    "u": "https://github.com/{{{s}}}/"
+  },
+  {
+    "c": "Tech",
+    "d": "gis.stackexchange.com",
+    "r": 0,
+    "s": "Stack Exchange",
+    "sc": "Programming",
+    "t": "gisse",
+    "u": "https://gis.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "gist.github.com",
+    "r": 48,
+    "s": "Github Gists",
+    "sc": "Programming",
+    "t": "gist",
+    "u": "https://gist.github.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "git-scm.com",
+    "r": 0,
+    "s": "Git Documentation",
+    "sc": "Programming",
+    "t": "gitdocs",
+    "u": "https://git-scm.com/search/results?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 1965,
+    "s": "Github",
+    "sc": "Programming",
+    "t": "git",
+    "u": "https://github.com/search?utf8=%E2%9C%93&q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "help.github.com",
+    "r": 0,
+    "s": "GitHub Help",
+    "sc": "Programming",
+    "t": "githubhelp",
+    "u": "https://help.github.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 3,
+    "s": "Github Stars",
+    "sc": "Programming",
+    "t": "githubstars",
+    "u": "https://github.com/stars?utf8=%E2%9C%93&q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.gitignore.io",
+    "r": 4,
+    "s": "gitignore.io",
+    "sc": "Programming",
+    "t": "gitignore",
+    "u": "https://www.gitignore.io/api/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "gitote.in",
+    "r": 0,
+    "s": "Gitote",
+    "sc": "Programming",
+    "t": "gitote",
+    "u": "https://gitote.in/explore/repos?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "git-scm.com",
+    "r": 6,
+    "s": "Git",
+    "sc": "Programming",
+    "t": "git-scm",
+    "u": "http://git-scm.com/search/results?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "gitlab.com",
+    "r": 41,
+    "s": "GitLab",
+    "sc": "Programming",
+    "t": "glab",
+    "u": "https://gitlab.com/search?utf8=✓&search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "glitch.com",
+    "r": 0,
+    "s": "Glitch",
+    "sc": "Programming",
+    "t": "glitch",
+    "u": "https://glitch.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "wiki.gnome.org",
+    "r": 0,
+    "s": "GNOME Wiki",
+    "sc": "Programming",
+    "t": "gnomewiki",
+    "u": "https://wiki.gnome.org/Home?action=fullsearch&context=180&value={{{s}}}&titlesearch=Titles"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.godotengine.org",
+    "r": 99,
+    "s": "Godot Docs",
+    "sc": "Programming",
+    "t": "godot",
+    "u": "http://docs.godotengine.org/en/stable/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Gradle",
+    "sc": "Programming",
+    "t": "gradle",
+    "u": "http://duckduckgo.com/?q=site%3Agradle.org+{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.grafikart.fr",
+    "r": 0,
+    "s": "Grafikart",
+    "sc": "Programming",
+    "t": "grafikart",
+    "u": "http://www.grafikart.fr/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Groovy Documentation",
+    "sc": "Programming",
+    "t": "groovy",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site:docs.groovy-lang.org"
+  },
+  {
+    "c": "Tech",
+    "d": "google.com",
+    "r": 0,
+    "s": "Google over StackOverflow",
+    "sc": "Programming",
+    "t": "gso",
+    "u": "https://google.com/search?q=%2B%5Binurl%3Ahttp%3A%2F%2Fstackoverflow.com%5D+{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "geektimes.ru",
+    "r": 0,
+    "s": "GeekTimes",
+    "sc": "Programming",
+    "t": "gtmz",
+    "u": "https://geektimes.ru/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "lib.haxe.org",
+    "r": 0,
+    "s": "Haxelib",
+    "sc": "Programming",
+    "t": "haxelib",
+    "u": "http://lib.haxe.org/search?v={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "acm.hdu.edu.cn",
+    "r": 0,
+    "s": "Hangzhou Dianzi University Online Judge",
+    "sc": "Programming",
+    "t": "hdu",
+    "u": "http://acm.hdu.edu.cn/search.php?field=problem&key={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Herber",
+    "sc": "Programming",
+    "t": "herber",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site%3Aherber.de"
+  },
+  {
+    "c": "Tech",
+    "d": "devcenter.heroku.com",
+    "r": 0,
+    "s": "Heroku Devcenter",
+    "sc": "Programming",
+    "t": "heroku",
+    "u": "http://devcenter.heroku.com/articles?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.mercurial-scm.org",
+    "r": 57,
+    "s": "Mecurial",
+    "sc": "Programming",
+    "t": "hg",
+    "u": "https://www.mercurial-scm.org/wiki/Mercurial?action=fullsearch&context=180&value={{{s}}}&titlesearch=Title"
+  },
+  {
+    "c": "Tech",
+    "d": "hn.algolia.com",
+    "r": 0,
+    "s": "Hacker News",
+    "sc": "Programming",
+    "t": "hnd",
+    "u": "https://hn.algolia.com/?query={{{s}}}&sort=byDate"
+  },
+  {
+    "c": "Tech",
+    "d": "networking.ringofsaturn.com",
+    "r": 5,
+    "s": "IP Lookup",
+    "sc": "Programming",
+    "t": "host",
+    "u": "http://networking.ringofsaturn.com/Tools/dig.php?domain=ANY+{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "cse.google.com",
+    "r": 0,
+    "s": "Houdini Documentation",
+    "sc": "Programming",
+    "t": "hou",
+    "u": "https://cse.google.com/cse?cx=001106583893786776783%3Au81vudxhm7a&ie=UTF-8&q={{{s}}}&sa=Search&siteurl=www.sidefx.com%2Fdocs%2Fhoudini%2F&ref=www.sidefx.com%2Fdocs%2F&ss=504j116288j4"
+  },
+  {
+    "c": "Tech",
+    "d": "howcode.org",
+    "r": 40,
+    "s": "howCode",
+    "sc": "Programming",
+    "t": "how",
+    "u": "https://howcode.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "http.cat",
+    "r": 0,
+    "s": "https://http.cat/",
+    "sc": "Programming",
+    "t": "htcat",
+    "u": "https://http.cat/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.htmldog.com",
+    "r": 0,
+    "s": "HTML Dog",
+    "sc": "Programming",
+    "t": "htmldog",
+    "u": "http://www.htmldog.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "httpstatuses.com",
+    "r": 76,
+    "s": "HTTP Status Codes",
+    "sc": "Programming",
+    "t": "http",
+    "u": "https://httpstatuses.com/{{{s}}} "
+  },
+  {
+    "c": "Tech",
+    "d": "www.ibm.com",
+    "r": 0,
+    "s": "IBM Knowledge Center",
+    "sc": "Programming",
+    "t": "ibmkc",
+    "u": "https://www.ibm.com/support/knowledgecenter/en/search/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "datatracker.ietf.org",
+    "r": 0,
+    "s": "The IETF",
+    "sc": "Programming",
+    "t": "ietf",
+    "u": "http://datatracker.ietf.org/doc/search/?name={{{s}}}&activeDrafts=on&rfcs=on"
+  },
+  {
+    "c": "Tech",
+    "d": "imagelayers.io",
+    "r": 0,
+    "s": "ImageLayers",
+    "sc": "Programming",
+    "t": "imagelayers",
+    "u": "https://imagelayers.io/?images={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.infoq.com",
+    "r": 0,
+    "s": "InfoQ",
+    "sc": "Programming",
+    "t": "infoq",
+    "u": "http://www.infoq.com/search.action?queryString={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "software.intel.com",
+    "r": 0,
+    "s": "Intel Intrinsics Guide",
+    "sc": "Programming",
+    "t": "inteli",
+    "u": "https://software.intel.com/sites/landingpage/IntrinsicsGuide/#!=undefined&text={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "hub.jmonkeyengine.org",
+    "r": 0,
+    "s": "jMonkeyEngine Forum",
+    "sc": "Programming",
+    "t": "jme",
+    "u": "https://hub.jmonkeyengine.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "juejin.im",
+    "r": 0,
+    "s": "Juejin",
+    "sc": "Programming",
+    "t": "juejin",
+    "u": "https://juejin.im/search?query= {{{s}}}&type=all"
+  },
+  {
+    "c": "Tech",
+    "d": "www.kamailio.org",
+    "r": 0,
+    "s": "Kamailio",
+    "sc": "Programming",
+    "t": "kamailio",
+    "u": "https://www.kamailio.org/w/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "katacoda.com",
+    "r": 0,
+    "s": "katacoda",
+    "sc": "Programming",
+    "t": "katacoda",
+    "u": "https://katacoda.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "bugs.kde.org",
+    "r": 0,
+    "s": "KDE Bugs",
+    "sc": "Programming",
+    "t": "kbugs",
+    "u": "https://bugs.kde.org/buglist.cgi?quicksearch={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "community.kde.org",
+    "r": 0,
+    "s": "KDE Community Wiki",
+    "sc": "Programming",
+    "t": "kcommunity",
+    "u": "http://community.kde.org/index.php?title=Special:Search&search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "bugs.koha-community.org",
+    "r": 0,
+    "s": "Koha Bugzilla",
+    "sc": "Programming",
+    "t": "koha",
+    "u": "https://bugs.koha-community.org/bugzilla3/buglist.cgi?quicksearch={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "projects.kde.org",
+    "r": 0,
+    "s": "KDE Git Projects",
+    "sc": "Programming",
+    "t": "kprojects",
+    "u": "https://projects.kde.org/search?q={{{s}}}&all_words=1&projects=1&submit=Submit"
+  },
+  {
+    "c": "Tech",
+    "d": "techbase.kde.org",
+    "r": 0,
+    "s": "KDE TechBase",
+    "sc": "Programming",
+    "t": "ktb",
+    "u": "http://techbase.kde.org/Special:Search?search={{{s}}}&fulltext=Search"
+  },
+  {
+    "c": "Tech",
+    "d": "techbase.kde.org",
+    "r": 0,
+    "s": "KDE TechBase",
+    "sc": "Programming",
+    "t": "ktechbase",
+    "u": "http://techbase.kde.org/Special:Search?search={{{s}}}&fulltext=Search"
+  },
+  {
+    "c": "Tech",
+    "d": "l1sp.org",
+    "r": 16,
+    "s": "Lisp Docs",
+    "sc": "Programming",
+    "t": "l1sp",
+    "u": "http://l1sp.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.netlib.org",
+    "r": 0,
+    "s": "Netlib",
+    "sc": "Programming",
+    "t": "lapack",
+    "u": "http://www.netlib.org/lapack/complex16/{{{s}}}.f"
+  },
+  {
+    "c": "Tech",
+    "d": "lxr.free-electrons.com",
+    "r": 0,
+    "s": "Linux Cross Reference",
+    "sc": "Programming",
+    "t": "lcr",
+    "u": "http://lxr.free-electrons.com/ident?i={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "mothereff.in",
+    "r": 0,
+    "s": "Mothereff.in Byte Counter",
+    "sc": "Programming",
+    "t": "len",
+    "u": "https://mothereff.in/byte-counter#{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "levidsmith.com",
+    "r": 0,
+    "s": "Levi D. Smith Games",
+    "sc": "Programming",
+    "t": "levi",
+    "u": "https://levidsmith.com/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "libraries.io",
+    "r": 0,
+    "s": "libraries.io",
+    "sc": "Programming",
+    "t": "libraries",
+    "u": "https://libraries.io/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.libuv.org",
+    "r": 0,
+    "s": "Libuv API Docs",
+    "sc": "Programming",
+    "t": "libuv",
+    "u": "http://docs.libuv.org/en/latest/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  {
+    "c": "Tech",
+    "d": "libraries.io",
+    "r": 0,
+    "s": "https://libraries.io",
+    "sc": "Programming",
+    "t": "lio",
+    "u": "https://libraries.io/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "LLVM Compiler Infrastructure",
+    "sc": "Programming",
+    "t": "llvm",
+    "u": "https://duckduckgo.com/?q=site%3Allvm.org+{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "help.libreoffice.org",
+    "r": 0,
+    "s": "LibreOffice Help",
+    "sc": "Programming",
+    "t": "loh",
+    "u": "https://help.libreoffice.org/index.php?title=Special%3ASearch&profile=default&search={{{s}}}&fulltext=Search"
+  },
+  {
+    "c": "Tech",
+    "d": "opengrok.libreoffice.org",
+    "r": 0,
+    "s": "LibreOffice Source Code",
+    "sc": "Programming",
+    "t": "losource",
+    "u": "http://opengrok.libreoffice.org/search?q={{{s}}}&project=core"
+  },
+  {
+    "c": "Tech",
+    "d": "bugs.launchpad.net",
+    "r": 3,
+    "s": "Launchpad Bugs",
+    "sc": "Programming",
+    "t": "lpbug",
+    "u": "https://bugs.launchpad.net/bugs/+bugs?field.searchtext={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "launchpad.net",
+    "r": 5,
+    "s": "Launchpad",
+    "sc": "Programming",
+    "t": "lp",
+    "u": "https://launchpad.net/+search?field.text={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "avr.myluna.de",
+    "r": 0,
+    "s": "Luna (AVR)",
+    "sc": "Programming",
+    "t": "lunaavr",
+    "u": "http://avr.myluna.de/doku.php?do=search&id={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "learnxinyminutes.com",
+    "r": 0,
+    "s": "learnxinyminutes.com",
+    "sc": "Programming",
+    "t": "lxiny",
+    "u": "https://learnxinyminutes.com/docs/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "marc.info",
+    "r": 0,
+    "s": "MARC Linux Kernel",
+    "sc": "Programming",
+    "t": "lxml",
+    "u": "http://marc.info/?l=linux-kernel&w=2&r=1&s={{{s}}}&q=b"
+  },
+  {
+    "c": "Tech",
+    "d": "www.lynda.com",
+    "r": 0,
+    "s": "Lynda.com",
+    "sc": "Programming",
+    "t": "lynda",
+    "u": "http://www.lynda.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "man-k.org",
+    "r": 0,
+    "s": "man-k.org",
+    "sc": "Programming",
+    "t": "man-k",
+    "u": "http://man-k.org/search?q={{{s}}}&dist=NetBSD-current"
+  },
+  {
+    "c": "Tech",
+    "d": "mariadb.com",
+    "r": 8,
+    "s": "Mariadb",
+    "sc": "Programming",
+    "t": "mariadb",
+    "u": "https://mariadb.com/kb/en/+search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.mathjax.org",
+    "r": 0,
+    "s": "MathJax",
+    "sc": "Programming",
+    "t": "mathjax",
+    "u": "http://docs.mathjax.org/en/latest/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  {
+    "c": "Tech",
+    "d": "www.mirbsd.org",
+    "r": 0,
+    "s": "MirBSD Manpages",
+    "sc": "Programming",
+    "t": "mbsdman",
+    "u": "https://www.mirbsd.org/man.cgi?q={{{s}}} "
+  },
+  {
+    "c": "Tech",
+    "d": "learn.microsoft.com",
+    "r": 51,
+    "s": "Microsoft Docs",
+    "sc": "Programming",
+    "t": "md",
+    "u": "https://learn.microsoft.com/en-us/search/?terms={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "mdn.io",
+    "r": 18,
+    "s": "mdn.io",
+    "sc": "Programming",
+    "t": "mdnio",
+    "u": "https://mdn.io/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "developer.mozilla.org",
+    "r": 4558,
+    "s": "Mozilla Developer Network",
+    "sc": "Programming",
+    "t": "mdn",
+    "u": "https://developer.mozilla.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Mozilla Developer Network",
+    "sc": "Programming",
+    "t": "mdn.s",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site%3Adeveloper.mozilla.org"
+  },
+  {
+    "c": "Tech",
+    "d": "codegolf.meta.stackexchange.com",
+    "r": 0,
+    "s": "Meta Programming Problems & Code Golf",
+    "sc": "Programming",
+    "t": "metappcg",
+    "u": "https://codegolf.meta.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "mimeapplication.net",
+    "r": 0,
+    "s": "Mime Types Database",
+    "sc": "Programming",
+    "t": "mime",
+    "u": "http://mimeapplication.net/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "moddota.com",
+    "r": 0,
+    "s": "ModDota",
+    "sc": "Programming",
+    "t": "moddota",
+    "u": "https://moddota.com/forums/search?Search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.mongodb.org",
+    "r": 0,
+    "s": "MongoDB",
+    "sc": "Programming",
+    "t": "mongo",
+    "u": "http://docs.mongodb.org/manual/search/?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "dxr.mozilla.org",
+    "r": 0,
+    "s": "Mozilla DXR",
+    "sc": "Programming",
+    "t": "mozdxr",
+    "u": "https://dxr.mozilla.org/mozilla-central/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "searchfox.org",
+    "r": 0,
+    "s": "Mozilla Searchfox",
+    "sc": "Programming",
+    "t": "mozsf",
+    "u": "http://searchfox.org/mozilla-central/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.microsoft.com",
+    "r": 5,
+    "s": "Microsoft Docs",
+    "sc": "Programming",
+    "t": "msd",
+    "u": "https://docs.microsoft.com/en-us/search/index?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.microsoft.com",
+    "r": 0,
+    "s": "MS Malware Encyclopedia",
+    "sc": "Programming",
+    "t": "msmalware",
+    "u": "http://www.microsoft.com/security/portal/Threat/Encyclopedia/Search.aspx?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "meta.stackoverflow.com",
+    "r": 0,
+    "s": "Meta Stack Overflow",
+    "sc": "Programming",
+    "t": "mso",
+    "u": "https://meta.stackoverflow.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "social.technet.microsoft.com",
+    "r": 0,
+    "s": "Microsoft TechNet SQL Server",
+    "sc": "Programming",
+    "t": "mssql",
+    "u": "https://social.technet.microsoft.com/Search/en-US/sqlserver?query={{{s}}}&Refinement=30&ac=4"
+  },
+  {
+    "c": "Tech",
+    "d": "murlengine.com",
+    "r": 0,
+    "s": "murlengine",
+    "sc": "Programming",
+    "t": "murl",
+    "u": "https://murlengine.com/api/en/search.php?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "neo4j.com",
+    "r": 0,
+    "s": "Neo4j",
+    "sc": "Programming",
+    "t": "neo4j",
+    "u": "https://neo4j.com/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "wiki.nesdev.com",
+    "r": 0,
+    "s": "NESDev Wiki",
+    "sc": "Programming",
+    "t": "nesdev",
+    "u": "http://wiki.nesdev.com/w/index.php?title=Special%3ASearch&search={{{s}}}&fulltext=1"
+  },
+  {
+    "c": "Tech",
+    "d": "code.tutsplus.com",
+    "r": 0,
+    "s": "Nettuts+",
+    "sc": "Programming",
+    "t": "nettuts",
+    "u": "https://code.tutsplus.com/tutorials/search/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "angular.io",
+    "r": 0,
+    "s": "Angular 4 API",
+    "sc": "Programming",
+    "t": "ng4",
+    "u": "https://angular.io/api?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.npmjs.com",
+    "r": 147,
+    "s": "npm",
+    "sc": "Programming",
+    "t": "npmjs",
+    "u": "https://www.npmjs.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "npmsearch.com",
+    "r": 0,
+    "s": "NPM Search",
+    "sc": "Programming",
+    "t": "npms",
+    "u": "http://npmsearch.com/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "null-byte.wonderhowto.com",
+    "r": 0,
+    "s": "Null Byte",
+    "sc": "Programming",
+    "t": "nullbyte",
+    "u": "https://null-byte.wonderhowto.com/search/{{{s}}} "
+  },
+  {
+    "c": "Tech",
+    "d": "overapi.com",
+    "r": 0,
+    "s": "http://overapi.com/",
+    "sc": "Programming",
+    "t": "oapi",
+    "u": "http://overapi.com/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "openclassrooms.com",
+    "r": 0,
+    "s": "OpenClassroom Cours",
+    "sc": "Programming",
+    "t": "occ",
+    "u": "https://openclassrooms.com/courses?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "camlspotter.github.io",
+    "r": 0,
+    "s": "OCamlOscope",
+    "sc": "Programming",
+    "t": "oco",
+    "u": "https://camlspotter.github.io/ocamloscope.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "fr.openclassrooms.com",
+    "r": 0,
+    "s": "OpenClassrooms",
+    "sc": "Programming",
+    "t": "opc",
+    "u": "http://fr.openclassrooms.com/recherche/?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "openradar.appspot.com",
+    "r": 0,
+    "s": "OpenRadar",
+    "sc": "Programming",
+    "t": "openradar",
+    "u": "http://openradar.appspot.com/search?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "search.oreilly.com",
+    "r": 0,
+    "s": "O'Reilly",
+    "sc": "Programming",
+    "t": "oreilly",
+    "u": "http://search.oreilly.com/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "learning.oreilly.com",
+    "r": 3,
+    "s": "https://learning.oreilly.com/home/",
+    "sc": "Programming",
+    "t": "orly",
+    "u": "https://learning.oreilly.com/search/?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "wiki.osdev.org",
+    "r": 12,
+    "s": "OSDev Wiki",
+    "sc": "Programming",
+    "t": "osdev",
+    "u": "https://wiki.osdev.org/index.php?title=Special%3ASearch&search={{{s}}}&fulltext=Search"
+  },
+  {
+    "c": "Tech",
+    "d": "osdn.net",
+    "r": 0,
+    "s": "OSDN",
+    "sc": "Programming",
+    "t": "osdn",
+    "u": "https://osdn.net/search/?iq={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "discourse.osmc.tv",
+    "r": 0,
+    "s": "OSMC",
+    "sc": "Programming",
+    "t": "osmc",
+    "u": "https://discourse.osmc.tv/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "our.umbraco.com",
+    "r": 0,
+    "s": "Umbraco Documentation",
+    "sc": "Programming",
+    "t": "ourdocs",
+    "u": "https://our.umbraco.com/search?q={{{s}}}&cat=documentation"
+  },
+  {
+    "c": "Tech",
+    "d": "stackoverflow.com",
+    "r": 0,
+    "s": "StackOverflow",
+    "sc": "Programming",
+    "t": "ov",
+    "u": "http://stackoverflow.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.owasp.org",
+    "r": 0,
+    "s": "OWASP",
+    "sc": "Programming",
+    "t": "owasp",
+    "u": "https://www.owasp.org/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.planet-casio.com",
+    "r": 0,
+    "s": "Planète Casio",
+    "sc": "Programming",
+    "t": "pcasio",
+    "u": "https://www.planet-casio.com/Fr/aide/recherche.php?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "packagecontrol.io",
+    "r": 0,
+    "s": "Package Control",
+    "sc": "Programming",
+    "t": "pctrl",
+    "u": "https://packagecontrol.io/search/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "forum.grabaperch.com",
+    "r": 0,
+    "s": "Perch Forum",
+    "sc": "Programming",
+    "t": "perch",
+    "u": "http://forum.grabaperch.com/forum/search?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.postgresql.org",
+    "r": 0,
+    "s": "PostgreSQL documentation",
+    "sc": "Programming",
+    "t": "pgdocs",
+    "u": "http://www.postgresql.org/search/?u=%2Fdocs%2F&q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "platformio.org",
+    "r": 0,
+    "s": "PlatformIO Libraries",
+    "sc": "Programming",
+    "t": "pio",
+    "u": "http://platformio.org/lib/search?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.pluralsight.com",
+    "r": 0,
+    "s": "pluralsight",
+    "sc": "Programming",
+    "t": "pls",
+    "u": "https://www.pluralsight.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "stdlib.ponylang.org",
+    "r": 0,
+    "s": "Pony Standard Library",
+    "sc": "Programming",
+    "t": "pony",
+    "u": "https://stdlib.ponylang.org/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.microsoft.com",
+    "r": 0,
+    "s": "Microsoft Docs",
+    "sc": "Programming",
+    "t": "posh",
+    "u": "https://docs.microsoft.com/en-us/search/index?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.postgresql.org",
+    "r": 0,
+    "s": "PostgreSQL.org",
+    "sc": "Programming",
+    "t": "postgresql",
+    "u": "http://www.postgresql.org/search?q={{{s}}}&a=1&submit=Search"
+  },
+  {
+    "c": "Tech",
+    "d": "codegolf.stackexchange.com",
+    "r": 38,
+    "s": "Programming Puzzles & Code Golf Stack Exchange",
+    "sc": "Programming",
+    "t": "ppcg",
+    "u": "https://codegolf.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "developer.paypal.com",
+    "r": 0,
+    "s": "PayPal Developer",
+    "sc": "Programming",
+    "t": "ppdev",
+    "u": "https://developer.paypal.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "pragprog.com",
+    "r": 0,
+    "s": "The Pragmatic Bookshelf",
+    "sc": "Programming",
+    "t": "pragprog",
+    "u": "https://pragprog.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "pretty-rfc.herokuapp.com",
+    "r": 0,
+    "s": "Pretty-RFC",
+    "sc": "Programming",
+    "t": "prfc",
+    "u": "http://pretty-rfc.herokuapp.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.primfx.com",
+    "r": 0,
+    "s": "PrimFX",
+    "sc": "Programming",
+    "t": "primfx",
+    "u": "https://www.primfx.com/q/{{{s}}}/"
+  },
+  {
+    "c": "Tech",
+    "d": "community.progress.com",
+    "r": 0,
+    "s": "Progress Community",
+    "sc": "Programming",
+    "t": "procomm",
+    "u": "https://community.progress.com/search#q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "programmers.stackexchange.com",
+    "r": 0,
+    "s": "programmers.stackexchange.com",
+    "sc": "Programming",
+    "t": "prog",
+    "u": "http://programmers.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.codespeedy.com",
+    "r": 0,
+    "s": "CodeSpeedy",
+    "sc": "Programming",
+    "t": "program",
+    "u": "https://www.codespeedy.com/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.programmableweb.com",
+    "r": 0,
+    "s": "ProgrammableWeb",
+    "sc": "Programming",
+    "t": "programmableweb",
+    "u": "http://www.programmableweb.com/search/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "knowledgebase.progress.com",
+    "r": 0,
+    "s": "Progress",
+    "sc": "Programming",
+    "t": "progress",
+    "u": "http://knowledgebase.progress.com/pkb_Home?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "programmers.stackexchange.com",
+    "r": 13,
+    "s": "programmers.stackexchange.com",
+    "sc": "Programming",
+    "t": "pro",
+    "u": "http://programmers.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.programmingsimplified.com",
+    "r": 0,
+    "s": "Programming Simplified",
+    "sc": "Programming",
+    "t": "psimplified",
+    "u": "http://www.programmingsimplified.com/search/node/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "puredata.info",
+    "r": 0,
+    "s": "Pure Data",
+    "sc": "Programming",
+    "t": "puredata",
+    "u": "http://puredata.info/search?SearchableText={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "pursuit.purescript.org",
+    "r": 17,
+    "s": "Pursuit",
+    "sc": "Programming",
+    "t": "purs",
+    "u": "https://pursuit.purescript.org/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.python.org",
+    "r": 0,
+    "s": "Python 3.5 Documentation",
+    "sc": "Programming",
+    "t": "py35",
+    "u": "https://docs.python.org/3.5/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.pygame.org",
+    "r": 0,
+    "s": "Pygame",
+    "sc": "Programming",
+    "t": "pygame",
+    "u": "https://www.pygame.org/docs/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.riverbankcomputing.com",
+    "r": 0,
+    "s": "PyQt5",
+    "sc": "Programming",
+    "t": "pyqt5",
+    "u": "https://www.riverbankcomputing.com/static/Docs/PyQt5/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  {
+    "c": "Tech",
+    "d": "qiita.com",
+    "r": 25,
+    "s": "Qiita",
+    "sc": "Programming",
+    "t": "qiita",
+    "u": "http://qiita.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "help.qlik.com",
+    "r": 0,
+    "s": "Qlik Sense Help",
+    "sc": "Programming",
+    "t": "qs",
+    "u": "https://help.qlik.com/en-US/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "doc.qt.io",
+    "r": 4,
+    "s": "Qt 5 Documentation",
+    "sc": "Programming",
+    "t": "qt5",
+    "u": "http://doc.qt.io/qt-5/search-results.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "doc.qt.io",
+    "r": 58,
+    "s": "Qt Documentation",
+    "sc": "Programming",
+    "t": "qt",
+    "u": "https://doc.qt.io/qt-5/search-results.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "quay.io",
+    "r": 13,
+    "s": "Quay",
+    "sc": "Programming",
+    "t": "quay",
+    "u": "https://quay.io/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "railscasts.com",
+    "r": 0,
+    "s": "RailsCasts",
+    "sc": "Programming",
+    "t": "railscasts",
+    "u": "http://railscasts.com/?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.raspberrypi.org",
+    "r": 0,
+    "s": "Raspberry Pi",
+    "sc": "Programming",
+    "t": "raspberrypi",
+    "u": "http://www.raspberrypi.org/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.raywenderlich.com",
+    "r": 0,
+    "s": "Ray Wenderlich",
+    "sc": "Programming",
+    "t": "ray",
+    "u": "https://www.raywenderlich.com/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "rubydocs.org",
+    "r": 6,
+    "s": "Current ruby docs",
+    "sc": "Programming",
+    "t": "rb",
+    "u": "https://rubydocs.org/d/ruby-latest/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "readthedocs.org",
+    "r": 0,
+    "s": "Read The Docs",
+    "sc": "Programming",
+    "t": "readthedocs",
+    "u": "https://readthedocs.org/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "regexper.com",
+    "r": 0,
+    "s": "Regexper ",
+    "sc": "Programming",
+    "t": "regexper",
+    "u": "https://regexper.com/#{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "repl.it",
+    "r": 0,
+    "s": "repl.it",
+    "sc": "Programming",
+    "t": "repl",
+    "u": "https://repl.it/languages/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "tools.ietf.org",
+    "r": 97,
+    "s": "IETF RFC",
+    "sc": "Programming",
+    "t": "rfc",
+    "u": "https://tools.ietf.org/html/rfc{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.rfcreader.com",
+    "r": 0,
+    "s": "Online RFC Reader",
+    "sc": "Programming",
+    "t": "rfcr",
+    "u": "http://www.rfcreader.com/#rfc{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "rosettacode.org",
+    "r": 0,
+    "s": "RosettaCode.org",
+    "sc": "Programming",
+    "t": "rosettacode",
+    "u": "https://rosettacode.org/w/index.php?search={{{s}}}&title=Special%3ASearch&wprov=acrw1"
+  },
+  {
+    "c": "Tech",
+    "d": "developer.roblox.com",
+    "r": 0,
+    "s": "ROBLOX Wiki",
+    "sc": "Programming",
+    "t": "rowiki",
+    "u": "https://developer.roblox.com/search#stq={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "raspberrypi.stackexchange.com",
+    "r": 0,
+    "s": "Raspberry pi Stackexchange",
+    "sc": "Programming",
+    "t": "rpi-so",
+    "u": "http://raspberrypi.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "rpmfind.net",
+    "r": 0,
+    "s": "RPMfind.net",
+    "sc": "Programming",
+    "t": "rpmfind",
+    "u": "http://rpmfind.net/linux/rpm2html/search.php?query={{{s}}}&submit=Search+..."
+  },
+  {
+    "c": "Tech",
+    "d": "rpmfind.net",
+    "r": 13,
+    "s": "RPMfind.net",
+    "sc": "Programming",
+    "t": "rpm",
+    "u": "http://rpmfind.net/linux/rpm2html/search.php?query={{{s}}}&submit=Search+..."
+  },
+  {
+    "c": "Tech",
+    "d": "docs.rs",
+    "r": 230,
+    "s": "docs.rs (rust crate documentation)",
+    "sc": "Programming",
+    "t": "rs-docs",
+    "u": "https://docs.rs/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "doc.rust-lang.org",
+    "r": 3,
+    "s": "std library docs for rust",
+    "sc": "Programming",
+    "t": "rs-std",
+    "u": "https://doc.rust-lang.org/std/index.html?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "rosettacode.org",
+    "r": 0,
+    "s": "Rosetta Code",
+    "sc": "Programming",
+    "t": "rstc",
+    "u": "https://rosettacode.org/w/index.php?search={{{s}}}&title=Special%3ASearch&wprov=acrw1"
+  },
+  {
+    "c": "Tech",
+    "d": "kernel.readthedocs.io",
+    "r": 0,
+    "s": "https://kernel.readthedocs.io/en/sphinx-samples/",
+    "sc": "Programming",
+    "t": "rtdlinux",
+    "u": "https://kernel.readthedocs.io/en/sphinx-samples/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  {
+    "c": "Tech",
+    "d": "readthedocs.org",
+    "r": 4,
+    "s": "Read the Docs",
+    "sc": "Programming",
+    "t": "rtd",
+    "u": "https://readthedocs.org/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "{{{s}}}.rtfd.io",
+    "r": 0,
+    "s": "Read the Docs",
+    "sc": "Programming",
+    "t": "rtfd",
+    "u": "http://{{{s}}}.rtfd.io"
+  },
+  {
+    "c": "Tech",
+    "d": "doc.rust-lang.org",
+    "r": 151,
+    "s": "RustDocs",
+    "sc": "Programming",
+    "t": "rustdoc",
+    "u": "https://doc.rust-lang.org/std/?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "doc.rust-lang.org",
+    "r": 30,
+    "s": "The Rust Standard Library Documentation",
+    "sc": "Programming",
+    "t": "rustd",
+    "u": "https://doc.rust-lang.org/std/?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 0,
+    "s": "Rust RFC GitHub.com",
+    "sc": "Programming",
+    "t": "rustrfc",
+    "u": "https://github.com/rust-lang/rfcs/issues?utf8=✓&q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "doc.rust-lang.org",
+    "r": 3107,
+    "s": "Rust stdlib docs",
+    "sc": "Programming",
+    "t": "rust",
+    "u": "https://doc.rust-lang.org/std/?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "launchpad.support.sap.com",
+    "r": 10,
+    "s": "SAP Launchpad",
+    "sc": "Programming",
+    "t": "sap",
+    "u": "https://launchpad.support.sap.com/#/solutions/notesv2/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "scratch.mit.edu",
+    "r": 46,
+    "s": "Scratch",
+    "sc": "Programming",
+    "t": "sb2",
+    "u": "https://scratch.mit.edu/search/projects?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.scala-lang.org",
+    "r": 0,
+    "s": "Scala Standard Library",
+    "sc": "Programming",
+    "t": "scalaapi",
+    "u": "http://www.scala-lang.org/api/current/index.html?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "help.scilab.org",
+    "r": 0,
+    "s": "Scilab Documentation",
+    "sc": "Programming",
+    "t": "scilab",
+    "u": "https://help.scilab.org/docs/6.0.0/en_US/search/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "searchcode.com",
+    "r": 0,
+    "s": "Searchcode",
+    "sc": "Programming",
+    "t": "scode",
+    "u": "https://searchcode.com/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "doc.scrapy.org",
+    "r": 0,
+    "s": "scrapy docs",
+    "sc": "Programming",
+    "t": "scrapy",
+    "u": "http://doc.scrapy.org/en/latest/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "scratchforums.asun.co",
+    "r": 0,
+    "s": "Scratch Forums Search",
+    "sc": "Programming",
+    "t": "scratchforums",
+    "u": "https://scratchforums.asun.co/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "syntaxdb.com",
+    "r": 5,
+    "s": "syntaxdb.com",
+    "sc": "Programming",
+    "t": "sdb",
+    "u": "https://syntaxdb.com/reference/search?utf8=✓&search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.se80.co.uk",
+    "r": 0,
+    "s": "SAP Development Objects",
+    "sc": "Programming",
+    "t": "se80",
+    "u": "https://www.se80.co.uk/action/search_results.htm?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "chat.stackexchange.com",
+    "r": 0,
+    "s": "Stack Exchange Chat",
+    "sc": "Programming",
+    "t": "sechat",
+    "u": "https://chat.stackexchange.com/rooms/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "securityheaders.io",
+    "r": 0,
+    "s": "securityheaders.io",
+    "sc": "Programming",
+    "t": "securityheaders",
+    "u": "https://securityheaders.io/?q={{{s}}}&followRedirects=on"
+  },
+  {
+    "c": "Tech",
+    "d": "salesforce.stackexchange.com",
+    "r": 0,
+    "s": "Salesforce Stack Exchange",
+    "sc": "Programming",
+    "t": "sfse",
+    "u": "http://salesforce.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "sourcegraph.com",
+    "r": 46,
+    "s": "Sourcegraph",
+    "sc": "Programming",
+    "t": "sg",
+    "u": "https://sourcegraph.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "cryptography.cc",
+    "r": 0,
+    "s": "Cryptography.cc",
+    "sc": "Programming",
+    "t": "sha256",
+    "u": "https://cryptography.cc/convert?text={{{s}}}&algorithm=sha256"
+  },
+  {
+    "c": "Tech",
+    "d": "www.shadertoy.com",
+    "r": 0,
+    "s": "shadertoy.com",
+    "sc": "Programming",
+    "t": "shadertoy",
+    "u": "https://www.shadertoy.com/results?query={{{s}}} "
+  },
+  {
+    "c": "Tech",
+    "d": "crystalshards.org",
+    "r": 0,
+    "s": "Crystal Shards",
+    "sc": "Programming",
+    "t": "shards",
+    "u": "https://crystalshards.org/?filter={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "doc.sikuli.org",
+    "r": 0,
+    "s": "Sikuli",
+    "sc": "Programming",
+    "t": "sikuli",
+    "u": "http://doc.sikuli.org/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.simplicite.io",
+    "r": 0,
+    "s": "Simplicité.io",
+    "sc": "Programming",
+    "t": "simplicite",
+    "u": "https://www.simplicite.io/resources/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.sitepoint.com",
+    "r": 0,
+    "s": "Sitepoint",
+    "sc": "Programming",
+    "t": "sitepoint",
+    "u": "https://www.sitepoint.com/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "kb.workfusion.com",
+    "r": 0,
+    "s": "kb.workfusion.com",
+    "sc": "Programming",
+    "t": "skb",
+    "u": "https://kb.workfusion.com/dosearchsite.action?cql=siteSearch+~+%22{{{s}}}%22&queryString={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.skunity.com",
+    "r": 0,
+    "s": "skUnity",
+    "sc": "Programming",
+    "t": "sku",
+    "u": "https://docs.skunity.com/syntax/search/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "searchlibs.com",
+    "r": 0,
+    "s": "SearchLibs",
+    "sc": "Programming",
+    "t": "slibs",
+    "u": "http://searchlibs.com/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "stackoverflow.com",
+    "r": 0,
+    "s": "Stack Overflow Bash Search",
+    "sc": "Programming",
+    "t": "sobash",
+    "u": "http://stackoverflow.com/search?q=[bash]+{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 10,
+    "s": "Stackoverflow with DuckDuckGo",
+    "sc": "Programming",
+    "t": "sod",
+    "u": "https://duckduckgo.com/?q=site:stackoverflow.com+{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.google.com",
+    "r": 0,
+    "s": "Stack Overflow via Google",
+    "sc": "Programming",
+    "t": "sog",
+    "u": "https://www.google.com/search?q=site%3Astackoverflow.com+{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "sonarcloud.io",
+    "r": 0,
+    "s": "SonarCloud",
+    "sc": "Programming",
+    "t": "sonarcloud",
+    "u": "https://sonarcloud.io/explore/projects?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "pt.stackoverflow.com",
+    "r": 0,
+    "s": "Stack Overflow em Português",
+    "sc": "Programming",
+    "t": "sopt",
+    "u": "https://pt.stackoverflow.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "stackoverflow.com",
+    "r": 0,
+    "s": "Stack Overflow",
+    "sc": "Programming",
+    "t": "soscrapy",
+    "u": "http://stackoverflow.com/search?q={{{s}}}[scrapy]"
+  },
+  {
+    "c": "Tech",
+    "d": "stackoverflow.com",
+    "r": 477,
+    "s": "Stack Overflow",
+    "sc": "Programming",
+    "t": "so",
+    "u": "http://stackoverflow.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "sourcegraph.com",
+    "r": 0,
+    "s": "Sourcegraph",
+    "sc": "Programming",
+    "t": "sourcegraph",
+    "u": "https://sourcegraph.com/github.com/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "sphereon.com",
+    "r": 0,
+    "s": "Sphereon",
+    "sc": "Programming",
+    "t": "sphereon",
+    "u": "https://sphereon.com/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "SPIP",
+    "sc": "Programming",
+    "t": "spip",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site:spip.net"
+  },
+  {
+    "c": "Tech",
+    "d": "www.springsource.org",
+    "r": 0,
+    "s": "SpringSource",
+    "sc": "Programming",
+    "t": "springsource",
+    "u": "http://www.springsource.org/search/google?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "sql.sh",
+    "r": 0,
+    "s": "SQL.sh",
+    "sc": "Programming",
+    "t": "sqlsh",
+    "u": "http://sql.sh/?s={{{s}}}&submit=Rechercher"
+  },
+  {
+    "c": "Tech",
+    "d": "sourceforge.net",
+    "r": 0,
+    "s": "SourceForge",
+    "sc": "Programming",
+    "t": "srcforge",
+    "u": "http://sourceforge.net/directory/os:windows/freshness:recently-updated/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "stackoverflow.com",
+    "r": 12,
+    "s": "StackOverflow",
+    "sc": "Programming",
+    "t": "stackoverflow",
+    "u": "http://stackoverflow.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "stackoverflow.com",
+    "r": 9,
+    "s": "Stack Overflow",
+    "sc": "Programming",
+    "t": "stack",
+    "u": "http://stackoverflow.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.sublimetext.info",
+    "r": 0,
+    "s": "Sublime Text Unofficial Documentation",
+    "sc": "Programming",
+    "t": "subldoc",
+    "u": "http://docs.sublimetext.info/en/latest/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "forum.sublimetext.com",
+    "r": 0,
+    "s": "Sublime Text Forum",
+    "sc": "Programming",
+    "t": "sublforum",
+    "u": "https://forum.sublimetext.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "superuser.com",
+    "r": 0,
+    "s": "SuperUser",
+    "sc": "Programming",
+    "t": "superuser",
+    "u": "http://superuser.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "superuser.com",
+    "r": 0,
+    "s": "SuperUser",
+    "sc": "Programming",
+    "t": "su",
+    "u": "http://superuser.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "developer.apple.com",
+    "r": 5,
+    "s": "Swift Standard Library",
+    "sc": "Programming",
+    "t": "swift",
+    "u": "https://developer.apple.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.swi-prolog.org",
+    "r": 0,
+    "s": "SWI-Prolog",
+    "sc": "Programming",
+    "t": "swi",
+    "u": "http://www.swi-prolog.org/search?for={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "symbolhound.com",
+    "r": 0,
+    "s": "Symbol Hound",
+    "sc": "Programming",
+    "t": "symbolhound",
+    "u": "http://symbolhound.com/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "symbolhound.com",
+    "r": 3,
+    "s": "Symbolhound",
+    "sc": "Programming",
+    "t": "sym",
+    "u": "http://symbolhound.com/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.tensorflow.org",
+    "r": 0,
+    "s": "Tensor Flow",
+    "sc": "Programming",
+    "t": "teflo",
+    "u": "https://www.tensorflow.org/s/results/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.tei-c.org",
+    "r": 0,
+    "s": "TEI",
+    "sc": "Programming",
+    "t": "tei",
+    "u": "http://www.tei-c.org/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "teratail.com",
+    "r": 0,
+    "s": "teratail",
+    "sc": "Programming",
+    "t": "terat",
+    "u": "https://teratail.com/questions/search?q={{{s}}}&conditions=and"
+  },
+  {
+    "c": "Tech",
+    "d": "www.tensorflow.org",
+    "r": 14,
+    "s": "Tensor Flow",
+    "sc": "Programming",
+    "t": "tf",
+    "u": "https://www.tensorflow.org/s/results/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "thinktutorial.com",
+    "r": 0,
+    "s": "Th!ink",
+    "sc": "Programming",
+    "t": "thinktutorial",
+    "u": "http://thinktutorial.com/index.php?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "tkkrlab.nl",
+    "r": 0,
+    "s": "tkkrlab",
+    "sc": "Programming",
+    "t": "tkkrlab",
+    "u": "http://tkkrlab.nl/wiki/Special:Search?search={{{s}}}&go=Go"
+  },
+  {
+    "c": "Tech",
+    "d": "registry.terraform.io",
+    "r": 31,
+    "s": "Terraform Module Registry",
+    "sc": "Programming",
+    "t": "tmg",
+    "u": "https://registry.terraform.io/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "toster.ru",
+    "r": 0,
+    "s": "Toster",
+    "sc": "Programming",
+    "t": "tost",
+    "u": "https://toster.ru/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "travis-ci.org",
+    "r": 0,
+    "s": "Travis CI",
+    "sc": "Programming",
+    "t": "travis",
+    "u": "https://travis-ci.org/search/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Tutorials Point",
+    "sc": "Programming",
+    "t": "tupo",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site%3Awww.tutorialspoint.com&ia=web"
+  },
+  {
+    "c": "Tech",
+    "d": "typo3.org",
+    "r": 0,
+    "s": "typo3.org",
+    "sc": "Programming",
+    "t": "typo3",
+    "u": "https://typo3.org/search/?tx_solr[q]={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.mclean.net.nz",
+    "r": 0,
+    "s": "Unicode Character Finder",
+    "sc": "Programming",
+    "t": "ucf",
+    "u": "http://www.mclean.net.nz/ucf/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "unicode-table.com",
+    "r": 0,
+    "s": "unicode-table.com",
+    "sc": "Programming",
+    "t": "uct",
+    "u": "http://unicode-table.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "answers.unrealengine.com",
+    "r": 0,
+    "s": "Unreal Engine 4 Answerhub",
+    "sc": "Programming",
+    "t": "uea",
+    "u": "https://answers.unrealengine.com/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "unicode-search.net",
+    "r": 0,
+    "s": "Search for character(s) in Unicode",
+    "sc": "Programming",
+    "t": "uni",
+    "u": "http://unicode-search.net/unicode-namesearch.pl?term={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "answers.unity3d.com",
+    "r": 0,
+    "s": "Unity Answers",
+    "sc": "Programming",
+    "t": "unityanswers",
+    "u": "http://answers.unity3d.com/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.unity3d.com",
+    "r": 0,
+    "s": "Unity Manual",
+    "sc": "Programming",
+    "t": "unitym",
+    "u": "http://docs.unity3d.com/Manual/30_search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.unity3d.com",
+    "r": 0,
+    "s": "Unity Scripting Reference",
+    "sc": "Programming",
+    "t": "unitysr",
+    "u": "http://docs.unity3d.com/ScriptReference/30_search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "unity3d.com",
+    "r": 5,
+    "s": "Unity",
+    "sc": "Programming",
+    "t": "unity",
+    "u": "http://unity3d.com/search?gq={{{s}}} "
+  },
+  {
+    "c": "Tech",
+    "d": "minnie.tuhs.org",
+    "r": 6,
+    "s": "The Unix Tree",
+    "sc": "Programming",
+    "t": "unix",
+    "u": "http://minnie.tuhs.org/cgi-bin/utree.pl?filesearch={{{s}}}&submit=Go"
+  },
+  {
+    "c": "Tech",
+    "d": "developer.valvesoftware.com",
+    "r": 69,
+    "s": "Valve Developer Community",
+    "sc": "Programming",
+    "t": "vdc",
+    "u": "https://developer.valvesoftware.com/w/index.php?search={{{s}}} "
+  },
+  {
+    "c": "Tech",
+    "d": "vimawesome.com",
+    "r": 0,
+    "s": "Vim Awesome",
+    "sc": "Programming",
+    "t": "vimawesome",
+    "u": "http://vimawesome.com/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "vimdoc.sourceforge.net",
+    "r": 0,
+    "s": "Vimdoc",
+    "sc": "Programming",
+    "t": "vimdoc",
+    "u": "http://vimdoc.sourceforge.net/search.php?search={{{s}}}&docs=help"
+  },
+  {
+    "c": "Tech",
+    "d": "vim.wikia.com",
+    "r": 0,
+    "s": "Vim Tips wiki",
+    "sc": "Programming",
+    "t": "vimw",
+    "u": "http://vim.wikia.com/wiki/Special:Search?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "vi.stackexchange.com",
+    "r": 0,
+    "s": "Vi @ stackExchange",
+    "sc": "Programming",
+    "t": "viso",
+    "u": "https://vi.stackexchange.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "marketplace.visualstudio.com",
+    "r": 8,
+    "s": "Visual Studio Code Extensions",
+    "sc": "Programming",
+    "t": "vscode",
+    "u": "https://marketplace.visualstudio.com/search?term={{{s}}}&target=VSCode&sortBy=Relevance"
+  },
+  {
+    "c": "Tech",
+    "d": "www.vtk.org",
+    "r": 0,
+    "s": "Visualization Toolkit (VTK) class documentation (devel)",
+    "sc": "Programming",
+    "t": "vtkcd",
+    "u": "http://www.vtk.org/doc/nightly/html/class{{{s}}}.html"
+  },
+  {
+    "c": "Tech",
+    "d": "vtluug.org",
+    "r": 0,
+    "s": "vtluug wiki",
+    "sc": "Programming",
+    "t": "vtluug",
+    "u": "https://vtluug.org/w/index.php?title=Special%3ASearch&search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "vuetifyjs.com",
+    "r": 3,
+    "s": "Vuetifyjs",
+    "sc": "Programming",
+    "t": "vuetify",
+    "u": "https://vuetifyjs.com/en/components/{{{s}}}#{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.google.com",
+    "r": 0,
+    "s": "w3school中文",
+    "sc": "Programming",
+    "t": "w3scn",
+    "u": "http://www.google.com/search?q={{{s}}}+site:w3school.com.cn"
+  },
+  {
+    "c": "Tech",
+    "d": "validator.w3.org",
+    "r": 0,
+    "s": "W3C Validator",
+    "sc": "Programming",
+    "t": "w3v",
+    "u": "https://validator.w3.org/nu/?doc={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.webopedia.com",
+    "r": 17,
+    "s": "Webopedia",
+    "sc": "Programming",
+    "t": "web",
+    "u": "https://www.webopedia.com/sgsearch/results?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.whatruns.com",
+    "r": 0,
+    "s": "whatruns",
+    "sc": "Programming",
+    "t": "whatruns",
+    "u": "https://www.whatruns.com/website/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.webhostinghub.com",
+    "r": 0,
+    "s": "Web Hosting Hub",
+    "sc": "Programming",
+    "t": "whh",
+    "u": "https://www.webhostinghub.com/help/search?searchword={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "wpdev.uservoice.com",
+    "r": 0,
+    "s": "Windows Developer Feedback",
+    "sc": "Programming",
+    "t": "windev",
+    "u": "https://wpdev.uservoice.com/search?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "support.advancedcustomfields.com",
+    "r": 0,
+    "s": "Advanced Custom Fields (WordPress)",
+    "sc": "Programming",
+    "t": "wpacf",
+    "u": "https://support.advancedcustomfields.com/forums/search?bbp_search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "wpackagist.org",
+    "r": 3,
+    "s": "WordPress Packagist",
+    "sc": "Programming",
+    "t": "wpackagist",
+    "u": "https://wpackagist.org/search?q={{{s}}}&type=any&search="
+  },
+  {
+    "c": "Tech",
+    "d": "vip.wordpress.com",
+    "r": 0,
+    "s": "WordPress VIP",
+    "sc": "Programming",
+    "t": "wpvip",
+    "u": "https://vip.wordpress.com/?s={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "asciiwwdc.com",
+    "r": 0,
+    "s": "ASCIIwwdc",
+    "sc": "Programming",
+    "t": "wwdc",
+    "u": "http://asciiwwdc.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "developers.weixin.qq.com",
+    "r": 0,
+    "s": "search wechat miniprogram documents",
+    "sc": "Programming",
+    "t": "wxmp",
+    "u": "https://developers.weixin.qq.com/doc/search.html?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "developer.xamarin.com",
+    "r": 0,
+    "s": "Xamarin developer",
+    "sc": "Programming",
+    "t": "xamarin",
+    "u": "https://developer.xamarin.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "forum.xda-developers.com",
+    "r": 0,
+    "s": "XDA Developers",
+    "sc": "Programming",
+    "t": "xdadev",
+    "u": "http://forum.xda-developers.com/sitesearch.php?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "forum.xda-developers.com",
+    "r": 0,
+    "s": "XDA Developers Forum",
+    "sc": "Programming",
+    "t": "xdaf",
+    "u": "http://forum.xda-developers.com/sitesearch.php?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "forum.xda-developers.com",
+    "r": 6,
+    "s": "XDA Developers",
+    "sc": "Programming",
+    "t": "xda",
+    "u": "https://forum.xda-developers.com/search/?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "xmpp.org",
+    "r": 0,
+    "s": "XMPP Extensions",
+    "sc": "Programming",
+    "t": "xep",
+    "u": "https://xmpp.org/extensions/xep-{{{s}}}.html"
+  },
+  {
+    "c": "Tech",
+    "d": "forum.xojo.com",
+    "r": 0,
+    "s": "Xojo Forums",
+    "sc": "Programming",
+    "t": "xf",
+    "u": "https://forum.xojo.com/conversations/all?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "learnxinyminutes.com",
+    "r": 8,
+    "s": "Learn X in Y Minutes",
+    "sc": "Programming",
+    "t": "xiny",
+    "u": "https://learnxinyminutes.com/docs/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "wiki.yoctoproject.org",
+    "r": 0,
+    "s": "Yocto Project Wiki",
+    "sc": "Programming",
+    "t": "ypw",
+    "u": "https://wiki.yoctoproject.org/wiki/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "youtrack.jetbrains.com",
+    "r": 0,
+    "s": "YouTrack",
+    "sc": "Programming",
+    "t": "ytrack",
+    "u": "https://youtrack.jetbrains.com/issues?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "zdoom.org",
+    "r": 13,
+    "s": "ZDoom Wiki",
+    "sc": "Programming",
+    "t": "zdoom",
+    "u": "http://zdoom.org/w/index.php?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "zestedesavoir.com",
+    "r": 54,
+    "s": "ZesteDeSavoir",
+    "sc": "Programming",
+    "t": "zds",
+    "u": "http://zestedesavoir.com/rechercher/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "elixir.bootlin.com",
+    "r": 0,
+    "s": "Zephyr Cross Reference",
+    "sc": "Programming",
+    "t": "zxr",
+    "u": "https://elixir.bootlin.com/zephyr/latest/ident/{{{s}}}"
+  }
+];
+
+export const bangIndex: Record<string, BangCommand> = {
+  "42": {
+    "c": "Tech",
+    "d": "profile.intra.42.fr",
+    "r": 122,
+    "s": "42 Intra",
+    "sc": "Programming",
+    "t": "42",
+    "u": "https://profile.intra.42.fr/searches/search?query={{{s}}}"
+  },
+  "3dbrew": {
+    "c": "Tech",
+    "d": "3dbrew.org",
+    "r": 0,
+    "s": "3DBrew",
+    "sc": "Programming",
+    "t": "3dbrew",
+    "u": "http://3dbrew.org/wiki/Special:Search?search={{{s}}}&go=Go"
+  },
+  "acp": {
+    "c": "Tech",
+    "d": "plugins.cordova.io",
+    "r": 0,
+    "s": "Apache Cordova Plugins Registry",
+    "sc": "Programming",
+    "t": "acp",
+    "u": "http://plugins.cordova.io/#/search?search={{{s}}}"
+  },
+  "adc": {
+    "c": "Tech",
+    "d": "developer.apple.com",
+    "r": 0,
+    "s": "Apple Developer Center",
+    "sc": "Programming",
+    "t": "adc",
+    "u": "https://developer.apple.com/search/index.php?q={{{s}}}"
+  },
+  "adev": {
+    "c": "Tech",
+    "d": "developer.apple.com",
+    "r": 50,
+    "s": "Apple Developer",
+    "sc": "Programming",
+    "t": "adev",
+    "u": "https://developer.apple.com/search/?q={{{s}}}"
+  },
+  "adf": {
+    "c": "Tech",
+    "d": "forums.developer.apple.com",
+    "r": 0,
+    "s": "Apple dev form",
+    "sc": "Programming",
+    "t": "adf",
+    "u": "https://forums.developer.apple.com/search.jspa?q={{{s}}}"
+  },
+  "agerrit": {
+    "c": "Tech",
+    "d": "android-review.googlesource.com",
+    "r": 0,
+    "s": "Android Code Review (Gerrit)",
+    "sc": "Programming",
+    "t": "agerrit",
+    "u": "https://android-review.googlesource.com/q/{{{s}}}"
+  },
+  "ahk": {
+    "c": "Tech",
+    "d": "www.autohotkey.com",
+    "r": 4,
+    "s": "AutoHotkey",
+    "sc": "Programming",
+    "t": "ahk",
+    "u": "http://www.autohotkey.com/search/search.php?site=4&refine=0&template_demo=phpdig.html&result_page=search.php&search=Go+...&limite=100&option=start&path=docs/&query_string={{{s}}}"
+  },
+  "alfred": {
+    "c": "Tech",
+    "d": "www.alfredapp.com",
+    "r": 0,
+    "s": "Alfred",
+    "sc": "Programming",
+    "t": "alfred",
+    "u": "https://www.alfredapp.com/search/?q={{{s}}}"
+  },
+  "alg": {
+    "c": "Tech",
+    "d": "www.algomation.com",
+    "r": 0,
+    "s": "Algomation",
+    "sc": "Programming",
+    "t": "alg",
+    "u": "http://www.algomation.com/search?q={{{s}}}"
+  },
+  "algo": {
+    "c": "Tech",
+    "d": "algorithmia.com",
+    "r": 0,
+    "s": "Algorithmia",
+    "sc": "Programming",
+    "t": "algo",
+    "u": "https://algorithmia.com/search?q={{{s}}}"
+  },
+  "ampwhat": {
+    "c": "Tech",
+    "d": "www.amp-what.com",
+    "r": 0,
+    "s": "&what;",
+    "sc": "Programming",
+    "t": "ampwhat",
+    "u": "http://www.amp-what.com/unicode/search/{{{s}}}"
+  },
+  "andar": {
+    "c": "Tech",
+    "d": "android-arsenal.com",
+    "r": 0,
+    "s": "Android Arsenal",
+    "sc": "Programming",
+    "t": "andar",
+    "u": "https://android-arsenal.com/search?q={{{s}}}"
+  },
+  "andev": {
+    "c": "Tech",
+    "d": "developer.android.com",
+    "r": 0,
+    "s": "Android Developers",
+    "sc": "Programming",
+    "t": "andev",
+    "u": "https://developer.android.com/s/results/?q={{{s}}}"
+  },
+  "android": {
+    "c": "Tech",
+    "d": "developer.android.com",
+    "r": 31,
+    "s": "Android Developers",
+    "sc": "Programming",
+    "t": "android",
+    "u": "https://developer.android.com/s/results/?q={{{s}}}"
+  },
+  "apm": {
+    "c": "Tech",
+    "d": "atom.io",
+    "r": 0,
+    "s": "Atom Packages",
+    "sc": "Programming",
+    "t": "apm",
+    "u": "https://atom.io/packages/search?q={{{s}}}"
+  },
+  "appengine": {
+    "c": "Tech",
+    "d": "code.google.com",
+    "r": 0,
+    "s": "App Engine Docs",
+    "sc": "Programming",
+    "t": "appengine",
+    "u": "http://code.google.com/query/#p=appengine&q={{{s}}}"
+  },
+  "arb": {
+    "c": "Tech",
+    "d": "ruby.libhunt.com",
+    "r": 0,
+    "s": "Awesome Ruby (LibHun)",
+    "sc": "Programming",
+    "t": "arb",
+    "u": "https://ruby.libhunt.com/search?query={{{s}}}"
+  },
+  "arcgisres": {
+    "c": "Tech",
+    "d": "resources.arcgis.com",
+    "r": 0,
+    "s": "ArcGIS Resource Center",
+    "sc": "Programming",
+    "t": "arcgisres",
+    "u": "http://resources.arcgis.com/content/search-result?searchKeyWord={{{s}}}"
+  },
+  "arduino": {
+    "c": "Tech",
+    "d": "arduino.stackexchange.com",
+    "r": 0,
+    "s": "Arduino Stack Exchange",
+    "sc": "Programming",
+    "t": "arduino",
+    "u": "http://arduino.stackexchange.com/search?q={{{s}}}"
+  },
+  "armadeus": {
+    "c": "Tech",
+    "d": "www.armadeus.com",
+    "r": 0,
+    "s": "Armadeus Project",
+    "sc": "Programming",
+    "t": "armadeus",
+    "u": "http://www.armadeus.com/wiki/index.php?search={{{s}}}"
+  },
+  "armtemp": {
+    "c": "Tech",
+    "d": "azure.microsoft.com",
+    "r": 0,
+    "s": "Azure Quickstart Templates",
+    "sc": "Programming",
+    "t": "armtemp",
+    "u": "https://azure.microsoft.com/de-de/resources/templates/?term={{{s}}}"
+  },
+  "askubuntu": {
+    "c": "Tech",
+    "d": "askubuntu.com",
+    "r": 0,
+    "s": "Ask Ubuntu",
+    "sc": "Programming",
+    "t": "askubuntu",
+    "u": "http://askubuntu.com/search?q={{{s}}}"
+  },
+  "au3": {
+    "c": "Tech",
+    "d": "www.autoitscript.com",
+    "r": 0,
+    "s": "AutoIt Forums",
+    "sc": "Programming",
+    "t": "au3",
+    "u": "https://www.autoitscript.com/forum/search/?q={{{s}}}"
+  },
+  "autosar": {
+    "c": "Tech",
+    "d": "www.autosar.org",
+    "r": 0,
+    "s": "Autosar",
+    "sc": "Programming",
+    "t": "autosar",
+    "u": "https://www.autosar.org/nc/document-search/?tx_sysgsearch_pi1%5Bquery%5D={{{s}}}"
+  },
+  "baeldung": {
+    "c": "Tech",
+    "d": "www.baeldung.com",
+    "r": 0,
+    "s": "Baeldung",
+    "sc": "Programming",
+    "t": "baeldung",
+    "u": "https://www.baeldung.com/?s={{{s}}}"
+  },
+  "bash": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 7,
+    "s": "Bash",
+    "sc": "Programming",
+    "t": "bash",
+    "u": "http://duckduckgo.com/?q={{{s}}}+site:mywiki.wooledge.org,wiki.bash-hackers.org"
+  },
+  "bazel": {
+    "c": "Tech",
+    "d": "docs.bazel.build",
+    "r": 0,
+    "s": "bazel documentation",
+    "sc": "Programming",
+    "t": "bazel",
+    "u": "https://docs.bazel.build/search.html?q={{{s}}}"
+  },
+  "bb": {
+    "c": "Tech",
+    "d": "bitbucket.org",
+    "r": 32,
+    "s": "Bitbucket",
+    "sc": "Programming",
+    "t": "bb",
+    "u": "https://bitbucket.org/repo/all/?name={{{s}}}"
+  },
+  "bbcs": {
+    "c": "Tech",
+    "d": "bitbucket.org",
+    "r": 16,
+    "s": "Bitbucket Code Search",
+    "sc": "Programming",
+    "t": "bbcs",
+    "u": "https://bitbucket.org/search?q={{{s}}}"
+  },
+  "bbjs": {
+    "c": "Tech",
+    "d": "doc.babylonjs.com",
+    "r": 0,
+    "s": " Babylon.js documentation",
+    "sc": "Programming",
+    "t": "bbjs",
+    "u": "https://doc.babylonjs.com/search/?bjsq={{{s}}}"
+  },
+  "bbus": {
+    "c": "Tech",
+    "d": "bitbucket.org",
+    "r": 0,
+    "s": "Bitbucket User",
+    "sc": "Programming",
+    "t": "bbus",
+    "u": "https://bitbucket.org/{{{s}}}/"
+  },
+  "bcp": {
+    "c": "Tech",
+    "d": "tools.ietf.org",
+    "r": 0,
+    "s": "Best Current Practices",
+    "sc": "Programming",
+    "t": "bcp",
+    "u": "http://tools.ietf.org/html/bcp{{{s}}}"
+  },
+  "bcwiki": {
+    "c": "Tech",
+    "d": "en.bitcoin.it",
+    "r": 0,
+    "s": "Bitcoin Wiki",
+    "sc": "Programming",
+    "t": "bcwiki",
+    "u": "https://en.bitcoin.it/w/index.php?title=Special%3ASearch&search={{{s}}}"
+  },
+  "bdgc": {
+    "c": "Tech",
+    "d": "www.bitdegree.org",
+    "r": 0,
+    "s": "BitDegree Online Courses",
+    "sc": "Programming",
+    "t": "bdgc",
+    "u": "https://www.bitdegree.org/search?q={{{s}}}&src=ukw"
+  },
+  "bdgl": {
+    "c": "Tech",
+    "d": "www.bitdegree.org",
+    "r": 0,
+    "s": "BitDegree Learn",
+    "sc": "Programming",
+    "t": "bdgl",
+    "u": "https://www.bitdegree.org/learn/search?query={{{s}}}"
+  },
+  "blcy": {
+    "c": "Tech",
+    "d": "live.blockcypher.com",
+    "r": 0,
+    "s": "BlockCypher",
+    "sc": "Programming",
+    "t": "blcy",
+    "u": "https://live.blockcypher.com/btc/address/{{{s}}}"
+  },
+  "blenderapi": {
+    "c": "Tech",
+    "d": "docs.blender.org",
+    "r": 0,
+    "s": "Blender API",
+    "sc": "Programming",
+    "t": "blenderapi",
+    "u": "https://docs.blender.org/api/current/search.html?q={{{s}}}"
+  },
+  "bmo": {
+    "c": "Tech",
+    "d": "bugzilla.mozilla.org",
+    "r": 0,
+    "s": "Mozilla Bugzilla",
+    "sc": "Programming",
+    "t": "bmo",
+    "u": "https://bugzilla.mozilla.org/buglist.cgi?quicksearch={{{s}}}"
+  },
+  "boto3": {
+    "c": "Tech",
+    "d": "boto3.readthedocs.io",
+    "r": 7,
+    "s": "Boto 3 Docs",
+    "sc": "Programming",
+    "t": "boto3",
+    "u": "https://boto3.readthedocs.io/en/latest/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  "bountysource": {
+    "c": "Tech",
+    "d": "www.bountysource.com",
+    "r": 0,
+    "s": "Bountysource",
+    "sc": "Programming",
+    "t": "bountysource",
+    "u": "https://www.bountysource.com/search?query={{{s}}}"
+  },
+  "bugzilla": {
+    "c": "Tech",
+    "d": "bugzilla.mozilla.org",
+    "r": 3,
+    "s": "Bugzilla",
+    "sc": "Programming",
+    "t": "bugzilla",
+    "u": "https://bugzilla.mozilla.org/buglist.cgi?quicksearch={{{s}}} "
+  },
+  "c74": {
+    "c": "Tech",
+    "d": "cycling74.com",
+    "r": 0,
+    "s": "Cycling '74",
+    "sc": "Programming",
+    "t": "c74",
+    "u": "https://cycling74.com/search/page/1/{{{s}}}"
+  },
+  "cbottle": {
+    "c": "Tech",
+    "d": "codebottle.io",
+    "r": 0,
+    "s": "Codebottle",
+    "sc": "Programming",
+    "t": "cbottle",
+    "u": "https://codebottle.io/?q={{{s}}}"
+  },
+  "cfn": {
+    "c": "Tech",
+    "d": "docs.aws.amazon.com",
+    "r": 15,
+    "s": "AWS CloudFormation Documentation",
+    "sc": "Programming",
+    "t": "cfn",
+    "u": "http://docs.aws.amazon.com/search/doc-search.html?searchPath=documentation-guide&searchQuery={{{s}}}&this_doc_product=AWS+CloudFormation&this_doc_guide=User+Guide&doc_locale=en_us#facet_doc_product=AWS%20CloudFormation&facet_doc_guide=User%20Guide"
+  },
+  "cheat": {
+    "c": "Tech",
+    "d": "devhints.io",
+    "r": 9,
+    "s": "https://devhints.io/",
+    "sc": "Programming",
+    "t": "cheat",
+    "u": "https://devhints.io/{{{s}}}"
+  },
+  "chmod": {
+    "c": "Tech",
+    "d": "chmodcommand.com",
+    "r": 0,
+    "s": "Chmod Calculator",
+    "sc": "Programming",
+    "t": "chmod",
+    "u": "https://chmodcommand.com/chmod-{{{s}}}/"
+  },
+  "ckt": {
+    "c": "Tech",
+    "d": "www.creationkit.com",
+    "r": 0,
+    "s": "Creation Kit",
+    "sc": "Programming",
+    "t": "ckt",
+    "u": "http://www.creationkit.com/index.php?search={{{s}}}"
+  },
+  "cloogle": {
+    "c": "Tech",
+    "d": "cloogle.org",
+    "r": 0,
+    "s": "Cloogle",
+    "sc": "Programming",
+    "t": "cloogle",
+    "u": "http://cloogle.org/#{{{s}}}"
+  },
+  "cmake": {
+    "c": "Tech",
+    "d": "cmake.org",
+    "r": 118,
+    "s": "CMake documentation",
+    "sc": "Programming",
+    "t": "cmake",
+    "u": "https://cmake.org/cmake/help/latest/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  "codebottle": {
+    "c": "Tech",
+    "d": "codebottle.io",
+    "r": 0,
+    "s": "CodeBottle",
+    "sc": "Programming",
+    "t": "codebottle",
+    "u": "https://codebottle.io/?q={{{s}}}"
+  },
+  "codedgar": {
+    "c": "Tech",
+    "d": "codedgar.com.ve",
+    "r": 0,
+    "s": "Codedgar",
+    "sc": "Programming",
+    "t": "codedgar",
+    "u": "https://codedgar.com.ve/?s={{{s}}}"
+  },
+  "codeforces": {
+    "c": "Tech",
+    "d": "codeforces.com",
+    "r": 34,
+    "s": "Codeforces",
+    "sc": "Programming",
+    "t": "codeforces",
+    "u": "http://codeforces.com/search?query={{{s}}}"
+  },
+  "codegov": {
+    "c": "Tech",
+    "d": "code.gov",
+    "r": 0,
+    "s": "Code.gov",
+    "sc": "Programming",
+    "t": "codegov",
+    "u": "https://code.gov/search?query={{{s}}}"
+  },
+  "codekx": {
+    "c": "Tech",
+    "d": "code.kx.com",
+    "r": 0,
+    "s": "code.kx",
+    "sc": "Programming",
+    "t": "codekx",
+    "u": "https://code.kx.com/q/search?query={{{s}}}"
+  },
+  "computerhope": {
+    "c": "Tech",
+    "d": "www.computerhope.com",
+    "r": 0,
+    "s": "Computer Hope",
+    "sc": "Programming",
+    "t": "computerhope",
+    "u": "https://www.computerhope.com/search2.htm?q={{{s}}}"
+  },
+  "cordovapl": {
+    "c": "Tech",
+    "d": "plugins.cordova.io",
+    "r": 0,
+    "s": "Apache Cordova Plugins Registry",
+    "sc": "Programming",
+    "t": "cordovapl",
+    "u": "http://plugins.cordova.io/#/search?search={{{s}}}"
+  },
+  "cpen": {
+    "c": "Tech",
+    "d": "codepen.io",
+    "r": 0,
+    "s": "Codepen",
+    "sc": "Programming",
+    "t": "cpen",
+    "u": "http://codepen.io/search?q={{{s}}}&limit=all&depth=everything&show_forks=false"
+  },
+  "cproj": {
+    "c": "Tech",
+    "d": "www.codeproject.com",
+    "r": 0,
+    "s": "Code Project",
+    "sc": "Programming",
+    "t": "cproj",
+    "u": "http://www.codeproject.com/search.aspx?q={{{s}}}"
+  },
+  "crate": {
+    "c": "Tech",
+    "d": "crate.io",
+    "r": 54,
+    "s": "crate.io",
+    "sc": "Programming",
+    "t": "crate",
+    "u": "https://crate.io/docs/stable/search.html?check_keywords=yes&area=default&q={{{s}}}"
+  },
+  "crbug": {
+    "c": "Tech",
+    "d": "bugs.chromium.org",
+    "r": 0,
+    "s": "Chromium bugs",
+    "sc": "Programming",
+    "t": "crbug",
+    "u": "https://bugs.chromium.org/p/chromium/issues/list?q={{{s}}}"
+  },
+  "cr": {
+    "c": "Tech",
+    "d": "codereview.stackexchange.com",
+    "r": 4,
+    "s": "codereview.stackexchange.com",
+    "sc": "Programming",
+    "t": "cr",
+    "u": "http://codereview.stackexchange.com/search?q={{{s}}}"
+  },
+  "crdb": {
+    "c": "Tech",
+    "d": "www.cockroachlabs.com",
+    "r": 0,
+    "s": "CockroachDB Docs",
+    "sc": "Programming",
+    "t": "crdb",
+    "u": "https://www.cockroachlabs.com/docs/search.html?q={{{s}}}"
+  },
+  "crypto": {
+    "c": "Tech",
+    "d": "crypto.stackexchange.com",
+    "r": 0,
+    "s": "Crypto Stack Exchange",
+    "sc": "Programming",
+    "t": "crypto",
+    "u": "http://crypto.stackexchange.com/search?q={{{s}}}"
+  },
+  "csharp": {
+    "c": "Tech",
+    "d": "social.msdn.microsoft.com",
+    "r": 10,
+    "s": "C# MSDN",
+    "sc": "Programming",
+    "t": "csharp",
+    "u": "http://social.msdn.microsoft.com/Search/en-US?query={{{s}}}&Refinement=126&ac=8"
+  },
+  "csound": {
+    "c": "Tech",
+    "d": "www.csounds.com",
+    "r": 0,
+    "s": "csounds",
+    "sc": "Programming",
+    "t": "csound",
+    "u": "http://www.csounds.com/manual/html/{{{s}}}.html"
+  },
+  "csst": {
+    "c": "Tech",
+    "d": "css-tricks.com",
+    "r": 0,
+    "s": "CSS-Tricks",
+    "sc": "Programming",
+    "t": "csst",
+    "u": "https://css-tricks.com/?s={{{s}}}"
+  },
+  "cstheory": {
+    "c": "Tech",
+    "d": "cstheory.stackexchange.com",
+    "r": 0,
+    "s": "Theoretical Computer Science - Stack Exchange",
+    "sc": "Programming",
+    "t": "cstheory",
+    "u": "http://cstheory.stackexchange.com/search?q={{{s}}}"
+  },
+  "cv": {
+    "c": "Tech",
+    "d": "stats.stackexchange.com",
+    "r": 0,
+    "s": "Cross Validated",
+    "sc": "Programming",
+    "t": "cv",
+    "u": "https://stats.stackexchange.com/search?q={{{s}}}"
+  },
+  "cw": {
+    "c": "Tech",
+    "d": "www.codewars.com",
+    "r": 7,
+    "s": "CodeWars",
+    "sc": "Programming",
+    "t": "cw",
+    "u": "https://www.codewars.com/kata/search/?q={{{s}}}"
+  },
+  "cwe": {
+    "c": "Tech",
+    "d": "cse.google.com",
+    "r": 0,
+    "s": "Common Weakness Enumeration",
+    "sc": "Programming",
+    "t": "cwe",
+    "u": "https://cse.google.com/cse?oe=utf8&ie=utf8&source=uds&q={{{s}}}&start=0&cx=012899561505164599335:tb0er0xsk_o"
+  },
+  "cyg64": {
+    "c": "Tech",
+    "d": "cygwin.com",
+    "r": 0,
+    "s": "Cygwin Package Search",
+    "sc": "Programming",
+    "t": "cyg64",
+    "u": "https://cygwin.com/cgi-bin2/package-grep.cgi?grep={{{s}}}&arch=x86_64"
+  },
+  "daniweb": {
+    "c": "Tech",
+    "d": "www.daniweb.com",
+    "r": 0,
+    "s": "DaniWeb",
+    "sc": "Programming",
+    "t": "daniweb",
+    "u": "https://www.daniweb.com/search/index?q={{{s}}}"
+  },
+  "dart": {
+    "c": "Tech",
+    "d": "www.dartlang.org",
+    "r": 0,
+    "s": "dartlang",
+    "sc": "Programming",
+    "t": "dart",
+    "u": "http://www.dartlang.org/search.html?q={{{s}}}"
+  },
+  "dartpub": {
+    "c": "Tech",
+    "d": "pub.dartlang.org",
+    "r": 8,
+    "s": "Dart Packages",
+    "sc": "Programming",
+    "t": "dartpub",
+    "u": "https://pub.dartlang.org/packages?q={{{s}}}"
+  },
+  "dbasx": {
+    "c": "Tech",
+    "d": "dba.stackexchange.com",
+    "r": 0,
+    "s": "DBA StackExchange",
+    "sc": "Programming",
+    "t": "dbasx",
+    "u": "http://dba.stackexchange.com/search?q={{{s}}}"
+  },
+  "dbo": {
+    "c": "Tech",
+    "d": "dev.bukkit.org",
+    "r": 0,
+    "s": "BukkitDev",
+    "sc": "Programming",
+    "t": "dbo",
+    "u": "https://dev.bukkit.org/search?search={{{s}}}"
+  },
+  "dd": {
+    "c": "Tech",
+    "d": "devdocs.io",
+    "r": 137,
+    "s": "DevDocs",
+    "sc": "Programming",
+    "t": "dd",
+    "u": "https://devdocs.io/#q={{{s}}}"
+  },
+  "ddh1": {
+    "c": "Tech",
+    "d": "ddh1.duckduckgo.com",
+    "r": 0,
+    "s": "ddh1",
+    "sc": "Programming",
+    "t": "ddh1",
+    "u": "http://ddh1.duckduckgo.com/?q={{{s}}}"
+  },
+  "ddh": {
+    "c": "Tech",
+    "d": "duck.co",
+    "r": 10,
+    "s": "DuckDuckHack",
+    "sc": "Programming",
+    "t": "ddh",
+    "u": "https://duck.co/ia?q={{{s}}}"
+  },
+  "ddso": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 12,
+    "s": "Stack Overflow via DuckDuckGo",
+    "sc": "Programming",
+    "t": "ddso",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site:stackoverflow.com"
+  },
+  "defkey": {
+    "c": "Tech",
+    "d": "defkey.com",
+    "r": 0,
+    "s": "defkey",
+    "sc": "Programming",
+    "t": "defkey",
+    "u": "https://defkey.com/search?irq={{{s}}}"
+  },
+  "dev": {
+    "c": "Tech",
+    "d": "devdocs.io",
+    "r": 4,
+    "s": "DevDocs",
+    "sc": "Programming",
+    "t": "dev",
+    "u": "https://devdocs.io/#q={{{s}}}"
+  },
+  "devdocs": {
+    "c": "Tech",
+    "d": "devdocs.io",
+    "r": 3,
+    "s": "DevDocs",
+    "sc": "Programming",
+    "t": "devdocs",
+    "u": "https://devdocs.io/#q={{{s}}}"
+  },
+  "developpez": {
+    "c": "Tech",
+    "d": "www.developpez.com",
+    "r": 0,
+    "s": "Developpez.com",
+    "sc": "Programming",
+    "t": "developpez",
+    "u": "http://www.developpez.com/recherche/?q={{{s}}}&sa.x=0&sa.y=0&sa=Go&cx=006424388311999799839:-31tnf0iuqy&cof=FORID:9&ie=ISO-8859-1&siteurl=www.developpez.com/"
+  },
+  "devhints": {
+    "c": "Tech",
+    "d": "devhints.io",
+    "r": 0,
+    "s": "Dev Hints",
+    "sc": "Programming",
+    "t": "devhints",
+    "u": "https://devhints.io/?q={{{s}}}"
+  },
+  "devo": {
+    "c": "Tech",
+    "d": "dev.opera.com",
+    "r": 0,
+    "s": "Dev.Opera ",
+    "sc": "Programming",
+    "t": "devo",
+    "u": "http://dev.opera.com/search?q={{{s}}}"
+  },
+  "dev.to": {
+    "c": "Tech",
+    "d": "dev.to",
+    "r": 0,
+    "s": "dev.to",
+    "sc": "Programming",
+    "t": "dev.to",
+    "u": "https://dev.to/search?q={{{s}}}"
+  },
+  "devtube": {
+    "c": "Tech",
+    "d": "dev.tube",
+    "r": 0,
+    "s": "DevTube",
+    "sc": "Programming",
+    "t": "devtube",
+    "u": "http://dev.tube?q={{{s}}}"
+  },
+  "dfman": {
+    "c": "Tech",
+    "d": "leaf.dragonflybsd.org",
+    "r": 3,
+    "s": "DragonFly BSD manual pages",
+    "sc": "Programming",
+    "t": "dfman",
+    "u": "http://leaf.dragonflybsd.org/cgi/web-man?command={{{s}}}&section=ANY"
+  },
+  "dh": {
+    "c": "Tech",
+    "d": "hub.docker.com",
+    "r": 630,
+    "s": "Docker Hub",
+    "sc": "Programming",
+    "t": "dh",
+    "u": "https://hub.docker.com/search/?q={{{s}}}&page=1&isAutomated=0&isOfficial=0&starCount=0&pullCount=0"
+  },
+  "die": {
+    "c": "Tech",
+    "d": "www.die.net",
+    "r": 16,
+    "s": "Linux.die.net man pages",
+    "sc": "Programming",
+    "t": "die",
+    "u": "http://www.die.net/search/?q={{{s}}}&sa=Search&ie=ISO-8859-1&cx=partner-pub-5823754184406795%3A54htp1rtx5u&cof=FORID%3A9"
+  },
+  "dig": {
+    "c": "Tech",
+    "d": "networking.ringofsaturn.com",
+    "r": 15,
+    "s": "dig Lookup",
+    "sc": "Programming",
+    "t": "dig",
+    "u": "http://networking.ringofsaturn.com/Tools/dig.php?domain=ANY+{{{s}}}"
+  },
+  "django": {
+    "c": "Tech",
+    "d": "docs.djangoproject.com",
+    "r": 102,
+    "s": "Django Docs",
+    "sc": "Programming",
+    "t": "django",
+    "u": "http://docs.djangoproject.com/search/?q={{{s}}}"
+  },
+  "djticket": {
+    "c": "Tech",
+    "d": "code.djangoproject.com",
+    "r": 0,
+    "s": "Django Ticket",
+    "sc": "Programming",
+    "t": "djticket",
+    "u": "https://code.djangoproject.com/ticket/{{{s}}}"
+  },
+  "docksal": {
+    "c": "Tech",
+    "d": "docksal.readthedocs.io",
+    "r": 0,
+    "s": "Docksal",
+    "sc": "Programming",
+    "t": "docksal",
+    "u": "https://docksal.readthedocs.io/en/master/search.html?q={{{s}}}"
+  },
+  "docs.rs": {
+    "c": "Tech",
+    "d": "docs.rs",
+    "r": 85,
+    "s": "docs.rs",
+    "sc": "Programming",
+    "t": "docs.rs",
+    "u": "https://docs.rs/releases/search?query={{{s}}}"
+  },
+  "dpcs": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "PCsoft",
+    "sc": "Programming",
+    "t": "dpcs",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site:doc.pcsoft.fr&ia=web"
+  },
+  "dpolicy": {
+    "c": "Tech",
+    "d": "www.debian.org",
+    "r": 0,
+    "s": "Debian Policy Manual",
+    "sc": "Programming",
+    "t": "dpolicy",
+    "u": "https://www.debian.org/doc/debian-policy {{{s}}}"
+  },
+  "dpub": {
+    "c": "Tech",
+    "d": "pub.dartlang.org",
+    "r": 0,
+    "s": "Dartlang Packages",
+    "sc": "Programming",
+    "t": "dpub",
+    "u": "http://pub.dartlang.org/search?q={{{s}}}"
+  },
+  "dreamincode": {
+    "c": "Tech",
+    "d": "www.dreamincode.net",
+    "r": 0,
+    "s": "Dream In Code",
+    "sc": "Programming",
+    "t": "dreamincode",
+    "u": "http://www.dreamincode.net/forums/index.php?app=core&module=search&section=search&do=quick_search&search_app=core&fromsearch=1&search_term={{{s}}}&search_app=forums"
+  },
+  "drs": {
+    "c": "Tech",
+    "d": "docs.rs",
+    "r": 1042,
+    "s": "Docs.rs - Documentation for Rust packages",
+    "sc": "Programming",
+    "t": "drs",
+    "u": "https://docs.rs/{{{s}}}"
+  },
+  "ducx": {
+    "c": "Tech",
+    "d": "help.appducx.com",
+    "r": 0,
+    "s": "Fabasoft app.ducx Help",
+    "sc": "Programming",
+    "t": "ducx",
+    "u": "http://help.appducx.com/index.php?topic=doc/Search-Result/index_en.htm&q={{{s}}}"
+  },
+  "dvlp": {
+    "c": "Tech",
+    "d": "www.developpez.com",
+    "r": 0,
+    "s": "developpez.com",
+    "sc": "Programming",
+    "t": "dvlp",
+    "u": "http://www.developpez.com/recherche/?q={{{s}}}&sa.x=-1376&sa.y=-2&cx=006424388311999799839%3A-31tnf0iuqy&cof=FORID%3A9&ie=ISO-8859-1&siteurl=www.developpez.com%2F%3Fq%3Dmicrosoft&ref=&ss=1463j290467j10"
+  },
+  "dvp": {
+    "c": "Tech",
+    "d": "www.developpez.com",
+    "r": 0,
+    "s": "Developpez.com",
+    "sc": "Programming",
+    "t": "dvp",
+    "u": "http://www.developpez.com/recherche/?cx=006424388311999799839%3A-31tnf0iuqy&cof=FORID%3A9&ie=ISO-8859-1&q={{{s}}}&sa=Rechercher"
+  },
+  "dxr": {
+    "c": "Tech",
+    "d": "dxr.mozilla.org",
+    "r": 0,
+    "s": "Mozilla DXR Code Search",
+    "sc": "Programming",
+    "t": "dxr",
+    "u": "https://dxr.mozilla.org/mozilla-central/search?q={{{s}}}"
+  },
+  "eclipsewiki": {
+    "c": "Tech",
+    "d": "wiki.eclipse.org",
+    "r": 0,
+    "s": "Eclipse Wiki (Eclipsepedia)",
+    "sc": "Programming",
+    "t": "eclipsewiki",
+    "u": "https://wiki.eclipse.org/index.php?search={{{s}}}&fulltext=search"
+  },
+  "eecms": {
+    "c": "Tech",
+    "d": "docs.expressionengine.com",
+    "r": 0,
+    "s": "ExpressionEngine User Guide",
+    "sc": "Programming",
+    "t": "eecms",
+    "u": "https://docs.expressionengine.com/search/latest/?q={{{s}}}"
+  },
+  "ee": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "ellislab",
+    "sc": "Programming",
+    "t": "ee",
+    "u": "https://duckduckgo.com/?q=site%3Ahttp%3A%2F%2Fellislab.com%2Fforums%2F+{{{s}}}"
+  },
+  "elastic": {
+    "c": "Tech",
+    "d": "www.elastic.co",
+    "r": 0,
+    "s": "Elasticsearch Documentation",
+    "sc": "Programming",
+    "t": "elastic",
+    "u": "https://www.elastic.co/search?q={{{s}}}&section=Learn%2FDocs%2F"
+  },
+  "elbaul": {
+    "c": "Tech",
+    "d": "elbauldelprogramador.com",
+    "r": 0,
+    "s": "El Baul del Programador",
+    "sc": "Programming",
+    "t": "elbaul",
+    "u": "http://elbauldelprogramador.com/?s={{{s}}}"
+  },
+  "ele": {
+    "c": "Tech",
+    "d": "electronjs.org",
+    "r": 0,
+    "s": "Electron",
+    "sc": "Programming",
+    "t": "ele",
+    "u": "https://electronjs.org/search?q={{{s}}}"
+  },
+  "emacswiki": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 3,
+    "s": "EmacsWiki.org",
+    "sc": "Programming",
+    "t": "emacswiki",
+    "u": "https://duckduckgo.com/?q=site:emacswiki.org+{{{s}}}"
+  },
+  "emacu": {
+    "c": "Tech",
+    "d": "emaculation.com",
+    "r": 0,
+    "s": "E-Maculation",
+    "sc": "Programming",
+    "t": "emacu",
+    "u": "https://emaculation.com/doku.php/mac_emulation?do=search&id=mac_emulation&q={{{s}}}"
+  },
+  "est": {
+    "c": "Tech",
+    "d": "emacs.stackexchange.com",
+    "r": 0,
+    "s": "Emacs Stack Exchange",
+    "sc": "Programming",
+    "t": "est",
+    "u": "http://emacs.stackexchange.com/search?q={{{s}}}"
+  },
+  "ext": {
+    "c": "Tech",
+    "d": "filext.com",
+    "r": 3,
+    "s": "FILExt",
+    "sc": "Programming",
+    "t": "ext",
+    "u": "http://filext.com/file-extension/{{{s}}}"
+  },
+  "ezt": {
+    "c": "Tech",
+    "d": "docops.ca.com",
+    "r": 0,
+    "s": "Easytrieve Document",
+    "sc": "Programming",
+    "t": "ezt",
+    "u": "https://docops.ca.com/ca-easytrieve/11-6/en/search?q={{{s}}}&max=10&key=CAET116"
+  },
+  "fastai": {
+    "c": "Tech",
+    "d": "forums.fast.ai",
+    "r": 0,
+    "s": "fast.ai forums",
+    "sc": "Programming",
+    "t": "fastai",
+    "u": "https://forums.fast.ai/search?q={{{s}}}"
+  },
+  "fccf": {
+    "c": "Tech",
+    "d": "www.freecodecamp.org",
+    "r": 0,
+    "s": "freeCodeCamp Forum",
+    "sc": "Programming",
+    "t": "fccf",
+    "u": "https://www.freecodecamp.org/forum/search?q= {{{s}}}"
+  },
+  "fdobugs": {
+    "c": "Tech",
+    "d": "bugs.freedesktop.org",
+    "r": 0,
+    "s": "freedesktop.org bugs",
+    "sc": "Programming",
+    "t": "fdobugs",
+    "u": "https://bugs.freedesktop.org/buglist.cgi?quicksearch={{{s}}}"
+  },
+  "fmedoc": {
+    "c": "Tech",
+    "d": "www.safe.com",
+    "r": 0,
+    "s": "Safe software FME documentation",
+    "sc": "Programming",
+    "t": "fmedoc",
+    "u": "https://www.safe.com/search/?site-search={{{s}}}&site=docs.safe.com"
+  },
+  "fmekb": {
+    "c": "Tech",
+    "d": "knowledge.safe.com",
+    "r": 0,
+    "s": "Safe.com knowledge center",
+    "sc": "Programming",
+    "t": "fmekb",
+    "u": "https://knowledge.safe.com/search.html?f=&type=question+OR+idea+OR+kbentry&c=&redirect=search%2Fsearch&sort=relevance&q={{{s}}}:"
+  },
+  "fmp": {
+    "c": "Tech",
+    "d": "community.filemaker.com",
+    "r": 0,
+    "s": "FileMaker Community",
+    "sc": "Programming",
+    "t": "fmp",
+    "u": "https://community.filemaker.com/en/s/global-search/{{{s}}}"
+  },
+  "fps": {
+    "c": "Tech",
+    "d": "apps.fedoraproject.org",
+    "r": 0,
+    "s": "Fedora Packages Search",
+    "sc": "Programming",
+    "t": "fps",
+    "u": "https://apps.fedoraproject.org/packages/s/{{{s}}}"
+  },
+  "frink": {
+    "c": "Tech",
+    "d": "www.futureboy.us",
+    "r": 0,
+    "s": "Frink Web Interface",
+    "sc": "Programming",
+    "t": "frink",
+    "u": "http://www.futureboy.us/fsp/frink.fsp?fromVal={{{s}}}"
+  },
+  "fr": {
+    "c": "Tech",
+    "d": "www.larousse.fr",
+    "r": 150,
+    "s": "Larousse French Dictionary",
+    "sc": "Programming",
+    "t": "fr",
+    "u": "http://www.larousse.fr/dictionnaires/francais/{{{s}}}"
+  },
+  "fxr": {
+    "c": "Tech",
+    "d": "fxr.watson.org",
+    "r": 0,
+    "s": "FreeBSD Cross Reference",
+    "sc": "Programming",
+    "t": "fxr",
+    "u": "http://fxr.watson.org/fxr/ident?i={{{s}}}"
+  },
+  "gbugs": {
+    "c": "Tech",
+    "d": "bugs.gentoo.org",
+    "r": 23,
+    "s": "Gentoo's Bugzilla",
+    "sc": "Programming",
+    "t": "gbugs",
+    "u": "https://bugs.gentoo.org/buglist.cgi?quicksearch={{{s}}}"
+  },
+  "gcp": {
+    "c": "Tech",
+    "d": "cloud.google.com",
+    "r": 5,
+    "s": "Google Cloud Platform",
+    "sc": "Programming",
+    "t": "gcp",
+    "u": "https://cloud.google.com/s/results/?q={{{s}}}"
+  },
+  "gdb": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "GDB Debugger",
+    "sc": "Programming",
+    "t": "gdb",
+    "u": "http://duckduckgo.com/?q=site:sourceware.org/gdb/current/onlinedocs/gdb/+{{{s}}}"
+  },
+  "gdd": {
+    "c": "Tech",
+    "d": "docs.godotengine.org",
+    "r": 6,
+    "s": "Godot Engine Documentation",
+    "sc": "Programming",
+    "t": "gdd",
+    "u": "http://docs.godotengine.org/en/latest/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  "gdev": {
+    "c": "Tech",
+    "d": "gamedev.stackexchange.com",
+    "r": 0,
+    "s": "Gamedev Stackexchange",
+    "sc": "Programming",
+    "t": "gdev",
+    "u": "https://gamedev.stackexchange.com/search?q={{{s}}}"
+  },
+  "geekbench": {
+    "c": "Tech",
+    "d": "browser.geekbench.com",
+    "r": 0,
+    "s": "Geekbench Browser",
+    "sc": "Programming",
+    "t": "geekbench",
+    "u": "http://browser.geekbench.com/v4/cpu/search?q={{{s}}}"
+  },
+  "gfg": {
+    "c": "Tech",
+    "d": "www.geeksforgeeks.org",
+    "r": 21,
+    "s": "geeksforgeeks",
+    "sc": "Programming",
+    "t": "gfg",
+    "u": "https://www.geeksforgeeks.org/?q={{{s}}}"
+  },
+  "ghc": {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 96,
+    "s": "GitHub Code",
+    "sc": "Programming",
+    "t": "ghc",
+    "u": "https://github.com/search?utf8=✓&q={{{s}}}&type=Code"
+  },
+  "ghcode": {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 49,
+    "s": "Github (code search)",
+    "sc": "Programming",
+    "t": "ghcode",
+    "u": "https://github.com/search?utf8=✓&q={{{s}}}&type=Code"
+  },
+  "gh": {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 15975,
+    "s": "GitHub",
+    "sc": "Programming",
+    "t": "gh",
+    "u": "https://github.com/search?utf8=%E2%9C%93&q={{{s}}}"
+  },
+  "ghio": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Github User Pages",
+    "sc": "Programming",
+    "t": "ghio",
+    "u": "https://duckduckgo.com/?q=site%3Agithub.io+{{{s}}}&ia=web"
+  },
+  "ghrepo": {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 8,
+    "s": "GitHub Repo",
+    "sc": "Programming",
+    "t": "ghrepo",
+    "u": "https://github.com/{{{s}}}"
+  },
+  "ghr": {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 26,
+    "s": "Github",
+    "sc": "Programming",
+    "t": "ghr",
+    "u": "https://github.com/{{{s}}}"
+  },
+  "ght": {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 6,
+    "s": "Github - Trending",
+    "sc": "Programming",
+    "t": "ght",
+    "u": "https://github.com/trending/{{{s}}}"
+  },
+  "ghtopic": {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 0,
+    "s": "GitHub Topic",
+    "sc": "Programming",
+    "t": "ghtopic",
+    "u": "https://github.com/topic/{{{s}}}"
+  },
+  "ghuser": {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 3,
+    "s": "GitHub",
+    "sc": "Programming",
+    "t": "ghuser",
+    "u": "https://github.com/search?type=Users&q={{{s}}}"
+  },
+  "ghus": {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 42,
+    "s": "Github User",
+    "sc": "Programming",
+    "t": "ghus",
+    "u": "https://github.com/{{{s}}}/"
+  },
+  "gisse": {
+    "c": "Tech",
+    "d": "gis.stackexchange.com",
+    "r": 0,
+    "s": "Stack Exchange",
+    "sc": "Programming",
+    "t": "gisse",
+    "u": "https://gis.stackexchange.com/search?q={{{s}}}"
+  },
+  "gist": {
+    "c": "Tech",
+    "d": "gist.github.com",
+    "r": 48,
+    "s": "Github Gists",
+    "sc": "Programming",
+    "t": "gist",
+    "u": "https://gist.github.com/search?q={{{s}}}"
+  },
+  "gitdocs": {
+    "c": "Tech",
+    "d": "git-scm.com",
+    "r": 0,
+    "s": "Git Documentation",
+    "sc": "Programming",
+    "t": "gitdocs",
+    "u": "https://git-scm.com/search/results?search={{{s}}}"
+  },
+  "git": {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 1965,
+    "s": "Github",
+    "sc": "Programming",
+    "t": "git",
+    "u": "https://github.com/search?utf8=%E2%9C%93&q={{{s}}}"
+  },
+  "githubhelp": {
+    "c": "Tech",
+    "d": "help.github.com",
+    "r": 0,
+    "s": "GitHub Help",
+    "sc": "Programming",
+    "t": "githubhelp",
+    "u": "https://help.github.com/search/?q={{{s}}}"
+  },
+  "githubstars": {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 3,
+    "s": "Github Stars",
+    "sc": "Programming",
+    "t": "githubstars",
+    "u": "https://github.com/stars?utf8=%E2%9C%93&q={{{s}}}"
+  },
+  "gitignore": {
+    "c": "Tech",
+    "d": "www.gitignore.io",
+    "r": 4,
+    "s": "gitignore.io",
+    "sc": "Programming",
+    "t": "gitignore",
+    "u": "https://www.gitignore.io/api/{{{s}}}"
+  },
+  "gitote": {
+    "c": "Tech",
+    "d": "gitote.in",
+    "r": 0,
+    "s": "Gitote",
+    "sc": "Programming",
+    "t": "gitote",
+    "u": "https://gitote.in/explore/repos?q={{{s}}}"
+  },
+  "git-scm": {
+    "c": "Tech",
+    "d": "git-scm.com",
+    "r": 6,
+    "s": "Git",
+    "sc": "Programming",
+    "t": "git-scm",
+    "u": "http://git-scm.com/search/results?search={{{s}}}"
+  },
+  "glab": {
+    "c": "Tech",
+    "d": "gitlab.com",
+    "r": 41,
+    "s": "GitLab",
+    "sc": "Programming",
+    "t": "glab",
+    "u": "https://gitlab.com/search?utf8=✓&search={{{s}}}"
+  },
+  "glitch": {
+    "c": "Tech",
+    "d": "glitch.com",
+    "r": 0,
+    "s": "Glitch",
+    "sc": "Programming",
+    "t": "glitch",
+    "u": "https://glitch.com/search?q={{{s}}}"
+  },
+  "gnomewiki": {
+    "c": "Tech",
+    "d": "wiki.gnome.org",
+    "r": 0,
+    "s": "GNOME Wiki",
+    "sc": "Programming",
+    "t": "gnomewiki",
+    "u": "https://wiki.gnome.org/Home?action=fullsearch&context=180&value={{{s}}}&titlesearch=Titles"
+  },
+  "godot": {
+    "c": "Tech",
+    "d": "docs.godotengine.org",
+    "r": 99,
+    "s": "Godot Docs",
+    "sc": "Programming",
+    "t": "godot",
+    "u": "http://docs.godotengine.org/en/stable/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  "gradle": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Gradle",
+    "sc": "Programming",
+    "t": "gradle",
+    "u": "http://duckduckgo.com/?q=site%3Agradle.org+{{{s}}}"
+  },
+  "grafikart": {
+    "c": "Tech",
+    "d": "www.grafikart.fr",
+    "r": 0,
+    "s": "Grafikart",
+    "sc": "Programming",
+    "t": "grafikart",
+    "u": "http://www.grafikart.fr/search?q={{{s}}}"
+  },
+  "groovy": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Groovy Documentation",
+    "sc": "Programming",
+    "t": "groovy",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site:docs.groovy-lang.org"
+  },
+  "gso": {
+    "c": "Tech",
+    "d": "google.com",
+    "r": 0,
+    "s": "Google over StackOverflow",
+    "sc": "Programming",
+    "t": "gso",
+    "u": "https://google.com/search?q=%2B%5Binurl%3Ahttp%3A%2F%2Fstackoverflow.com%5D+{{{s}}}"
+  },
+  "gtmz": {
+    "c": "Tech",
+    "d": "geektimes.ru",
+    "r": 0,
+    "s": "GeekTimes",
+    "sc": "Programming",
+    "t": "gtmz",
+    "u": "https://geektimes.ru/search/?q={{{s}}}"
+  },
+  "haxelib": {
+    "c": "Tech",
+    "d": "lib.haxe.org",
+    "r": 0,
+    "s": "Haxelib",
+    "sc": "Programming",
+    "t": "haxelib",
+    "u": "http://lib.haxe.org/search?v={{{s}}}"
+  },
+  "hdu": {
+    "c": "Tech",
+    "d": "acm.hdu.edu.cn",
+    "r": 0,
+    "s": "Hangzhou Dianzi University Online Judge",
+    "sc": "Programming",
+    "t": "hdu",
+    "u": "http://acm.hdu.edu.cn/search.php?field=problem&key={{{s}}}"
+  },
+  "herber": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Herber",
+    "sc": "Programming",
+    "t": "herber",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site%3Aherber.de"
+  },
+  "heroku": {
+    "c": "Tech",
+    "d": "devcenter.heroku.com",
+    "r": 0,
+    "s": "Heroku Devcenter",
+    "sc": "Programming",
+    "t": "heroku",
+    "u": "http://devcenter.heroku.com/articles?q={{{s}}}"
+  },
+  "hg": {
+    "c": "Tech",
+    "d": "www.mercurial-scm.org",
+    "r": 57,
+    "s": "Mecurial",
+    "sc": "Programming",
+    "t": "hg",
+    "u": "https://www.mercurial-scm.org/wiki/Mercurial?action=fullsearch&context=180&value={{{s}}}&titlesearch=Title"
+  },
+  "hnd": {
+    "c": "Tech",
+    "d": "hn.algolia.com",
+    "r": 0,
+    "s": "Hacker News",
+    "sc": "Programming",
+    "t": "hnd",
+    "u": "https://hn.algolia.com/?query={{{s}}}&sort=byDate"
+  },
+  "host": {
+    "c": "Tech",
+    "d": "networking.ringofsaturn.com",
+    "r": 5,
+    "s": "IP Lookup",
+    "sc": "Programming",
+    "t": "host",
+    "u": "http://networking.ringofsaturn.com/Tools/dig.php?domain=ANY+{{{s}}}"
+  },
+  "hou": {
+    "c": "Tech",
+    "d": "cse.google.com",
+    "r": 0,
+    "s": "Houdini Documentation",
+    "sc": "Programming",
+    "t": "hou",
+    "u": "https://cse.google.com/cse?cx=001106583893786776783%3Au81vudxhm7a&ie=UTF-8&q={{{s}}}&sa=Search&siteurl=www.sidefx.com%2Fdocs%2Fhoudini%2F&ref=www.sidefx.com%2Fdocs%2F&ss=504j116288j4"
+  },
+  "how": {
+    "c": "Tech",
+    "d": "howcode.org",
+    "r": 40,
+    "s": "howCode",
+    "sc": "Programming",
+    "t": "how",
+    "u": "https://howcode.org/search?q={{{s}}}"
+  },
+  "htcat": {
+    "c": "Tech",
+    "d": "http.cat",
+    "r": 0,
+    "s": "https://http.cat/",
+    "sc": "Programming",
+    "t": "htcat",
+    "u": "https://http.cat/{{{s}}}"
+  },
+  "htmldog": {
+    "c": "Tech",
+    "d": "www.htmldog.com",
+    "r": 0,
+    "s": "HTML Dog",
+    "sc": "Programming",
+    "t": "htmldog",
+    "u": "http://www.htmldog.com/search/?q={{{s}}}"
+  },
+  "http": {
+    "c": "Tech",
+    "d": "httpstatuses.com",
+    "r": 76,
+    "s": "HTTP Status Codes",
+    "sc": "Programming",
+    "t": "http",
+    "u": "https://httpstatuses.com/{{{s}}} "
+  },
+  "ibmkc": {
+    "c": "Tech",
+    "d": "www.ibm.com",
+    "r": 0,
+    "s": "IBM Knowledge Center",
+    "sc": "Programming",
+    "t": "ibmkc",
+    "u": "https://www.ibm.com/support/knowledgecenter/en/search/{{{s}}}"
+  },
+  "ietf": {
+    "c": "Tech",
+    "d": "datatracker.ietf.org",
+    "r": 0,
+    "s": "The IETF",
+    "sc": "Programming",
+    "t": "ietf",
+    "u": "http://datatracker.ietf.org/doc/search/?name={{{s}}}&activeDrafts=on&rfcs=on"
+  },
+  "imagelayers": {
+    "c": "Tech",
+    "d": "imagelayers.io",
+    "r": 0,
+    "s": "ImageLayers",
+    "sc": "Programming",
+    "t": "imagelayers",
+    "u": "https://imagelayers.io/?images={{{s}}}"
+  },
+  "infoq": {
+    "c": "Tech",
+    "d": "www.infoq.com",
+    "r": 0,
+    "s": "InfoQ",
+    "sc": "Programming",
+    "t": "infoq",
+    "u": "http://www.infoq.com/search.action?queryString={{{s}}}"
+  },
+  "inteli": {
+    "c": "Tech",
+    "d": "software.intel.com",
+    "r": 0,
+    "s": "Intel Intrinsics Guide",
+    "sc": "Programming",
+    "t": "inteli",
+    "u": "https://software.intel.com/sites/landingpage/IntrinsicsGuide/#!=undefined&text={{{s}}}"
+  },
+  "jme": {
+    "c": "Tech",
+    "d": "hub.jmonkeyengine.org",
+    "r": 0,
+    "s": "jMonkeyEngine Forum",
+    "sc": "Programming",
+    "t": "jme",
+    "u": "https://hub.jmonkeyengine.org/search?q={{{s}}}"
+  },
+  "juejin": {
+    "c": "Tech",
+    "d": "juejin.im",
+    "r": 0,
+    "s": "Juejin",
+    "sc": "Programming",
+    "t": "juejin",
+    "u": "https://juejin.im/search?query= {{{s}}}&type=all"
+  },
+  "kamailio": {
+    "c": "Tech",
+    "d": "www.kamailio.org",
+    "r": 0,
+    "s": "Kamailio",
+    "sc": "Programming",
+    "t": "kamailio",
+    "u": "https://www.kamailio.org/w/?s={{{s}}}"
+  },
+  "katacoda": {
+    "c": "Tech",
+    "d": "katacoda.com",
+    "r": 0,
+    "s": "katacoda",
+    "sc": "Programming",
+    "t": "katacoda",
+    "u": "https://katacoda.com/search?q={{{s}}}"
+  },
+  "kbugs": {
+    "c": "Tech",
+    "d": "bugs.kde.org",
+    "r": 0,
+    "s": "KDE Bugs",
+    "sc": "Programming",
+    "t": "kbugs",
+    "u": "https://bugs.kde.org/buglist.cgi?quicksearch={{{s}}}"
+  },
+  "kcommunity": {
+    "c": "Tech",
+    "d": "community.kde.org",
+    "r": 0,
+    "s": "KDE Community Wiki",
+    "sc": "Programming",
+    "t": "kcommunity",
+    "u": "http://community.kde.org/index.php?title=Special:Search&search={{{s}}}"
+  },
+  "koha": {
+    "c": "Tech",
+    "d": "bugs.koha-community.org",
+    "r": 0,
+    "s": "Koha Bugzilla",
+    "sc": "Programming",
+    "t": "koha",
+    "u": "https://bugs.koha-community.org/bugzilla3/buglist.cgi?quicksearch={{{s}}}"
+  },
+  "kprojects": {
+    "c": "Tech",
+    "d": "projects.kde.org",
+    "r": 0,
+    "s": "KDE Git Projects",
+    "sc": "Programming",
+    "t": "kprojects",
+    "u": "https://projects.kde.org/search?q={{{s}}}&all_words=1&projects=1&submit=Submit"
+  },
+  "ktb": {
+    "c": "Tech",
+    "d": "techbase.kde.org",
+    "r": 0,
+    "s": "KDE TechBase",
+    "sc": "Programming",
+    "t": "ktb",
+    "u": "http://techbase.kde.org/Special:Search?search={{{s}}}&fulltext=Search"
+  },
+  "ktechbase": {
+    "c": "Tech",
+    "d": "techbase.kde.org",
+    "r": 0,
+    "s": "KDE TechBase",
+    "sc": "Programming",
+    "t": "ktechbase",
+    "u": "http://techbase.kde.org/Special:Search?search={{{s}}}&fulltext=Search"
+  },
+  "l1sp": {
+    "c": "Tech",
+    "d": "l1sp.org",
+    "r": 16,
+    "s": "Lisp Docs",
+    "sc": "Programming",
+    "t": "l1sp",
+    "u": "http://l1sp.org/search?q={{{s}}}"
+  },
+  "lapack": {
+    "c": "Tech",
+    "d": "www.netlib.org",
+    "r": 0,
+    "s": "Netlib",
+    "sc": "Programming",
+    "t": "lapack",
+    "u": "http://www.netlib.org/lapack/complex16/{{{s}}}.f"
+  },
+  "lcr": {
+    "c": "Tech",
+    "d": "lxr.free-electrons.com",
+    "r": 0,
+    "s": "Linux Cross Reference",
+    "sc": "Programming",
+    "t": "lcr",
+    "u": "http://lxr.free-electrons.com/ident?i={{{s}}}"
+  },
+  "len": {
+    "c": "Tech",
+    "d": "mothereff.in",
+    "r": 0,
+    "s": "Mothereff.in Byte Counter",
+    "sc": "Programming",
+    "t": "len",
+    "u": "https://mothereff.in/byte-counter#{{{s}}}"
+  },
+  "levi": {
+    "c": "Tech",
+    "d": "levidsmith.com",
+    "r": 0,
+    "s": "Levi D. Smith Games",
+    "sc": "Programming",
+    "t": "levi",
+    "u": "https://levidsmith.com/?s={{{s}}}"
+  },
+  "libraries": {
+    "c": "Tech",
+    "d": "libraries.io",
+    "r": 0,
+    "s": "libraries.io",
+    "sc": "Programming",
+    "t": "libraries",
+    "u": "https://libraries.io/search?q={{{s}}}"
+  },
+  "libuv": {
+    "c": "Tech",
+    "d": "docs.libuv.org",
+    "r": 0,
+    "s": "Libuv API Docs",
+    "sc": "Programming",
+    "t": "libuv",
+    "u": "http://docs.libuv.org/en/latest/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  "lio": {
+    "c": "Tech",
+    "d": "libraries.io",
+    "r": 0,
+    "s": "https://libraries.io",
+    "sc": "Programming",
+    "t": "lio",
+    "u": "https://libraries.io/search?q={{{s}}}"
+  },
+  "llvm": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "LLVM Compiler Infrastructure",
+    "sc": "Programming",
+    "t": "llvm",
+    "u": "https://duckduckgo.com/?q=site%3Allvm.org+{{{s}}}"
+  },
+  "loh": {
+    "c": "Tech",
+    "d": "help.libreoffice.org",
+    "r": 0,
+    "s": "LibreOffice Help",
+    "sc": "Programming",
+    "t": "loh",
+    "u": "https://help.libreoffice.org/index.php?title=Special%3ASearch&profile=default&search={{{s}}}&fulltext=Search"
+  },
+  "losource": {
+    "c": "Tech",
+    "d": "opengrok.libreoffice.org",
+    "r": 0,
+    "s": "LibreOffice Source Code",
+    "sc": "Programming",
+    "t": "losource",
+    "u": "http://opengrok.libreoffice.org/search?q={{{s}}}&project=core"
+  },
+  "lpbug": {
+    "c": "Tech",
+    "d": "bugs.launchpad.net",
+    "r": 3,
+    "s": "Launchpad Bugs",
+    "sc": "Programming",
+    "t": "lpbug",
+    "u": "https://bugs.launchpad.net/bugs/+bugs?field.searchtext={{{s}}}"
+  },
+  "lp": {
+    "c": "Tech",
+    "d": "launchpad.net",
+    "r": 5,
+    "s": "Launchpad",
+    "sc": "Programming",
+    "t": "lp",
+    "u": "https://launchpad.net/+search?field.text={{{s}}}"
+  },
+  "lunaavr": {
+    "c": "Tech",
+    "d": "avr.myluna.de",
+    "r": 0,
+    "s": "Luna (AVR)",
+    "sc": "Programming",
+    "t": "lunaavr",
+    "u": "http://avr.myluna.de/doku.php?do=search&id={{{s}}}"
+  },
+  "lxiny": {
+    "c": "Tech",
+    "d": "learnxinyminutes.com",
+    "r": 0,
+    "s": "learnxinyminutes.com",
+    "sc": "Programming",
+    "t": "lxiny",
+    "u": "https://learnxinyminutes.com/docs/{{{s}}}"
+  },
+  "lxml": {
+    "c": "Tech",
+    "d": "marc.info",
+    "r": 0,
+    "s": "MARC Linux Kernel",
+    "sc": "Programming",
+    "t": "lxml",
+    "u": "http://marc.info/?l=linux-kernel&w=2&r=1&s={{{s}}}&q=b"
+  },
+  "lynda": {
+    "c": "Tech",
+    "d": "www.lynda.com",
+    "r": 0,
+    "s": "Lynda.com",
+    "sc": "Programming",
+    "t": "lynda",
+    "u": "http://www.lynda.com/search?q={{{s}}}"
+  },
+  "man-k": {
+    "c": "Tech",
+    "d": "man-k.org",
+    "r": 0,
+    "s": "man-k.org",
+    "sc": "Programming",
+    "t": "man-k",
+    "u": "http://man-k.org/search?q={{{s}}}&dist=NetBSD-current"
+  },
+  "mariadb": {
+    "c": "Tech",
+    "d": "mariadb.com",
+    "r": 8,
+    "s": "Mariadb",
+    "sc": "Programming",
+    "t": "mariadb",
+    "u": "https://mariadb.com/kb/en/+search/?q={{{s}}}"
+  },
+  "mathjax": {
+    "c": "Tech",
+    "d": "docs.mathjax.org",
+    "r": 0,
+    "s": "MathJax",
+    "sc": "Programming",
+    "t": "mathjax",
+    "u": "http://docs.mathjax.org/en/latest/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  "mbsdman": {
+    "c": "Tech",
+    "d": "www.mirbsd.org",
+    "r": 0,
+    "s": "MirBSD Manpages",
+    "sc": "Programming",
+    "t": "mbsdman",
+    "u": "https://www.mirbsd.org/man.cgi?q={{{s}}} "
+  },
+  "md": {
+    "c": "Tech",
+    "d": "learn.microsoft.com",
+    "r": 51,
+    "s": "Microsoft Docs",
+    "sc": "Programming",
+    "t": "md",
+    "u": "https://learn.microsoft.com/en-us/search/?terms={{{s}}}"
+  },
+  "mdnio": {
+    "c": "Tech",
+    "d": "mdn.io",
+    "r": 18,
+    "s": "mdn.io",
+    "sc": "Programming",
+    "t": "mdnio",
+    "u": "https://mdn.io/{{{s}}}"
+  },
+  "mdn": {
+    "c": "Tech",
+    "d": "developer.mozilla.org",
+    "r": 4558,
+    "s": "Mozilla Developer Network",
+    "sc": "Programming",
+    "t": "mdn",
+    "u": "https://developer.mozilla.org/search?q={{{s}}}"
+  },
+  "mdn.s": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Mozilla Developer Network",
+    "sc": "Programming",
+    "t": "mdn.s",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site%3Adeveloper.mozilla.org"
+  },
+  "metappcg": {
+    "c": "Tech",
+    "d": "codegolf.meta.stackexchange.com",
+    "r": 0,
+    "s": "Meta Programming Problems & Code Golf",
+    "sc": "Programming",
+    "t": "metappcg",
+    "u": "https://codegolf.meta.stackexchange.com/search?q={{{s}}}"
+  },
+  "mime": {
+    "c": "Tech",
+    "d": "mimeapplication.net",
+    "r": 0,
+    "s": "Mime Types Database",
+    "sc": "Programming",
+    "t": "mime",
+    "u": "http://mimeapplication.net/search?q={{{s}}}"
+  },
+  "moddota": {
+    "c": "Tech",
+    "d": "moddota.com",
+    "r": 0,
+    "s": "ModDota",
+    "sc": "Programming",
+    "t": "moddota",
+    "u": "https://moddota.com/forums/search?Search={{{s}}}"
+  },
+  "mongo": {
+    "c": "Tech",
+    "d": "docs.mongodb.org",
+    "r": 0,
+    "s": "MongoDB",
+    "sc": "Programming",
+    "t": "mongo",
+    "u": "http://docs.mongodb.org/manual/search/?query={{{s}}}"
+  },
+  "mozdxr": {
+    "c": "Tech",
+    "d": "dxr.mozilla.org",
+    "r": 0,
+    "s": "Mozilla DXR",
+    "sc": "Programming",
+    "t": "mozdxr",
+    "u": "https://dxr.mozilla.org/mozilla-central/search?q={{{s}}}"
+  },
+  "mozsf": {
+    "c": "Tech",
+    "d": "searchfox.org",
+    "r": 0,
+    "s": "Mozilla Searchfox",
+    "sc": "Programming",
+    "t": "mozsf",
+    "u": "http://searchfox.org/mozilla-central/search?q={{{s}}}"
+  },
+  "msd": {
+    "c": "Tech",
+    "d": "docs.microsoft.com",
+    "r": 5,
+    "s": "Microsoft Docs",
+    "sc": "Programming",
+    "t": "msd",
+    "u": "https://docs.microsoft.com/en-us/search/index?search={{{s}}}"
+  },
+  "msmalware": {
+    "c": "Tech",
+    "d": "www.microsoft.com",
+    "r": 0,
+    "s": "MS Malware Encyclopedia",
+    "sc": "Programming",
+    "t": "msmalware",
+    "u": "http://www.microsoft.com/security/portal/Threat/Encyclopedia/Search.aspx?query={{{s}}}"
+  },
+  "mso": {
+    "c": "Tech",
+    "d": "meta.stackoverflow.com",
+    "r": 0,
+    "s": "Meta Stack Overflow",
+    "sc": "Programming",
+    "t": "mso",
+    "u": "https://meta.stackoverflow.com/search?q={{{s}}}"
+  },
+  "mssql": {
+    "c": "Tech",
+    "d": "social.technet.microsoft.com",
+    "r": 0,
+    "s": "Microsoft TechNet SQL Server",
+    "sc": "Programming",
+    "t": "mssql",
+    "u": "https://social.technet.microsoft.com/Search/en-US/sqlserver?query={{{s}}}&Refinement=30&ac=4"
+  },
+  "murl": {
+    "c": "Tech",
+    "d": "murlengine.com",
+    "r": 0,
+    "s": "murlengine",
+    "sc": "Programming",
+    "t": "murl",
+    "u": "https://murlengine.com/api/en/search.php?q={{{s}}}"
+  },
+  "neo4j": {
+    "c": "Tech",
+    "d": "neo4j.com",
+    "r": 0,
+    "s": "Neo4j",
+    "sc": "Programming",
+    "t": "neo4j",
+    "u": "https://neo4j.com/?s={{{s}}}"
+  },
+  "nesdev": {
+    "c": "Tech",
+    "d": "wiki.nesdev.com",
+    "r": 0,
+    "s": "NESDev Wiki",
+    "sc": "Programming",
+    "t": "nesdev",
+    "u": "http://wiki.nesdev.com/w/index.php?title=Special%3ASearch&search={{{s}}}&fulltext=1"
+  },
+  "nettuts": {
+    "c": "Tech",
+    "d": "code.tutsplus.com",
+    "r": 0,
+    "s": "Nettuts+",
+    "sc": "Programming",
+    "t": "nettuts",
+    "u": "https://code.tutsplus.com/tutorials/search/{{{s}}}"
+  },
+  "ng4": {
+    "c": "Tech",
+    "d": "angular.io",
+    "r": 0,
+    "s": "Angular 4 API",
+    "sc": "Programming",
+    "t": "ng4",
+    "u": "https://angular.io/api?query={{{s}}}"
+  },
+  "npmjs": {
+    "c": "Tech",
+    "d": "www.npmjs.com",
+    "r": 147,
+    "s": "npm",
+    "sc": "Programming",
+    "t": "npmjs",
+    "u": "https://www.npmjs.com/search?q={{{s}}}"
+  },
+  "npms": {
+    "c": "Tech",
+    "d": "npmsearch.com",
+    "r": 0,
+    "s": "NPM Search",
+    "sc": "Programming",
+    "t": "npms",
+    "u": "http://npmsearch.com/?q={{{s}}}"
+  },
+  "nullbyte": {
+    "c": "Tech",
+    "d": "null-byte.wonderhowto.com",
+    "r": 0,
+    "s": "Null Byte",
+    "sc": "Programming",
+    "t": "nullbyte",
+    "u": "https://null-byte.wonderhowto.com/search/{{{s}}} "
+  },
+  "oapi": {
+    "c": "Tech",
+    "d": "overapi.com",
+    "r": 0,
+    "s": "http://overapi.com/",
+    "sc": "Programming",
+    "t": "oapi",
+    "u": "http://overapi.com/{{{s}}}"
+  },
+  "occ": {
+    "c": "Tech",
+    "d": "openclassrooms.com",
+    "r": 0,
+    "s": "OpenClassroom Cours",
+    "sc": "Programming",
+    "t": "occ",
+    "u": "https://openclassrooms.com/courses?q={{{s}}}"
+  },
+  "oco": {
+    "c": "Tech",
+    "d": "camlspotter.github.io",
+    "r": 0,
+    "s": "OCamlOscope",
+    "sc": "Programming",
+    "t": "oco",
+    "u": "https://camlspotter.github.io/ocamloscope.html?q={{{s}}}"
+  },
+  "opc": {
+    "c": "Tech",
+    "d": "fr.openclassrooms.com",
+    "r": 0,
+    "s": "OpenClassrooms",
+    "sc": "Programming",
+    "t": "opc",
+    "u": "http://fr.openclassrooms.com/recherche/?search={{{s}}}"
+  },
+  "openradar": {
+    "c": "Tech",
+    "d": "openradar.appspot.com",
+    "r": 0,
+    "s": "OpenRadar",
+    "sc": "Programming",
+    "t": "openradar",
+    "u": "http://openradar.appspot.com/search?query={{{s}}}"
+  },
+  "oreilly": {
+    "c": "Tech",
+    "d": "search.oreilly.com",
+    "r": 0,
+    "s": "O'Reilly",
+    "sc": "Programming",
+    "t": "oreilly",
+    "u": "http://search.oreilly.com/?q={{{s}}}"
+  },
+  "orly": {
+    "c": "Tech",
+    "d": "learning.oreilly.com",
+    "r": 3,
+    "s": "https://learning.oreilly.com/home/",
+    "sc": "Programming",
+    "t": "orly",
+    "u": "https://learning.oreilly.com/search/?query={{{s}}}"
+  },
+  "osdev": {
+    "c": "Tech",
+    "d": "wiki.osdev.org",
+    "r": 12,
+    "s": "OSDev Wiki",
+    "sc": "Programming",
+    "t": "osdev",
+    "u": "https://wiki.osdev.org/index.php?title=Special%3ASearch&search={{{s}}}&fulltext=Search"
+  },
+  "osdn": {
+    "c": "Tech",
+    "d": "osdn.net",
+    "r": 0,
+    "s": "OSDN",
+    "sc": "Programming",
+    "t": "osdn",
+    "u": "https://osdn.net/search/?iq={{{s}}}"
+  },
+  "osmc": {
+    "c": "Tech",
+    "d": "discourse.osmc.tv",
+    "r": 0,
+    "s": "OSMC",
+    "sc": "Programming",
+    "t": "osmc",
+    "u": "https://discourse.osmc.tv/search?q={{{s}}}"
+  },
+  "ourdocs": {
+    "c": "Tech",
+    "d": "our.umbraco.com",
+    "r": 0,
+    "s": "Umbraco Documentation",
+    "sc": "Programming",
+    "t": "ourdocs",
+    "u": "https://our.umbraco.com/search?q={{{s}}}&cat=documentation"
+  },
+  "ov": {
+    "c": "Tech",
+    "d": "stackoverflow.com",
+    "r": 0,
+    "s": "StackOverflow",
+    "sc": "Programming",
+    "t": "ov",
+    "u": "http://stackoverflow.com/search?q={{{s}}}"
+  },
+  "owasp": {
+    "c": "Tech",
+    "d": "www.owasp.org",
+    "r": 0,
+    "s": "OWASP",
+    "sc": "Programming",
+    "t": "owasp",
+    "u": "https://www.owasp.org/index.php?search={{{s}}}"
+  },
+  "pcasio": {
+    "c": "Tech",
+    "d": "www.planet-casio.com",
+    "r": 0,
+    "s": "Planète Casio",
+    "sc": "Programming",
+    "t": "pcasio",
+    "u": "https://www.planet-casio.com/Fr/aide/recherche.php?q={{{s}}}"
+  },
+  "pctrl": {
+    "c": "Tech",
+    "d": "packagecontrol.io",
+    "r": 0,
+    "s": "Package Control",
+    "sc": "Programming",
+    "t": "pctrl",
+    "u": "https://packagecontrol.io/search/{{{s}}}"
+  },
+  "perch": {
+    "c": "Tech",
+    "d": "forum.grabaperch.com",
+    "r": 0,
+    "s": "Perch Forum",
+    "sc": "Programming",
+    "t": "perch",
+    "u": "http://forum.grabaperch.com/forum/search?query={{{s}}}"
+  },
+  "pgdocs": {
+    "c": "Tech",
+    "d": "www.postgresql.org",
+    "r": 0,
+    "s": "PostgreSQL documentation",
+    "sc": "Programming",
+    "t": "pgdocs",
+    "u": "http://www.postgresql.org/search/?u=%2Fdocs%2F&q={{{s}}}"
+  },
+  "pio": {
+    "c": "Tech",
+    "d": "platformio.org",
+    "r": 0,
+    "s": "PlatformIO Libraries",
+    "sc": "Programming",
+    "t": "pio",
+    "u": "http://platformio.org/lib/search?query={{{s}}}"
+  },
+  "pls": {
+    "c": "Tech",
+    "d": "www.pluralsight.com",
+    "r": 0,
+    "s": "pluralsight",
+    "sc": "Programming",
+    "t": "pls",
+    "u": "https://www.pluralsight.com/search?q={{{s}}}"
+  },
+  "pony": {
+    "c": "Tech",
+    "d": "stdlib.ponylang.org",
+    "r": 0,
+    "s": "Pony Standard Library",
+    "sc": "Programming",
+    "t": "pony",
+    "u": "https://stdlib.ponylang.org/search.html?q={{{s}}}"
+  },
+  "posh": {
+    "c": "Tech",
+    "d": "docs.microsoft.com",
+    "r": 0,
+    "s": "Microsoft Docs",
+    "sc": "Programming",
+    "t": "posh",
+    "u": "https://docs.microsoft.com/en-us/search/index?search={{{s}}}"
+  },
+  "postgresql": {
+    "c": "Tech",
+    "d": "www.postgresql.org",
+    "r": 0,
+    "s": "PostgreSQL.org",
+    "sc": "Programming",
+    "t": "postgresql",
+    "u": "http://www.postgresql.org/search?q={{{s}}}&a=1&submit=Search"
+  },
+  "ppcg": {
+    "c": "Tech",
+    "d": "codegolf.stackexchange.com",
+    "r": 38,
+    "s": "Programming Puzzles & Code Golf Stack Exchange",
+    "sc": "Programming",
+    "t": "ppcg",
+    "u": "https://codegolf.stackexchange.com/search?q={{{s}}}"
+  },
+  "ppdev": {
+    "c": "Tech",
+    "d": "developer.paypal.com",
+    "r": 0,
+    "s": "PayPal Developer",
+    "sc": "Programming",
+    "t": "ppdev",
+    "u": "https://developer.paypal.com/search/?q={{{s}}}"
+  },
+  "pragprog": {
+    "c": "Tech",
+    "d": "pragprog.com",
+    "r": 0,
+    "s": "The Pragmatic Bookshelf",
+    "sc": "Programming",
+    "t": "pragprog",
+    "u": "https://pragprog.com/search?q={{{s}}}"
+  },
+  "prfc": {
+    "c": "Tech",
+    "d": "pretty-rfc.herokuapp.com",
+    "r": 0,
+    "s": "Pretty-RFC",
+    "sc": "Programming",
+    "t": "prfc",
+    "u": "http://pretty-rfc.herokuapp.com/search?q={{{s}}}"
+  },
+  "primfx": {
+    "c": "Tech",
+    "d": "www.primfx.com",
+    "r": 0,
+    "s": "PrimFX",
+    "sc": "Programming",
+    "t": "primfx",
+    "u": "https://www.primfx.com/q/{{{s}}}/"
+  },
+  "procomm": {
+    "c": "Tech",
+    "d": "community.progress.com",
+    "r": 0,
+    "s": "Progress Community",
+    "sc": "Programming",
+    "t": "procomm",
+    "u": "https://community.progress.com/search#q={{{s}}}"
+  },
+  "prog": {
+    "c": "Tech",
+    "d": "programmers.stackexchange.com",
+    "r": 0,
+    "s": "programmers.stackexchange.com",
+    "sc": "Programming",
+    "t": "prog",
+    "u": "http://programmers.stackexchange.com/search?q={{{s}}}"
+  },
+  "program": {
+    "c": "Tech",
+    "d": "www.codespeedy.com",
+    "r": 0,
+    "s": "CodeSpeedy",
+    "sc": "Programming",
+    "t": "program",
+    "u": "https://www.codespeedy.com/?s={{{s}}}"
+  },
+  "programmableweb": {
+    "c": "Tech",
+    "d": "www.programmableweb.com",
+    "r": 0,
+    "s": "ProgrammableWeb",
+    "sc": "Programming",
+    "t": "programmableweb",
+    "u": "http://www.programmableweb.com/search/{{{s}}}"
+  },
+  "progress": {
+    "c": "Tech",
+    "d": "knowledgebase.progress.com",
+    "r": 0,
+    "s": "Progress",
+    "sc": "Programming",
+    "t": "progress",
+    "u": "http://knowledgebase.progress.com/pkb_Home?q={{{s}}}"
+  },
+  "pro": {
+    "c": "Tech",
+    "d": "programmers.stackexchange.com",
+    "r": 13,
+    "s": "programmers.stackexchange.com",
+    "sc": "Programming",
+    "t": "pro",
+    "u": "http://programmers.stackexchange.com/search?q={{{s}}}"
+  },
+  "psimplified": {
+    "c": "Tech",
+    "d": "www.programmingsimplified.com",
+    "r": 0,
+    "s": "Programming Simplified",
+    "sc": "Programming",
+    "t": "psimplified",
+    "u": "http://www.programmingsimplified.com/search/node/{{{s}}}"
+  },
+  "puredata": {
+    "c": "Tech",
+    "d": "puredata.info",
+    "r": 0,
+    "s": "Pure Data",
+    "sc": "Programming",
+    "t": "puredata",
+    "u": "http://puredata.info/search?SearchableText={{{s}}}"
+  },
+  "purs": {
+    "c": "Tech",
+    "d": "pursuit.purescript.org",
+    "r": 17,
+    "s": "Pursuit",
+    "sc": "Programming",
+    "t": "purs",
+    "u": "https://pursuit.purescript.org/search?q={{{s}}}"
+  },
+  "py35": {
+    "c": "Tech",
+    "d": "docs.python.org",
+    "r": 0,
+    "s": "Python 3.5 Documentation",
+    "sc": "Programming",
+    "t": "py35",
+    "u": "https://docs.python.org/3.5/search.html?q={{{s}}}"
+  },
+  "pygame": {
+    "c": "Tech",
+    "d": "www.pygame.org",
+    "r": 0,
+    "s": "Pygame",
+    "sc": "Programming",
+    "t": "pygame",
+    "u": "https://www.pygame.org/docs/search.html?q={{{s}}}"
+  },
+  "pyqt5": {
+    "c": "Tech",
+    "d": "www.riverbankcomputing.com",
+    "r": 0,
+    "s": "PyQt5",
+    "sc": "Programming",
+    "t": "pyqt5",
+    "u": "https://www.riverbankcomputing.com/static/Docs/PyQt5/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  "qiita": {
+    "c": "Tech",
+    "d": "qiita.com",
+    "r": 25,
+    "s": "Qiita",
+    "sc": "Programming",
+    "t": "qiita",
+    "u": "http://qiita.com/search?q={{{s}}}"
+  },
+  "qs": {
+    "c": "Tech",
+    "d": "help.qlik.com",
+    "r": 0,
+    "s": "Qlik Sense Help",
+    "sc": "Programming",
+    "t": "qs",
+    "u": "https://help.qlik.com/en-US/search/?q={{{s}}}"
+  },
+  "qt5": {
+    "c": "Tech",
+    "d": "doc.qt.io",
+    "r": 4,
+    "s": "Qt 5 Documentation",
+    "sc": "Programming",
+    "t": "qt5",
+    "u": "http://doc.qt.io/qt-5/search-results.html?q={{{s}}}"
+  },
+  "qt": {
+    "c": "Tech",
+    "d": "doc.qt.io",
+    "r": 58,
+    "s": "Qt Documentation",
+    "sc": "Programming",
+    "t": "qt",
+    "u": "https://doc.qt.io/qt-5/search-results.html?q={{{s}}}"
+  },
+  "quay": {
+    "c": "Tech",
+    "d": "quay.io",
+    "r": 13,
+    "s": "Quay",
+    "sc": "Programming",
+    "t": "quay",
+    "u": "https://quay.io/search?q={{{s}}}"
+  },
+  "railscasts": {
+    "c": "Tech",
+    "d": "railscasts.com",
+    "r": 0,
+    "s": "RailsCasts",
+    "sc": "Programming",
+    "t": "railscasts",
+    "u": "http://railscasts.com/?search={{{s}}}"
+  },
+  "raspberrypi": {
+    "c": "Tech",
+    "d": "www.raspberrypi.org",
+    "r": 0,
+    "s": "Raspberry Pi",
+    "sc": "Programming",
+    "t": "raspberrypi",
+    "u": "http://www.raspberrypi.org/?s={{{s}}}"
+  },
+  "ray": {
+    "c": "Tech",
+    "d": "www.raywenderlich.com",
+    "r": 0,
+    "s": "Ray Wenderlich",
+    "sc": "Programming",
+    "t": "ray",
+    "u": "https://www.raywenderlich.com/?s={{{s}}}"
+  },
+  "rb": {
+    "c": "Tech",
+    "d": "rubydocs.org",
+    "r": 6,
+    "s": "Current ruby docs",
+    "sc": "Programming",
+    "t": "rb",
+    "u": "https://rubydocs.org/d/ruby-latest/?q={{{s}}}"
+  },
+  "readthedocs": {
+    "c": "Tech",
+    "d": "readthedocs.org",
+    "r": 0,
+    "s": "Read The Docs",
+    "sc": "Programming",
+    "t": "readthedocs",
+    "u": "https://readthedocs.org/search/?q={{{s}}}"
+  },
+  "regexper": {
+    "c": "Tech",
+    "d": "regexper.com",
+    "r": 0,
+    "s": "Regexper ",
+    "sc": "Programming",
+    "t": "regexper",
+    "u": "https://regexper.com/#{{{s}}}"
+  },
+  "repl": {
+    "c": "Tech",
+    "d": "repl.it",
+    "r": 0,
+    "s": "repl.it",
+    "sc": "Programming",
+    "t": "repl",
+    "u": "https://repl.it/languages/{{{s}}}"
+  },
+  "rfc": {
+    "c": "Tech",
+    "d": "tools.ietf.org",
+    "r": 97,
+    "s": "IETF RFC",
+    "sc": "Programming",
+    "t": "rfc",
+    "u": "https://tools.ietf.org/html/rfc{{{s}}}"
+  },
+  "rfcr": {
+    "c": "Tech",
+    "d": "www.rfcreader.com",
+    "r": 0,
+    "s": "Online RFC Reader",
+    "sc": "Programming",
+    "t": "rfcr",
+    "u": "http://www.rfcreader.com/#rfc{{{s}}}"
+  },
+  "rosettacode": {
+    "c": "Tech",
+    "d": "rosettacode.org",
+    "r": 0,
+    "s": "RosettaCode.org",
+    "sc": "Programming",
+    "t": "rosettacode",
+    "u": "https://rosettacode.org/w/index.php?search={{{s}}}&title=Special%3ASearch&wprov=acrw1"
+  },
+  "rowiki": {
+    "c": "Tech",
+    "d": "developer.roblox.com",
+    "r": 0,
+    "s": "ROBLOX Wiki",
+    "sc": "Programming",
+    "t": "rowiki",
+    "u": "https://developer.roblox.com/search#stq={{{s}}}"
+  },
+  "rpi-so": {
+    "c": "Tech",
+    "d": "raspberrypi.stackexchange.com",
+    "r": 0,
+    "s": "Raspberry pi Stackexchange",
+    "sc": "Programming",
+    "t": "rpi-so",
+    "u": "http://raspberrypi.stackexchange.com/search?q={{{s}}}"
+  },
+  "rpmfind": {
+    "c": "Tech",
+    "d": "rpmfind.net",
+    "r": 0,
+    "s": "RPMfind.net",
+    "sc": "Programming",
+    "t": "rpmfind",
+    "u": "http://rpmfind.net/linux/rpm2html/search.php?query={{{s}}}&submit=Search+..."
+  },
+  "rpm": {
+    "c": "Tech",
+    "d": "rpmfind.net",
+    "r": 13,
+    "s": "RPMfind.net",
+    "sc": "Programming",
+    "t": "rpm",
+    "u": "http://rpmfind.net/linux/rpm2html/search.php?query={{{s}}}&submit=Search+..."
+  },
+  "rs-docs": {
+    "c": "Tech",
+    "d": "docs.rs",
+    "r": 230,
+    "s": "docs.rs (rust crate documentation)",
+    "sc": "Programming",
+    "t": "rs-docs",
+    "u": "https://docs.rs/{{{s}}}"
+  },
+  "rs-std": {
+    "c": "Tech",
+    "d": "doc.rust-lang.org",
+    "r": 3,
+    "s": "std library docs for rust",
+    "sc": "Programming",
+    "t": "rs-std",
+    "u": "https://doc.rust-lang.org/std/index.html?search={{{s}}}"
+  },
+  "rstc": {
+    "c": "Tech",
+    "d": "rosettacode.org",
+    "r": 0,
+    "s": "Rosetta Code",
+    "sc": "Programming",
+    "t": "rstc",
+    "u": "https://rosettacode.org/w/index.php?search={{{s}}}&title=Special%3ASearch&wprov=acrw1"
+  },
+  "rtdlinux": {
+    "c": "Tech",
+    "d": "kernel.readthedocs.io",
+    "r": 0,
+    "s": "https://kernel.readthedocs.io/en/sphinx-samples/",
+    "sc": "Programming",
+    "t": "rtdlinux",
+    "u": "https://kernel.readthedocs.io/en/sphinx-samples/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  },
+  "rtd": {
+    "c": "Tech",
+    "d": "readthedocs.org",
+    "r": 4,
+    "s": "Read the Docs",
+    "sc": "Programming",
+    "t": "rtd",
+    "u": "https://readthedocs.org/search/?q={{{s}}}"
+  },
+  "rtfd": {
+    "c": "Tech",
+    "d": "{{{s}}}.rtfd.io",
+    "r": 0,
+    "s": "Read the Docs",
+    "sc": "Programming",
+    "t": "rtfd",
+    "u": "http://{{{s}}}.rtfd.io"
+  },
+  "rustdoc": {
+    "c": "Tech",
+    "d": "doc.rust-lang.org",
+    "r": 151,
+    "s": "RustDocs",
+    "sc": "Programming",
+    "t": "rustdoc",
+    "u": "https://doc.rust-lang.org/std/?search={{{s}}}"
+  },
+  "rustd": {
+    "c": "Tech",
+    "d": "doc.rust-lang.org",
+    "r": 30,
+    "s": "The Rust Standard Library Documentation",
+    "sc": "Programming",
+    "t": "rustd",
+    "u": "https://doc.rust-lang.org/std/?search={{{s}}}"
+  },
+  "rustrfc": {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 0,
+    "s": "Rust RFC GitHub.com",
+    "sc": "Programming",
+    "t": "rustrfc",
+    "u": "https://github.com/rust-lang/rfcs/issues?utf8=✓&q={{{s}}}"
+  },
+  "rust": {
+    "c": "Tech",
+    "d": "doc.rust-lang.org",
+    "r": 3107,
+    "s": "Rust stdlib docs",
+    "sc": "Programming",
+    "t": "rust",
+    "u": "https://doc.rust-lang.org/std/?search={{{s}}}"
+  },
+  "sap": {
+    "c": "Tech",
+    "d": "launchpad.support.sap.com",
+    "r": 10,
+    "s": "SAP Launchpad",
+    "sc": "Programming",
+    "t": "sap",
+    "u": "https://launchpad.support.sap.com/#/solutions/notesv2/?q={{{s}}}"
+  },
+  "sb2": {
+    "c": "Tech",
+    "d": "scratch.mit.edu",
+    "r": 46,
+    "s": "Scratch",
+    "sc": "Programming",
+    "t": "sb2",
+    "u": "https://scratch.mit.edu/search/projects?q={{{s}}}"
+  },
+  "scalaapi": {
+    "c": "Tech",
+    "d": "www.scala-lang.org",
+    "r": 0,
+    "s": "Scala Standard Library",
+    "sc": "Programming",
+    "t": "scalaapi",
+    "u": "http://www.scala-lang.org/api/current/index.html?search={{{s}}}"
+  },
+  "scilab": {
+    "c": "Tech",
+    "d": "help.scilab.org",
+    "r": 0,
+    "s": "Scilab Documentation",
+    "sc": "Programming",
+    "t": "scilab",
+    "u": "https://help.scilab.org/docs/6.0.0/en_US/search/{{{s}}}"
+  },
+  "scode": {
+    "c": "Tech",
+    "d": "searchcode.com",
+    "r": 0,
+    "s": "Searchcode",
+    "sc": "Programming",
+    "t": "scode",
+    "u": "https://searchcode.com/?q={{{s}}}"
+  },
+  "scrapy": {
+    "c": "Tech",
+    "d": "doc.scrapy.org",
+    "r": 0,
+    "s": "scrapy docs",
+    "sc": "Programming",
+    "t": "scrapy",
+    "u": "http://doc.scrapy.org/en/latest/search.html?q={{{s}}}"
+  },
+  "scratchforums": {
+    "c": "Tech",
+    "d": "scratchforums.asun.co",
+    "r": 0,
+    "s": "Scratch Forums Search",
+    "sc": "Programming",
+    "t": "scratchforums",
+    "u": "https://scratchforums.asun.co/search?q={{{s}}}"
+  },
+  "sdb": {
+    "c": "Tech",
+    "d": "syntaxdb.com",
+    "r": 5,
+    "s": "syntaxdb.com",
+    "sc": "Programming",
+    "t": "sdb",
+    "u": "https://syntaxdb.com/reference/search?utf8=✓&search={{{s}}}"
+  },
+  "se80": {
+    "c": "Tech",
+    "d": "www.se80.co.uk",
+    "r": 0,
+    "s": "SAP Development Objects",
+    "sc": "Programming",
+    "t": "se80",
+    "u": "https://www.se80.co.uk/action/search_results.htm?q={{{s}}}"
+  },
+  "sechat": {
+    "c": "Tech",
+    "d": "chat.stackexchange.com",
+    "r": 0,
+    "s": "Stack Exchange Chat",
+    "sc": "Programming",
+    "t": "sechat",
+    "u": "https://chat.stackexchange.com/rooms/{{{s}}}"
+  },
+  "securityheaders": {
+    "c": "Tech",
+    "d": "securityheaders.io",
+    "r": 0,
+    "s": "securityheaders.io",
+    "sc": "Programming",
+    "t": "securityheaders",
+    "u": "https://securityheaders.io/?q={{{s}}}&followRedirects=on"
+  },
+  "sfse": {
+    "c": "Tech",
+    "d": "salesforce.stackexchange.com",
+    "r": 0,
+    "s": "Salesforce Stack Exchange",
+    "sc": "Programming",
+    "t": "sfse",
+    "u": "http://salesforce.stackexchange.com/search?q={{{s}}}"
+  },
+  "sg": {
+    "c": "Tech",
+    "d": "sourcegraph.com",
+    "r": 46,
+    "s": "Sourcegraph",
+    "sc": "Programming",
+    "t": "sg",
+    "u": "https://sourcegraph.com/search?q={{{s}}}"
+  },
+  "sha256": {
+    "c": "Tech",
+    "d": "cryptography.cc",
+    "r": 0,
+    "s": "Cryptography.cc",
+    "sc": "Programming",
+    "t": "sha256",
+    "u": "https://cryptography.cc/convert?text={{{s}}}&algorithm=sha256"
+  },
+  "shadertoy": {
+    "c": "Tech",
+    "d": "www.shadertoy.com",
+    "r": 0,
+    "s": "shadertoy.com",
+    "sc": "Programming",
+    "t": "shadertoy",
+    "u": "https://www.shadertoy.com/results?query={{{s}}} "
+  },
+  "shards": {
+    "c": "Tech",
+    "d": "crystalshards.org",
+    "r": 0,
+    "s": "Crystal Shards",
+    "sc": "Programming",
+    "t": "shards",
+    "u": "https://crystalshards.org/?filter={{{s}}}"
+  },
+  "sikuli": {
+    "c": "Tech",
+    "d": "doc.sikuli.org",
+    "r": 0,
+    "s": "Sikuli",
+    "sc": "Programming",
+    "t": "sikuli",
+    "u": "http://doc.sikuli.org/search.html?q={{{s}}}"
+  },
+  "simplicite": {
+    "c": "Tech",
+    "d": "www.simplicite.io",
+    "r": 0,
+    "s": "Simplicité.io",
+    "sc": "Programming",
+    "t": "simplicite",
+    "u": "https://www.simplicite.io/resources/search?q={{{s}}}"
+  },
+  "sitepoint": {
+    "c": "Tech",
+    "d": "www.sitepoint.com",
+    "r": 0,
+    "s": "Sitepoint",
+    "sc": "Programming",
+    "t": "sitepoint",
+    "u": "https://www.sitepoint.com/?s={{{s}}}"
+  },
+  "skb": {
+    "c": "Tech",
+    "d": "kb.workfusion.com",
+    "r": 0,
+    "s": "kb.workfusion.com",
+    "sc": "Programming",
+    "t": "skb",
+    "u": "https://kb.workfusion.com/dosearchsite.action?cql=siteSearch+~+%22{{{s}}}%22&queryString={{{s}}}"
+  },
+  "sku": {
+    "c": "Tech",
+    "d": "docs.skunity.com",
+    "r": 0,
+    "s": "skUnity",
+    "sc": "Programming",
+    "t": "sku",
+    "u": "https://docs.skunity.com/syntax/search/{{{s}}}"
+  },
+  "slibs": {
+    "c": "Tech",
+    "d": "searchlibs.com",
+    "r": 0,
+    "s": "SearchLibs",
+    "sc": "Programming",
+    "t": "slibs",
+    "u": "http://searchlibs.com/?q={{{s}}}"
+  },
+  "sobash": {
+    "c": "Tech",
+    "d": "stackoverflow.com",
+    "r": 0,
+    "s": "Stack Overflow Bash Search",
+    "sc": "Programming",
+    "t": "sobash",
+    "u": "http://stackoverflow.com/search?q=[bash]+{{{s}}}"
+  },
+  "sod": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 10,
+    "s": "Stackoverflow with DuckDuckGo",
+    "sc": "Programming",
+    "t": "sod",
+    "u": "https://duckduckgo.com/?q=site:stackoverflow.com+{{{s}}}"
+  },
+  "sog": {
+    "c": "Tech",
+    "d": "www.google.com",
+    "r": 0,
+    "s": "Stack Overflow via Google",
+    "sc": "Programming",
+    "t": "sog",
+    "u": "https://www.google.com/search?q=site%3Astackoverflow.com+{{{s}}}"
+  },
+  "sonarcloud": {
+    "c": "Tech",
+    "d": "sonarcloud.io",
+    "r": 0,
+    "s": "SonarCloud",
+    "sc": "Programming",
+    "t": "sonarcloud",
+    "u": "https://sonarcloud.io/explore/projects?search={{{s}}}"
+  },
+  "sopt": {
+    "c": "Tech",
+    "d": "pt.stackoverflow.com",
+    "r": 0,
+    "s": "Stack Overflow em Português",
+    "sc": "Programming",
+    "t": "sopt",
+    "u": "https://pt.stackoverflow.com/search?q={{{s}}}"
+  },
+  "soscrapy": {
+    "c": "Tech",
+    "d": "stackoverflow.com",
+    "r": 0,
+    "s": "Stack Overflow",
+    "sc": "Programming",
+    "t": "soscrapy",
+    "u": "http://stackoverflow.com/search?q={{{s}}}[scrapy]"
+  },
+  "so": {
+    "c": "Tech",
+    "d": "stackoverflow.com",
+    "r": 477,
+    "s": "Stack Overflow",
+    "sc": "Programming",
+    "t": "so",
+    "u": "http://stackoverflow.com/search?q={{{s}}}"
+  },
+  "sourcegraph": {
+    "c": "Tech",
+    "d": "sourcegraph.com",
+    "r": 0,
+    "s": "Sourcegraph",
+    "sc": "Programming",
+    "t": "sourcegraph",
+    "u": "https://sourcegraph.com/github.com/{{{s}}}"
+  },
+  "sphereon": {
+    "c": "Tech",
+    "d": "sphereon.com",
+    "r": 0,
+    "s": "Sphereon",
+    "sc": "Programming",
+    "t": "sphereon",
+    "u": "https://sphereon.com/?s={{{s}}}"
+  },
+  "spip": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "SPIP",
+    "sc": "Programming",
+    "t": "spip",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site:spip.net"
+  },
+  "springsource": {
+    "c": "Tech",
+    "d": "www.springsource.org",
+    "r": 0,
+    "s": "SpringSource",
+    "sc": "Programming",
+    "t": "springsource",
+    "u": "http://www.springsource.org/search/google?query={{{s}}}"
+  },
+  "sqlsh": {
+    "c": "Tech",
+    "d": "sql.sh",
+    "r": 0,
+    "s": "SQL.sh",
+    "sc": "Programming",
+    "t": "sqlsh",
+    "u": "http://sql.sh/?s={{{s}}}&submit=Rechercher"
+  },
+  "srcforge": {
+    "c": "Tech",
+    "d": "sourceforge.net",
+    "r": 0,
+    "s": "SourceForge",
+    "sc": "Programming",
+    "t": "srcforge",
+    "u": "http://sourceforge.net/directory/os:windows/freshness:recently-updated/?q={{{s}}}"
+  },
+  "stackoverflow": {
+    "c": "Tech",
+    "d": "stackoverflow.com",
+    "r": 12,
+    "s": "StackOverflow",
+    "sc": "Programming",
+    "t": "stackoverflow",
+    "u": "http://stackoverflow.com/search?q={{{s}}}"
+  },
+  "stack": {
+    "c": "Tech",
+    "d": "stackoverflow.com",
+    "r": 9,
+    "s": "Stack Overflow",
+    "sc": "Programming",
+    "t": "stack",
+    "u": "http://stackoverflow.com/search?q={{{s}}}"
+  },
+  "subldoc": {
+    "c": "Tech",
+    "d": "docs.sublimetext.info",
+    "r": 0,
+    "s": "Sublime Text Unofficial Documentation",
+    "sc": "Programming",
+    "t": "subldoc",
+    "u": "http://docs.sublimetext.info/en/latest/search.html?q={{{s}}}"
+  },
+  "sublforum": {
+    "c": "Tech",
+    "d": "forum.sublimetext.com",
+    "r": 0,
+    "s": "Sublime Text Forum",
+    "sc": "Programming",
+    "t": "sublforum",
+    "u": "https://forum.sublimetext.com/search?q={{{s}}}"
+  },
+  "superuser": {
+    "c": "Tech",
+    "d": "superuser.com",
+    "r": 0,
+    "s": "SuperUser",
+    "sc": "Programming",
+    "t": "superuser",
+    "u": "http://superuser.com/search?q={{{s}}}"
+  },
+  "su": {
+    "c": "Tech",
+    "d": "superuser.com",
+    "r": 0,
+    "s": "SuperUser",
+    "sc": "Programming",
+    "t": "su",
+    "u": "http://superuser.com/search?q={{{s}}}"
+  },
+  "swift": {
+    "c": "Tech",
+    "d": "developer.apple.com",
+    "r": 5,
+    "s": "Swift Standard Library",
+    "sc": "Programming",
+    "t": "swift",
+    "u": "https://developer.apple.com/search/?q={{{s}}}"
+  },
+  "swi": {
+    "c": "Tech",
+    "d": "www.swi-prolog.org",
+    "r": 0,
+    "s": "SWI-Prolog",
+    "sc": "Programming",
+    "t": "swi",
+    "u": "http://www.swi-prolog.org/search?for={{{s}}}"
+  },
+  "symbolhound": {
+    "c": "Tech",
+    "d": "symbolhound.com",
+    "r": 0,
+    "s": "Symbol Hound",
+    "sc": "Programming",
+    "t": "symbolhound",
+    "u": "http://symbolhound.com/?q={{{s}}}"
+  },
+  "sym": {
+    "c": "Tech",
+    "d": "symbolhound.com",
+    "r": 3,
+    "s": "Symbolhound",
+    "sc": "Programming",
+    "t": "sym",
+    "u": "http://symbolhound.com/?q={{{s}}}"
+  },
+  "teflo": {
+    "c": "Tech",
+    "d": "www.tensorflow.org",
+    "r": 0,
+    "s": "Tensor Flow",
+    "sc": "Programming",
+    "t": "teflo",
+    "u": "https://www.tensorflow.org/s/results/?q={{{s}}}"
+  },
+  "tei": {
+    "c": "Tech",
+    "d": "www.tei-c.org",
+    "r": 0,
+    "s": "TEI",
+    "sc": "Programming",
+    "t": "tei",
+    "u": "http://www.tei-c.org/?s={{{s}}}"
+  },
+  "terat": {
+    "c": "Tech",
+    "d": "teratail.com",
+    "r": 0,
+    "s": "teratail",
+    "sc": "Programming",
+    "t": "terat",
+    "u": "https://teratail.com/questions/search?q={{{s}}}&conditions=and"
+  },
+  "tf": {
+    "c": "Tech",
+    "d": "www.tensorflow.org",
+    "r": 14,
+    "s": "Tensor Flow",
+    "sc": "Programming",
+    "t": "tf",
+    "u": "https://www.tensorflow.org/s/results/?q={{{s}}}"
+  },
+  "thinktutorial": {
+    "c": "Tech",
+    "d": "thinktutorial.com",
+    "r": 0,
+    "s": "Th!ink",
+    "sc": "Programming",
+    "t": "thinktutorial",
+    "u": "http://thinktutorial.com/index.php?s={{{s}}}"
+  },
+  "tkkrlab": {
+    "c": "Tech",
+    "d": "tkkrlab.nl",
+    "r": 0,
+    "s": "tkkrlab",
+    "sc": "Programming",
+    "t": "tkkrlab",
+    "u": "http://tkkrlab.nl/wiki/Special:Search?search={{{s}}}&go=Go"
+  },
+  "tmg": {
+    "c": "Tech",
+    "d": "registry.terraform.io",
+    "r": 31,
+    "s": "Terraform Module Registry",
+    "sc": "Programming",
+    "t": "tmg",
+    "u": "https://registry.terraform.io/search?q={{{s}}}"
+  },
+  "tost": {
+    "c": "Tech",
+    "d": "toster.ru",
+    "r": 0,
+    "s": "Toster",
+    "sc": "Programming",
+    "t": "tost",
+    "u": "https://toster.ru/search?q={{{s}}}"
+  },
+  "travis": {
+    "c": "Tech",
+    "d": "travis-ci.org",
+    "r": 0,
+    "s": "Travis CI",
+    "sc": "Programming",
+    "t": "travis",
+    "u": "https://travis-ci.org/search/{{{s}}}"
+  },
+  "tupo": {
+    "c": "Tech",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Tutorials Point",
+    "sc": "Programming",
+    "t": "tupo",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site%3Awww.tutorialspoint.com&ia=web"
+  },
+  "typo3": {
+    "c": "Tech",
+    "d": "typo3.org",
+    "r": 0,
+    "s": "typo3.org",
+    "sc": "Programming",
+    "t": "typo3",
+    "u": "https://typo3.org/search/?tx_solr[q]={{{s}}}"
+  },
+  "ucf": {
+    "c": "Tech",
+    "d": "www.mclean.net.nz",
+    "r": 0,
+    "s": "Unicode Character Finder",
+    "sc": "Programming",
+    "t": "ucf",
+    "u": "http://www.mclean.net.nz/ucf/?q={{{s}}}"
+  },
+  "uct": {
+    "c": "Tech",
+    "d": "unicode-table.com",
+    "r": 0,
+    "s": "unicode-table.com",
+    "sc": "Programming",
+    "t": "uct",
+    "u": "http://unicode-table.com/search/?q={{{s}}}"
+  },
+  "uea": {
+    "c": "Tech",
+    "d": "answers.unrealengine.com",
+    "r": 0,
+    "s": "Unreal Engine 4 Answerhub",
+    "sc": "Programming",
+    "t": "uea",
+    "u": "https://answers.unrealengine.com/search.html?q={{{s}}}"
+  },
+  "uni": {
+    "c": "Tech",
+    "d": "unicode-search.net",
+    "r": 0,
+    "s": "Search for character(s) in Unicode",
+    "sc": "Programming",
+    "t": "uni",
+    "u": "http://unicode-search.net/unicode-namesearch.pl?term={{{s}}}"
+  },
+  "unityanswers": {
+    "c": "Tech",
+    "d": "answers.unity3d.com",
+    "r": 0,
+    "s": "Unity Answers",
+    "sc": "Programming",
+    "t": "unityanswers",
+    "u": "http://answers.unity3d.com/search.html?q={{{s}}}"
+  },
+  "unitym": {
+    "c": "Tech",
+    "d": "docs.unity3d.com",
+    "r": 0,
+    "s": "Unity Manual",
+    "sc": "Programming",
+    "t": "unitym",
+    "u": "http://docs.unity3d.com/Manual/30_search.html?q={{{s}}}"
+  },
+  "unitysr": {
+    "c": "Tech",
+    "d": "docs.unity3d.com",
+    "r": 0,
+    "s": "Unity Scripting Reference",
+    "sc": "Programming",
+    "t": "unitysr",
+    "u": "http://docs.unity3d.com/ScriptReference/30_search.html?q={{{s}}}"
+  },
+  "unity": {
+    "c": "Tech",
+    "d": "unity3d.com",
+    "r": 5,
+    "s": "Unity",
+    "sc": "Programming",
+    "t": "unity",
+    "u": "http://unity3d.com/search?gq={{{s}}} "
+  },
+  "unix": {
+    "c": "Tech",
+    "d": "minnie.tuhs.org",
+    "r": 6,
+    "s": "The Unix Tree",
+    "sc": "Programming",
+    "t": "unix",
+    "u": "http://minnie.tuhs.org/cgi-bin/utree.pl?filesearch={{{s}}}&submit=Go"
+  },
+  "vdc": {
+    "c": "Tech",
+    "d": "developer.valvesoftware.com",
+    "r": 69,
+    "s": "Valve Developer Community",
+    "sc": "Programming",
+    "t": "vdc",
+    "u": "https://developer.valvesoftware.com/w/index.php?search={{{s}}} "
+  },
+  "vimawesome": {
+    "c": "Tech",
+    "d": "vimawesome.com",
+    "r": 0,
+    "s": "Vim Awesome",
+    "sc": "Programming",
+    "t": "vimawesome",
+    "u": "http://vimawesome.com/?q={{{s}}}"
+  },
+  "vimdoc": {
+    "c": "Tech",
+    "d": "vimdoc.sourceforge.net",
+    "r": 0,
+    "s": "Vimdoc",
+    "sc": "Programming",
+    "t": "vimdoc",
+    "u": "http://vimdoc.sourceforge.net/search.php?search={{{s}}}&docs=help"
+  },
+  "vimw": {
+    "c": "Tech",
+    "d": "vim.wikia.com",
+    "r": 0,
+    "s": "Vim Tips wiki",
+    "sc": "Programming",
+    "t": "vimw",
+    "u": "http://vim.wikia.com/wiki/Special:Search?query={{{s}}}"
+  },
+  "viso": {
+    "c": "Tech",
+    "d": "vi.stackexchange.com",
+    "r": 0,
+    "s": "Vi @ stackExchange",
+    "sc": "Programming",
+    "t": "viso",
+    "u": "https://vi.stackexchange.com/search?q={{{s}}}"
+  },
+  "vscode": {
+    "c": "Tech",
+    "d": "marketplace.visualstudio.com",
+    "r": 8,
+    "s": "Visual Studio Code Extensions",
+    "sc": "Programming",
+    "t": "vscode",
+    "u": "https://marketplace.visualstudio.com/search?term={{{s}}}&target=VSCode&sortBy=Relevance"
+  },
+  "vtkcd": {
+    "c": "Tech",
+    "d": "www.vtk.org",
+    "r": 0,
+    "s": "Visualization Toolkit (VTK) class documentation (devel)",
+    "sc": "Programming",
+    "t": "vtkcd",
+    "u": "http://www.vtk.org/doc/nightly/html/class{{{s}}}.html"
+  },
+  "vtluug": {
+    "c": "Tech",
+    "d": "vtluug.org",
+    "r": 0,
+    "s": "vtluug wiki",
+    "sc": "Programming",
+    "t": "vtluug",
+    "u": "https://vtluug.org/w/index.php?title=Special%3ASearch&search={{{s}}}"
+  },
+  "vuetify": {
+    "c": "Tech",
+    "d": "vuetifyjs.com",
+    "r": 3,
+    "s": "Vuetifyjs",
+    "sc": "Programming",
+    "t": "vuetify",
+    "u": "https://vuetifyjs.com/en/components/{{{s}}}#{{{s}}}"
+  },
+  "w3scn": {
+    "c": "Tech",
+    "d": "www.google.com",
+    "r": 0,
+    "s": "w3school中文",
+    "sc": "Programming",
+    "t": "w3scn",
+    "u": "http://www.google.com/search?q={{{s}}}+site:w3school.com.cn"
+  },
+  "w3v": {
+    "c": "Tech",
+    "d": "validator.w3.org",
+    "r": 0,
+    "s": "W3C Validator",
+    "sc": "Programming",
+    "t": "w3v",
+    "u": "https://validator.w3.org/nu/?doc={{{s}}}"
+  },
+  "web": {
+    "c": "Tech",
+    "d": "www.webopedia.com",
+    "r": 17,
+    "s": "Webopedia",
+    "sc": "Programming",
+    "t": "web",
+    "u": "https://www.webopedia.com/sgsearch/results?q={{{s}}}"
+  },
+  "whatruns": {
+    "c": "Tech",
+    "d": "www.whatruns.com",
+    "r": 0,
+    "s": "whatruns",
+    "sc": "Programming",
+    "t": "whatruns",
+    "u": "https://www.whatruns.com/website/{{{s}}}"
+  },
+  "whh": {
+    "c": "Tech",
+    "d": "www.webhostinghub.com",
+    "r": 0,
+    "s": "Web Hosting Hub",
+    "sc": "Programming",
+    "t": "whh",
+    "u": "https://www.webhostinghub.com/help/search?searchword={{{s}}}"
+  },
+  "windev": {
+    "c": "Tech",
+    "d": "wpdev.uservoice.com",
+    "r": 0,
+    "s": "Windows Developer Feedback",
+    "sc": "Programming",
+    "t": "windev",
+    "u": "https://wpdev.uservoice.com/search?query={{{s}}}"
+  },
+  "wpacf": {
+    "c": "Tech",
+    "d": "support.advancedcustomfields.com",
+    "r": 0,
+    "s": "Advanced Custom Fields (WordPress)",
+    "sc": "Programming",
+    "t": "wpacf",
+    "u": "https://support.advancedcustomfields.com/forums/search?bbp_search={{{s}}}"
+  },
+  "wpackagist": {
+    "c": "Tech",
+    "d": "wpackagist.org",
+    "r": 3,
+    "s": "WordPress Packagist",
+    "sc": "Programming",
+    "t": "wpackagist",
+    "u": "https://wpackagist.org/search?q={{{s}}}&type=any&search="
+  },
+  "wpvip": {
+    "c": "Tech",
+    "d": "vip.wordpress.com",
+    "r": 0,
+    "s": "WordPress VIP",
+    "sc": "Programming",
+    "t": "wpvip",
+    "u": "https://vip.wordpress.com/?s={{{s}}}"
+  },
+  "wwdc": {
+    "c": "Tech",
+    "d": "asciiwwdc.com",
+    "r": 0,
+    "s": "ASCIIwwdc",
+    "sc": "Programming",
+    "t": "wwdc",
+    "u": "http://asciiwwdc.com/search?q={{{s}}}"
+  },
+  "wxmp": {
+    "c": "Tech",
+    "d": "developers.weixin.qq.com",
+    "r": 0,
+    "s": "search wechat miniprogram documents",
+    "sc": "Programming",
+    "t": "wxmp",
+    "u": "https://developers.weixin.qq.com/doc/search.html?query={{{s}}}"
+  },
+  "xamarin": {
+    "c": "Tech",
+    "d": "developer.xamarin.com",
+    "r": 0,
+    "s": "Xamarin developer",
+    "sc": "Programming",
+    "t": "xamarin",
+    "u": "https://developer.xamarin.com/search?q={{{s}}}"
+  },
+  "xdadev": {
+    "c": "Tech",
+    "d": "forum.xda-developers.com",
+    "r": 0,
+    "s": "XDA Developers",
+    "sc": "Programming",
+    "t": "xdadev",
+    "u": "http://forum.xda-developers.com/sitesearch.php?q={{{s}}}"
+  },
+  "xdaf": {
+    "c": "Tech",
+    "d": "forum.xda-developers.com",
+    "r": 0,
+    "s": "XDA Developers Forum",
+    "sc": "Programming",
+    "t": "xdaf",
+    "u": "http://forum.xda-developers.com/sitesearch.php?q={{{s}}}"
+  },
+  "xda": {
+    "c": "Tech",
+    "d": "forum.xda-developers.com",
+    "r": 6,
+    "s": "XDA Developers",
+    "sc": "Programming",
+    "t": "xda",
+    "u": "https://forum.xda-developers.com/search/?query={{{s}}}"
+  },
+  "xep": {
+    "c": "Tech",
+    "d": "xmpp.org",
+    "r": 0,
+    "s": "XMPP Extensions",
+    "sc": "Programming",
+    "t": "xep",
+    "u": "https://xmpp.org/extensions/xep-{{{s}}}.html"
+  },
+  "xf": {
+    "c": "Tech",
+    "d": "forum.xojo.com",
+    "r": 0,
+    "s": "Xojo Forums",
+    "sc": "Programming",
+    "t": "xf",
+    "u": "https://forum.xojo.com/conversations/all?search={{{s}}}"
+  },
+  "xiny": {
+    "c": "Tech",
+    "d": "learnxinyminutes.com",
+    "r": 8,
+    "s": "Learn X in Y Minutes",
+    "sc": "Programming",
+    "t": "xiny",
+    "u": "https://learnxinyminutes.com/docs/{{{s}}}"
+  },
+  "ypw": {
+    "c": "Tech",
+    "d": "wiki.yoctoproject.org",
+    "r": 0,
+    "s": "Yocto Project Wiki",
+    "sc": "Programming",
+    "t": "ypw",
+    "u": "https://wiki.yoctoproject.org/wiki/index.php?search={{{s}}}"
+  },
+  "ytrack": {
+    "c": "Tech",
+    "d": "youtrack.jetbrains.com",
+    "r": 0,
+    "s": "YouTrack",
+    "sc": "Programming",
+    "t": "ytrack",
+    "u": "https://youtrack.jetbrains.com/issues?q={{{s}}}"
+  },
+  "zdoom": {
+    "c": "Tech",
+    "d": "zdoom.org",
+    "r": 13,
+    "s": "ZDoom Wiki",
+    "sc": "Programming",
+    "t": "zdoom",
+    "u": "http://zdoom.org/w/index.php?search={{{s}}}"
+  },
+  "zds": {
+    "c": "Tech",
+    "d": "zestedesavoir.com",
+    "r": 54,
+    "s": "ZesteDeSavoir",
+    "sc": "Programming",
+    "t": "zds",
+    "u": "http://zestedesavoir.com/rechercher/?q={{{s}}}"
+  },
+  "zxr": {
+    "c": "Tech",
+    "d": "elixir.bootlin.com",
+    "r": 0,
+    "s": "Zephyr Cross Reference",
+    "sc": "Programming",
+    "t": "zxr",
+    "u": "https://elixir.bootlin.com/zephyr/latest/ident/{{{s}}}"
+  }
+};
+
+export const categories = [
+  "Tech"
+];

@@ -1,0 +1,29 @@
+[
+  {
+    "c": "Tech",
+    "d": "crystal-ann.com",
+    "r": 0,
+    "s": "Crystal Ann (Crystal related news)",
+    "sc": "Languages (Crystal)",
+    "t": "crann",
+    "u": "https://crystal-ann.com/?query={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "crystal-lang.org",
+    "r": 0,
+    "s": "Crystal Language",
+    "sc": "Languages (Crystal)",
+    "t": "crdoc",
+    "u": "https://crystal-lang.org/docs/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "crystalshards.xyz",
+    "r": 0,
+    "s": "Crystal Language Libraries",
+    "sc": "Languages (Crystal)",
+    "t": "crsh",
+    "u": "https://crystalshards.xyz/?filter={{{s}}}"
+  }
+]

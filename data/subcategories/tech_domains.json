@@ -1,0 +1,47 @@
+[
+  {
+    "c": "Shopping",
+    "d": "www.cdw.ca",
+    "r": 0,
+    "s": "CDW.ca",
+    "sc": "Tech (domains)",
+    "t": "cdwca",
+    "u": "https://www.cdw.ca/shop/search/result.aspx?key={{{s}}}}&wclsscat=&b=&p=&ctlgfilter=&searchscope=all&sr=1"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.namecheap.com",
+    "r": 10,
+    "s": "Namecheap",
+    "sc": "Tech (domains)",
+    "t": "namecheap",
+    "u": "https://www.namecheap.com/domains/registration/results.aspx?domain={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "njal.la",
+    "r": 0,
+    "s": "Njalla",
+    "sc": "Tech (domains)",
+    "t": "njalla",
+    "u": "https://njal.la/list/?search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "porkbun.com",
+    "r": 7,
+    "s": "porkbun",
+    "sc": "Tech (domains)",
+    "t": "porkbun",
+    "u": "https://porkbun.com/checkout/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.billing.softicweb.com",
+    "r": 0,
+    "s": "SofticWeb",
+    "sc": "Tech (domains)",
+    "t": "softicweb",
+    "u": "https://www.billing.softicweb.com/cart.php?a=add&domain=register&query={{{s}}}"
+  }
+]

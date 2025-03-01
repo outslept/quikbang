@@ -1,0 +1,483 @@
+
+// Auto-generated Games (WOW) bang commands from DuckDuckGo
+// Generated on: 2025-03-01T15:43:19.031Z
+
+import { BangCommand } from '../bangs';
+
+export const bangs: BangCommand[] = [
+  {
+    "c": "Entertainment",
+    "d": "db.vanillagaming.org",
+    "r": 0,
+    "s": "AoWoW VanillaGaming",
+    "sc": "Games (WOW)",
+    "t": "aowow",
+    "u": "http://db.vanillagaming.org/?search={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "classicdb.ch",
+    "r": 0,
+    "s": "ClassicDB",
+    "sc": "Games (WOW)",
+    "t": "classicdb",
+    "u": "http://classicdb.ch/?search={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "classic.wowhead.com",
+    "r": 0,
+    "s": "https://classic.wowhead.com/",
+    "sc": "Games (WOW)",
+    "t": "cwow",
+    "u": "https://classic.wowhead.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.dotabuff.com",
+    "r": 0,
+    "s": "Dotabuff",
+    "sc": "Games (WOW)",
+    "t": "dbuff",
+    "u": "http://www.dotabuff.com/search?utf8=%E2%9C%93&q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.holidaycheck.de",
+    "r": 3,
+    "s": "HolidayCheck",
+    "sc": "Games (WOW)",
+    "t": "hc",
+    "u": "http://www.holidaycheck.de/schnellsuche.php?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "pathfinderwiki.com",
+    "r": 0,
+    "s": "Pathfinder Wiki",
+    "sc": "Games (WOW)",
+    "t": "pathfinderwiki",
+    "u": "https://pathfinderwiki.com/mediawiki/index.php?title=Special%3ASearch&search={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "pubgmobileupdate.com",
+    "r": 0,
+    "s": "Pubg Mobile Update",
+    "sc": "Games (WOW)",
+    "t": "pubg",
+    "u": "https://pubgmobileupdate.com/?s={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "raider.io",
+    "r": 0,
+    "s": "Raider.io",
+    "sc": "Games (WOW)",
+    "t": "raiderio",
+    "u": "https://raider.io/search?type=character&name[0][contains]={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "db.vanillagaming.org",
+    "r": 0,
+    "s": "Vanilla Gaming",
+    "sc": "Games (WOW)",
+    "t": "vag",
+    "u": "http://db.vanillagaming.org/?search={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "vanillawowdb.com",
+    "r": 0,
+    "s": "Vanilla WoW DB",
+    "sc": "Games (WOW)",
+    "t": "vani",
+    "u": "https://vanillawowdb.com/?search={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.warcraftlogs.com",
+    "r": 0,
+    "s": "Warcraftlogs",
+    "sc": "Games (WOW)",
+    "t": "wcl",
+    "u": "https://www.warcraftlogs.com/search/?term={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "classic.wowhead.com",
+    "r": 36,
+    "s": "WoWHead Classic",
+    "sc": "Games (WOW)",
+    "t": "whc",
+    "u": "https://classic.wowhead.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "us.battle.net",
+    "r": 0,
+    "s": "Battle.net",
+    "sc": "Games (WOW)",
+    "t": "wowarmoryus",
+    "u": "http://us.battle.net/wow/en/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "classic.wowhead.com",
+    "r": 8,
+    "s": "wowclassic",
+    "sc": "Games (WOW)",
+    "t": "wowclassic",
+    "u": "https://classic.wowhead.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.wowdb.com",
+    "r": 0,
+    "s": "Word of Warcraft Database - WOWDB",
+    "sc": "Games (WOW)",
+    "t": "wowdb",
+    "u": "http://www.wowdb.com/search?search={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "fr.wowhead.com",
+    "r": 18,
+    "s": "Wowhead",
+    "sc": "Games (WOW)",
+    "t": "wowfr",
+    "u": "https://fr.wowhead.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "classic.wowhead.com",
+    "r": 27,
+    "s": "wowhead classic",
+    "sc": "Games (WOW)",
+    "t": "wowhc",
+    "u": "https://classic.wowhead.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "de.wowhead.com",
+    "r": 3,
+    "s": "Wowhead german",
+    "sc": "Games (WOW)",
+    "t": "wowheadde",
+    "u": "http://de.wowhead.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "fr.wowhead.com",
+    "r": 0,
+    "s": "wowhead french",
+    "sc": "Games (WOW)",
+    "t": "wowheadfr",
+    "u": "http://fr.wowhead.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.wowhead.com",
+    "r": 100,
+    "s": "WowHead",
+    "sc": "Games (WOW)",
+    "t": "wowhead",
+    "u": "http://www.wowhead.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "es.wowhead.com",
+    "r": 0,
+    "s": "Wowhead (Español)",
+    "sc": "Games (WOW)",
+    "t": "wowhes",
+    "u": "https://es.wowhead.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "ru.wowhead.com",
+    "r": 0,
+    "s": "Wowhead Russian",
+    "sc": "Games (WOW)",
+    "t": "wowhr",
+    "u": "http://ru.wowhead.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.wowhead.com",
+    "r": 95,
+    "s": "Wowhead",
+    "sc": "Games (WOW)",
+    "t": "wowh",
+    "u": "http://www.wowhead.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.wowpedia.org",
+    "r": 3,
+    "s": "Wowpedia",
+    "sc": "Games (WOW)",
+    "t": "wowpedia",
+    "u": "http://www.wowpedia.org/index.php?title=Special:Search&search={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.wowprogress.com",
+    "r": 0,
+    "s": "WoWProgress",
+    "sc": "Games (WOW)",
+    "t": "wowprogress",
+    "u": "https://www.wowprogress.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "worldofwarcraft.com",
+    "r": 31,
+    "s": "World of Warcraft",
+    "sc": "Games (WOW)",
+    "t": "wow",
+    "u": "https://worldofwarcraft.com/search?q={{{s}}}"
+  }
+];
+
+export const bangIndex: Record<string, BangCommand> = {
+  "aowow": {
+    "c": "Entertainment",
+    "d": "db.vanillagaming.org",
+    "r": 0,
+    "s": "AoWoW VanillaGaming",
+    "sc": "Games (WOW)",
+    "t": "aowow",
+    "u": "http://db.vanillagaming.org/?search={{{s}}}"
+  },
+  "classicdb": {
+    "c": "Entertainment",
+    "d": "classicdb.ch",
+    "r": 0,
+    "s": "ClassicDB",
+    "sc": "Games (WOW)",
+    "t": "classicdb",
+    "u": "http://classicdb.ch/?search={{{s}}}"
+  },
+  "cwow": {
+    "c": "Entertainment",
+    "d": "classic.wowhead.com",
+    "r": 0,
+    "s": "https://classic.wowhead.com/",
+    "sc": "Games (WOW)",
+    "t": "cwow",
+    "u": "https://classic.wowhead.com/search?q={{{s}}}"
+  },
+  "dbuff": {
+    "c": "Entertainment",
+    "d": "www.dotabuff.com",
+    "r": 0,
+    "s": "Dotabuff",
+    "sc": "Games (WOW)",
+    "t": "dbuff",
+    "u": "http://www.dotabuff.com/search?utf8=%E2%9C%93&q={{{s}}}"
+  },
+  "hc": {
+    "c": "Entertainment",
+    "d": "www.holidaycheck.de",
+    "r": 3,
+    "s": "HolidayCheck",
+    "sc": "Games (WOW)",
+    "t": "hc",
+    "u": "http://www.holidaycheck.de/schnellsuche.php?q={{{s}}}"
+  },
+  "pathfinderwiki": {
+    "c": "Entertainment",
+    "d": "pathfinderwiki.com",
+    "r": 0,
+    "s": "Pathfinder Wiki",
+    "sc": "Games (WOW)",
+    "t": "pathfinderwiki",
+    "u": "https://pathfinderwiki.com/mediawiki/index.php?title=Special%3ASearch&search={{{s}}}"
+  },
+  "pubg": {
+    "c": "Entertainment",
+    "d": "pubgmobileupdate.com",
+    "r": 0,
+    "s": "Pubg Mobile Update",
+    "sc": "Games (WOW)",
+    "t": "pubg",
+    "u": "https://pubgmobileupdate.com/?s={{{s}}}"
+  },
+  "raiderio": {
+    "c": "Entertainment",
+    "d": "raider.io",
+    "r": 0,
+    "s": "Raider.io",
+    "sc": "Games (WOW)",
+    "t": "raiderio",
+    "u": "https://raider.io/search?type=character&name[0][contains]={{{s}}}"
+  },
+  "vag": {
+    "c": "Entertainment",
+    "d": "db.vanillagaming.org",
+    "r": 0,
+    "s": "Vanilla Gaming",
+    "sc": "Games (WOW)",
+    "t": "vag",
+    "u": "http://db.vanillagaming.org/?search={{{s}}}"
+  },
+  "vani": {
+    "c": "Entertainment",
+    "d": "vanillawowdb.com",
+    "r": 0,
+    "s": "Vanilla WoW DB",
+    "sc": "Games (WOW)",
+    "t": "vani",
+    "u": "https://vanillawowdb.com/?search={{{s}}}"
+  },
+  "wcl": {
+    "c": "Entertainment",
+    "d": "www.warcraftlogs.com",
+    "r": 0,
+    "s": "Warcraftlogs",
+    "sc": "Games (WOW)",
+    "t": "wcl",
+    "u": "https://www.warcraftlogs.com/search/?term={{{s}}}"
+  },
+  "whc": {
+    "c": "Entertainment",
+    "d": "classic.wowhead.com",
+    "r": 36,
+    "s": "WoWHead Classic",
+    "sc": "Games (WOW)",
+    "t": "whc",
+    "u": "https://classic.wowhead.com/search?q={{{s}}}"
+  },
+  "wowarmoryus": {
+    "c": "Entertainment",
+    "d": "us.battle.net",
+    "r": 0,
+    "s": "Battle.net",
+    "sc": "Games (WOW)",
+    "t": "wowarmoryus",
+    "u": "http://us.battle.net/wow/en/search?q={{{s}}}"
+  },
+  "wowclassic": {
+    "c": "Entertainment",
+    "d": "classic.wowhead.com",
+    "r": 8,
+    "s": "wowclassic",
+    "sc": "Games (WOW)",
+    "t": "wowclassic",
+    "u": "https://classic.wowhead.com/search?q={{{s}}}"
+  },
+  "wowdb": {
+    "c": "Entertainment",
+    "d": "www.wowdb.com",
+    "r": 0,
+    "s": "Word of Warcraft Database - WOWDB",
+    "sc": "Games (WOW)",
+    "t": "wowdb",
+    "u": "http://www.wowdb.com/search?search={{{s}}}"
+  },
+  "wowfr": {
+    "c": "Entertainment",
+    "d": "fr.wowhead.com",
+    "r": 18,
+    "s": "Wowhead",
+    "sc": "Games (WOW)",
+    "t": "wowfr",
+    "u": "https://fr.wowhead.com/search?q={{{s}}}"
+  },
+  "wowhc": {
+    "c": "Entertainment",
+    "d": "classic.wowhead.com",
+    "r": 27,
+    "s": "wowhead classic",
+    "sc": "Games (WOW)",
+    "t": "wowhc",
+    "u": "https://classic.wowhead.com/search?q={{{s}}}"
+  },
+  "wowheadde": {
+    "c": "Entertainment",
+    "d": "de.wowhead.com",
+    "r": 3,
+    "s": "Wowhead german",
+    "sc": "Games (WOW)",
+    "t": "wowheadde",
+    "u": "http://de.wowhead.com/search?q={{{s}}}"
+  },
+  "wowheadfr": {
+    "c": "Entertainment",
+    "d": "fr.wowhead.com",
+    "r": 0,
+    "s": "wowhead french",
+    "sc": "Games (WOW)",
+    "t": "wowheadfr",
+    "u": "http://fr.wowhead.com/search?q={{{s}}}"
+  },
+  "wowhead": {
+    "c": "Entertainment",
+    "d": "www.wowhead.com",
+    "r": 100,
+    "s": "WowHead",
+    "sc": "Games (WOW)",
+    "t": "wowhead",
+    "u": "http://www.wowhead.com/search?q={{{s}}}"
+  },
+  "wowhes": {
+    "c": "Entertainment",
+    "d": "es.wowhead.com",
+    "r": 0,
+    "s": "Wowhead (Español)",
+    "sc": "Games (WOW)",
+    "t": "wowhes",
+    "u": "https://es.wowhead.com/search?q={{{s}}}"
+  },
+  "wowhr": {
+    "c": "Entertainment",
+    "d": "ru.wowhead.com",
+    "r": 0,
+    "s": "Wowhead Russian",
+    "sc": "Games (WOW)",
+    "t": "wowhr",
+    "u": "http://ru.wowhead.com/search?q={{{s}}}"
+  },
+  "wowh": {
+    "c": "Entertainment",
+    "d": "www.wowhead.com",
+    "r": 95,
+    "s": "Wowhead",
+    "sc": "Games (WOW)",
+    "t": "wowh",
+    "u": "http://www.wowhead.com/search?q={{{s}}}"
+  },
+  "wowpedia": {
+    "c": "Entertainment",
+    "d": "www.wowpedia.org",
+    "r": 3,
+    "s": "Wowpedia",
+    "sc": "Games (WOW)",
+    "t": "wowpedia",
+    "u": "http://www.wowpedia.org/index.php?title=Special:Search&search={{{s}}}"
+  },
+  "wowprogress": {
+    "c": "Entertainment",
+    "d": "www.wowprogress.com",
+    "r": 0,
+    "s": "WoWProgress",
+    "sc": "Games (WOW)",
+    "t": "wowprogress",
+    "u": "https://www.wowprogress.com/search?q={{{s}}}"
+  },
+  "wow": {
+    "c": "Entertainment",
+    "d": "worldofwarcraft.com",
+    "r": 31,
+    "s": "World of Warcraft",
+    "sc": "Games (WOW)",
+    "t": "wow",
+    "u": "https://worldofwarcraft.com/search?q={{{s}}}"
+  }
+};
+
+export const categories = [
+  "Entertainment"
+];

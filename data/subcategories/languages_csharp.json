@@ -1,0 +1,29 @@
+[
+  {
+    "c": "Tech",
+    "d": "www.fuget.org",
+    "r": 0,
+    "s": "FuGet Gallery",
+    "sc": "Languages (csharp)",
+    "t": "fuget",
+    "u": "https://www.fuget.org/packages?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.unity3d.com",
+    "r": 0,
+    "s": "Unity3D Scripting API",
+    "sc": "Languages (csharp)",
+    "t": "unityapi",
+    "u": "http://docs.unity3d.com/ScriptReference/30_search.html?q={{{s}}} "
+  },
+  {
+    "c": "Tech",
+    "d": "docs.unity3d.com",
+    "r": 7,
+    "s": "Unity Script Reference",
+    "sc": "Languages (csharp)",
+    "t": "uscript",
+    "u": "http://docs.unity3d.com/Documentation/ScriptReference/30_search.html?q={{{s}}}"
+  }
+]

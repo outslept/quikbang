@@ -1,0 +1,29 @@
+[
+  {
+    "c": "Tech",
+    "d": "en.wikibooks.org",
+    "r": 0,
+    "s": "LaTeX - Wikibooks",
+    "sc": "Languages (latex)",
+    "t": "latexwb",
+    "u": "https://en.wikibooks.org/wiki/Search?search={{{s}}}&prefix=LaTeX"
+  },
+  {
+    "c": "Tech",
+    "d": "texdoc.net",
+    "r": 19,
+    "s": "Texdoc",
+    "sc": "Languages (latex)",
+    "t": "texdoc",
+    "u": "http://texdoc.net/pkg/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "tex.stackexchange.com",
+    "r": 0,
+    "s": "tex.stackexchange",
+    "sc": "Languages (latex)",
+    "t": "texse",
+    "u": "http://tex.stackexchange.com/search?q={{{s}}}"
+  }
+]

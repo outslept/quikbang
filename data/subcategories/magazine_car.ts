@@ -1,0 +1,141 @@
+
+// Auto-generated Magazine (car) bang commands from DuckDuckGo
+// Generated on: 2025-03-01T15:43:19.028Z
+
+import { BangCommand } from '../bangs';
+
+export const bangs: BangCommand[] = [
+  {
+    "c": "News",
+    "d": "www.auto-medienportal.net",
+    "r": 0,
+    "s": "Auto-Medienportal.Net",
+    "sc": "Magazine (car)",
+    "t": "ampnet",
+    "u": "http://www.auto-medienportal.net/artikel/quicksearch/?searchterm={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.autocosmos.com.mx",
+    "r": 0,
+    "s": "Autocosmos",
+    "sc": "Magazine (car)",
+    "t": "autos",
+    "u": "http://www.autocosmos.com.mx/search?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.honestjohn.co.uk",
+    "r": 3,
+    "s": "Honest John",
+    "sc": "Magazine (car)",
+    "t": "hj",
+    "u": "https://www.honestjohn.co.uk/search/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.motor1.com",
+    "r": 0,
+    "s": "Motor1",
+    "sc": "Magazine (car)",
+    "t": "m1",
+    "u": "https://www.motor1.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "miniology.com",
+    "r": 0,
+    "s": "Miniology",
+    "sc": "Magazine (car)",
+    "t": "miniology",
+    "u": "http://miniology.com/?s={{{s}}}&submit=Search"
+  },
+  {
+    "c": "News",
+    "d": "www.roadandtrack.com",
+    "r": 0,
+    "s": "Road & Track",
+    "sc": "Magazine (car)",
+    "t": "randt",
+    "u": "https://www.roadandtrack.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.roadandtrack.com",
+    "r": 0,
+    "s": "Road & Track",
+    "sc": "Magazine (car)",
+    "t": "roadandtrack",
+    "u": "https://www.roadandtrack.com/search/?q={{{s}}}"
+  }
+];
+
+export const bangIndex: Record<string, BangCommand> = {
+  "ampnet": {
+    "c": "News",
+    "d": "www.auto-medienportal.net",
+    "r": 0,
+    "s": "Auto-Medienportal.Net",
+    "sc": "Magazine (car)",
+    "t": "ampnet",
+    "u": "http://www.auto-medienportal.net/artikel/quicksearch/?searchterm={{{s}}}"
+  },
+  "autos": {
+    "c": "News",
+    "d": "www.autocosmos.com.mx",
+    "r": 0,
+    "s": "Autocosmos",
+    "sc": "Magazine (car)",
+    "t": "autos",
+    "u": "http://www.autocosmos.com.mx/search?q={{{s}}}"
+  },
+  "hj": {
+    "c": "News",
+    "d": "www.honestjohn.co.uk",
+    "r": 3,
+    "s": "Honest John",
+    "sc": "Magazine (car)",
+    "t": "hj",
+    "u": "https://www.honestjohn.co.uk/search/?q={{{s}}}"
+  },
+  "m1": {
+    "c": "News",
+    "d": "www.motor1.com",
+    "r": 0,
+    "s": "Motor1",
+    "sc": "Magazine (car)",
+    "t": "m1",
+    "u": "https://www.motor1.com/search/?q={{{s}}}"
+  },
+  "miniology": {
+    "c": "News",
+    "d": "miniology.com",
+    "r": 0,
+    "s": "Miniology",
+    "sc": "Magazine (car)",
+    "t": "miniology",
+    "u": "http://miniology.com/?s={{{s}}}&submit=Search"
+  },
+  "randt": {
+    "c": "News",
+    "d": "www.roadandtrack.com",
+    "r": 0,
+    "s": "Road & Track",
+    "sc": "Magazine (car)",
+    "t": "randt",
+    "u": "https://www.roadandtrack.com/search/?q={{{s}}}"
+  },
+  "roadandtrack": {
+    "c": "News",
+    "d": "www.roadandtrack.com",
+    "r": 0,
+    "s": "Road & Track",
+    "sc": "Magazine (car)",
+    "t": "roadandtrack",
+    "u": "https://www.roadandtrack.com/search/?q={{{s}}}"
+  }
+};
+
+export const categories = [
+  "News"
+];

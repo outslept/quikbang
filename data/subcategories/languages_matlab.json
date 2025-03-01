@@ -1,0 +1,20 @@
+[
+  {
+    "c": "Tech",
+    "d": "es.mathworks.com",
+    "r": 0,
+    "s": "MATLAB Answers",
+    "sc": "Languages (Matlab)",
+    "t": "matlabans",
+    "u": "https://es.mathworks.com/matlabcentral/answers/?term={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "uk.mathworks.com",
+    "r": 0,
+    "s": "Matlab",
+    "sc": "Languages (Matlab)",
+    "t": "matlab",
+    "u": "http://uk.mathworks.com/help/search.html?qdoc={{{s}}}&submitsearch=Search"
+  }
+]

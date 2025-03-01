@@ -1,0 +1,3251 @@
+[
+  {
+    "c": "Shopping",
+    "d": "www.1mg.com",
+    "r": 0,
+    "s": "1mg",
+    "sc": "Online (marketplace)",
+    "t": "1mg",
+    "u": "https://www.1mg.com/search/all?name={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "krsk.au.ru",
+    "r": 0,
+    "s": "24au.ru",
+    "sc": "Online (marketplace)",
+    "t": "24au",
+    "u": "https://krsk.au.ru/nextauction/?search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.2dehands.be",
+    "r": 0,
+    "s": "2dehands.be",
+    "sc": "Online (marketplace)",
+    "t": "2dehands",
+    "u": "http://www.2dehands.be/markt?qq={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.2ememain.be",
+    "r": 3,
+    "s": "2ememain.be",
+    "sc": "Online (marketplace)",
+    "t": "2ememain",
+    "u": "http://www.2ememain.be/marche/?qq={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.2xmoinscher.com",
+    "r": 0,
+    "s": "2xmoinscher",
+    "sc": "Online (marketplace)",
+    "t": "2xmc",
+    "u": "https://www.2xmoinscher.com/r?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "999.md",
+    "r": 0,
+    "s": "999.md",
+    "sc": "Online (marketplace)",
+    "t": "999",
+    "u": "https://999.md/ru/search?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "miabuelavende.com",
+    "r": 0,
+    "s": "Mi abuela vende",
+    "sc": "Online (marketplace)",
+    "t": "abuela",
+    "u": "http://miabuelavende.com/?s={{{s}}}&post_type=product"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.aliexpress.com",
+    "r": 502,
+    "s": "aliexpress.com",
+    "sc": "Online (marketplace)",
+    "t": "ae",
+    "u": "https://www.aliexpress.com/wholesale?SearchText={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.amazon.es",
+    "r": 14,
+    "s": "Amazon ES",
+    "sc": "Online (marketplace)",
+    "t": "a.es",
+    "u": "https://www.amazon.es/s?k={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "agora.co.il",
+    "r": 0,
+    "s": "Agora.co.il",
+    "sc": "Online (marketplace)",
+    "t": "agorail",
+    "u": "https://agora.co.il/toGet.asp?iseek={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.amazon.co.jp",
+    "r": 598,
+    "s": "http://amazon.co.jp",
+    "sc": "Online (marketplace)",
+    "t": "aj",
+    "u": "https://www.amazon.co.jp/s?k={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "akizukidenshi.com",
+    "r": 30,
+    "s": "akizukidenshi",
+    "sc": "Online (marketplace)",
+    "t": "akiduki",
+    "u": "http://akizukidenshi.com/catalog/goods/search.aspx?keyword= {{{s}}}&goods=&number=&name=&min_price=&max_price=&search.x=0&search.y=0"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ah.nl",
+    "r": 0,
+    "s": "Albert Hein",
+    "sc": "Online (marketplace)",
+    "t": "alberthein",
+    "u": "http://www.ah.nl/zoeken?rq={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.alibaba.com",
+    "r": 13,
+    "s": "Alibaba",
+    "sc": "Online (marketplace)",
+    "t": "alibaba",
+    "u": "http://www.alibaba.com/trade/search?SearchText={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.aliexpress.com",
+    "r": 382,
+    "s": "Aliexpress",
+    "sc": "Online (marketplace)",
+    "t": "aliexpress",
+    "u": "http://www.aliexpress.com/wholesale?SearchText={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.almedina.net",
+    "r": 0,
+    "s": "Livraria Almedina",
+    "sc": "Online (marketplace)",
+    "t": "almedina",
+    "u": "https://www.almedina.net/search.php?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.alo.bg",
+    "r": 0,
+    "s": "alo.bg",
+    "sc": "Online (marketplace)",
+    "t": "alobg",
+    "u": "https://www.alo.bg/searchq/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.amazon.com",
+    "r": 0,
+    "s": "Amazon Cloud",
+    "sc": "Online (marketplace)",
+    "t": "amcloud",
+    "u": "https://www.amazon.com/clouddrive/#G=0&path={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "marketplace.atlassian.com",
+    "r": 0,
+    "s": "Atlassian Marketplace",
+    "sc": "Online (marketplace)",
+    "t": "amkt",
+    "u": "https://marketplace.atlassian.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.amazon.in",
+    "r": 16,
+    "s": "Amazon India",
+    "sc": "Online (marketplace)",
+    "t": "amznin",
+    "u": "https://www.amazon.in/s?k={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.angelajey.com",
+    "r": 0,
+    "s": "Angela Jey",
+    "sc": "Online (marketplace)",
+    "t": "angelajey",
+    "u": "https://www.angelajey.com/index.php?route=product/search&search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "katzothek.provital.com",
+    "r": 0,
+    "s": "Die Katzothek | Gesundes und artgerechtes Katzenfutter von Anifit",
+    "sc": "Online (marketplace)",
+    "t": "anifit",
+    "u": "https://katzothek.provital.com/content/partners/katzothek/futtershop/de/article_search?article_name={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "aprohirdetesingyen.hu",
+    "r": 0,
+    "s": "aprohirdetesingyen.hu",
+    "sc": "Online (marketplace)",
+    "t": "apro",
+    "u": "https://aprohirdetesingyen.hu/osszes-hirdetes/kereses--{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.armslist.com",
+    "r": 0,
+    "s": "ARMSLIST",
+    "sc": "Online (marketplace)",
+    "t": "armslist",
+    "u": "https://www.armslist.com/classifieds/search?search={{{s}}}&location=usa&category=all&posttype=7&ships="
+  },
+  {
+    "c": "Shopping",
+    "d": "www.arnoldbusck.dk",
+    "r": 0,
+    "s": "Arnold Busck",
+    "sc": "Online (marketplace)",
+    "t": "arnoldbusck",
+    "u": "https://www.arnoldbusck.dk/soeg?s={{{s}}}&cid=alle"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.artfire.com",
+    "r": 0,
+    "s": "ArtFire",
+    "sc": "Online (marketplace)",
+    "t": "artfire",
+    "u": "http://www.artfire.com/browse/?term={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "smile.amazon.de",
+    "r": 32,
+    "s": "Amazon Smile Deutschland",
+    "sc": "Online (marketplace)",
+    "t": "asd",
+    "u": "https://smile.amazon.de/s?url=search-alias%3Daps&field-keywords={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.asics.com",
+    "r": 0,
+    "s": "asics",
+    "sc": "Online (marketplace)",
+    "t": "asics",
+    "u": "http://www.asics.com/us/en-us/search?text={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.atcmarket.cz",
+    "r": 0,
+    "s": "AT Computers",
+    "sc": "Online (marketplace)",
+    "t": "atcomp",
+    "u": "https://www.atcmarket.cz/zbozi?hledani=true&zb={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "app.audiogon.com",
+    "r": 0,
+    "s": "Audiogon",
+    "sc": "Online (marketplace)",
+    "t": "audiogon",
+    "u": "https://app.audiogon.com/listings?&global_search_text={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "aukro.cz",
+    "r": 0,
+    "s": "Aukro",
+    "sc": "Online (marketplace)",
+    "t": "aukro",
+    "u": "http://aukro.cz/listing.php/search?string={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.getawaygear.com",
+    "r": 0,
+    "s": "Get Away Gear",
+    "sc": "Online (marketplace)",
+    "t": "away",
+    "u": "https://www.getawaygear.com/index.php?page=search&sPattern={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.aboutyou.de",
+    "r": 0,
+    "s": "AboutYou",
+    "sc": "Online (marketplace)",
+    "t": "ay",
+    "u": "https://www.aboutyou.de/suche?term={{{s}}}&search_source=ddgo"
+  },
+  {
+    "c": "Shopping",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "Bambali",
+    "sc": "Online (marketplace)",
+    "t": "bambali",
+    "u": "https://duckduckgo.com/?q=site%3Abambali.net+{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "bazar.bg",
+    "r": 0,
+    "s": "bazar.bg",
+    "sc": "Online (marketplace)",
+    "t": "bazarbg",
+    "u": "https://bazar.bg/obiavi?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "bandcamp.com",
+    "r": 208,
+    "s": "Bandcamp",
+    "sc": "Online (marketplace)",
+    "t": "bcamp",
+    "u": "https://bandcamp.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "blockchain.info",
+    "r": 13,
+    "s": "Blockchain",
+    "sc": "Online (marketplace)",
+    "t": "bc",
+    "u": "http://blockchain.info/search/{{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.bertrand.pt",
+    "r": 0,
+    "s": "Livraria Bertrand",
+    "sc": "Online (marketplace)",
+    "t": "bertrand",
+    "u": "https://www.bertrand.pt/pesquisa/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.bestprice.gr",
+    "r": 8,
+    "s": "BestPrice",
+    "sc": "Online (marketplace)",
+    "t": "bestprice",
+    "u": "http://www.bestprice.gr/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.bestsellinglover.com",
+    "r": 0,
+    "s": "BestsellingLover.com",
+    "sc": "Online (marketplace)",
+    "t": "bestsellinglover",
+    "u": "https://www.bestsellinglover.com/search-now?controller=search&orderby=position&orderway=desc&search_query={{{s}}}&submit_search="
+  },
+  {
+    "c": "Shopping",
+    "d": "boardgamegeek.com",
+    "r": 0,
+    "s": "na",
+    "sc": "Online (marketplace)",
+    "t": "bgggm",
+    "u": "http://boardgamegeek.com/geekmarket/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "bgunikat.eu",
+    "r": 0,
+    "s": "Sterling silver jewelry",
+    "sc": "Online (marketplace)",
+    "t": "bgunikat",
+    "u": "https://bgunikat.eu/index.php?route=product/search&search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "biblio.com",
+    "r": 8,
+    "s": "Biblio",
+    "sc": "Online (marketplace)",
+    "t": "biblio",
+    "u": "http://biblio.com/search.php?keyisbn={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.bidorbuy.co.za",
+    "r": 0,
+    "s": "bidorbuy",
+    "sc": "Online (marketplace)",
+    "t": "bidorbuy",
+    "u": "http://www.bidorbuy.co.za/search/{{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.bigstockphoto.com",
+    "r": 0,
+    "s": "Bigstock",
+    "sc": "Online (marketplace)",
+    "t": "bigstock",
+    "u": "http://www.bigstockphoto.com/search/{{{s}}}/"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.bike-discount.de",
+    "r": 0,
+    "s": "Bike-Discount",
+    "sc": "Online (marketplace)",
+    "t": "bikedsct",
+    "u": "https://www.bike-discount.de/de/suche?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.bilka.dk",
+    "r": 0,
+    "s": "Bilka",
+    "sc": "Online (marketplace)",
+    "t": "bilka",
+    "u": "https://www.bilka.dk/s%C3%B8g?tekst={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "search.books.com.tw",
+    "r": 0,
+    "s": "博客來",
+    "sc": "Online (marketplace)",
+    "t": "bkl",
+    "u": "http://search.books.com.tw/search/query/key/{{{s}}}/cat/all"
+  },
+  {
+    "c": "Shopping",
+    "d": "bland.is",
+    "r": 0,
+    "s": "Bland.is",
+    "sc": "Online (marketplace)",
+    "t": "bland",
+    "u": "https://bland.is/classified/default.aspx?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "blueapron.com",
+    "r": 0,
+    "s": "Blue Apron",
+    "sc": "Online (marketplace)",
+    "t": "blueapron",
+    "u": "http://blueapron.com/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "bookmyparts.com",
+    "r": 0,
+    "s": "https://bookmyparts.com",
+    "sc": "Online (marketplace)",
+    "t": "bmp",
+    "u": "https://bookmyparts.com/?s={{{s}}}&post_type=product"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.bolha.com",
+    "r": 0,
+    "s": "Bolha",
+    "sc": "Online (marketplace)",
+    "t": "bolha",
+    "u": "http://www.bolha.com/iskanje?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.bonfire.com",
+    "r": 0,
+    "s": "Bonfire",
+    "sc": "Online (marketplace)",
+    "t": "bonfire",
+    "u": "https://www.bonfire.com/results/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.booklooker.de",
+    "r": 7,
+    "s": "Booklooker",
+    "sc": "Online (marketplace)",
+    "t": "booklooker",
+    "u": "http://www.booklooker.de/B%C3%BCcher/Angebote/infotext={{{s}}}?lid=1"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.buchpreis24.de",
+    "r": 0,
+    "s": "Buchpreis24",
+    "sc": "Online (marketplace)",
+    "t": "buchpreis24",
+    "u": "https://www.buchpreis24.de/stichwort/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.bukalapak.com",
+    "r": 0,
+    "s": "Bukalapak",
+    "sc": "Online (marketplace)",
+    "t": "bukalapak",
+    "u": "https://www.bukalapak.com/products?utf8=%E2%9C%93&search%5Bkeywords%5D={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "buyee.jp",
+    "r": 0,
+    "s": "buyee",
+    "sc": "Online (marketplace)",
+    "t": "buyee",
+    "u": "http://buyee.jp/item/search?query={{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.carrefour.fr",
+    "r": 0,
+    "s": "Carrefour",
+    "sc": "Online (marketplace)",
+    "t": "cafr",
+    "u": "http://www.carrefour.fr/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.cardhoarder.com",
+    "r": 0,
+    "s": "Cardhoarder",
+    "sc": "Online (marketplace)",
+    "t": "caho",
+    "u": "https://www.cardhoarder.com/cards?data[search]={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.carsales.com.au",
+    "r": 0,
+    "s": "Carsales",
+    "sc": "Online (marketplace)",
+    "t": "carsales",
+    "u": "https://www.carsales.com.au/cars/results/?q=CarAll.keyword({{{s}}}).&area=Stock&vertical=car&WT.z_srchsrcx=makemodel"
+  },
+  {
+    "c": "Shopping",
+    "d": "cda.chronomania.net",
+    "r": 0,
+    "s": "CDA",
+    "sc": "Online (marketplace)",
+    "t": "cda",
+    "u": "http://cda.chronomania.net/search.php?search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "chronodivers.com",
+    "r": 0,
+    "s": "ChronoDiver.com",
+    "sc": "Online (marketplace)",
+    "t": "cdiver",
+    "u": "https://chronodivers.com/?s={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.com",
+    "r": 0,
+    "s": "eBay: completed listings",
+    "sc": "Online (marketplace)",
+    "t": "ceb",
+    "u": "https://www.ebay.com/csc/items/?_nkw={{{s}}}+&LH_Complete=1"
+  },
+  {
+    "c": "Shopping",
+    "d": "pittsburgh.craigslist.org",
+    "r": 0,
+    "s": "craigslist",
+    "sc": "Online (marketplace)",
+    "t": "cgl",
+    "u": "https://pittsburgh.craigslist.org/search/sss?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.chairish.com",
+    "r": 0,
+    "s": "Chairish",
+    "sc": "Online (marketplace)",
+    "t": "chairish",
+    "u": "https://www.chairish.com/search?q={{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.encole.com",
+    "r": 0,
+    "s": "Clamps",
+    "sc": "Online (marketplace)",
+    "t": "clamps",
+    "u": "https://www.encole.com/search/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.clarks.co.uk",
+    "r": 0,
+    "s": "Clarks",
+    "sc": "Online (marketplace)",
+    "t": "clarks",
+    "u": "https://www.clarks.co.uk/search/?text={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.classrr.com",
+    "r": 0,
+    "s": "Classrr",
+    "sc": "Online (marketplace)",
+    "t": "classrr",
+    "u": "https://www.classrr.com/classroom/list?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.craigslist.org",
+    "r": 143,
+    "s": "Craigslist",
+    "sc": "Online (marketplace)",
+    "t": "cl",
+    "u": "https://www.craigslist.org/search/sss?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "cm.center",
+    "r": 0,
+    "s": "CM.Center",
+    "sc": "Online (marketplace)",
+    "t": "cm",
+    "u": "https://cm.center/catalog/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.cocklestorm.com",
+    "r": 0,
+    "s": "Cocklestorm Fencing Ltd",
+    "sc": "Online (marketplace)",
+    "t": "cocklestorm",
+    "u": "http://www.cocklestorm.com/catalogsearch/result/?q={{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.cloudofgoods.com",
+    "r": 0,
+    "s": "Cloud of Goods",
+    "sc": "Online (marketplace)",
+    "t": "cog",
+    "u": "https://www.cloudofgoods.com/s/products?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.cpap.com",
+    "r": 0,
+    "s": "CPAP.com",
+    "sc": "Online (marketplace)",
+    "t": "cpap",
+    "u": "http://www.cpap.com/productSearch.php?q=1&query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "duckduckgo.com",
+    "r": 13,
+    "s": "Craigslist",
+    "sc": "Online (marketplace)",
+    "t": "craigslist",
+    "u": "https://duckduckgo.com/?q={{{s}}}+site%3Acraigslist.org"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.cloudretails.com",
+    "r": 0,
+    "s": "CloudRetails",
+    "sc": "Online (marketplace)",
+    "t": "crcom",
+    "u": "https://www.cloudretails.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.crowdsupply.com",
+    "r": 0,
+    "s": "CrowdSupply",
+    "sc": "Online (marketplace)",
+    "t": "crowdsupply",
+    "u": "https://www.crowdsupply.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.dafoodmall.com",
+    "r": 0,
+    "s": "dafoodmall",
+    "sc": "Online (marketplace)",
+    "t": "dafoodmall",
+    "u": "http://www.dafoodmall.com/goods/search.asp?sword={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.dba.dk",
+    "r": 17,
+    "s": "Den Blå Avis",
+    "sc": "Online (marketplace)",
+    "t": "dba",
+    "u": "http://www.dba.dk/soeg/?soeg={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.decathlon.it",
+    "r": 0,
+    "s": "Decathlon Italia",
+    "sc": "Online (marketplace)",
+    "t": "decathlonit",
+    "u": "http://www.decathlon.it/Comprare/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.decitre.fr",
+    "r": 0,
+    "s": "Decitre",
+    "sc": "Online (marketplace)",
+    "t": "decitre",
+    "u": "http://www.decitre.fr/rechercher/result/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.depop.com",
+    "r": 5,
+    "s": "Depop",
+    "sc": "Online (marketplace)",
+    "t": "depop",
+    "u": "https://www.depop.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.dhgate.com",
+    "r": 0,
+    "s": "DHGate",
+    "sc": "Online (marketplace)",
+    "t": "dhgate",
+    "u": "http://www.dhgate.com/wholesale/search.do?act=search&supplierid=&isfactory=&sus=&searchkey={{{s}}}&catalog=#search"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.direnc.net",
+    "r": 0,
+    "s": "Direnç.net",
+    "sc": "Online (marketplace)",
+    "t": "direncnet",
+    "u": "https://www.direnc.net/arama?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.dns-shop.ru",
+    "r": 0,
+    "s": "DNS",
+    "sc": "Online (marketplace)",
+    "t": "dnsshop",
+    "u": "http://www.dns-shop.ru/search/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.donedeal.ie",
+    "r": 0,
+    "s": "Done Deal",
+    "sc": "Online (marketplace)",
+    "t": "donedeal",
+    "u": "https://www.donedeal.ie/all?words={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.at",
+    "r": 3,
+    "s": "ebay.at",
+    "sc": "Online (marketplace)",
+    "t": "eat",
+    "u": "https://www.ebay.at/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.at",
+    "r": 0,
+    "s": "Ebay Austria",
+    "sc": "Online (marketplace)",
+    "t": "e.at",
+    "u": "https://www.ebay.at/sch/i.html?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.com.au",
+    "r": 79,
+    "s": "ebay.com.au",
+    "sc": "Online (marketplace)",
+    "t": "eau",
+    "u": "https://www.ebay.com.au/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.at",
+    "r": 0,
+    "s": "ebay.at",
+    "sc": "Online (marketplace)",
+    "t": "ebat",
+    "u": "http://www.ebay.at/sch/i.html?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.com.au",
+    "r": 208,
+    "s": "ebay.com.au",
+    "sc": "Online (marketplace)",
+    "t": "ebau",
+    "u": "https://www.ebay.com.au/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.at",
+    "r": 0,
+    "s": "ebay.at",
+    "sc": "Online (marketplace)",
+    "t": "ebayat",
+    "u": "https://www.ebay.at/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.com.au",
+    "r": 154,
+    "s": "ebay.com.au",
+    "sc": "Online (marketplace)",
+    "t": "ebayau",
+    "u": "https://www.ebay.com.au/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.befr.ebay.be",
+    "r": 6,
+    "s": "ebay.be",
+    "sc": "Online (marketplace)",
+    "t": "ebaybe",
+    "u": "https://www.befr.ebay.be/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.ca",
+    "r": 102,
+    "s": "ebay.ca",
+    "sc": "Online (marketplace)",
+    "t": "ebayca",
+    "u": "https://www.ebay.ca/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.ch",
+    "r": 0,
+    "s": "ebay.ch",
+    "sc": "Online (marketplace)",
+    "t": "ebaych",
+    "u": "https://www.ebay.ch/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.de",
+    "r": 298,
+    "s": "ebay.de",
+    "sc": "Online (marketplace)",
+    "t": "ebayde",
+    "u": "https://www.ebay.de/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.com",
+    "r": 5669,
+    "s": "eBay",
+    "sc": "Online (marketplace)",
+    "t": "ebay",
+    "u": "https://www.ebay.com/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.es",
+    "r": 15,
+    "s": "ebay (ES)",
+    "sc": "Online (marketplace)",
+    "t": "ebayes",
+    "u": "https://www.ebay.es/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.fr",
+    "r": 60,
+    "s": "ebay.fr",
+    "sc": "Online (marketplace)",
+    "t": "ebayfr",
+    "u": "https://www.ebay.fr/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "search.eim.ebay.gr",
+    "r": 0,
+    "s": "ebay.gr",
+    "sc": "Online (marketplace)",
+    "t": "ebaygr",
+    "u": "http://search.eim.ebay.gr/?kw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.com.hk",
+    "r": 0,
+    "s": "ebay.com.hk",
+    "sc": "Online (marketplace)",
+    "t": "ebayhk",
+    "u": "http://shop.ebay.com.hk/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.ie",
+    "r": 0,
+    "s": "ebay.ie",
+    "sc": "Online (marketplace)",
+    "t": "ebayie",
+    "u": "https://www.ebay.ie/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.in",
+    "r": 0,
+    "s": "ebay.in",
+    "sc": "Online (marketplace)",
+    "t": "ebayin",
+    "u": "http://shop.ebay.in/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.it",
+    "r": 51,
+    "s": "ebay.it",
+    "sc": "Online (marketplace)",
+    "t": "ebayit",
+    "u": "https://www.ebay.it/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay-kleinanzeigen.de",
+    "r": 0,
+    "s": "Ebay Kleinanzeigen",
+    "sc": "Online (marketplace)",
+    "t": "ebaykleinanzeigen",
+    "u": "https://www.ebay-kleinanzeigen.de/s-{{{s}}}/k0"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.com.my",
+    "r": 0,
+    "s": "ebay.com.my",
+    "sc": "Online (marketplace)",
+    "t": "ebaymy",
+    "u": "http://shop.ebay.com.my/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.nl",
+    "r": 0,
+    "s": "ebay.nl",
+    "sc": "Online (marketplace)",
+    "t": "ebaynl",
+    "u": "https://www.ebay.nl/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.ph",
+    "r": 0,
+    "s": "ebay.ph",
+    "sc": "Online (marketplace)",
+    "t": "ebayph",
+    "u": "http://shop.ebay.ph/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.pl",
+    "r": 0,
+    "s": "ebay.pl",
+    "sc": "Online (marketplace)",
+    "t": "ebaypl",
+    "u": "http://shop.ebay.pl/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.com.sg",
+    "r": 0,
+    "s": "ebay.com.sg",
+    "sc": "Online (marketplace)",
+    "t": "ebaysg",
+    "u": "http://shop.ebay.com.sg/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.co.uk",
+    "r": 528,
+    "s": "ebay.co.uk",
+    "sc": "Online (marketplace)",
+    "t": "ebayuk",
+    "u": "https://www.ebay.co.uk/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.befr.ebay.be",
+    "r": 0,
+    "s": "ebay.be",
+    "sc": "Online (marketplace)",
+    "t": "ebbe",
+    "u": "https://www.befr.ebay.be/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.ca",
+    "r": 41,
+    "s": "ebay.ca",
+    "sc": "Online (marketplace)",
+    "t": "ebca",
+    "u": "https://www.ebay.ca/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.ch",
+    "r": 0,
+    "s": "ebay.ch",
+    "sc": "Online (marketplace)",
+    "t": "ebch",
+    "u": "https://www.ebay.ch/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.de",
+    "r": 30,
+    "s": "ebay.de",
+    "sc": "Online (marketplace)",
+    "t": "ebde",
+    "u": "https://www.ebay.de/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.com",
+    "r": 1062,
+    "s": "eBay",
+    "sc": "Online (marketplace)",
+    "t": "eb",
+    "u": "https://www.ebay.com/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.befr.ebay.be",
+    "r": 0,
+    "s": "ebay.be",
+    "sc": "Online (marketplace)",
+    "t": "ebe",
+    "u": "https://www.befr.ebay.be/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.es",
+    "r": 5,
+    "s": "ebay (ES)",
+    "sc": "Online (marketplace)",
+    "t": "ebes",
+    "u": "https://www.ebay.es/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.fr",
+    "r": 17,
+    "s": "ebay.fr",
+    "sc": "Online (marketplace)",
+    "t": "ebfr",
+    "u": "https://www.ebay.fr/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "search.eim.ebay.gr",
+    "r": 0,
+    "s": "ebay.gr",
+    "sc": "Online (marketplace)",
+    "t": "ebgr",
+    "u": "http://search.eim.ebay.gr/?kw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.com.hk",
+    "r": 0,
+    "s": "ebay.com.hk",
+    "sc": "Online (marketplace)",
+    "t": "ebhk",
+    "u": "http://shop.ebay.com.hk/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.ie",
+    "r": 0,
+    "s": "ebay.ie",
+    "sc": "Online (marketplace)",
+    "t": "ebie",
+    "u": "https://www.ebay.ie/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.in",
+    "r": 0,
+    "s": "ebay.in",
+    "sc": "Online (marketplace)",
+    "t": "ebin",
+    "u": "http://shop.ebay.in/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.it",
+    "r": 25,
+    "s": "ebay.it",
+    "sc": "Online (marketplace)",
+    "t": "ebit",
+    "u": "https://www.ebay.it/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.com.my",
+    "r": 0,
+    "s": "ebay.com.my",
+    "sc": "Online (marketplace)",
+    "t": "ebmy",
+    "u": "http://shop.ebay.com.my/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.nl",
+    "r": 0,
+    "s": "ebay.nl",
+    "sc": "Online (marketplace)",
+    "t": "ebnl",
+    "u": "https://www.ebay.nl/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.ph",
+    "r": 0,
+    "s": "ebay.ph",
+    "sc": "Online (marketplace)",
+    "t": "ebph",
+    "u": "http://shop.ebay.ph/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.pl",
+    "r": 0,
+    "s": "ebay.pl",
+    "sc": "Online (marketplace)",
+    "t": "ebpl",
+    "u": "http://shop.ebay.pl/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.com",
+    "r": 0,
+    "s": "eBay",
+    "sc": "Online (marketplace)",
+    "t": "ebseller",
+    "u": "http://www.ebay.com/sch/{{{s}}}/m.html"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.com.sg",
+    "r": 0,
+    "s": "ebay.com.sg",
+    "sc": "Online (marketplace)",
+    "t": "ebsg",
+    "u": "http://shop.ebay.com.sg/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebth.com",
+    "r": 0,
+    "s": "Everything But the House",
+    "sc": "Online (marketplace)",
+    "t": "ebth",
+    "u": "https://www.ebth.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "gpo.zugaina.org",
+    "r": 14,
+    "s": "Gentoo Packages",
+    "sc": "Online (marketplace)",
+    "t": "ebuild",
+    "u": "http://gpo.zugaina.org/Search?search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "gpo.zugaina.org",
+    "r": 0,
+    "s": "Gentoo Packages",
+    "sc": "Online (marketplace)",
+    "t": "ebuilds",
+    "u": "http://gpo.zugaina.org/Search?search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.co.uk",
+    "r": 191,
+    "s": "ebay.co.uk",
+    "sc": "Online (marketplace)",
+    "t": "ebuk",
+    "u": "https://www.ebay.co.uk/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.com",
+    "r": 0,
+    "s": "eBay Records",
+    "sc": "Online (marketplace)",
+    "t": "ebyrec",
+    "u": "https://www.ebay.com/sch/176985/i.html?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.ca",
+    "r": 66,
+    "s": "ebay.ca",
+    "sc": "Online (marketplace)",
+    "t": "eca",
+    "u": "https://www.ebay.ca/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.ch",
+    "r": 0,
+    "s": "ebay.ch",
+    "sc": "Online (marketplace)",
+    "t": "ech",
+    "u": "https://www.ebay.ch/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.de",
+    "r": 877,
+    "s": "ebay.de",
+    "sc": "Online (marketplace)",
+    "t": "ede",
+    "u": "https://www.ebay.de/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.de",
+    "r": 6,
+    "s": "Ebay Germany",
+    "sc": "Online (marketplace)",
+    "t": "e.de",
+    "u": "http://www.ebay.de/sch/i.html?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.com",
+    "r": 7293,
+    "s": "eBay",
+    "sc": "Online (marketplace)",
+    "t": "e",
+    "u": "https://www.ebay.com/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.es",
+    "r": 8,
+    "s": "ebay (ES)",
+    "sc": "Online (marketplace)",
+    "t": "ees",
+    "u": "https://www.ebay.es/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.fr",
+    "r": 36,
+    "s": "ebay.fr",
+    "sc": "Online (marketplace)",
+    "t": "efr",
+    "u": "https://www.ebay.fr/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "search.eim.ebay.gr",
+    "r": 0,
+    "s": "ebay.gr",
+    "sc": "Online (marketplace)",
+    "t": "egr",
+    "u": "http://search.eim.ebay.gr/?kw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.com.hk",
+    "r": 0,
+    "s": "ebay.com.hk",
+    "sc": "Online (marketplace)",
+    "t": "ehk",
+    "u": "http://shop.ebay.com.hk/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.ie",
+    "r": 0,
+    "s": "ebay.ie",
+    "sc": "Online (marketplace)",
+    "t": "eie",
+    "u": "https://www.ebay.ie/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.in",
+    "r": 0,
+    "s": "ebay.in",
+    "sc": "Online (marketplace)",
+    "t": "ein",
+    "u": "http://shop.ebay.in/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.it",
+    "r": 92,
+    "s": "ebay.it",
+    "sc": "Online (marketplace)",
+    "t": "eit",
+    "u": "https://www.ebay.it/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay-kleinanzeigen.de",
+    "r": 0,
+    "s": "ebay Kleinanzeigen Aachen",
+    "sc": "Online (marketplace)",
+    "t": "ekac",
+    "u": "https://www.ebay-kleinanzeigen.de/s-aachen/{{{s}}}/k0l1921"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay-kleinanzeigen.de",
+    "r": 0,
+    "s": "eBay Kleinanzeigen Hamburg",
+    "sc": "Online (marketplace)",
+    "t": "ekh",
+    "u": "https://www.ebay-kleinanzeigen.de/s-hamburg/{{{s}}}/k0l9409"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay-kleinanzeigen.de",
+    "r": 0,
+    "s": "Kleinanzeigen Hannover",
+    "sc": "Online (marketplace)",
+    "t": "ekhr",
+    "u": "https://www.ebay-kleinanzeigen.de/s-hannover/{{{s}}}/k0l3155"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay-kleinanzeigen.de",
+    "r": 0,
+    "s": "ebay Kleinanzeigen Köln",
+    "sc": "Online (marketplace)",
+    "t": "ekk",
+    "u": "https://www.ebay-kleinanzeigen.de/s-koeln/{{{s}}}/k0l945"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay-kleinanzeigen.de",
+    "r": 7,
+    "s": "eBay Kleinanzeigen Leipzig",
+    "sc": "Online (marketplace)",
+    "t": "ekl",
+    "u": "https://www.ebay-kleinanzeigen.de/s-leipzig/{{{s}}}/k0l4233"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay-kleinanzeigen.de",
+    "r": 0,
+    "s": "eBay Kleinanzeigen München",
+    "sc": "Online (marketplace)",
+    "t": "ekm",
+    "u": "https://www.ebay-kleinanzeigen.de/s-muenchen/{{{s}}}/k0l6411"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ellos.se",
+    "r": 0,
+    "s": "Ellos",
+    "sc": "Online (marketplace)",
+    "t": "ellos",
+    "u": "https://www.ellos.se/search?SearchTerm={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "motors.shop.ebay.com",
+    "r": 0,
+    "s": "eBay Motors",
+    "sc": "Online (marketplace)",
+    "t": "em",
+    "u": "http://motors.shop.ebay.com/eBay-Motors-/6000/i.html?_nkw={{{s}}}&_trksid=p2050885.m570.l1313&_rdc=1"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.com.my",
+    "r": 0,
+    "s": "ebay.com.my",
+    "sc": "Online (marketplace)",
+    "t": "emy",
+    "u": "http://shop.ebay.com.my/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.globalspec.com",
+    "r": 0,
+    "s": "IHS Engineering360",
+    "sc": "Online (marketplace)",
+    "t": "engineering360",
+    "u": "http://www.globalspec.com/search/all?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.nl",
+    "r": 0,
+    "s": "ebay.nl",
+    "sc": "Online (marketplace)",
+    "t": "enl",
+    "u": "https://www.ebay.nl/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "themeforest.net",
+    "r": 0,
+    "s": "Envato Marketplace",
+    "sc": "Online (marketplace)",
+    "t": "envatomarkettheme",
+    "u": "https://themeforest.net/search?term={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.ph",
+    "r": 0,
+    "s": "ebay.ph",
+    "sc": "Online (marketplace)",
+    "t": "eph",
+    "u": "http://shop.ebay.ph/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.pl",
+    "r": 5,
+    "s": "ebay.pl",
+    "sc": "Online (marketplace)",
+    "t": "epl",
+    "u": "http://shop.ebay.pl/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ethnicsmart.com",
+    "r": 0,
+    "s": "Ethnic Smart Wholesale",
+    "sc": "Online (marketplace)",
+    "t": "es1",
+    "u": "https://www.ethnicsmart.com/catalogsearch/result/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.ebay.com.sg",
+    "r": 0,
+    "s": "ebay.com.sg",
+    "sc": "Online (marketplace)",
+    "t": "esg",
+    "u": "http://shop.ebay.com.sg/?_nkw={{{s}}}&_sacat=See-All-Categories"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.essef.be",
+    "r": 0,
+    "s": "ESSEF (fr)",
+    "sc": "Online (marketplace)",
+    "t": "esseffr",
+    "u": "http://www.essef.be/fr/cataloog/index.search.asp?zoek={{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.essef.be",
+    "r": 0,
+    "s": "ESSEF (nl)",
+    "sc": "Online (marketplace)",
+    "t": "essefn",
+    "u": "http://www.essef.be/ndl/cataloog/index.search.asp?zoek={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.estantevirtual.com.br",
+    "r": 0,
+    "s": "Estante Virtual",
+    "sc": "Online (marketplace)",
+    "t": "estantevirtual",
+    "u": "https://www.estantevirtual.com.br/busca?utf8=✓&type=q&new=&q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.co.uk",
+    "r": 1019,
+    "s": "ebay.co.uk",
+    "sc": "Online (marketplace)",
+    "t": "euk",
+    "u": "https://www.ebay.co.uk/sch/items/?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay.co.uk",
+    "r": 31,
+    "s": "Ebay UK",
+    "sc": "Online (marketplace)",
+    "t": "e.uk",
+    "u": "http://www.ebay.co.uk/sch/i.html?_nkw={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.eurobuch.com",
+    "r": 0,
+    "s": "Eurobuch",
+    "sc": "Online (marketplace)",
+    "t": "eurobuch",
+    "u": "http://www.eurobuch.com/buch/isbn/3838758854.html?author=&coverState=&doAbeDe=1&doAchtungBuecher=1&doAko=1&doAlibris=1&doAmazon=1&doAmazonCa=1&doAmazonCom=1&doAmazonEs=1&doAmazonFr=1&doAmazonIt=1&doAmazonUk=1&doAudibile=1&doAudiobooks=1&doAum=1&doBUCH=1&doBUCHCH=1&doBbBuch=1&doBetterworld=1&doBiblio=1&doBlackwell=1&doBn=1&doBoeken=1&doBolCom=1&doBookdepository=1&doBooklooker=1&doBruna=1&doBuch24=1&doBuchfreund=1&doBuchmarie=1&doBuecherDe=1&doCasaDelLibro=1&doCiando=1&doEBS=1&doEBay=1&doEBooknl=1&doEbooks=1&doEbookscom=1&doEci=1&doElsevier=1&doFnac=1&doFoyles=1&doGoogle=1&doHive=1&doHoepli=1&doIbs=1&doImosver=1&doIndigo=1&doJokers=1&doKobo=1&doLaFeltrinelli=1&doLehmanns=1&doLibri=1&doLibriEB=1&doLibroco=1&doLuisterboeken=1&doMedimops=1&doMondadori=1&doMusicroom=1&doNotenbuch=1&doOnderwijsboek=1&doProlibri=1&doProxis=1&doRegalfrei=1&doRheinberg=1&doScholastic=1&doStudystore=1&doThaliaAt=1&doThaliaCh=1&doThaliaDe=1&doThriftbooks=1&doVoordeelboekenonline=1&doWaterstones=1&doWebster=1&doZVAB=1&fromDateDays=7&isbn=&land=&maxJahr=&maxPrice=&mediatype=0&minJahr=&minPrice=&noBids=0&noReprint=0&pageLen=20&proSearch=&professionalState=&publisher=&search={{{s}}}&search_submit=suchen&sisbn=&title=&updatePresets=1&updateProState=1&usedState="
+  },
+  {
+    "c": "Shopping",
+    "d": "www.fairmondo.de",
+    "r": 0,
+    "s": "Fairmondo",
+    "sc": "Online (marketplace)",
+    "t": "fairmondo",
+    "u": "https://www.fairmondo.de/articles?article_search_form[q]={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.farrvintners.com",
+    "r": 0,
+    "s": "www.farrvintners.com",
+    "sc": "Online (marketplace)",
+    "t": "farr",
+    "u": "https://www.farrvintners.com/winelist.php?keywords={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.fcpeuro.com",
+    "r": 0,
+    "s": "FCP Euro",
+    "sc": "Online (marketplace)",
+    "t": "fcpeuro",
+    "u": "https://www.fcpeuro.com/products?utf8=%E2%9C%93&keywords={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.finn.no",
+    "r": 11,
+    "s": "Finn.no",
+    "sc": "Online (marketplace)",
+    "t": "finn",
+    "u": "https://www.finn.no/globalsearchlander.html?searchKeys=&q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.firebox.com",
+    "r": 0,
+    "s": "Firebox",
+    "sc": "Online (marketplace)",
+    "t": "firebox",
+    "u": "http://www.firebox.com/search/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.fonq.be",
+    "r": 0,
+    "s": "fonq",
+    "sc": "Online (marketplace)",
+    "t": "fonq",
+    "u": "http://www.fonq.be/nl_BE/search/?search_term={{{s}}}#s=2"
+  },
+  {
+    "c": "Shopping",
+    "d": "funplass.com",
+    "r": 0,
+    "s": "Funplass",
+    "sc": "Online (marketplace)",
+    "t": "funplass",
+    "u": "https://funplass.com/recherche.php?what={{{s}}}&where=0&when=0"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.g2a.com",
+    "r": 14,
+    "s": "G2A",
+    "sc": "Online (marketplace)",
+    "t": "g2a",
+    "u": "https://www.g2a.com/?search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.gamemar.com",
+    "r": 0,
+    "s": "GameMar",
+    "sc": "Online (marketplace)",
+    "t": "gamemar",
+    "u": "https://www.gamemar.com/?s={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.gearbest.com",
+    "r": 0,
+    "s": "GearBest",
+    "sc": "Online (marketplace)",
+    "t": "gearbest",
+    "u": "http://www.gearbest.com/{{{s}}} -_gear/"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.gbase.com",
+    "r": 0,
+    "s": "Gbase.com",
+    "sc": "Online (marketplace)",
+    "t": "gear",
+    "u": "https://www.gbase.com/gear?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "geecr.com",
+    "r": 0,
+    "s": "GEECR",
+    "sc": "Online (marketplace)",
+    "t": "geecr",
+    "u": "https://geecr.com/search/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.gettyimages.com",
+    "r": 18,
+    "s": "Getty Images",
+    "sc": "Online (marketplace)",
+    "t": "getty",
+    "u": "https://www.gettyimages.com/photos/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.gittigidiyor.com",
+    "r": 0,
+    "s": "GittiGidiyor",
+    "sc": "Online (marketplace)",
+    "t": "gittigidiyor",
+    "u": "http://www.gittigidiyor.com/arama/?k={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "gladrys.com",
+    "r": 0,
+    "s": "gladrys",
+    "sc": "Online (marketplace)",
+    "t": "gladrys",
+    "u": "http://gladrys.com/search0results-plant{{{s}}}.html"
+  },
+  {
+    "c": "Shopping",
+    "d": "glyde.com",
+    "r": 0,
+    "s": "Glyde",
+    "sc": "Online (marketplace)",
+    "t": "glyde",
+    "u": "http://glyde.com/stores/glyde#!display_as=2&s_query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "gumroad.com",
+    "r": 0,
+    "s": "Gumraod",
+    "sc": "Online (marketplace)",
+    "t": "gmr",
+    "u": "https://gumroad.com/discover?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "thegooodshop.com",
+    "r": 0,
+    "s": "The Goood Shop",
+    "sc": "Online (marketplace)",
+    "t": "goood",
+    "u": "https://thegooodshop.com/?s={{{s}}}&post_type=product"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.grailed.com",
+    "r": 66,
+    "s": "grailed",
+    "sc": "Online (marketplace)",
+    "t": "grailed",
+    "u": "http://www.grailed.com/search?search={{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.grillscatalog.com",
+    "r": 0,
+    "s": "Grills Catalog",
+    "sc": "Online (marketplace)",
+    "t": "grills",
+    "u": "https://www.grillscatalog.com/?s={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.groupon.com",
+    "r": 0,
+    "s": "Groupon",
+    "sc": "Online (marketplace)",
+    "t": "groupon",
+    "u": "https://www.groupon.com/browse/?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.gumtree.com.au",
+    "r": 0,
+    "s": "Gumtree",
+    "sc": "Online (marketplace)",
+    "t": "gumau",
+    "u": "http://www.gumtree.com.au/s-{{{s}}}/k0"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.gumtree.com.au",
+    "r": 4,
+    "s": "Gumtree Australia",
+    "sc": "Online (marketplace)",
+    "t": "gumtreeau",
+    "u": "http://www.gumtree.com.au/s-{{{s}}}/k0"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.gumtree.com.au",
+    "r": 7,
+    "s": "gmtr",
+    "sc": "Online (marketplace)",
+    "t": "gumtree",
+    "u": "http://www.gumtree.com.au/s-melbourne/{{{s}}} /k0l3001317"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.gumtree.pl",
+    "r": 0,
+    "s": "Gumtree Polska",
+    "sc": "Online (marketplace)",
+    "t": "gumtreepl",
+    "u": "https://www.gumtree.pl/s-{{{s}}}/v1q0p1"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.gumtree.com",
+    "r": 10,
+    "s": "Gumtree UK",
+    "sc": "Online (marketplace)",
+    "t": "gumtreeuk",
+    "u": "https://www.gumtree.com/search?search_category=all&q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.gumtree.co.za",
+    "r": 0,
+    "s": "Gumtree South Africa",
+    "sc": "Online (marketplace)",
+    "t": "gumtreeza",
+    "u": "https://www.gumtree.co.za/s-{{{s}}}/v1q0p1"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.gunbroker.com",
+    "r": 22,
+    "s": "GunBroker",
+    "sc": "Online (marketplace)",
+    "t": "gunbroker",
+    "u": "http://www.gunbroker.com/All/BI.aspx?Keywords={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "handmade-add.com",
+    "r": 0,
+    "s": "Handmade Add",
+    "sc": "Online (marketplace)",
+    "t": "hadd",
+    "u": "https://handmade-add.com/index.php?route=product/search&search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.hapshoe.com",
+    "r": 0,
+    "s": "Hapshoe.com | Aklındaki Ayakkabı, Tıkla Ayağına Gelsin !",
+    "sc": "Online (marketplace)",
+    "t": "hapshoe",
+    "u": "https://www.hapshoe.com/Arama?1&kelime={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.highsnobiety.com",
+    "r": 0,
+    "s": "highsnobiety",
+    "sc": "Online (marketplace)",
+    "t": "highsnob",
+    "u": "http://www.highsnobiety.com/?s={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.hive.co.uk",
+    "r": 0,
+    "s": "Hive",
+    "sc": "Online (marketplace)",
+    "t": "hive",
+    "u": "https://www.hive.co.uk/Search/Keyword?keyword={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.hood.de",
+    "r": 0,
+    "s": "Hood.de - Auktionen und Online Shopping",
+    "sc": "Online (marketplace)",
+    "t": "hood",
+    "u": "https://www.hood.de/suchergebnisse.htm?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.housetrip.com",
+    "r": 0,
+    "s": "HouseTrip",
+    "sc": "Online (marketplace)",
+    "t": "housetrip",
+    "u": "http://www.housetrip.com/en/search-holiday-apartments/{{{s}}}?guests=2"
+  },
+  {
+    "c": "Shopping",
+    "d": "hpecas.com",
+    "r": 0,
+    "s": "hpecas",
+    "sc": "Online (marketplace)",
+    "t": "hpecas",
+    "u": "https://hpecas.com/pesquisa?controller=search&orderby=position&orderway=desc&search_query={{{s}}}&submit_search="
+  },
+  {
+    "c": "Shopping",
+    "d": "www.humblebundle.com",
+    "r": 0,
+    "s": "Humble Bundle",
+    "sc": "Online (marketplace)",
+    "t": "humblebest",
+    "u": "https://www.humblebundle.com/store/search?sort=bestselling&search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.huuto.net",
+    "r": 8,
+    "s": "Huuto",
+    "sc": "Online (marketplace)",
+    "t": "huuto",
+    "u": "http://www.huuto.net/hakutulos?words={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.hv-store.de",
+    "r": 0,
+    "s": "HV-Store",
+    "sc": "Online (marketplace)",
+    "t": "hvstore",
+    "u": "https://www.hv-store.de/navi.php?qs={{{s}}}: "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ibs.it",
+    "r": 9,
+    "s": "Internet Bookshop Italia",
+    "sc": "Online (marketplace)",
+    "t": "ibs",
+    "u": "https://www.ibs.it/search/?ts=as&query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "ikman.lk",
+    "r": 0,
+    "s": "Ikman",
+    "sc": "Online (marketplace)",
+    "t": "ikman",
+    "u": "https://ikman.lk/en/ads?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "dir.indiamart.com",
+    "r": 0,
+    "s": "IndiaMART",
+    "sc": "Online (marketplace)",
+    "t": "indiamart",
+    "u": "http://dir.indiamart.com/cgi/catprdsearch.mp?ss={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.indiegogo.com",
+    "r": 0,
+    "s": "Indiegogo",
+    "sc": "Online (marketplace)",
+    "t": "indiegogo",
+    "u": "https://www.indiegogo.com/search#/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.indyaconnects.com",
+    "r": 0,
+    "s": "indyaconnects",
+    "sc": "Online (marketplace)",
+    "t": "indyaconnects",
+    "u": "http://www.indyaconnects.com/catalogsearch/result/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.interencheres.com",
+    "r": 0,
+    "s": "Interencheres",
+    "sc": "Online (marketplace)",
+    "t": "inter",
+    "u": "https://www.interencheres.com/recherche/lots?search={{{s}}}&area=france"
+  },
+  {
+    "c": "Shopping",
+    "d": "intheclouds.io",
+    "r": 0,
+    "s": "INTHECLOUDS",
+    "sc": "Online (marketplace)",
+    "t": "intheclouds",
+    "u": "https://intheclouds.io/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.isbns.net",
+    "r": 0,
+    "s": "isbns.net",
+    "sc": "Online (marketplace)",
+    "t": "isb",
+    "u": "http://www.isbns.net/search/?query={{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.jetpens.com",
+    "r": 6,
+    "s": "JetPens",
+    "sc": "Online (marketplace)",
+    "t": "jetpens",
+    "u": "http://www.jetpens.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "jet.com",
+    "r": 126,
+    "s": "Jet.com",
+    "sc": "Online (marketplace)",
+    "t": "j",
+    "u": "https://jet.com/search?term={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.jofogas.hu",
+    "r": 0,
+    "s": "Jófogás",
+    "sc": "Online (marketplace)",
+    "t": "jofogas",
+    "u": "http://www.jofogas.hu/magyarorszag?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.jualusg2d3dmurah.com",
+    "r": 0,
+    "s": "Jual Usg",
+    "sc": "Online (marketplace)",
+    "t": "jualusg",
+    "u": "https://www.jualusg2d3dmurah.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.jumbo.com",
+    "r": 5,
+    "s": "Jumbo Supermarkten",
+    "sc": "Online (marketplace)",
+    "t": "jumbosupermarkt",
+    "u": "http://www.jumbo.com/zoeken?SearchTerm={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.karmaplace.com",
+    "r": 0,
+    "s": "KarmaPlace",
+    "sc": "Online (marketplace)",
+    "t": "KarmaPlace",
+    "u": "http://www.karmaplace.com/catalogsearch/result/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.kaskus.co.id",
+    "r": 0,
+    "s": "Kaskus - The Largest Indonesian Community",
+    "sc": "Online (marketplace)",
+    "t": "kaskus",
+    "u": "https://www.kaskus.co.id/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.keyforsteam.de",
+    "r": 10,
+    "s": "Keyforsteam",
+    "sc": "Online (marketplace)",
+    "t": "kfs",
+    "u": "http://www.keyforsteam.de/catalogue/search-{{{s}}}/"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.kijiji.ca",
+    "r": 0,
+    "s": "Kijiji Great Montreal",
+    "sc": "Online (marketplace)",
+    "t": "kijijigm",
+    "u": "http://www.kijiji.ca/b-grand-montreal/{{{s}}}/k0l80002"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.kijiji.it",
+    "r": 0,
+    "s": "kijiji.it",
+    "sc": "Online (marketplace)",
+    "t": "kijijiit",
+    "u": "http://www.kijiji.it/{{{s}}}/"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.kijiji.ca",
+    "r": 9,
+    "s": "Kijiji",
+    "sc": "Online (marketplace)",
+    "t": "kijiji",
+    "u": "https://www.kijiji.ca/b-search.html?formSubmit=true&pageNumber=1&searchView=LIST&sortByName=dateDesc&urgentOnly=false&keywords={{{s}}}&SearchCategory=0"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.kijiji.ca",
+    "r": 0,
+    "s": "Kijiji Ottawa/Gatineau",
+    "sc": "Online (marketplace)",
+    "t": "kijijiog",
+    "u": "https://www.kijiji.ca/b-ottawa-gatineau-area/{{{s}}}/k0l1700184?dc=true"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.kijiji.ca",
+    "r": 0,
+    "s": "Kijiji Calgary",
+    "sc": "Online (marketplace)",
+    "t": "kijijiyyc",
+    "u": "https://www.kijiji.ca/b-calgary/{{{s}}}/k0l1700199?dc=true"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.kinguin.net",
+    "r": 115,
+    "s": "Kinguin",
+    "sc": "Online (marketplace)",
+    "t": "kinguin",
+    "u": "http://www.kinguin.net/catalogsearch/result/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.kisskissbankbank.com",
+    "r": 0,
+    "s": "KissKissBankBank",
+    "sc": "Online (marketplace)",
+    "t": "kissbb",
+    "u": "http://www.kisskissbankbank.com/fr/search?utf8=%E2%9C%93&q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ebay-kleinanzeigen.de",
+    "r": 202,
+    "s": "eBay Kleinanzeigen",
+    "sc": "Online (marketplace)",
+    "t": "klein",
+    "u": "https://www.ebay-kleinanzeigen.de/{{{s}}}/k0"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.kupujemprodajem.com",
+    "r": 99,
+    "s": "Kupujemprodajem",
+    "sc": "Online (marketplace)",
+    "t": "kp",
+    "u": "https://www.kupujemprodajem.com/search.php?action=list&data%5Bad_kind%5D=&data%5Bad_type%5D=&data%5Bfollow%5D=&data%5Bad_kind_type%5D=&data%5Btip_oglasa%5D=&data%5Bcategory_id%5D=&data%5Bgroup_id%5D=&data%5Blocation_id%5D=&data%5Blocation_radius%5D=&data%5Bhas_photo%5D=&data%5Bcondition%5D=&data%5Bperiod%5D=&data%5Border%5D=&data%5Bcar_model%5D=&data%5Bvehicle_power_min%5D=&data%5Bvehicle_power_max%5D=&data%5Bvehicle_cc_min%5D=&data%5Bvehicle_cc_max%5D=&data%5Bvehicle_km_min%5D=&data%5Bvehicle_km_max%5D=&data%5Bvehicle_make_year_min%5D=&data%5Bvehicle_make_year_max%5D=&data%5Bcar_body_type%5D=&data%5Bcar_fuel_type%5D=&data%5Bcar_doors%5D=&data%5Bcar_gearbox%5D=&data%5Bvehicle_aircondition%5D=&data%5Bvehicle_drive%5D=&data%5Bprice_from%5D=&data%5Bprice_to%5D=&dummy=name&data%5Bkeywords%5D={{{s}}} &=&=&=&=&=&=&return_url=aW5kZXgucGhw"
+  },
+  {
+    "c": "Shopping",
+    "d": "kraftly.com",
+    "r": 0,
+    "s": "Kraftly",
+    "sc": "Online (marketplace)",
+    "t": "kraftly",
+    "u": "https://kraftly.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ksl.com",
+    "r": 0,
+    "s": "ksl.com Classifieds",
+    "sc": "Online (marketplace)",
+    "t": "kslc",
+    "u": "https://www.ksl.com/classifieds/search/?keyword={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.lazada.co.id",
+    "r": 0,
+    "s": "Lazada Indonesia",
+    "sc": "Online (marketplace)",
+    "t": "lazadaid",
+    "u": "http://www.lazada.co.id/catalog/?q={{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.lazada.com.ph",
+    "r": 0,
+    "s": "Lazada",
+    "sc": "Online (marketplace)",
+    "t": "laz",
+    "u": "http://www.lazada.com.ph/catalog/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.lazada.co.th",
+    "r": 0,
+    "s": "Lazada Thailand",
+    "sc": "Online (marketplace)",
+    "t": "lazth",
+    "u": "http://www.lazada.co.th/catalog/?scs=0&q={{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "ledom.com.ua",
+    "r": 0,
+    "s": "LeDom",
+    "sc": "Online (marketplace)",
+    "t": "ledom",
+    "u": "https://ledom.com.ua/search?controller=search&orderby=position&orderway=desc&search_category=all&s={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.liquidation.com",
+    "r": 0,
+    "s": "Liquidation",
+    "sc": "Online (marketplace)",
+    "t": "liquidation",
+    "u": "http://www.liquidation.com/auction/search?cmd=keyword&searchparam_words={{{s}}}&flag=new"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.litres.ru",
+    "r": 0,
+    "s": "Litres",
+    "sc": "Online (marketplace)",
+    "t": "litres",
+    "u": "https://www.litres.ru/pages/rmd_search/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shirts.ly",
+    "r": 0,
+    "s": "shirts.ly",
+    "sc": "Online (marketplace)",
+    "t": "lively",
+    "u": "https://shirts.ly/shop?search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.lazada.sg",
+    "r": 0,
+    "s": "Lazada Singapore",
+    "sc": "Online (marketplace)",
+    "t": "lzdsg",
+    "u": "http://www.lazada.sg/catalog/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.cardmarket.com",
+    "r": 0,
+    "s": "Magic Card Market",
+    "sc": "Online (marketplace)",
+    "t": "magiccardmarket",
+    "u": "https://www.cardmarket.com/en/Magic/MainPage/showSearchResult?searchFor={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.mall.cz",
+    "r": 3,
+    "s": "Mall.cz",
+    "sc": "Online (marketplace)",
+    "t": "mall",
+    "u": "https://www.mall.cz/hledej?s={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.maltapark.com",
+    "r": 0,
+    "s": "Maltapark",
+    "sc": "Online (marketplace)",
+    "t": "maltapark",
+    "u": "https://www.maltapark.com/search?c=s1&search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.markt.de",
+    "r": 0,
+    "s": "Markt.de",
+    "sc": "Online (marketplace)",
+    "t": "markt",
+    "u": "http://www.markt.de/muenchen/keywords,{{{s}}}/suche.htm"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.marktplaats.nl",
+    "r": 123,
+    "s": "Marktplaats",
+    "sc": "Online (marketplace)",
+    "t": "marktplaats",
+    "u": "https://www.marktplaats.nl/z.html?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "marktplaats.nl",
+    "r": 43,
+    "s": "marktplaats.nl",
+    "sc": "Online (marketplace)",
+    "t": "mar",
+    "u": "http://marktplaats.nl/z.html?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.mathem.se",
+    "r": 0,
+    "s": "Mathem",
+    "sc": "Online (marketplace)",
+    "t": "mathem",
+    "u": "https://www.mathem.se/sok?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.mbglick.com",
+    "r": 0,
+    "s": "Moses B. Glick",
+    "sc": "Online (marketplace)",
+    "t": "mbglick",
+    "u": "http://www.mbglick.com/catalogsearch/result/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.cardmarket.com",
+    "r": 114,
+    "s": "Magic Card Market",
+    "sc": "Online (marketplace)",
+    "t": "mcm",
+    "u": "https://www.cardmarket.com/en/Magic/Products/Search?searchString={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.medimops.de",
+    "r": 10,
+    "s": "Medimops",
+    "sc": "Online (marketplace)",
+    "t": "medimops",
+    "u": "http://www.medimops.de/produkte-C0/?fcIsSearch=1&searchparam={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.melorra.com",
+    "r": 0,
+    "s": "Melorra",
+    "sc": "Online (marketplace)",
+    "t": "melorra",
+    "u": "https://www.melorra.com/jewellery/search/?q={{{s}}}:"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.mercari.com",
+    "r": 15,
+    "s": "mercari JP",
+    "sc": "Online (marketplace)",
+    "t": "mercarijp",
+    "u": "https://www.mercari.com/jp/search/?keyword={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.mercari.com",
+    "r": 25,
+    "s": "mercari US",
+    "sc": "Online (marketplace)",
+    "t": "mercari",
+    "u": "https://www.mercari.com/search/?keyword={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "romaandmacmetalscrap.com",
+    "r": 0,
+    "s": "Roma and Mac Metal Scrap Corporation",
+    "sc": "Online (marketplace)",
+    "t": "metalscrap",
+    "u": "https://romaandmacmetalscrap.com/?product_cat=0&s={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.cardmarket.com",
+    "r": 225,
+    "s": "Magic Card Market",
+    "sc": "Online (marketplace)",
+    "t": "mkm",
+    "u": "https://www.cardmarket.com/en/Magic/Products/Search?searchString={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "listado.mercadolibre.com.ar",
+    "r": 349,
+    "s": "Mercado Libre Argentina",
+    "sc": "Online (marketplace)",
+    "t": "mlar",
+    "u": "http://listado.mercadolibre.com.ar/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.mmoga.de",
+    "r": 4,
+    "s": "MMOGA",
+    "sc": "Online (marketplace)",
+    "t": "mmoga",
+    "u": "https://www.mmoga.de/advanced_search.php?keywords={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.cardmarket.com",
+    "r": 0,
+    "s": "Cardmarket Manamaze",
+    "sc": "Online (marketplace)",
+    "t": "mmz",
+    "u": "https://www.cardmarket.com/en/Magic/MainPage/browseUserProducts?idCategory=1&idUser=25674&resultsPage=0&cardName={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.modcloth.com",
+    "r": 0,
+    "s": "ModCloth",
+    "sc": "Online (marketplace)",
+    "t": "modcloth",
+    "u": "http://www.modcloth.com/shop/search?keyword={{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.moglix.com",
+    "r": 0,
+    "s": "Moglix",
+    "sc": "Online (marketplace)",
+    "t": "moglix",
+    "u": "https://www.moglix.com/search?controller=search&orderby=position&orderway=desc&search_query= {{{s}}}&submit_search=Search"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.mtgotraders.com",
+    "r": 0,
+    "s": "MTGO Traders",
+    "sc": "Online (marketplace)",
+    "t": "mtgotraders",
+    "u": "http://www.mtgotraders.com/store/search.php?q={{{s}}}&x=0&y=0"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.musicstack.com",
+    "r": 0,
+    "s": "MusicStack",
+    "sc": "Online (marketplace)",
+    "t": "musicstack",
+    "u": "http://www.musicstack.com/show.cgi?find={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "muusikoiden.net",
+    "r": 0,
+    "s": "Muusikoiden.net",
+    "sc": "Online (marketplace)",
+    "t": "muusikoiden",
+    "u": "https://muusikoiden.net/tori/haku.php?keyword={{{s}}}&title_only=0&location=all&province=&city=&type=all&price_min=&price_max=&category=all&with_image=0"
+  },
+  {
+    "c": "Shopping",
+    "d": "market.yandex.ru",
+    "r": 0,
+    "s": "market.yandex.ru",
+    "sc": "Online (marketplace)",
+    "t": "mya",
+    "u": "https://market.yandex.ru/search?text={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.mybestbrands.de",
+    "r": 0,
+    "s": "MYBESTBRANDS",
+    "sc": "Online (marketplace)",
+    "t": "mybestbrands",
+    "u": "http://www.mybestbrands.de/search/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.mycomicshop.com",
+    "r": 0,
+    "s": "mycomicshop",
+    "sc": "Online (marketplace)",
+    "t": "myc",
+    "u": "https://www.mycomicshop.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "search.shopping.naver.com",
+    "r": 31,
+    "s": "Naver Shopping",
+    "sc": "Online (marketplace)",
+    "t": "nasp",
+    "u": "https://search.shopping.naver.com/search/all.nhn?query={{{s}}}&cat_id=&frm=NVSHATC"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.nettimarkkina.com",
+    "r": 0,
+    "s": "NettiMarkkina",
+    "sc": "Online (marketplace)",
+    "t": "nettimarkkina",
+    "u": "https://www.nettimarkkina.com/haku?tag_cld=Y&site=A&status_typeF=F&status_typeR=R&status_typeP=P&search_keyword[]={{{s}}}&"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.njuskalo.hr",
+    "r": 14,
+    "s": "Njuskalo.hr",
+    "sc": "Online (marketplace)",
+    "t": "njuskalo",
+    "u": "https://www.njuskalo.hr/?ctl=search_ads&keywords={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.obi.de",
+    "r": 6,
+    "s": "OBI",
+    "sc": "Online (marketplace)",
+    "t": "obi",
+    "u": "https://www.obi.de/decom/search/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.oglasnik.hr",
+    "r": 0,
+    "s": "Oglasnik",
+    "sc": "Online (marketplace)",
+    "t": "oglasnik",
+    "u": "https://www.oglasnik.hr/search?q={{{s}}}&category_id="
+  },
+  {
+    "c": "Shopping",
+    "d": "www.okidoki.ee",
+    "r": 0,
+    "s": "okidoki kuulutused",
+    "sc": "Online (marketplace)",
+    "t": "okidoki",
+    "u": "http://www.okidoki.ee/buy/all/?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.okkazeo.com",
+    "r": 0,
+    "s": "Okkazeo",
+    "sc": "Online (marketplace)",
+    "t": "okkazeo",
+    "u": "https://www.okkazeo.com/jeux/searchJeux?rech_nom={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.olx.com.ar",
+    "r": 0,
+    "s": "OLX Argentina",
+    "sc": "Online (marketplace)",
+    "t": "olxar",
+    "u": "https://www.olx.com.ar/nf/search/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "bahiablanca.olx.com.ar",
+    "r": 0,
+    "s": "OLX",
+    "sc": "Online (marketplace)",
+    "t": "olxbb",
+    "u": "https://bahiablanca.olx.com.ar/nf/search/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.olx.com.br",
+    "r": 21,
+    "s": "OLX.com.br",
+    "sc": "Online (marketplace)",
+    "t": "olxbr",
+    "u": "http://www.olx.com.br/brasil?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "m.olx.co.id",
+    "r": 0,
+    "s": "Olxid",
+    "sc": "Online (marketplace)",
+    "t": "olxid",
+    "u": "https://m.olx.co.id/all-results/q-{{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.olx.in",
+    "r": 9,
+    "s": "Olx India",
+    "sc": "Online (marketplace)",
+    "t": "olxin",
+    "u": "https://www.olx.in/?{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.olx.ph",
+    "r": 0,
+    "s": "OLX Philippines",
+    "sc": "Online (marketplace)",
+    "t": "olxph",
+    "u": "https://www.olx.ph/all-results?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "olx.pl",
+    "r": 26,
+    "s": "OLX.pl",
+    "sc": "Online (marketplace)",
+    "t": "olxpl",
+    "u": "http://olx.pl/oferty/q-{{{s}}}/"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.olx.pt",
+    "r": 4,
+    "s": "OLX Portugal",
+    "sc": "Online (marketplace)",
+    "t": "olxpt",
+    "u": "https://www.olx.pt/ads/q-{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.olx.ro",
+    "r": 7,
+    "s": "OLX Romania",
+    "sc": "Online (marketplace)",
+    "t": "olxro",
+    "u": "https://www.olx.ro/ads/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ombe.com",
+    "r": 0,
+    "s": "OMBE.com",
+    "sc": "Online (marketplace)",
+    "t": "ombe",
+    "u": "http://www.ombe.com/find/{{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.orellfuessli.ch",
+    "r": 0,
+    "s": "Orell Füssli",
+    "sc": "Online (marketplace)",
+    "t": "orell",
+    "u": "https://www.orellfuessli.ch/suche?utf8=%E2%9C%93&filterPATHROOT=&sq={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.osta.ee",
+    "r": 0,
+    "s": "osta.ee",
+    "sc": "Online (marketplace)",
+    "t": "osta",
+    "u": "http://www.osta.ee/index.php?q[q]={{{s}}}&fuseaction=search.search&q[show_items]=1&q[show_shop]=1&q[cat]=1000&search=OTSI"
+  },
+  {
+    "c": "Shopping",
+    "d": "offerup.com",
+    "r": 8,
+    "s": "offerup",
+    "sc": "Online (marketplace)",
+    "t": "oup",
+    "u": "https://offerup.com/search/?q= {{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.paperbackswap.com",
+    "r": 0,
+    "s": "PaperBackSwap",
+    "sc": "Online (marketplace)",
+    "t": "pbswap",
+    "u": "http://www.paperbackswap.com/book/browser.php?k={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.peixeurbano.com.br",
+    "r": 0,
+    "s": "Peixeurbano",
+    "sc": "Online (marketplace)",
+    "t": "peixe",
+    "u": "https://www.peixeurbano.com.br/#q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.philibertnet.com",
+    "r": 0,
+    "s": "Philibert",
+    "sc": "Online (marketplace)",
+    "t": "philibert",
+    "u": "http://www.philibertnet.com/fr/recherche?orderby=position&orderway=desc&search_query={{{s}}}&submit_search=C%27est+parti+%21"
+  },
+  {
+    "c": "Shopping",
+    "d": "prom.ua",
+    "r": 0,
+    "s": "Prom",
+    "sc": "Online (marketplace)",
+    "t": "prom",
+    "u": "https://prom.ua/search?search_term={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "search.rakuten.co.jp",
+    "r": 15,
+    "s": "Rakuten Ichiba",
+    "sc": "Online (marketplace)",
+    "t": "r10",
+    "u": "https://search.rakuten.co.jp/search/mall/{{{s}}}/"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.rakuten.de",
+    "r": 0,
+    "s": "Rakuten.de",
+    "sc": "Online (marketplace)",
+    "t": "rakde",
+    "u": "https://www.rakuten.de/suchen/{{{s}}}?category=0"
+  },
+  {
+    "c": "Shopping",
+    "d": "search.rakuten.co.jp",
+    "r": 85,
+    "s": "Rakuten",
+    "sc": "Online (marketplace)",
+    "t": "rakuten",
+    "u": "http://search.rakuten.co.jp/search/mall/{{{s}}}/"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.ricardo.ch",
+    "r": 44,
+    "s": "Ricardo",
+    "sc": "Online (marketplace)",
+    "t": "ricardo",
+    "u": "https://www.ricardo.ch/de/s/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "fr.shopping.rakuten.com",
+    "r": 0,
+    "s": "Rakuten France",
+    "sc": "Online (marketplace)",
+    "t": "rtfr",
+    "u": "https://fr.shopping.rakuten.com/s/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.rubylane.com",
+    "r": 0,
+    "s": "Ruby Lane",
+    "sc": "Online (marketplace)",
+    "t": "rubylane",
+    "u": "http://www.rubylane.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "society6.com",
+    "r": 0,
+    "s": "Society6 (all content)",
+    "sc": "Online (marketplace)",
+    "t": "s6all",
+    "u": "http://society6.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.sahibinden.com",
+    "r": 66,
+    "s": "sahibinden.com",
+    "sc": "Online (marketplace)",
+    "t": "sahibinden",
+    "u": "http://www.sahibinden.com/kelime-ile-arama?query_text={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.sanalpazar.com",
+    "r": 0,
+    "s": "Sanal Pazar",
+    "sc": "Online (marketplace)",
+    "t": "sanalpazar",
+    "u": "http://www.sanalpazar.com/urunara?criteria={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "sales.starcitygames.com",
+    "r": 0,
+    "s": "StarCityGames",
+    "sc": "Online (marketplace)",
+    "t": "scg",
+    "u": "http://sales.starcitygames.com/search.php?substring={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.searsoutlet.com",
+    "r": 0,
+    "s": "Sears Outlet",
+    "sc": "Online (marketplace)",
+    "t": "searsoutlet",
+    "u": "http://www.searsoutlet.com/d/products.jsp?md=srh_md&stxt={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "apps.shopify.com",
+    "r": 0,
+    "s": "Shopify App Store",
+    "sc": "Online (marketplace)",
+    "t": "s.fyapp",
+    "u": "https://apps.shopify.com/search?q={{{s}}}&st_source="
+  },
+  {
+    "c": "Shopping",
+    "d": "www.shopcade.com",
+    "r": 0,
+    "s": "Shopcade",
+    "sc": "Online (marketplace)",
+    "t": "shopcade",
+    "u": "https://www.shopcade.com/search?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shopclues.com",
+    "r": 0,
+    "s": "SHOPCLUES",
+    "sc": "Online (marketplace)",
+    "t": "shopclues",
+    "u": "http://shopclues.com/?q={{{s}}}: "
+  },
+  {
+    "c": "Shopping",
+    "d": "shopee.ph",
+    "r": 46,
+    "s": "Shopee",
+    "sc": "Online (marketplace)",
+    "t": "shopeeph",
+    "u": "https://shopee.ph/search?keyword={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "en.shpock.com",
+    "r": 0,
+    "s": "Shpock",
+    "sc": "Online (marketplace)",
+    "t": "shpock",
+    "u": "https://en.shpock.com/q/{{{s}}}/"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.skapiec.pl",
+    "r": 0,
+    "s": "http://www.skapiec.pl/",
+    "sc": "Online (marketplace)",
+    "t": "skapiec",
+    "u": "http://www.skapiec.pl/szukaj/w_calym_serwisie/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "kfz-schlachter.de",
+    "r": 0,
+    "s": "KFZ-Schlachter",
+    "sc": "Online (marketplace)",
+    "t": "spare-part",
+    "u": "https://kfz-schlachter.de/Store?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.speurders.nl",
+    "r": 0,
+    "s": "Speurders",
+    "sc": "Online (marketplace)",
+    "t": "speur",
+    "u": "http://www.speurders.nl/overzicht/?query={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "stockx.com",
+    "r": 0,
+    "s": "StockX",
+    "sc": "Online (marketplace)",
+    "t": "stockx",
+    "u": "https://stockx.com/search?s={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.subito.it",
+    "r": 46,
+    "s": "Subito.it",
+    "sc": "Online (marketplace)",
+    "t": "subito",
+    "u": "http://www.subito.it/annunci-italia/vendita/usato/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "swappa.com",
+    "r": 7,
+    "s": "swappa.com",
+    "sc": "Online (marketplace)",
+    "t": "swappa",
+    "u": "https://swappa.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.olx.co.id",
+    "r": 7,
+    "s": "OLX.co.id (Tokobagus)",
+    "sc": "Online (marketplace)",
+    "t": "tb",
+    "u": "http://www.olx.co.id/halaman/mencari/{{{s}}}/search"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.thriftbooks.com",
+    "r": 3,
+    "s": "Thriftbooks",
+    "sc": "Online (marketplace)",
+    "t": "tbooks",
+    "u": "https://www.thriftbooks.com/browse/?b.search={{{s}}}#b.oos"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.todocoleccion.net",
+    "r": 10,
+    "s": "todocoleccion",
+    "sc": "Online (marketplace)",
+    "t": "tcol",
+    "u": "https://www.todocoleccion.net/buscador?bu={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "thrivemarket.com",
+    "r": 0,
+    "s": "Thrive Market",
+    "sc": "Online (marketplace)",
+    "t": "thrive",
+    "u": "https://thrivemarket.com/search/results?filter%5Bsearch%5D={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.tiendainglesa.com.uy",
+    "r": 0,
+    "s": "Tienda Inglesa Uy",
+    "sc": "Online (marketplace)",
+    "t": "tinglesa",
+    "u": "https://www.tiendainglesa.com.uy/busqueda?0,0,{{{s}}},0"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.thisiswhyimbroke.com",
+    "r": 0,
+    "s": "This is why I'm broke",
+    "sc": "Online (marketplace)",
+    "t": "tiwimb",
+    "u": "http://www.thisiswhyimbroke.com/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.tokopedia.com",
+    "r": 42,
+    "s": "Tokopedia",
+    "sc": "Online (marketplace)",
+    "t": "tkpd",
+    "u": "https://www.tokopedia.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.trademe.co.nz",
+    "r": 21,
+    "s": "Trade Me",
+    "sc": "Online (marketplace)",
+    "t": "tm",
+    "u": "http://www.trademe.co.nz/Browse/SearchResults.aspx?searchString={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.olx.co.id",
+    "r": 0,
+    "s": "OLX.co.id (Tokobagus)",
+    "sc": "Online (marketplace)",
+    "t": "tokobagus",
+    "u": "http://www.olx.co.id/halaman/mencari/{{{s}}}/search"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.tokopedia.com",
+    "r": 51,
+    "s": "www.tokopedia.com",
+    "sc": "Online (marketplace)",
+    "t": "tokopedia",
+    "u": "https://www.tokopedia.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.topachat.com",
+    "r": 0,
+    "s": "Topachat",
+    "sc": "Online (marketplace)",
+    "t": "topachat",
+    "u": "http://www.topachat.com/pages/recherche.php?mc={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.tokopedia.com",
+    "r": 148,
+    "s": "Tokopedia",
+    "sc": "Online (marketplace)",
+    "t": "toped",
+    "u": "https://www.tokopedia.com/search?st=product&q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.tori.fi",
+    "r": 40,
+    "s": "Tori",
+    "sc": "Online (marketplace)",
+    "t": "tori",
+    "u": "https://www.tori.fi/koko_suomi?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.toutvendre.fr",
+    "r": 0,
+    "s": "ToutVendre",
+    "sc": "Online (marketplace)",
+    "t": "toutvendre",
+    "u": "https://www.toutvendre.fr/s?k={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.teacherspayteachers.com",
+    "r": 0,
+    "s": "Teachers Pay Teachers",
+    "sc": "Online (marketplace)",
+    "t": "tpt",
+    "u": "https://www.teacherspayteachers.com/Browse/Search:{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "trademachines.com",
+    "r": 0,
+    "s": "TradeMachines",
+    "sc": "Online (marketplace)",
+    "t": "trademachines",
+    "u": "https://trademachines.com/search?phrase={{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.trademe.co.nz",
+    "r": 70,
+    "s": "TradeMe",
+    "sc": "Online (marketplace)",
+    "t": "trademe",
+    "u": "http://www.trademe.co.nz/Browse/SearchResults.aspx?searchString={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.tradera.com",
+    "r": 10,
+    "s": "Tradera",
+    "sc": "Online (marketplace)",
+    "t": "tradera",
+    "u": "http://www.tradera.com/finding.mvc/itemlisting?header=true&search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.trouva.com",
+    "r": 0,
+    "s": "Trouva",
+    "sc": "Online (marketplace)",
+    "t": "trouva",
+    "u": "https://www.trouva.com/shop/search/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.trulytexan.com",
+    "r": 0,
+    "s": "Truly Texan",
+    "sc": "Online (marketplace)",
+    "t": "trulytexan",
+    "u": "http://www.trulytexan.com/?{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.tutti.ch",
+    "r": 0,
+    "s": "Tutti ticino",
+    "sc": "Online (marketplace)",
+    "t": "tti",
+    "u": "http://www.tutti.ch/ticino?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.tundra.com",
+    "r": 0,
+    "s": "Tundra",
+    "sc": "Online (marketplace)",
+    "t": "tundra",
+    "u": "https://www.tundra.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.tutti.ch",
+    "r": 0,
+    "s": "tutti.ch",
+    "sc": "Online (marketplace)",
+    "t": "tuttich",
+    "u": "http://www.tutti.ch/ganze-schweiz?q={{{s}}} "
+  },
+  {
+    "c": "Shopping",
+    "d": "www.tutti.ch",
+    "r": 14,
+    "s": "www.tutti.ch",
+    "sc": "Online (marketplace)",
+    "t": "tutti",
+    "u": "https://www.tutti.ch/de/li/ganze-schweiz?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "tweakers.net",
+    "r": 22,
+    "s": "Tweakers Vraag & Aanbod",
+    "sc": "Online (marketplace)",
+    "t": "tva",
+    "u": "https://tweakers.net/aanbod/zoeken/?keyword={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "duckduckgo.com",
+    "r": 0,
+    "s": "UK Appstore",
+    "sc": "Online (marketplace)",
+    "t": "ukappstore",
+    "u": "https://duckduckgo.com/?q=site%3Aapps.apple.com%2Fgb%2Fapp%2F+{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.upwork.com",
+    "r": 0,
+    "s": "Upwork",
+    "sc": "Online (marketplace)",
+    "t": "upwork",
+    "u": "https://www.upwork.com/o/jobs/browse/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.urbanoutfitters.com",
+    "r": 0,
+    "s": "Urban Outfitters",
+    "sc": "Online (marketplace)",
+    "t": "urbout",
+    "u": "http://www.urbanoutfitters.com/fr/catalog/search.jsp?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.vatera.hu",
+    "r": 0,
+    "s": "Vatera",
+    "sc": "Online (marketplace)",
+    "t": "vatera",
+    "u": "http://www.vatera.hu/listings/index.php?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "shop.vcp-san.at",
+    "r": 0,
+    "s": "VCP Sanitärfachhandel",
+    "sc": "Online (marketplace)",
+    "t": "vcp",
+    "u": "http://shop.vcp-san.at/index.php?main_page=advanced_search_result&search_in_description=1&keyword={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.vividseats.com",
+    "r": 0,
+    "s": "Vivid Seats",
+    "sc": "Online (marketplace)",
+    "t": "vs",
+    "u": "http://www.vividseats.com/Search.action?searchTerm={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.waitrose.com",
+    "r": 8,
+    "s": "Waitrose",
+    "sc": "Online (marketplace)",
+    "t": "waitrose",
+    "u": "http://www.waitrose.com/shop/HeaderSearchCmd?searchTerm={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.webstore.com",
+    "r": 0,
+    "s": "Webstore",
+    "sc": "Online (marketplace)",
+    "t": "webstore",
+    "u": "http://www.webstore.com/search.php?option=basic_search&basic_search={{{s}}}&form_basic_search=Search"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.whitetailproperties.com",
+    "r": 0,
+    "s": "Whitetail Properties",
+    "sc": "Online (marketplace)",
+    "t": "whitetailproperties",
+    "u": "https://www.whitetailproperties.com/hunting-land/filtered-search?search_mode=all&keywords={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.willhaben.at",
+    "r": 77,
+    "s": "Willhaben",
+    "sc": "Online (marketplace)",
+    "t": "willhaben",
+    "u": "http://www.willhaben.at/iad/kaufen-und-verkaufen/marktplatz?keyword={{{s}}}&x=0&y=0"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.willhaben.at",
+    "r": 4,
+    "s": "Willhaben",
+    "sc": "Online (marketplace)",
+    "t": "wlhb",
+    "u": "https://www.willhaben.at/iad/kaufen-und-verkaufen/marktplatz?keyword={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.yad2.co.il",
+    "r": 3,
+    "s": "Yad2- Search Second hand items (Hebrew)",
+    "sc": "Online (marketplace)",
+    "t": "yad2",
+    "u": "https://www.yad2.co.il/products/all?info={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "auctions.search.yahoo.co.jp",
+    "r": 96,
+    "s": "Yahoo! Auctions Japan",
+    "sc": "Online (marketplace)",
+    "t": "yajp",
+    "u": "http://auctions.search.yahoo.co.jp/search?p={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "ya-market.org",
+    "r": 0,
+    "s": "Ya Market",
+    "sc": "Online (marketplace)",
+    "t": "yamarket",
+    "u": "https://ya-market.org/products?search={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "market.yandex.ru",
+    "r": 25,
+    "s": "Yandex.Market",
+    "sc": "Online (marketplace)",
+    "t": "yama",
+    "u": "https://market.yandex.ru/search?text={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "youla.ru",
+    "r": 0,
+    "s": "Youla / Юла",
+    "sc": "Online (marketplace)",
+    "t": "youla",
+    "u": "https://youla.ru/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.zappos.com",
+    "r": 7,
+    "s": "Zappos",
+    "sc": "Online (marketplace)",
+    "t": "zappos",
+    "u": "https://www.zappos.com/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.zbozi.cz",
+    "r": 5,
+    "s": "Zboží.cz",
+    "sc": "Online (marketplace)",
+    "t": "zbozi",
+    "u": "http://www.zbozi.cz/hledani/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "arcade.zenzo.io",
+    "r": 3,
+    "s": "ZENZO Arcade",
+    "sc": "Online (marketplace)",
+    "t": "zen",
+    "u": "https://arcade.zenzo.io/search?for={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "zoomthelist.com",
+    "r": 0,
+    "s": "zoomthelist",
+    "sc": "Online (marketplace)",
+    "t": "zoomthelist",
+    "u": "http://zoomthelist.com/?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.zoom.com.br",
+    "r": 30,
+    "s": "Zoom",
+    "sc": "Online (marketplace)",
+    "t": "zoom",
+    "u": "http://www.zoom.com.br/search?q={{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "setareh-co.com",
+    "r": 0,
+    "s": "شرکت پخش ستاره",
+    "sc": "Online (marketplace)",
+    "t": "پخشستاره",
+    "u": "https://setareh-co.com/?s={{{s}}}&submit="
+  }
+]

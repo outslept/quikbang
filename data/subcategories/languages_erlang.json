@@ -1,0 +1,38 @@
+[
+  {
+    "c": "Tech",
+    "d": "erlang.org",
+    "r": 13,
+    "s": "Erlang Docs",
+    "sc": "Languages (erlang)",
+    "t": "erl",
+    "u": "http://erlang.org/doc/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "erlang.org",
+    "r": 0,
+    "s": "Erlang Module Documentation",
+    "sc": "Languages (erlang)",
+    "t": "erlm",
+    "u": "http://erlang.org/doc/man/{{{s}}}.html"
+  },
+  {
+    "c": "Tech",
+    "d": "hexdocs.pm",
+    "r": 229,
+    "s": "Hex Docs",
+    "sc": "Languages (erlang)",
+    "t": "hexdocs",
+    "u": "http://hexdocs.pm/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "hex.pm",
+    "r": 131,
+    "s": "Hex.pm",
+    "sc": "Languages (erlang)",
+    "t": "hexpm",
+    "u": "https://hex.pm/packages?search={{{s}}}&sort=downloads"
+  }
+]
