@@ -1,44 +1,48 @@
 <script lang='ts'>
-  import type { BangCommand } from '../../../lib/fetch-bang'
-  import { createEventDispatcher, onDestroy, onMount } from 'svelte'
+  import { onDestroy, onMount } from 'svelte'
+  import type { BangCommand } from '../../../lib/fetch-bang';
 
-  export let searchResults: BangCommand[] = []
-  export let selectedIndex = 0
+let {
+  searchResults = [],
+  selectedIndex = 0,
+  onSelectBang,
+  onSelectedIndexChange
+} = $props<{
+  searchResults?: BangCommand[]
+  selectedIndex?: number
+  onSelectBang?: (bang: BangCommand) => void
+  onSelectedIndexChange?: (index: number) => void
+}>()
 
-  const dispatch = createEventDispatcher<{
-    selectBang: BangCommand
-    selectedIndexChange: number
-  }>()
-
-  function handleKeydown(event: KeyboardEvent) {
-    if (event.key === 'ArrowDown') {
-      event.preventDefault()
-      const newIndex = (selectedIndex + 1) % searchResults.length
-      dispatch('selectedIndexChange', newIndex)
-    }
-    else if (event.key === 'ArrowUp') {
-      event.preventDefault()
-      const newIndex = (selectedIndex - 1 + searchResults.length) % searchResults.length
-      dispatch('selectedIndexChange', newIndex)
-    }
-    else if (event.key === 'Enter' && searchResults.length > 0) {
-      event.preventDefault()
-      dispatch('selectBang', searchResults[selectedIndex])
-    }
+function handleKeydown(event: KeyboardEvent) {
+  if (event.key === 'ArrowDown') {
+    event.preventDefault()
+    const newIndex = (selectedIndex + 1) % searchResults.length
+    onSelectedIndexChange?.(newIndex)
   }
+  else if (event.key === 'ArrowUp') {
+    event.preventDefault()
+    const newIndex = (selectedIndex - 1 + searchResults.length) % searchResults.length
+    onSelectedIndexChange?.(newIndex)
+  }
+  else if (event.key === 'Enter' && searchResults.length > 0) {
+    event.preventDefault()
+    onSelectBang?.(searchResults[selectedIndex])
+  }
+}
 
-  let keydownHandler: (e: KeyboardEvent) => void
+let keydownHandler: (e: KeyboardEvent) => void
 
-  onMount(() => {
-    keydownHandler = (e: KeyboardEvent) => handleKeydown(e)
-    window.addEventListener('keydown', keydownHandler)
-  })
+onMount(() => {
+  keydownHandler = (e: KeyboardEvent) => handleKeydown(e)
+  window.addEventListener('keydown', keydownHandler)
+})
 
-  onDestroy(() => {
-    if (keydownHandler) {
-      window.removeEventListener('keydown', keydownHandler)
-    }
-  })
+onDestroy(() => {
+  if (keydownHandler) {
+    window.removeEventListener('keydown', keydownHandler)
+  }
+})
 </script>
 
 <div class='command-palette'>
@@ -50,18 +54,18 @@
   </div>
   <ul>
     {#each searchResults as bang, i}
-      <li
+      <button
         class:selected={i === selectedIndex}
-        on:click={() => dispatch('selectBang', bang)}
-        on:mouseenter={() => dispatch('selectedIndexChange', i)}
+        onclick={() => onSelectBang?.(bang)}
+        onmouseenter={() => onSelectedIndexChange?.(i)}
       >
         <div class='bang-tag'>!{bang.t}</div>
         <div class='bang-name'>{bang.s}</div>
         <div class='bang-category'>{bang.c}</div>
-      </li>
+      </button>
     {/each}
   </ul>
-</div>
+  </div>
 
 <style>
   .command-palette {
@@ -108,7 +112,7 @@
     overflow-y: auto;
   }
 
-  li {
+  button {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
@@ -118,8 +122,8 @@
     transition: background-color 0.15s ease;
   }
 
-  li:hover,
-  li.selected {
+  button:hover,
+  button.selected {
     background-color: #f5f5f5;
   }
 
@@ -161,8 +165,8 @@
       color: #ccc;
     }
 
-    li:hover,
-    li.selected {
+    button:hover,
+    button.selected {
       background-color: #222;
     }
 
