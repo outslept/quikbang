@@ -9,12 +9,17 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, 'dist')));
-app.use(express.static(path.join(__dirname)));
+
+app.use('/data', express.static(path.join(__dirname, 'data')));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
-app.listen(port, () => {
-  console.log(`Server runs on port ${port}`);
-});
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(port, () => {
+    console.log(`Server runs on port ${port}`);
+  });
+}
+
+export default app;

@@ -1,23 +1,24 @@
 {
   "version": 2,
-  "builds": [
+  "buildCommand": "pnpm build",
+  "installCommand": "pnpm install",
+  "devCommand": "pnpm dev:server",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "buildCommand": "pnpm build",
-        "outputDirectory": "dist"
-      }
+      "source": "/data/:path*",
+      "destination": "/data/:path*"
     },
     {
-      "src": "server.ts",
-      "use": "@vercel/node"
+      "source": "/(.*)",
+      "destination": "/api"
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "server.ts"
+  "functions": {
+    "api/index.js": {
+      "memory": 1024,
+      "maxDuration": 10
     }
-  ]
+  }
 }

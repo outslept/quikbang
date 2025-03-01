@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "dev:server": "tsx watch server.ts",
-    "start": "tsx server.ts"
+    "start": "tsx server.ts",
+    "postbuild": "mkdir -p dist/data && cp data/bang-index.json dist/data/"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.3.0",
