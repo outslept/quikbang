@@ -196,7 +196,6 @@
     cursor: pointer;
     transition: all 0.15s ease;
     outline: none;
-    -webkit-tap-highlight-color: transparent;
   }
 
   .theme-button:hover {

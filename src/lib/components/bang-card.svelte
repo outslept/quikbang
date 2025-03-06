@@ -89,7 +89,6 @@
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   overflow: hidden;
   outline: none;
-  -webkit-tap-highlight-color: transparent;
   font-family: "Geist Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   animation: cardEntrance 0.2s ease-out forwards;
   animation-delay: calc(var(--animation-order, 0) * 20ms);
