@@ -1,38 +1,25 @@
 <script lang='ts'>
   import type { BangCommand } from '../../../lib/fetch-bang'
-  import { createEventDispatcher, onMount } from 'svelte'
   import { fade } from 'svelte/transition'
   import BangCard from './bang-card.svelte'
 
-  export let bangs: BangCommand[] = []
-  export let loading = false
-  export let columns = 'auto'
+  import '../../styles/themes.css'
 
-  let mounted = false
-  let gridElement: HTMLElement
-  let animationOrder = 0
-
-  const dispatch = createEventDispatcher<{
-    selectBang: BangCommand
+  const { bangs = [], loading = false, columns = 'auto', selectBang } = $props<{
+    bangs: BangCommand[]
+    loading?: boolean
+    columns?: string | number
+    selectBang?: (bang: BangCommand) => void
   }>()
 
-  onMount(() => {
-    mounted = true
+  let gridElement = $state<HTMLElement | null>(null)
 
-    setTimeout(() => {
-      animationOrder = 1
-    }, 100)
-
-    return () => {
-      mounted = false
-    }
-  })
-
-  function handleSelect(event: CustomEvent<BangCommand>) {
-    dispatch('selectBang', event.detail)
+  function handleSelect(bang: BangCommand) {
+    if (selectBang)
+      selectBang(bang)
   }
 
-  $: gridTemplateColumns = getGridTemplateColumns(columns)
+  const gridTemplateColumns = $derived(getGridTemplateColumns(columns))
 
   function getGridTemplateColumns(cols: string | number): string {
     if (cols === 'auto') {
@@ -62,7 +49,7 @@
 >
   {#if loading}
     <div class='loading-state' in:fade={{ duration: 200 }}>
-      {#each Array.from({ length: 8 }) as _, i}
+      {#each Array.from({ length: 8 }) as _}
         <div class='bang-card-skeleton'></div>
       {/each}
     </div>
@@ -76,7 +63,10 @@
         class='bang-grid-item'
         style='--animation-order: {i};'
       >
-        <BangCard {bang} on:select={handleSelect} />
+        <BangCard
+          bang={bang}
+          select={selectedBang => handleSelect(selectedBang)}
+        />
       </div>
     {/each}
   {/if}
@@ -91,6 +81,7 @@
     max-width: 100%;
     position: relative;
     min-height: 120px;
+    contain: layout style;
   }
 
   .bang-grid-item {
@@ -142,30 +133,6 @@
     text-align: center;
   }
 
-  :global([data-theme="light"]) {
-    --skeleton-bg: #f0f0f0;
-    --text-muted: #888;
-  }
-
-  :global([data-theme="dark"]) {
-    --skeleton-bg: rgba(255, 255, 255, 0.08);
-    --text-muted: #666;
-  }
-
-  @media (prefers-color-scheme: light) {
-    :root:not([data-theme]) {
-      --skeleton-bg: #f0f0f0;
-      --text-muted: #888;
-    }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme]) {
-      --skeleton-bg: rgba(255, 255, 255, 0.08);
-      --text-muted: #666;
-    }
-  }
-
   @media (max-width: 1200px) {
     .bang-grid {
       gap: 0.7rem;
@@ -189,23 +156,6 @@
     .bang-grid {
       /* grid-template-columns: repeat(2, 1fr); */
       gap: 0.5rem;
-    }
-  }
-
-  .bang-grid {
-    contain: layout style;
-  }
-
-  @media print {
-    .bang-grid {
-      display: block;
-    }
-
-    .bang-grid-item {
-      display: inline-block;
-      width: 33%;
-      margin-bottom: 1rem;
-      page-break-inside: avoid;
     }
   }
 </style>
