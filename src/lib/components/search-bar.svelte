@@ -93,7 +93,7 @@
       on:focus={handleInputFocus}
       on:blur={handleInputBlur}
       bind:this={searchInput}
-      placeholder='Type !bang query (e.g., !w Svelte)'
+      placeholder='Type !bang to get some of the bangs'
       autocomplete='off'
       spellcheck='false'
     />

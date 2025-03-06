@@ -3,8 +3,6 @@
   import { fade } from 'svelte/transition'
   import BangCard from './bang-card.svelte'
 
-  import '../../styles/themes.css'
-
   const { bangs = [], loading = false, columns = 'auto', selectBang } = $props<{
     bangs: BangCommand[]
     loading?: boolean

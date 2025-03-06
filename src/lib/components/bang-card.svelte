@@ -2,10 +2,6 @@
   import type { BangCommand } from '../../../lib/fetch-bang'
   import { onMount } from 'svelte'
 
-  import '../../styles/themes.css'
-  import '../../styles/typography.css'
-  import '../../styles/animations.css'
-
   const { bang, highlight = false, select } = $props<{
     bang: BangCommand
     highlight?: boolean
