@@ -1,6 +1,8 @@
-import * as fs from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from 'node:fs'
+import { dirname, join } from 'node:path'
+import process from 'node:process'
+import { fileURLToPath } from 'node:url'
 import { ofetch } from 'ofetch'
-import * as pathe from 'pathe'
 
 export interface BangCommand {
   c: string // category
@@ -27,32 +29,30 @@ export async function fetchBangs(
     cacheExpiration?: number
   } = {},
 ): Promise<BangCommand[]> {
+  const __filename = fileURLToPath(import.meta.url)
+  const __dirname = dirname(__filename)
   const {
     forceRefresh = false,
-    cacheFilePath = pathe.join(
-      pathe.dirname(__dirname),
-      'data',
-      'bangs-cache.json',
-    ),
+    cacheFilePath = join(__dirname, '..', 'data', 'bangs-cache.json'), // Navigate up one level
     cacheExpiration = 24 * 60 * 60 * 1000, // 24h in ms
   } = options
 
   const BANG_URL = 'https://duckduckgo.com/bang.js'
 
-  const cacheDir = pathe.dirname(cacheFilePath)
-  if (!fs.existsSync(cacheDir)) {
-    fs.mkdirSync(cacheDir, { recursive: true })
+  const cacheDir = dirname(cacheFilePath)
+  if (!existsSync(cacheDir)) {
+    mkdirSync(cacheDir, { recursive: true })
     console.log(`Created cache directory at ${cacheDir}`)
   }
 
-  if (!forceRefresh && fs.existsSync(cacheFilePath)) {
+  if (!forceRefresh && existsSync(cacheFilePath)) {
     try {
-      const stats = fs.statSync(cacheFilePath)
+      const stats = statSync(cacheFilePath)
       const fileAge = Date.now() - stats.mtimeMs
 
       if (fileAge <= cacheExpiration) {
         console.log('Loading bang commands from cache...')
-        const cacheData = fs.readFileSync(cacheFilePath, 'utf-8')
+        const cacheData = readFileSync(cacheFilePath, 'utf-8')
         const cachedBangs = JSON.parse(cacheData) as BangCommand[]
         console.log(`Loaded ${cachedBangs.length} bang commands from cache.`)
         return cachedBangs
@@ -111,7 +111,7 @@ export async function fetchBangs(
       throw new Error('Invalid response format from DuckDuckGo')
     }
 
-    fs.writeFileSync(cacheFilePath, JSON.stringify(data, null, 2))
+    writeFileSync(cacheFilePath, JSON.stringify(data, null, 2))
     console.log(
       `Successfully fetched ${data.length} bang commands and saved to cache.`,
     )
@@ -177,36 +177,28 @@ export function getSafeFileName(name: string): string {
     .replace(/[^\w\-]/g, '')
     .toLowerCase()
 }
-
 export async function exportToTypeScript(
   bangs: BangCommand[],
-  outputDir: string = pathe.join(pathe.dirname(__dirname), 'data'),
+  outputDir: string = join(dirname(fileURLToPath(import.meta.url)), 'data'),
 ): Promise<void> {
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true })
+  if (!existsSync(outputDir)) {
+    mkdirSync(outputDir, { recursive: true })
     console.log(`Created output directory at ${outputDir}`)
   }
 
   const bangIndex = createBangIndex(bangs)
-
   const categories = groupByCategories(bangs)
   const subcategories = groupBySubcategories(bangs)
 
   createMainTsFile(bangs, bangIndex, outputDir)
-
   createCategoryTsFiles(categories, outputDir)
-
   createSubcategoryTsFiles(subcategories, outputDir)
 
   console.log('Bang commands exported to TypeScript files successfully.')
 }
 
-function createMainTsFile(
-  bangs: BangCommand[],
-  bangIndex: BangIndex,
-  outputDir: string,
-): void {
-  const outputFile = pathe.join(outputDir, 'bangs.ts')
+function createMainTsFile(bangs: BangCommand[], bangIndex: BangIndex, outputDir: string): void {
+  const outputFile = join(outputDir, 'bangs.ts')
 
   const categoryNames = [...new Set(bangs.map(bang => bang.c))]
   const subcategoryNames = [...new Set(bangs.map(bang => bang.sc))]
@@ -240,7 +232,7 @@ export function processBangSearch(query: string): string | null {
   if (match) {
     const bangTag = match[1];
     const searchTerm = match[2] || '';
-    
+
     const bang = bangIndex[bangTag];
     if (bang) {
       const url = bang.u.replace('{{{s}}}', encodeURIComponent(searchTerm));
@@ -256,7 +248,7 @@ export const subcategories = ${JSON.stringify(subcategoryNames, null, 2)};
 `
 
   try {
-    fs.writeFileSync(outputFile, tsContent)
+    writeFileSync(outputFile, tsContent)
     console.log(`Main bang commands exported to ${outputFile}`)
   }
   catch (error) {
@@ -265,13 +257,10 @@ export const subcategories = ${JSON.stringify(subcategoryNames, null, 2)};
   }
 }
 
-function createCategoryTsFiles(
-  categories: CategoryMap,
-  outputDir: string,
-): void {
-  const categoriesDir = pathe.join(outputDir, 'categories')
-  if (!fs.existsSync(categoriesDir)) {
-    fs.mkdirSync(categoriesDir, { recursive: true })
+function createCategoryTsFiles(categories: CategoryMap, outputDir: string): void {
+  const categoriesDir = join(outputDir, 'categories')
+  if (!existsSync(categoriesDir)) {
+    mkdirSync(categoriesDir, { recursive: true })
   }
 
   const indexContent = `
@@ -283,7 +272,7 @@ import { BangCommand } from '../bangs';
 export const categories = ${JSON.stringify(Object.keys(categories), null, 2)};
 
 export interface CategoryMap {
-  [category: string]: BangCommand[];
+[category: string]: BangCommand[];
 }
 
 // Import all category files
@@ -305,11 +294,11 @@ ${Object.keys(categories)
 };
 `
 
-  fs.writeFileSync(pathe.join(categoriesDir, 'index.ts'), indexContent)
+  writeFileSync(join(categoriesDir, 'index.ts'), indexContent)
 
   Object.entries(categories).forEach(([category, bangs]) => {
     const safeCategory = getSafeFileName(category)
-    const categoryFile = pathe.join(categoriesDir, `${safeCategory}.ts`)
+    const categoryFile = join(categoriesDir, `${safeCategory}.ts`)
 
     const categoryBangIndex = bangs.reduce((acc, bang) => {
       acc[bang.t] = bang
@@ -335,18 +324,15 @@ export const bangIndex: Record<string, BangCommand> = ${JSON.stringify(
 export const subcategories = ${JSON.stringify(categorySubcategories, null, 2)};
 `
 
-    fs.writeFileSync(categoryFile, categoryContent)
+    writeFileSync(categoryFile, categoryContent)
     console.log(`Category ${category} exported to ${categoryFile}`)
   })
 }
 
-function createSubcategoryTsFiles(
-  subcategories: CategoryMap,
-  outputDir: string,
-): void {
-  const subcategoriesDir = pathe.join(outputDir, 'subcategories')
-  if (!fs.existsSync(subcategoriesDir)) {
-    fs.mkdirSync(subcategoriesDir, { recursive: true })
+function createSubcategoryTsFiles(subcategories: CategoryMap, outputDir: string): void {
+  const subcategoriesDir = join(outputDir, 'subcategories')
+  if (!existsSync(subcategoriesDir)) {
+    mkdirSync(subcategoriesDir, { recursive: true })
   }
 
   const indexContent = `
@@ -362,7 +348,7 @@ export const subcategories = ${JSON.stringify(
 )};
 
 export interface SubcategoryMap {
-  [subcategory: string]: BangCommand[];
+[subcategory: string]: BangCommand[];
 }
 
 // Import all subcategory files
@@ -384,14 +370,11 @@ ${Object.keys(subcategories)
 };
 `
 
-  fs.writeFileSync(pathe.join(subcategoriesDir, 'index.ts'), indexContent)
+  writeFileSync(join(subcategoriesDir, 'index.ts'), indexContent)
 
   Object.entries(subcategories).forEach(([subcategory, bangs]) => {
     const safeSubcategory = getSafeFileName(subcategory)
-    const subcategoryFile = pathe.join(
-      subcategoriesDir,
-      `${safeSubcategory}.ts`,
-    )
+    const subcategoryFile = join(subcategoriesDir, `${safeSubcategory}.ts`)
 
     const subcategoryBangIndex = bangs.reduce((acc, bang) => {
       acc[bang.t] = bang
@@ -417,57 +400,56 @@ export const bangIndex: Record<string, BangCommand> = ${JSON.stringify(
 export const categories = ${JSON.stringify(subcategoryCategories, null, 2)};
 `
 
-    fs.writeFileSync(subcategoryFile, subcategoryContent)
+    writeFileSync(subcategoryFile, subcategoryContent)
     console.log(`Subcategory ${subcategory} exported to ${subcategoryFile}`)
   })
 }
 
 export async function exportToJson(
   bangs: BangCommand[],
-  outputDir: string = pathe.join(pathe.dirname(__dirname), 'data'),
+  outputDir: string = join(dirname(fileURLToPath(import.meta.url)), 'data'),
 ): Promise<void> {
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true })
+  if (!existsSync(outputDir)) {
+    mkdirSync(outputDir, { recursive: true })
     console.log(`Created output directory at ${outputDir}`)
   }
 
   const bangIndex = createBangIndex(bangs)
-
   const categories = groupByCategories(bangs)
   const subcategories = groupBySubcategories(bangs)
 
-  const mainJsonFile = pathe.join(outputDir, 'bangs.json')
-  fs.writeFileSync(mainJsonFile, JSON.stringify(bangs, null, 2))
+  const mainJsonFile = join(outputDir, 'bangs.json')
+  writeFileSync(mainJsonFile, JSON.stringify(bangs, null, 2))
   console.log(`All bangs exported to ${mainJsonFile}`)
 
-  const indexJsonFile = pathe.join(outputDir, 'bang-index.json')
-  fs.writeFileSync(indexJsonFile, JSON.stringify(bangIndex, null, 2))
+  const indexJsonFile = join(outputDir, 'bang-index.json')
+  writeFileSync(indexJsonFile, JSON.stringify(bangIndex, null, 2))
   console.log(`Bang index exported to ${indexJsonFile}`)
 
-  const categoriesDir = pathe.join(outputDir, 'categories')
-  if (!fs.existsSync(categoriesDir)) {
-    fs.mkdirSync(categoriesDir, { recursive: true })
+  const categoriesDir = join(outputDir, 'categories')
+  if (!existsSync(categoriesDir)) {
+    mkdirSync(categoriesDir, { recursive: true })
   }
 
   Object.entries(categories).forEach(([category, categoryBangs]) => {
     const safeCategory = getSafeFileName(category)
-    const categoryFile = pathe.join(categoriesDir, `${safeCategory}.json`)
-    fs.writeFileSync(categoryFile, JSON.stringify(categoryBangs, null, 2))
+    const categoryFile = join(categoriesDir, `${safeCategory}.json`)
+    writeFileSync(categoryFile, JSON.stringify(categoryBangs, null, 2))
   })
   console.log(`Categories exported to ${categoriesDir}`)
 
-  const subcategoriesDir = pathe.join(outputDir, 'subcategories')
-  if (!fs.existsSync(subcategoriesDir)) {
-    fs.mkdirSync(subcategoriesDir, { recursive: true })
+  const subcategoriesDir = join(outputDir, 'subcategories')
+  if (!existsSync(subcategoriesDir)) {
+    mkdirSync(subcategoriesDir, { recursive: true })
   }
 
   Object.entries(subcategories).forEach(([subcategory, subcategoryBangs]) => {
     const safeSubcategory = getSafeFileName(subcategory)
-    const subcategoryFile = pathe.join(
+    const subcategoryFile = join(
       subcategoriesDir,
       `${safeSubcategory}.json`,
     )
-    fs.writeFileSync(
+    writeFileSync(
       subcategoryFile,
       JSON.stringify(subcategoryBangs, null, 2),
     )
@@ -486,10 +468,12 @@ export async function getBangsAndExport(
     exportJson?: boolean
   } = {},
 ): Promise<BangCommand[]> {
+  const __filename = fileURLToPath(import.meta.url)
+  const __dirname = dirname(__filename)
   const {
     forceRefresh = false,
     cacheFilePath,
-    outputDir = pathe.join(pathe.dirname(__dirname), 'data'),
+    outputDir = join(__dirname, '..', 'data'), // default output to data in project root
     exportTypeScript = true,
     exportJson = true,
   } = options
@@ -513,13 +497,24 @@ export async function getBangsAndExport(
   }
 }
 
-if (require.main === module) {
-  getBangsAndExport()
-    .then((bangs) => {
-      console.log(`Successfully processed ${bangs.length} bang commands.`)
-    })
-    .catch((error) => {
-      console.error('Error in main:', error)
-      process.exit(1)
-    })
+async function main() {
+  try {
+    const bangs = await getBangsAndExport()
+    console.log(`Successfully processed ${bangs.length} bang commands.`)
+  }
+  catch (error) {
+    console.error('Error in main:', error)
+    process.exit(1) // Exit with error code on failure
+  }
+}
+
+// Determine if the script is being run directly
+if (import.meta.url.startsWith('file:')) {
+  // Use import.meta.url
+  const modulePath = new URL(import.meta.url).pathname
+  const scriptPath = process.argv[1]
+
+  if (modulePath === scriptPath) {
+    main()
+  }
 }

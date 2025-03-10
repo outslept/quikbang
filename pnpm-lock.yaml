@@ -39,6 +39,9 @@ importers:
       eslint-plugin-svelte:
         specifier: ^2.46.1
         version: 2.46.1(eslint@9.21.0)(svelte@5.20.5)
+      esno:
+        specifier: ^4.8.0
+        version: 4.8.0
       lint-staged:
         specifier: ^15.4.3
         version: 15.4.3
@@ -1203,6 +1206,10 @@ packages:
 
   esm-env@1.2.2:
     resolution: {integrity: sha512-Epxrv+Nr/CaL4ZcFGPJIYLWFom+YeV1DqMLHJoEd9SYRxNbaFruBwfEX/kkHUJf55j2+TUbmDcmuilbP1TmXHA==}
+
+  esno@4.8.0:
+    resolution: {integrity: sha512-acMtooReAQGzLU0zcuEDHa8S62meh5aIyi8jboYxyvAePdmuWx2Mpwmt0xjwO0bs9/SXf+dvXJ0QJoDWw814Iw==}
+    hasBin: true
 
   espree@10.3.0:
     resolution: {integrity: sha512-0QYC8b24HWY8zjRnDTL6RiHfDbAWn63qb4LMj1Z4b076A4une81+z03Kg7l7mn/48PUTqoLptSXez8oknU8Clg==}
@@ -3549,6 +3556,10 @@ snapshots:
 
   esm-env@1.2.2: {}
 
+  esno@4.8.0:
+    dependencies:
+      tsx: 4.19.3
+
   espree@10.3.0:
     dependencies:
       acorn: 8.14.0
@@ -4743,7 +4754,6 @@ snapshots:
       get-tsconfig: 4.10.0
     optionalDependencies:
       fsevents: 2.3.3
-    optional: true
 
   type-check@0.4.0:
     dependencies:

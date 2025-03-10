@@ -1,0 +1,294 @@
+:global([data-theme='light']) {
+  /* Theme Switcher */
+  --button-bg: rgba(0, 0, 0, 0.03);
+  --button-color: #666;
+  --button-border: rgba(0, 0, 0, 0.05);
+  --button-hover-bg: rgba(0, 0, 0, 0.05);
+  --button-hover-color: #333;
+  --focus-ring: rgba(0, 0, 0, 0.1);
+  --dropdown-bg: #fff;
+  --dropdown-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --dropdown-border: rgba(0, 0, 0, 0.08);
+  --option-color: #333;
+  --option-hover-bg: rgba(0, 0, 0, 0.04);
+  --option-active-bg: rgba(0, 0, 0, 0.06);
+
+  /* Card variables */
+  --card-bg: #f9f9f9;
+  --card-border: rgba(0, 0, 0, 0.06);
+  --card-hover-bg: #f3f3f3;
+  --card-highlight-bg: rgba(0, 0, 0, 0.03);
+  --icon-bg: rgba(0, 0, 0, 0.04);
+  --icon-color: #666;
+  --icon-hover-bg: rgba(0, 0, 0, 0.06);
+  --tag-color: #000;
+  --name-color: #666;
+  --skeleton-bg: #f0f0f0;
+  --text-muted: #888;
+
+  /* Instructions Section */
+  --section-bg: #fff;
+  --section-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --section-border: rgba(0, 0, 0, 0.04);
+  --heading-color: #000;
+  --text-color: #333;
+  --code-bg: #f5f5f5;
+  --code-color: #333;
+  --hint-color: #666;
+  --hint-bg: rgba(0, 0, 0, 0.03);
+  --arrow-color: #999;
+  --result-color: #666;
+  --divider-color: rgba(0, 0, 0, 0.06);
+  --tip-color: #666;
+  --kbd-bg: #f5f5f5;
+  --kbd-border: rgba(0, 0, 0, 0.1);
+  --kbd-color: #333;
+  --connector-color: rgba(0, 0, 0, 0.1);
+  --step-number-bg: #000;
+  --step-number-color: #fff;
+}
+
+:global([data-theme='dark']) {
+  /* Theme Switcher */
+  --button-bg: rgba(255, 255, 255, 0.06);
+  --button-color: #aaa;
+  --button-border: rgba(255, 255, 255, 0.08);
+  --button-hover-bg: rgba(255, 255, 255, 0.1);
+  --button-hover-color: #fff;
+  --focus-ring: rgba(255, 255, 255, 0.2);
+  --dropdown-bg: #222;
+  --dropdown-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --dropdown-border: rgba(255, 255, 255, 0.1);
+  --option-color: #ddd;
+  --option-hover-bg: rgba(255, 255, 255, 0.08);
+  --option-active-bg: rgba(255, 255, 255, 0.12);
+
+  /* Card variables */
+  --card-bg: #1c1c1e;
+  --card-border: rgba(255, 255, 255, 0.08);
+  --card-hover-bg: #2c2c2e;
+  --card-highlight-bg: rgba(255, 255, 255, 0.05);
+  --icon-bg: rgba(255, 255, 255, 0.08);
+  --icon-hover-bg: rgba(255, 255, 255, 0.12);
+  --icon-color: #ccc;
+  --tag-color: #fff;
+  --name-color: #999;
+  --skeleton-bg: rgba(255, 255, 255, 0.08);
+  --text-muted: #666;
+
+  /* Instructions Section */
+  --section-bg: #1a1a1a;
+  --section-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --section-border: rgba(255, 255, 255, 0.08);
+  --heading-color: #fff;
+  --text-color: #bbb;
+  --code-bg: rgba(255, 255, 255, 0.1);
+  --code-color: #eee;
+  --hint-color: #aaa;
+  --hint-bg: rgba(255, 255, 255, 0.07);
+  --arrow-color: #777;
+  --result-color: #aaa;
+  --divider-color: rgba(255, 255, 255, 0.08);
+  --tip-color: #999;
+  --kbd-bg: rgba(255, 255, 255, 0.1);
+  --kbd-border: rgba(255, 255, 255, 0.2);
+  --kbd-color: #ddd;
+  --connector-color: rgba(255, 255, 255, 0.15);
+  --step-number-bg: #fff;
+  --step-number-color: #000;
+}
+
+:global(:root:not([data-theme])) {
+  @media (prefers-color-scheme: light) {
+    /* Theme Switcher */
+    --button-bg: rgba(0, 0, 0, 0.03);
+    --button-color: #666;
+    --button-border: rgba(0, 0, 0, 0.05);
+    --button-hover-bg: rgba(0, 0, 0, 0.05);
+    --button-hover-color: #333;
+    --focus-ring: rgba(0, 0, 0, 0.1);
+    --dropdown-bg: #fff;
+    --dropdown-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --dropdown-border: rgba(0, 0, 0, 0.08);
+    --option-color: #333;
+    --option-hover-bg: rgba(0, 0, 0, 0.04);
+    --option-active-bg: rgba(0, 0, 0, 0.06);
+
+    /* Card variables */
+    --card-bg: #f9f9f9;
+    --card-border: rgba(0, 0, 0, 0.06);
+    --card-hover-bg: #f3f3f3;
+    --card-highlight-bg: rgba(0, 0, 0, 0.03);
+    --icon-bg: rgba(0, 0, 0, 0.04);
+    --icon-color: #666;
+    --icon-hover-bg: rgba(0, 0, 0, 0.06);
+    --tag-color: #000;
+    --name-color: #666;
+    --skeleton-bg: #f0f0f0;
+    --text-muted: #888;
+
+    /* Instructions Section */
+    --section-bg: #fff;
+    --section-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    --section-border: rgba(0, 0, 0, 0.04);
+    --heading-color: #000;
+    --text-color: #333;
+    --code-bg: #f5f5f5;
+    --code-color: #333;
+    --hint-color: #666;
+    --hint-bg: rgba(0, 0, 0, 0.03);
+    --arrow-color: #999;
+    --result-color: #666;
+    --divider-color: rgba(0, 0, 0, 0.06);
+    --tip-color: #666;
+    --kbd-bg: #f5f5f5;
+    --kbd-border: rgba(0, 0, 0, 0.1);
+    --kbd-color: #333;
+    --connector-color: rgba(0, 0, 0, 0.1);
+    --step-number-bg: #000;
+    --step-number-color: #fff;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+      /* Theme Switcher */
+      --button-bg: rgba(255, 255, 255, 0.06);
+      --button-color: #aaa;
+      --button-border: rgba(255, 255, 255, 0.08);
+      --button-hover-bg: rgba(255, 255, 255, 0.1);
+      --button-hover-color: #fff;
+      --focus-ring: rgba(255, 255, 255, 0.2);
+      --dropdown-bg: #222;
+      --dropdown-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      --dropdown-border: rgba(255, 255, 255, 0.1);
+      --option-color: #ddd;
+      --option-hover-bg: rgba(255, 255, 255, 0.08);
+      --option-active-bg: rgba(255, 255, 255, 0.12);
+
+      /* Card variables */
+      --card-bg: #1c1c1e;
+      --card-border: rgba(255, 255, 255, 0.08);
+      --card-hover-bg: #2c2c2e;
+      --card-highlight-bg: rgba(255, 255, 255, 0.05);
+      --icon-bg: rgba(255, 255, 255, 0.08);
+      --icon-hover-bg: rgba(255, 255, 255, 0.12);
+      --icon-color: #ccc;
+      --tag-color: #fff;
+      --name-color: #999;
+      --skeleton-bg: rgba(255, 255, 255, 0.08);
+      --text-muted: #666;
+
+      /* Instructions Section */
+      --section-bg: #1a1a1a;
+      --section-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+      --section-border: rgba(255, 255, 255, 0.08);
+      --heading-color: #fff;
+      --text-color: #bbb;
+      --code-bg: rgba(255, 255, 255, 0.1);
+      --code-color: #eee;
+      --hint-color: #aaa;
+      --hint-bg: rgba(255, 255, 255, 0.07);
+      --arrow-color: #777;
+      --result-color: #aaa;
+      --divider-color: rgba(255, 255, 255, 0.08);
+      --tip-color: #999;
+      --kbd-bg: rgba(255, 255, 255, 0.1);
+      --kbd-border: rgba(255, 255, 255, 0.2);
+      --kbd-color: #ddd;
+      --connector-color: rgba(255, 255, 255, 0.15);
+      --step-number-bg: #fff;
+      --step-number-color: #000;
+    }
+  }
+}
+
+@media (forced-colors: active) {
+  .theme-button,
+  .theme-option {
+    border: 1px solid ButtonBorder;
+  }
+
+  .theme-option.active {
+    background-color: Highlight;
+    color: HighlightText;
+  }
+
+  .bang-card {
+    border: 1px solid CanvasText;
+  }
+
+  .bang-card:focus-visible {
+    outline: 2px solid Highlight;
+  }
+
+  .instructions-section {
+    border: 1px solid CanvasText;
+  }
+
+  .step-number {
+    border: 1px solid CanvasText;
+  }
+
+  code,
+  kbd,
+  .browser-hint {
+    border: 1px solid CanvasText;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-dropdown {
+    transition: none;
+  }
+
+  .theme-button,
+  .theme-option {
+    transition: none;
+  }
+}
+
+@media print {
+  .bang-grid {
+    display: block;
+  }
+
+  .bang-grid-item {
+    display: inline-block;
+    width: 33%;
+    margin-bottom: 1rem;
+    page-break-inside: avoid;
+  }
+
+  .instructions-section {
+    border: 1px solid #ccc;
+    box-shadow: none;
+    break-inside: avoid;
+  }
+
+  .step-marker::after {
+    display: none;
+  }
+
+  .step-number {
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+  }
+
+  code,
+  kbd {
+    border: 1px solid #ccc;
+    background: transparent;
+    color: #000;
+  }
+
+  .browser-hint {
+    border: 1px solid #ccc;
+    background: transparent;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}

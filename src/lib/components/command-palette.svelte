@@ -1,48 +1,48 @@
 <script lang='ts'>
+  import type { BangCommand } from '../../../lib/fetch-bang'
   import { onDestroy, onMount } from 'svelte'
-  import type { BangCommand } from '../../../lib/fetch-bang';
 
-let {
-  searchResults = [],
-  selectedIndex = 0,
-  onSelectBang,
-  onSelectedIndexChange
-} = $props<{
-  searchResults?: BangCommand[]
-  selectedIndex?: number
-  onSelectBang?: (bang: BangCommand) => void
-  onSelectedIndexChange?: (index: number) => void
-}>()
+  const {
+    searchResults = [],
+    selectedIndex = 0,
+    onSelectBang,
+    onSelectedIndexChange,
+  } = $props<{
+    searchResults?: BangCommand[]
+    selectedIndex?: number
+    onSelectBang?: (bang: BangCommand) => void
+    onSelectedIndexChange?: (index: number) => void
+  }>()
 
-function handleKeydown(event: KeyboardEvent) {
-  if (event.key === 'ArrowDown') {
-    event.preventDefault()
-    const newIndex = (selectedIndex + 1) % searchResults.length
-    onSelectedIndexChange?.(newIndex)
+  function handleKeydown(event: KeyboardEvent) {
+    if (event.key === 'ArrowDown') {
+      event.preventDefault()
+      const newIndex = (selectedIndex + 1) % searchResults.length
+      onSelectedIndexChange?.(newIndex)
+    }
+    else if (event.key === 'ArrowUp') {
+      event.preventDefault()
+      const newIndex = (selectedIndex - 1 + searchResults.length) % searchResults.length
+      onSelectedIndexChange?.(newIndex)
+    }
+    else if (event.key === 'Enter' && searchResults.length > 0) {
+      event.preventDefault()
+      onSelectBang?.(searchResults[selectedIndex])
+    }
   }
-  else if (event.key === 'ArrowUp') {
-    event.preventDefault()
-    const newIndex = (selectedIndex - 1 + searchResults.length) % searchResults.length
-    onSelectedIndexChange?.(newIndex)
-  }
-  else if (event.key === 'Enter' && searchResults.length > 0) {
-    event.preventDefault()
-    onSelectBang?.(searchResults[selectedIndex])
-  }
-}
 
-let keydownHandler: (e: KeyboardEvent) => void
+  let keydownHandler = $state<((e: KeyboardEvent) => void) | null>(null)
 
-onMount(() => {
-  keydownHandler = (e: KeyboardEvent) => handleKeydown(e)
-  window.addEventListener('keydown', keydownHandler)
-})
+  onMount(() => {
+    keydownHandler = (e: KeyboardEvent) => handleKeydown(e)
+    window.addEventListener('keydown', keydownHandler)
+  })
 
-onDestroy(() => {
-  if (keydownHandler) {
-    window.removeEventListener('keydown', keydownHandler)
-  }
-})
+  onDestroy(() => {
+    if (keydownHandler) {
+      window.removeEventListener('keydown', keydownHandler)
+    }
+  })
 </script>
 
 <div class='command-palette'>
@@ -65,7 +65,7 @@ onDestroy(() => {
       </button>
     {/each}
   </ul>
-  </div>
+</div>
 
 <style>
   .command-palette {
@@ -74,12 +74,12 @@ onDestroy(() => {
     left: 0;
     right: 0;
     margin-top: 0.5rem;
-    background-color: #fff;
+    background-color: var(--palette-bg);
     border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    box-shadow: var(--palette-shadow);
     overflow: hidden;
     z-index: 10;
-    border: 1px solid rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--palette-border);
   }
 
   .command-palette-header {
@@ -87,10 +87,10 @@ onDestroy(() => {
     justify-content: space-between;
     align-items: center;
     padding: 0.8rem 1rem;
-    background-color: #f9f9f9;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: var(--header-bg);
+    border-bottom: 1px solid var(--header-border);
     font-size: 0.8rem;
-    color: #666;
+    color: var(--header-text);
   }
 
   .keyboard-tip {
@@ -98,10 +98,11 @@ onDestroy(() => {
   }
 
   .keyboard-tip span {
-    background-color: #eee;
+    background-color: var(--key-bg);
     padding: 0.1rem 0.3rem;
     border-radius: 4px;
     font-family: monospace;
+    color: var(--key-text);
   }
 
   ul {
@@ -120,17 +121,21 @@ onDestroy(() => {
     padding: 0.8rem 1rem;
     cursor: pointer;
     transition: background-color 0.15s ease;
+    background: transparent;
+    border: none;
+    width: 100%;
+    text-align: left;
   }
 
   button:hover,
   button.selected {
-    background-color: #f5f5f5;
+    background-color: var(--item-hover-bg);
   }
 
   .bang-tag {
     font-weight: 600;
-    color: #000;
-    background-color: #f0f0f0;
+    color: var(--tag-text);
+    background-color: var(--tag-bg);
     padding: 0.3rem 0.6rem;
     border-radius: 6px;
     font-size: 0.9rem;
@@ -138,49 +143,12 @@ onDestroy(() => {
 
   .bang-name {
     font-size: 0.95rem;
-    color: #333;
+    color: var(--name-text);
   }
 
   .bang-category {
     font-size: 0.8rem;
-    color: #888;
+    color: var(--category-text);
     text-transform: capitalize;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .command-palette {
-      background-color: #1a1a1a;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
-      border-color: rgba(255, 255, 255, 0.08);
-    }
-
-    .command-palette-header {
-      background-color: #222;
-      border-color: rgba(255, 255, 255, 0.05);
-      color: #aaa;
-    }
-
-    .keyboard-tip span {
-      background-color: #333;
-      color: #ccc;
-    }
-
-    button:hover,
-    button.selected {
-      background-color: #222;
-    }
-
-    .bang-tag {
-      background-color: #333;
-      color: #f0f0f0;
-    }
-
-    .bang-name {
-      color: #ddd;
-    }
-
-    .bang-category {
-      color: #888;
-    }
   }
 </style>

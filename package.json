@@ -1,7 +1,7 @@
 {
   "name": "quikbang",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -10,9 +10,14 @@
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "dev:server": "tsx watch server.ts",
-    "start": "tsx server.ts",
-    "postbuild": "mkdir -p dist/data && cp data/bang-index.json dist/data/"
+    "dev:server": "esno watch server.ts",
+    "start": "esno server.ts",
+    "postbuild": "mkdir -p dist/data && cp data/bang-index.json dist/data/",
+    "populate": "esno lib/fetch-bang.ts && npm run lint:fix"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "express": "^4.21.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.3.0",
@@ -23,6 +28,7 @@
     "eslint": "^9.20.1",
     "eslint-plugin-format": "^1.0.1",
     "eslint-plugin-svelte": "^2.46.1",
+    "esno": "^4.8.0",
     "lint-staged": "^15.4.3",
     "ofetch": "^1.4.1",
     "pathe": "^2.0.3",
@@ -38,9 +44,5 @@
   },
   "lint-staged": {
     "*.{js,ts,svelte}": "eslint --fix"
-  },
-  "dependencies": {
-    "autoprefixer": "^10.4.20",
-    "express": "^4.21.2"
   }
 }

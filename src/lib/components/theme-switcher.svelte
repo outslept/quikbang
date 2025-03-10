@@ -176,6 +176,8 @@
 </div>
 
 <style>
+  @import '../styles/themes.css';
+
   .theme-switch {
     position: relative;
     display: inline-block;
