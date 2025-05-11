@@ -1,0 +1,18 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  color: var(--loading-message-color);
+}
+
+.loading-spinner {
+  border: 3px solid var(--loading-spinner-track-color);
+  border-radius: 50%;
+  border-top-color: var(--loading-spinner-color);
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}

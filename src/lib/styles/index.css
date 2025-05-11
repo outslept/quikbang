@@ -1,5 +1,13 @@
-@import './themes.css';
 @import './typography.css';
 @import './animations.css';
-@import './command-palette-theme.css';
-@import './fonts.css';
+@import './themes.css';
+
+@import './components/bang-card.css';
+@import './components/bang-grid.css';
+@import './components/command-palette.css';
+@import './components/error-messages.css';
+@import './components/footer.css';
+@import './components/instructions.css';
+@import './components/loading-spinner.css';
+@import './components/search-bar.css';
+@import './components/theme-switcher.css';

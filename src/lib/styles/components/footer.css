@@ -1,0 +1,112 @@
+footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--footer-border);
+  color: var(--footer-text);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  width: 100%;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer-branding,
+.footer-data {
+  text-align: center;
+}
+
+footer p {
+  margin: 0.4rem 0;
+}
+
+.brand-name {
+  font-weight: 600;
+  color: var(--brand-color);
+}
+
+.tech-logo {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0.25rem;
+  vertical-align: middle;
+}
+
+.footer-tech {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.data-source {
+  font-size: 0.85rem;
+}
+
+.command-count {
+  margin-left: 0.25rem;
+}
+
+.command-count strong {
+  font-weight: 600;
+  color: var(--count-color);
+}
+
+.footer-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--meta-color);
+}
+
+.footer-link {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer-branding,
+  .footer-data {
+    text-align: left;
+  }
+
+  .footer-meta {
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+
+  .footer-meta {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+}

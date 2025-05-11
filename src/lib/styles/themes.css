@@ -1,5 +1,4 @@
-:global([data-theme='light']) {
-  /* Theme Switcher */
+:root {
   --button-bg: rgba(0, 0, 0, 0.03);
   --button-color: #666;
   --button-border: rgba(0, 0, 0, 0.05);
@@ -13,7 +12,6 @@
   --option-hover-bg: rgba(0, 0, 0, 0.04);
   --option-active-bg: rgba(0, 0, 0, 0.06);
 
-  /* Card variables */
   --card-bg: #f9f9f9;
   --card-border: rgba(0, 0, 0, 0.06);
   --card-hover-bg: #f3f3f3;
@@ -26,16 +24,15 @@
   --skeleton-bg: #f0f0f0;
   --text-muted: #888;
 
-  /* Instructions Section */
   --section-bg: #fff;
   --section-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  --section-border: rgba(0, 0, 0, 0.04);
-  --heading-color: #000;
-  --text-color: #333;
+  --instructions-heading-color: #000;
+  --instructions-text-color: #333;
   --code-bg: #f5f5f5;
   --code-color: #333;
   --hint-color: #666;
   --hint-bg: rgba(0, 0, 0, 0.03);
+  --hint-hover-bg: rgba(0, 0, 0, 0.045);
   --arrow-color: #999;
   --result-color: #666;
   --divider-color: rgba(0, 0, 0, 0.06);
@@ -46,10 +43,51 @@
   --connector-color: rgba(0, 0, 0, 0.1);
   --step-number-bg: #000;
   --step-number-color: #fff;
+  --card-hover-bg-instructions: rgba(0, 0, 0, 0.01);
+
+  --palette-bg: #fff;
+  --palette-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --palette-border: rgba(0, 0, 0, 0.08);
+  --header-bg: #f9f9f9;
+  --header-border: rgba(0, 0, 0, 0.05);
+  --header-text: #666;
+  --key-bg: #eee;
+  --key-text: inherit;
+  --item-hover-bg: #f5f5f5;
+  --palette-tag-bg: #f0f0f0;
+  --palette-tag-text: #000;
+  --palette-name-text: #333;
+  --palette-category-text: #888;
+
+  --search-bg: #fff;
+  --search-border: rgba(0, 0, 0, 0.08);
+  --search-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --search-focus-border: rgba(0, 0, 0, 0.2);
+  --search-focus-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  --search-icon-color: #666;
+  --input-text: #333;
+  --placeholder-color: #999;
+
+  --error-container-bg: #fff;
+  --error-container-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --error-container-text-color: #333;
+  --error-icon-bg: #f44336;
+  --error-icon-text-color: white;
+
+  --footer-border: rgba(0, 0, 0, 0.05);
+  --footer-text: #888;
+  --brand-color: #333;
+  --count-color: #555;
+  --meta-color: #999;
+  --link-color: #666;
+  --link-hover: #333;
+
+  --loading-spinner-track-color: rgba(0, 0, 0, 0.1);
+  --loading-spinner-color: #000;
+  --loading-message-color: #333;
 }
 
-:global([data-theme='dark']) {
-  /* Theme Switcher */
+[data-theme='dark'] {
   --button-bg: rgba(255, 255, 255, 0.06);
   --button-color: #aaa;
   --button-border: rgba(255, 255, 255, 0.08);
@@ -63,7 +101,6 @@
   --option-hover-bg: rgba(255, 255, 255, 0.08);
   --option-active-bg: rgba(255, 255, 255, 0.12);
 
-  /* Card variables */
   --card-bg: #1c1c1e;
   --card-border: rgba(255, 255, 255, 0.08);
   --card-hover-bg: #2c2c2e;
@@ -76,16 +113,16 @@
   --skeleton-bg: rgba(255, 255, 255, 0.08);
   --text-muted: #666;
 
-  /* Instructions Section */
   --section-bg: #1a1a1a;
-  --section-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --section-shadow: 0 2px 8px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.3);
   --section-border: rgba(255, 255, 255, 0.08);
-  --heading-color: #fff;
-  --text-color: #bbb;
+  --instructions-heading-color: #fff;
+  --instructions-text-color: #bbb;
   --code-bg: rgba(255, 255, 255, 0.1);
   --code-color: #eee;
   --hint-color: #aaa;
   --hint-bg: rgba(255, 255, 255, 0.07);
+  --hint-hover-bg: rgba(255, 255, 255, 0.09);
   --arrow-color: #777;
   --result-color: #aaa;
   --divider-color: rgba(255, 255, 255, 0.08);
@@ -96,109 +133,135 @@
   --connector-color: rgba(255, 255, 255, 0.15);
   --step-number-bg: #fff;
   --step-number-color: #000;
+  --card-hover-bg-instructions: rgba(255, 255, 255, 0.015);
+
+  --palette-bg: #1a1a1a;
+  --palette-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  --palette-border: rgba(255, 255, 255, 0.08);
+  --header-bg: #222;
+  --header-border: rgba(255, 255, 255, 0.05);
+  --header-text: #aaa;
+  --key-bg: #333;
+  --key-text: #ccc;
+  --item-hover-bg: #222;
+  --palette-tag-bg: #333;
+  --palette-tag-text: #f0f0f0;
+  --palette-name-text: #ddd;
+  --palette-category-text: #888;
+
+  --search-bg: #1a1a1a;
+  --search-border: rgba(255, 255, 255, 0.08);
+  --search-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --search-focus-border: rgba(255, 255, 255, 0.2);
+  --search-focus-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  --search-icon-color: #aaa;
+  --input-text: #f0f0f0;
+  --placeholder-color: #777;
+
+  --error-container-bg: #1a1a1a;
+  --error-container-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  --error-container-text-color: #f0f0f0;
+
+  --footer-border: rgba(255, 255, 255, 0.08);
+  --footer-text: #777;
+  --brand-color: #ccc;
+  --count-color: #aaa;
+  --meta-color: #666;
+  --link-color: #999;
+  --link-hover: #ddd;
+
+  --loading-spinner-track-color: rgba(255, 255, 255, 0.1);
+  --loading-spinner-color: #fff;
+  --loading-message-color: #bbb;
 }
 
-:global(:root:not([data-theme])) {
-  @media (prefers-color-scheme: light) {
-    /* Theme Switcher */
-    --button-bg: rgba(0, 0, 0, 0.03);
-    --button-color: #666;
-    --button-border: rgba(0, 0, 0, 0.05);
-    --button-hover-bg: rgba(0, 0, 0, 0.05);
-    --button-hover-color: #333;
-    --focus-ring: rgba(0, 0, 0, 0.1);
-    --dropdown-bg: #fff;
-    --dropdown-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    --dropdown-border: rgba(0, 0, 0, 0.08);
-    --option-color: #333;
-    --option-hover-bg: rgba(0, 0, 0, 0.04);
-    --option-active-bg: rgba(0, 0, 0, 0.06);
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --button-bg: rgba(255, 255, 255, 0.06);
+    --button-color: #aaa;
+    --button-border: rgba(255, 255, 255, 0.08);
+    --button-hover-bg: rgba(255, 255, 255, 0.1);
+    --button-hover-color: #fff;
+    --focus-ring: rgba(255, 255, 255, 0.2);
+    --dropdown-bg: #222;
+    --dropdown-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    --dropdown-border: rgba(255, 255, 255, 0.1);
+    --option-color: #ddd;
+    --option-hover-bg: rgba(255, 255, 255, 0.08);
+    --option-active-bg: rgba(255, 255, 255, 0.12);
 
-    /* Card variables */
-    --card-bg: #f9f9f9;
-    --card-border: rgba(0, 0, 0, 0.06);
-    --card-hover-bg: #f3f3f3;
-    --card-highlight-bg: rgba(0, 0, 0, 0.03);
-    --icon-bg: rgba(0, 0, 0, 0.04);
-    --icon-color: #666;
-    --icon-hover-bg: rgba(0, 0, 0, 0.06);
-    --tag-color: #000;
-    --name-color: #666;
-    --skeleton-bg: #f0f0f0;
-    --text-muted: #888;
+    --card-bg: #1c1c1e;
+    --card-border: rgba(255, 255, 255, 0.08);
+    --card-hover-bg: #2c2c2e;
+    --card-highlight-bg: rgba(255, 255, 255, 0.05);
+    --icon-bg: rgba(255, 255, 255, 0.08);
+    --icon-hover-bg: rgba(255, 255, 255, 0.12);
+    --icon-color: #ccc;
+    --tag-color: #fff;
+    --name-color: #999;
+    --skeleton-bg: rgba(255, 255, 255, 0.08);
+    --text-muted: #666;
 
-    /* Instructions Section */
-    --section-bg: #fff;
-    --section-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    --section-border: rgba(0, 0, 0, 0.04);
-    --heading-color: #000;
-    --text-color: #333;
-    --code-bg: #f5f5f5;
-    --code-color: #333;
-    --hint-color: #666;
-    --hint-bg: rgba(0, 0, 0, 0.03);
-    --arrow-color: #999;
-    --result-color: #666;
-    --divider-color: rgba(0, 0, 0, 0.06);
-    --tip-color: #666;
-    --kbd-bg: #f5f5f5;
-    --kbd-border: rgba(0, 0, 0, 0.1);
-    --kbd-color: #333;
-    --connector-color: rgba(0, 0, 0, 0.1);
-    --step-number-bg: #000;
-    --step-number-color: #fff;
-  }
+    --section-bg: #1a1a1a;
+    --section-shadow: 0 2px 8px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.3);
+    --section-border: rgba(255, 255, 255, 0.08);
+    --instructions-heading-color: #fff;
+    --instructions-text-color: #bbb;
+    --code-bg: rgba(255, 255, 255, 0.1);
+    --code-color: #eee;
+    --hint-color: #aaa;
+    --hint-bg: rgba(255, 255, 255, 0.07);
+    --hint-hover-bg: rgba(255, 255, 255, 0.09);
+    --arrow-color: #777;
+    --result-color: #aaa;
+    --divider-color: rgba(255, 255, 255, 0.08);
+    --tip-color: #999;
+    --kbd-bg: rgba(255, 255, 255, 0.1);
+    --kbd-border: rgba(255, 255, 255, 0.2);
+    --kbd-color: #ddd;
+    --connector-color: rgba(255, 255, 255, 0.15);
+    --step-number-bg: #fff;
+    --step-number-color: #000;
+    --card-hover-bg-instructions: rgba(255, 255, 255, 0.015);
 
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme]) {
-      /* Theme Switcher */
-      --button-bg: rgba(255, 255, 255, 0.06);
-      --button-color: #aaa;
-      --button-border: rgba(255, 255, 255, 0.08);
-      --button-hover-bg: rgba(255, 255, 255, 0.1);
-      --button-hover-color: #fff;
-      --focus-ring: rgba(255, 255, 255, 0.2);
-      --dropdown-bg: #222;
-      --dropdown-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-      --dropdown-border: rgba(255, 255, 255, 0.1);
-      --option-color: #ddd;
-      --option-hover-bg: rgba(255, 255, 255, 0.08);
-      --option-active-bg: rgba(255, 255, 255, 0.12);
+    --palette-bg: #1a1a1a;
+    --palette-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    --palette-border: rgba(255, 255, 255, 0.08);
+    --header-bg: #222;
+    --header-border: rgba(255, 255, 255, 0.05);
+    --header-text: #aaa;
+    --key-bg: #333;
+    --key-text: #ccc;
+    --item-hover-bg: #222;
+    --palette-tag-bg: #333;
+    --palette-tag-text: #f0f0f0;
+    --palette-name-text: #ddd;
+    --palette-category-text: #888;
 
-      /* Card variables */
-      --card-bg: #1c1c1e;
-      --card-border: rgba(255, 255, 255, 0.08);
-      --card-hover-bg: #2c2c2e;
-      --card-highlight-bg: rgba(255, 255, 255, 0.05);
-      --icon-bg: rgba(255, 255, 255, 0.08);
-      --icon-hover-bg: rgba(255, 255, 255, 0.12);
-      --icon-color: #ccc;
-      --tag-color: #fff;
-      --name-color: #999;
-      --skeleton-bg: rgba(255, 255, 255, 0.08);
-      --text-muted: #666;
+    --search-bg: #1a1a1a;
+    --search-border: rgba(255, 255, 255, 0.08);
+    --search-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    --search-focus-border: rgba(255, 255, 255, 0.2);
+    --search-focus-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    --search-icon-color: #aaa;
+    --input-text: #f0f0f0;
+    --placeholder-color: #777;
 
-      /* Instructions Section */
-      --section-bg: #1a1a1a;
-      --section-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-      --section-border: rgba(255, 255, 255, 0.08);
-      --heading-color: #fff;
-      --text-color: #bbb;
-      --code-bg: rgba(255, 255, 255, 0.1);
-      --code-color: #eee;
-      --hint-color: #aaa;
-      --hint-bg: rgba(255, 255, 255, 0.07);
-      --arrow-color: #777;
-      --result-color: #aaa;
-      --divider-color: rgba(255, 255, 255, 0.08);
-      --tip-color: #999;
-      --kbd-bg: rgba(255, 255, 255, 0.1);
-      --kbd-border: rgba(255, 255, 255, 0.2);
-      --kbd-color: #ddd;
-      --connector-color: rgba(255, 255, 255, 0.15);
-      --step-number-bg: #fff;
-      --step-number-color: #000;
-    }
+    --error-container-bg: #1a1a1a;
+    --error-container-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    --error-container-text-color: #f0f0f0;
+
+    --footer-border: rgba(255, 255, 255, 0.08);
+    --footer-text: #777;
+    --brand-color: #ccc;
+    --count-color: #aaa;
+    --meta-color: #666;
+    --link-color: #999;
+    --link-hover: #ddd;
+
+    --loading-spinner-track-color: rgba(255, 255, 255, 0.1);
+    --loading-spinner-color: #fff;
+    --loading-message-color: #bbb;
   }
 }
 
@@ -207,16 +270,24 @@
   .theme-option {
     border: 1px solid ButtonBorder;
   }
-
   .theme-option.active {
     background-color: Highlight;
     color: HighlightText;
   }
 
+  .command-palette {
+    border: 1px solid CanvasText;
+  }
+  .command-palette .bang-tag {
+    border: 1px solid CanvasText;
+  }
+  .command-palette button.selected {
+    outline: 2px solid Highlight;
+  }
+
   .bang-card {
     border: 1px solid CanvasText;
   }
-
   .bang-card:focus-visible {
     outline: 2px solid Highlight;
   }
@@ -224,15 +295,16 @@
   .instructions-section {
     border: 1px solid CanvasText;
   }
-
-  .step-number {
+  .instructions-section .step-number {
     border: 1px solid CanvasText;
   }
-
-  code,
-  kbd,
-  .browser-hint {
+  .instructions-section code,
+  .instructions-section kbd,
+  .instructions-section .browser-hint {
     border: 1px solid CanvasText;
+  }
+  .footer-link {
+    text-decoration: underline;
   }
 }
 
@@ -240,10 +312,25 @@
   .theme-dropdown {
     transition: none;
   }
-
   .theme-button,
   .theme-option {
     transition: none;
+  }
+  .bang-card,
+  .bang-card-icon,
+  .bang-grid-item,
+  .instructions-section,
+  .instruction-card,
+  .step-number,
+  code,
+  .browser-hint,
+  .example-arrow,
+  .example-result,
+  kbd,
+  .search-container,
+  .arrow-icon {
+    transition: none !important;
+    animation: none !important;
   }
 }
 
@@ -251,7 +338,6 @@
   .bang-grid {
     display: block;
   }
-
   .bang-grid-item {
     display: inline-block;
     width: 33%;
@@ -264,27 +350,35 @@
     box-shadow: none;
     break-inside: avoid;
   }
-
-  .step-marker::after {
+  .instructions-section .step-marker::after {
     display: none;
   }
-
-  .step-number {
+  .instructions-section .step-number {
     border: 1px solid #000;
     color: #000;
     background: transparent;
   }
-
-  code,
-  kbd {
+  .instructions-section code,
+  .instructions-section kbd {
     border: 1px solid #ccc;
     background: transparent;
     color: #000;
   }
-
-  .browser-hint {
+  .instructions-section .browser-hint {
     border: 1px solid #ccc;
     background: transparent;
+  }
+
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+  * {
+    box-shadow: none !important;
+  }
+  a {
+    color: #000;
+    text-decoration: underline;
   }
 }
 

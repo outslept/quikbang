@@ -1,0 +1,23 @@
+.error-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--error-container-bg);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: var(--error-container-shadow);
+  color: var(--error-container-text-color);
+}
+
+.error-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--error-icon-bg);
+  color: var(--error-icon-text-color);
+  font-weight: bold;
+  margin-right: 1rem;
+}
