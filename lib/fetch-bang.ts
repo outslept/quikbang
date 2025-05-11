@@ -14,7 +14,7 @@ export interface BangCommand {
   u: string // URL template with {{{s}}} placeholder
 }
 
-export interface BangIndex {
+interface BangIndex {
   [tag: string]: BangCommand
 }
 

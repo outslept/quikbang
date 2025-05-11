@@ -68,7 +68,6 @@
 
 @media (max-width: 480px) {
   .bang-grid {
-    /* grid-template-columns: repeat(2, 1fr); */ /* Original commented out, kept as is */
     gap: 0.5rem;
   }
 }
