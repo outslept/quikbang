@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import type { BangCommand } from '../../../lib/fetch-bang'
+  import type { BangCommand } from '../../../scripts/fetch-bang'
   import { createEventDispatcher, onMount } from 'svelte'
 
   export let bangs: Record<string, BangCommand> = {}

@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import type { BangCommand } from '../../../lib/fetch-bang'
+  import type { BangCommand } from '../../../scripts/fetch-bang'
   import { onMount } from 'svelte'
 
   const { bang, highlight = false, select } = $props<{

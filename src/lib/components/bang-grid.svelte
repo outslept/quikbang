@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import type { BangCommand } from '../../../lib/fetch-bang'
+  import type { BangCommand } from '../../../scripts/fetch-bang'
   import { fade } from 'svelte/transition'
   import BangCard from './bang-card.svelte'
 

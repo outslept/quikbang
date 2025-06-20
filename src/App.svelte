@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import type { BangCommand } from '../lib/fetch-bang'
+  import type { BangCommand } from '../scripts/fetch-bang'
   import { onMount } from 'svelte'
   import BangGrid from './lib/components/bang-grid.svelte'
   import CommandPalette from './lib/components/command-palette.svelte'

@@ -1,4 +1,4 @@
-import type { BangCommand } from '../../lib/fetch-bang'
+import type { BangCommand } from '../../scripts/fetch-bang'
 
 export function loadRecentBangs(): BangCommand[] {
   try {
