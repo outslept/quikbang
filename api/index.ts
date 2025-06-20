@@ -7,62 +7,36 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const app = express()
-const defaultSearch = 'https://www.google.com/search?q='
 
 let bangIndex = {}
 try {
-  const bangIndexPath = path.join(__dirname, '../data/bang-index.json')
-  if (fs.existsSync(bangIndexPath)) {
-    bangIndex = JSON.parse(fs.readFileSync(bangIndexPath, 'utf-8'))
-  }
-  else {
-    console.error('Bang index file not found:', bangIndexPath)
-  }
+  bangIndex = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/bang-index.json'), 'utf-8'))
 }
 catch (error) {
   console.error('Error loading bang index:', error)
 }
 
-function processBangSearch(query) {
-  if (!query)
-    return null
-
-  const bangRegex = /^!(\w+)(?:\s+(.+))?$/
-  const match = query.match(bangRegex)
-
-  if (match) {
-    const bangTag = match[1]
-    const searchTerm = match[2] || ''
-
-    const bang = bangIndex[bangTag]
-    if (bang) {
-      const url = bang.u.replace('{{{s}}}', encodeURIComponent(searchTerm))
-      return url
-    }
-  }
-
-  return null
-}
-
 app.use((req, res, next) => {
-  const query = req.query.q
-  const queryString = typeof query === 'string' ? query : ''
+  const queryString = req.query.q
 
-  if (queryString) {
-    const redirectUrl = processBangSearch(queryString)
+  if (typeof queryString === 'string') {
+    const match = queryString.match(/^!(\w+)(?:\s+(.+))?$/)
 
-    if (redirectUrl) {
-      return res.redirect(redirectUrl)
+    if (match) {
+      const bang = bangIndex[match[1]]
+
+      if (bang) {
+        return res.redirect(bang.u.replace('{{{s}}}', encodeURIComponent(match[2] || '')))
+      }
     }
 
-    return res.redirect(defaultSearch + encodeURIComponent(queryString))
+    return res.redirect('https://www.google.com/search?q=' + encodeURIComponent(queryString))
   }
 
   next()
 })
 
 app.use(express.static(path.join(__dirname, '../dist')))
-
 app.use('/data', express.static(path.join(__dirname, '../data')))
 
 app.get('*', (req, res) => {
