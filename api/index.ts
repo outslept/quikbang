@@ -17,6 +17,30 @@ try {
   console.error("Error loading bang index:", error);
 }
 
+app.get('/search', (req, res) => {
+  const queryString = req.query.q;
+
+  if (typeof queryString === "string") {
+    const match = queryString.match(/^!(\w+)(?:\s(.+))?$/);
+
+    if (match) {
+      const bang = bangIndex[match[1]];
+
+      if (bang) {
+        return res.redirect(301,
+          bang.u.replace("{{{s}}}", encodeURIComponent(match[2] || ""))
+        );
+      }
+    }
+
+    return res.redirect(301,
+      `https://www.google.com/search?q=${encodeURIComponent(queryString)}`
+    );
+  }
+
+  res.redirect(301, '/');
+});
+
 app.use((req, res, next) => {
   const queryString = req.query.q;
 
