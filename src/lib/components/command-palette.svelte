@@ -17,13 +17,11 @@
   function handleKeydown(event: KeyboardEvent) {
     if (event.key === 'ArrowDown') {
       event.preventDefault()
-      const newIndex = (selectedIndex + 1) % searchResults.length
-      onSelectedIndexChange?.(newIndex)
+      onSelectedIndexChange?.((selectedIndex + 1) % searchResults.length)
     }
     else if (event.key === 'ArrowUp') {
       event.preventDefault()
-      const newIndex = (selectedIndex - 1 + searchResults.length) % searchResults.length
-      onSelectedIndexChange?.(newIndex)
+      onSelectedIndexChange?.((selectedIndex - 1 + searchResults.length) % searchResults.length)
     }
     else if (event.key === 'Enter' && searchResults.length > 0) {
       event.preventDefault()
@@ -31,17 +29,12 @@
     }
   }
 
-  let keydownHandler = $state<((e: KeyboardEvent) => void) | null>(null)
-
   onMount(() => {
-    keydownHandler = (e: KeyboardEvent) => handleKeydown(e)
-    window.addEventListener('keydown', keydownHandler)
+    window.addEventListener('keydown', handleKeydown)
   })
 
   onDestroy(() => {
-    if (keydownHandler) {
-      window.removeEventListener('keydown', keydownHandler)
-    }
+    window.removeEventListener('keydown', handleKeydown)
   })
 </script>
 

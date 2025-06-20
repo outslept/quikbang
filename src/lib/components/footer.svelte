@@ -1,21 +1,20 @@
 <script lang='ts'>
-  import { onMount } from 'svelte'
   import pkg from '../../../package.json'
   import GithubIcon from './icons/github-icon.svelte'
   import SvelteIcon from './icons/svelte-icon.svelte'
   import TypescriptIcon from './icons/typescript-icon.svelte'
 
-  export let bangs: Record<string, any> = {}
-  export let version: string = pkg.version
-  export let showGitHub: boolean = true
-  export let githubUrl: string = 'https://github.com/outslept/quikbang'
-
-  const year = new Date().getFullYear()
-  let commandCount = 0
-
-  onMount(() => {
-    commandCount = Object.keys(bangs).length
-  })
+  const {
+    bangs = {},
+    version = pkg.version,
+    showGitHub = true,
+    githubUrl = 'https://github.com/outslept/quikbang'
+  } = $props<{
+    bangs?: Record<string, any>
+    version?: string
+    showGitHub?: boolean
+    githubUrl?: string
+  }>()
 </script>
 
 <footer>
@@ -39,8 +38,8 @@
       <p class='data-source'>
         Bang commands data from
         <a href='https://duckduckgo.com/bang' class='footer-link' target='_blank' rel='noopener noreferrer'>DuckDuckGo</a>.
-        {#if commandCount > 0}
-          <span class='command-count'>Total commands: <strong>{commandCount}</strong></span>
+        {#if Object.keys(bangs).length > 0}
+          <span class='command-count'>Total commands: <strong>{Object.keys(bangs).length}</strong></span>
         {/if}
       </p>
 
@@ -52,7 +51,7 @@
           </a>
         {/if}
         <span class='version mono-text'>v{version}</span>
-        <span class='copyright'>© {year}</span>
+        <span class='copyright'>© {new Date().getFullYear()}</span>
       </div>
     </div>
   </div>

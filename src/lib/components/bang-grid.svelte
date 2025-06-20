@@ -12,27 +12,15 @@
 
   let gridElement = $state<HTMLElement | null>(null)
 
-  function handleSelect(bang: BangCommand) {
-    if (selectBang)
-      selectBang(bang)
-  }
-
-  const gridTemplateColumns = $derived(getGridTemplateColumns(columns))
-
   function getGridTemplateColumns(cols: string | number): string {
-    if (cols === 'auto') {
-      return 'repeat(auto-fill, minmax(180px, 1fr))'
-    }
-    else if (typeof cols === 'number') {
-      return `repeat(${cols}, 1fr)`
-    }
-    else {
-      switch (cols) {
-        case '2': return 'repeat(2, 1fr)'
-        case '3': return 'repeat(3, 1fr)'
-        case '4': return 'repeat(4, 1fr)'
-        default: return 'repeat(auto-fill, minmax(180px, 1fr))'
-      }
+    if (cols === 'auto') return 'repeat(auto-fill, minmax(180px, 1fr))'
+    if (typeof cols === 'number') return `repeat(${cols}, 1fr)`
+
+    switch (cols) {
+      case '2': return 'repeat(2, 1fr)'
+      case '3': return 'repeat(3, 1fr)'
+      case '4': return 'repeat(4, 1fr)'
+      default: return 'repeat(auto-fill, minmax(180px, 1fr))'
     }
   }
 </script>
@@ -41,7 +29,7 @@
   class='bang-grid'
   class:loading
   bind:this={gridElement}
-  style='--grid-columns: {gridTemplateColumns};'
+  style='--grid-columns: {getGridTemplateColumns(columns)};'
   role='grid'
   aria-busy={loading}
 >
@@ -62,8 +50,8 @@
         style='--animation-order: {i};'
       >
         <BangCard
-          bang={bang}
-          select={selectedBang => handleSelect(selectedBang)}
+          {bang}
+          select={selectBang}
         />
       </div>
     {/each}

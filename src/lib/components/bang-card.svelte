@@ -11,9 +11,6 @@
   let domainFavicon = $state<string | null>(null)
   let faviconLoaded = $state(false)
 
-  const firstLetter = $derived(bang.s.charAt(0).toUpperCase())
-  const displayName = $derived(bang.s.length > 20 ? `${bang.s.substring(0, 18)}...` : bang.s)
-
   onMount(() => {
     if (bang.d) {
       const faviconUrl = `https://www.google.com/s2/favicons?domain=${bang.d}&sz=32`
@@ -31,8 +28,7 @@
   })
 
   function handleClick() {
-    if (select)
-      select(bang)
+    select?.(bang)
   }
 
   function handleKeyDown(event: KeyboardEvent) {
@@ -57,14 +53,16 @@
         <img src={domainFavicon} alt="" class='favicon' />
       {:else}
         <div class='fallback-icon'>
-          {firstLetter}
+          {bang.s.charAt(0).toUpperCase()}
         </div>
       {/if}
     </div>
 
     <div class='bang-card-info'>
       <div class='bang-card-tag mono-text'>!{bang.t}</div>
-      <div class='bang-card-name' title={bang.s}>{displayName}</div>
+      <div class='bang-card-name' title={bang.s}>
+        {bang.s.length > 20 ? `${bang.s.substring(0, 18)}...` : bang.s}
+      </div>
     </div>
   </div>
 </button>
