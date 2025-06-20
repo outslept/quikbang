@@ -1,17 +1,13 @@
-import fs from "node:fs";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-import express from "express";
-
-const currentFileUrl = fileURLToPath(import.meta.url);
-const currentDir = path.dirname(currentFileUrl);
+const fs = require("fs");
+const path = require("path");
+const express = require("express");
 
 const app = express();
 
 let bangIndex = {};
 try {
   bangIndex = JSON.parse(
-    fs.readFileSync(path.join(currentDir, "../data/bang-index.json"), "utf-8"),
+    fs.readFileSync(path.join(__dirname, "../data/bang-index.json"), "utf-8"),
   );
 } catch (error) {
   console.error("Error loading bang index:", error);
@@ -65,13 +61,13 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(express.static(path.join(currentDir, "../dist")));
-app.use("/data", express.static(path.join(currentDir, "../data")));
+app.use(express.static(path.join(__dirname, "../dist")));
+app.use("/data", express.static(path.join(__dirname, "../data")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(currentDir, "../dist/index.html"));
+  res.sendFile(path.join(__dirname, "../dist/index.html"));
 });
 
-export default function handler(req, res) {
+module.exports = function handler(req, res) {
   app(req, res);
-}
+};
