@@ -1,6 +1,5 @@
 <script lang='ts'>
   import type { BangCommand } from '../scripts/fetch-bang'
-  import { onMount } from 'svelte'
   import BangGrid from './lib/components/bang-grid.svelte'
   import CommandPalette from './lib/components/command-palette.svelte'
   import ErrorMessage from './lib/components/error-messages.svelte'
@@ -12,73 +11,48 @@
   import { loadRecentBangs, saveRecentBangs } from './lib/utils'
   import './lib/styles/fonts.css'
 
-  let bangs: Record<string, BangCommand> = {}
-  let loading = true
-  let error: string | null = null
-  let query = ''
-  let searchResults: BangCommand[] = []
-  let recentBangs: BangCommand[] = []
-  let showCommandPalette = false
-  let selectedIndex = 0
+  let bangs = $state<Record<string, BangCommand>>({})
+  let loading = $state(true)
+  let error = $state<string | null>(null)
+  let query = $state('')
+  let searchResults = $state<BangCommand[]>([])
+  let recentBangs = $state<BangCommand[]>([])
+  let showCommandPalette = $state(false)
+  let selectedIndex = $state(0)
 
   const defaultSearch = 'https://www.google.com/search?q='
   const maxRecentBangs = 10
   const maxSearchResults = 8
   const topBangTags = ['g', 'w', 'yt', 'gh', 'r', 'a', 'maps', 'tr', 'i', 'news']
-  let topBangs: BangCommand[] = []
+  let topBangs = $state<BangCommand[]>([])
 
-  onMount(async () => {
-    try {
-      const response = await fetch('/data/bang-index.json')
-      if (!response.ok) {
-        throw new Error('Failed to load bang commands')
-      }
-      bangs = await response.json()
-      topBangs = topBangTags
-        .map(tag => bangs[tag])
-        .filter(bang => bang !== undefined)
-      loading = false
-      recentBangs = loadRecentBangs()
-
-      const urlParams = new URLSearchParams(window.location.search)
-      const queryParam = urlParams.get('q')
-      if (queryParam) {
-        query = queryParam
-        handleSearch()
-      }
-    }
-    catch (err: any) {
-      console.error('Error loading bang commands:', err)
-      error = err.message || 'Failed to load bang commands. Please try again later.'
-      loading = false
-    }
-  })
-
-  function addToRecentBangs(bang: BangCommand) {
+  const addToRecentBangs = (bang: BangCommand) => {
     recentBangs = recentBangs.filter(b => b.t !== bang.t)
     recentBangs = [bang, ...recentBangs.slice(0, maxRecentBangs - 1)]
     saveRecentBangs(recentBangs)
   }
 
-  function handleSearch() {
+  const handleSearch = () => {
     if (!query)
       return
 
-    const bangMatch = query.match(/^!(\w+)(?:\s+(.*))?$/)
+    const bangMatch = query.match(/^!(\w+)(?:\s(.*))?$/)
     if (bangMatch) {
       const bangTag = bangMatch[1]
       const searchTerm = bangMatch[2] || ''
       const bang = bangs[bangTag]
+
       if (bang) {
         addToRecentBangs(bang)
         const url = bang.u.replace('{{{s}}}', encodeURIComponent(searchTerm))
         window.location.href = url
         return
       }
+
       searchResults = Object.values(bangs)
         .filter(b =>
           b.t.toLowerCase().includes(bangTag.toLowerCase())
-            || b.s.toLowerCase().includes(bangTag.toLowerCase()),
+          || b.s.toLowerCase().includes(bangTag.toLowerCase()),
         )
         .sort((a, b) => {
           if (a.t.toLowerCase() === bangTag.toLowerCase())
@@ -88,6 +62,7 @@
           return a.t.length - b.t.length
         })
         .slice(0, maxSearchResults)
+
       showCommandPalette = searchResults.length > 0
       selectedIndex = 0
     }
@@ -96,36 +71,69 @@
     }
   }
 
-  function useBang(bang: BangCommand) {
+  const useBang = (bang: BangCommand) => {
     let searchTerm = ''
-    const bangMatch = query.match(/^!\w+\s+(.*)$/)
+    const bangMatch = query.match(/^!\w+\s(.*)$/)
+
     if (bangMatch) {
       searchTerm = bangMatch[1]
     }
     else if (!query.startsWith('!')) {
       searchTerm = query
     }
+
     addToRecentBangs(bang)
     const url = bang.u.replace('{{{s}}}', encodeURIComponent(searchTerm))
     window.location.href = url
   }
 
-  function handleQueryChange(event: CustomEvent<string>) {
-    query = event.detail
+  const handleQueryChange = (newQuery: string) => {
+    query = newQuery
   }
 
-  function handleCommandPaletteVisibility(event: CustomEvent<boolean>) {
-    showCommandPalette = event.detail
+  const handleCommandPaletteVisibility = (visible: boolean) => {
+    showCommandPalette = visible
   }
 
-  function handleSearchResults(event: CustomEvent<BangCommand[]>) {
-    searchResults = event.detail
+  const handleSearchResults = (results: BangCommand[]) => {
+    searchResults = results
     selectedIndex = 0
   }
 
-  function handleSelectedIndexChange(event: CustomEvent<number>) {
-    selectedIndex = event.detail
+  const handleSelectedIndexChange = (index: number) => {
+    selectedIndex = index
   }
+
+  $effect(() => {
+    const loadData = async () => {
+      try {
+        const response = await fetch('/data/bang-index.json')
+        if (!response.ok) {
+          throw new Error('Failed to load bang commands')
+        }
+        bangs = await response.json()
+        topBangs = topBangTags
+          .map(tag => bangs[tag])
+          .filter(bang => bang !== undefined)
+        loading = false
+        recentBangs = loadRecentBangs()
+
+        const urlParams = new URLSearchParams(window.location.search)
+        const queryParam = urlParams.get('q')
+        if (queryParam) {
+          query = queryParam
+          handleSearch()
+        }
+      }
+      catch (err: any) {
+        console.error('Error loading bang commands:', err)
+        error = err.message || 'Failed to load bang commands. Please try again later.'
+        loading = false
+      }
+    }
+
+    loadData()
+  })
 </script>
 
 <main>
@@ -151,17 +159,17 @@
         <SearchBar
           {bangs}
           bind:query
-          on:queryChange={handleQueryChange}
-          on:search={handleSearch}
-          on:commandPaletteVisibility={handleCommandPaletteVisibility}
-          on:searchResults={handleSearchResults}
+          onqueryChange={handleQueryChange}
+          onsearch={handleSearch}
+          oncommandPaletteVisibility={handleCommandPaletteVisibility}
+          onsearchResults={handleSearchResults}
         />
         {#if showCommandPalette && searchResults.length > 0}
           <CommandPalette
             {searchResults}
             bind:selectedIndex
-            on:selectBang={e => useBang(e.detail)}
-            on:selectedIndexChange={handleSelectedIndexChange}
+            onSelectBang={useBang}
+            onSelectedIndexChange={handleSelectedIndexChange}
             id='command-palette-list'
             aria-live='polite'
           />
@@ -170,18 +178,18 @@
       <div class='content'>
         <section class='section'>
           <h2>Popular Bang Commands</h2>
-          <BangGrid bangs={topBangs} on:selectBang={e => useBang(e.detail)} />
+          <BangGrid bangs={topBangs} selectBang={useBang} />
         </section>
         {#if recentBangs.length > 0}
           <section class='section'>
             <h2>Recently Used</h2>
-            <BangGrid bangs={recentBangs.slice(0, 8)} on:selectBang={e => useBang(e.detail)} />
+            <BangGrid bangs={recentBangs.slice(0, 8)} selectBang={useBang} />
           </section>
         {/if}
         <Instructions />
       </div>
     {/if}
-    <Footer bangsCount={Object.keys(bangs).length} />
+    <Footer />
   </div>
 </main>
 

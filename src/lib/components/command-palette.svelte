@@ -1,27 +1,35 @@
 <script lang='ts'>
   import type { BangCommand } from '../../../scripts/fetch-bang'
-  import { onDestroy, onMount } from 'svelte'
 
-  const {
+  interface Props {
+    'searchResults'?: BangCommand[]
+    'selectedIndex'?: number
+    'onSelectBang'?: (bang: BangCommand) => void
+    'onSelectedIndexChange'?: (index: number) => void
+    'id'?: string
+    'aria-live'?: string
+  }
+
+  let {
     searchResults = [],
-    selectedIndex = 0,
+    selectedIndex = $bindable(0),
     onSelectBang,
     onSelectedIndexChange,
-  } = $props<{
-    searchResults?: BangCommand[]
-    selectedIndex?: number
-    onSelectBang?: (bang: BangCommand) => void
-    onSelectedIndexChange?: (index: number) => void
-  }>()
+    id,
+  }: Props = $props()
 
-  function handleKeydown(event: KeyboardEvent) {
+  const handleKeydown = (event: KeyboardEvent) => {
     if (event.key === 'ArrowDown') {
       event.preventDefault()
-      onSelectedIndexChange?.((selectedIndex + 1) % searchResults.length)
+      const newIndex = (selectedIndex + 1) % searchResults.length
+      selectedIndex = newIndex
+      onSelectedIndexChange?.(newIndex)
     }
     else if (event.key === 'ArrowUp') {
       event.preventDefault()
-      onSelectedIndexChange?.((selectedIndex - 1 + searchResults.length) % searchResults.length)
+      const newIndex = (selectedIndex - 1 + searchResults.length) % searchResults.length
+      selectedIndex = newIndex
+      onSelectedIndexChange?.(newIndex)
     }
     else if (event.key === 'Enter' && searchResults.length > 0) {
       event.preventDefault()
@@ -29,16 +37,15 @@
     }
   }
 
-  onMount(() => {
+  $effect(() => {
     window.addEventListener('keydown', handleKeydown)
-  })
-
-  onDestroy(() => {
-    window.removeEventListener('keydown', handleKeydown)
+    return () => {
+      window.removeEventListener('keydown', handleKeydown)
+    }
   })
 </script>
 
-<div class='command-palette'>
+<div class='command-palette' {id}>
   <div class='command-palette-header'>
     <span>Bang Commands</span>
     <div class='keyboard-tip'>
@@ -50,7 +57,10 @@
       <button
         class:selected={i === selectedIndex}
         onclick={() => onSelectBang?.(bang)}
-        onmouseenter={() => onSelectedIndexChange?.(i)}
+        onmouseenter={() => {
+          selectedIndex = i
+          onSelectedIndexChange?.(i)
+        }}
       >
         <div class='bang-tag mono-text'>!{bang.t}</div>
         <div class='bang-name'>{bang.s}</div>

@@ -13,8 +13,10 @@
   let gridElement = $state<HTMLElement | null>(null)
 
   function getGridTemplateColumns(cols: string | number): string {
-    if (cols === 'auto') return 'repeat(auto-fill, minmax(180px, 1fr))'
-    if (typeof cols === 'number') return `repeat(${cols}, 1fr)`
+    if (cols === 'auto')
+      return 'repeat(auto-fill, minmax(180px, 1fr))'
+    if (typeof cols === 'number')
+      return `repeat(${cols}, 1fr)`
 
     switch (cols) {
       case '2': return 'repeat(2, 1fr)'

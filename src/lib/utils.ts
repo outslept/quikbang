@@ -1,34 +1,31 @@
-import type { BangCommand } from '../../scripts/fetch-bang'
+import type { BangCommand } from "../../scripts/fetch-bang";
 
 export function loadRecentBangs(): BangCommand[] {
   try {
-    const saved = localStorage.getItem('recentBangs')
+    const saved = localStorage.getItem("recentBangs");
     if (saved) {
-      return JSON.parse(saved)
+      return JSON.parse(saved);
     }
+  } catch (error) {
+    console.error("Error loading recent bangs:", error);
   }
-  catch (err) {
-    console.error('Error loading recent bangs:', err)
-  }
-  return []
+  return [];
 }
 
 export function saveRecentBangs(bangs: BangCommand[]): void {
   try {
-    localStorage.setItem('recentBangs', JSON.stringify(bangs))
-  }
-  catch (err) {
-    console.error('Error saving recent bangs:', err)
+    localStorage.setItem("recentBangs", JSON.stringify(bangs));
+  } catch (error) {
+    console.error("Error saving recent bangs:", error);
   }
 }
 
 export function extractSearchTerm(query: string): string {
-  const bangMatch = query.match(/^!\w+\s+(.*)$/)
+  const bangMatch = query.match(/^!(\w+)(?:\s(.*))?$/);
   if (bangMatch) {
-    return bangMatch[1]
+    return bangMatch[1];
+  } else if (!query.startsWith("!")) {
+    return query;
   }
-  else if (!query.startsWith('!')) {
-    return query
-  }
-  return ''
+  return "";
 }

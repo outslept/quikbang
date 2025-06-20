@@ -14,17 +14,20 @@
   const themeNames = { light: 'Light', dark: 'Dark', system: 'System' } as const
 
   const getStoredTheme = (): Theme => {
-    if (typeof window === 'undefined') return 'system'
+    if (typeof window === 'undefined')
+      return 'system'
     const stored = localStorage.getItem('theme')
     return (stored === 'light' || stored === 'dark' || stored === 'system') ? stored : 'system'
   }
 
   const getSystemTheme = (): 'light' | 'dark' =>
     typeof window !== 'undefined' && window.matchMedia('(prefers-color-scheme: dark)').matches
-      ? 'dark' : 'light'
+      ? 'dark'
+      : 'light'
 
   const applyTheme = (theme: Theme): void => {
-    if (typeof document === 'undefined') return
+    if (typeof document === 'undefined')
+      return
 
     const themeToApply = theme === 'system' ? getSystemTheme() : theme
     document.documentElement.setAttribute('data-theme', themeToApply)

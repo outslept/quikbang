@@ -8,7 +8,7 @@
     bangs = {},
     version = pkg.version,
     showGitHub = true,
-    githubUrl = 'https://github.com/outslept/quikbang'
+    githubUrl = 'https://github.com/outslept/quikbang',
   } = $props<{
     bangs?: Record<string, any>
     version?: string
