@@ -5,7 +5,9 @@
 ## what
 
 type `!w quantum physics` → land on wikipedia's quantum physics page
+
 type `!gh svelte` → jump to svelte's github repo
+
 type `!yt lofi` → start youtube search for lofi
 
 no bookmarks. no multiple tabs. just direct intent.
@@ -13,7 +15,9 @@ no bookmarks. no multiple tabs. just direct intent.
 ## why
 
 because opening google to search for youtube is stupid.
+
 because navigating through interfaces wastes time.
+
 because your browser should be a teleporter, not a maze.
 
 ## how it works
@@ -40,16 +44,16 @@ now your address bar becomes a command line for the entire web.
 
 ## popular commands
 
-<samp>
-!w → wikipedia<br>
-!yt → youtube<br>
-!gh → github<br>
-!r → reddit<br>
-!a → amazon<br>
-!maps → google maps<br>
-!tr → google translate<br>
-!i → google images<br>
-</samp>
+```
+!w → wikipedia
+!yt → youtube
+!gh → github
+!r → reddit
+!a → amazon
+!maps → google maps
+!tr → google translate
+!i → google images
+```
 
 ## tech stack
 
