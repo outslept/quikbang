@@ -1,5 +1,4 @@
 <script lang='ts'>
-  import { onMount } from 'svelte'
   import { slide } from 'svelte/transition'
   import ArrowDownIcon from './icons/arrow-down-icon.svelte'
   import MoonIcon from './icons/moon-icon.svelte'
@@ -8,108 +7,71 @@
 
   type Theme = 'light' | 'dark' | 'system'
 
-  let currentTheme: Theme = 'system'
-  let appliedTheme: 'light' | 'dark' = 'light'
-  let showDropdown = false
+  let currentTheme = $state<Theme>('system')
+  let appliedTheme = $state<'light' | 'dark'>('light')
+  let showDropdown = $state(false)
 
-  function getStoredTheme(): Theme {
-    if (typeof window === 'undefined')
-      return 'system'
+  const themeNames = { light: 'Light', dark: 'Dark', system: 'System' } as const
 
-    const storedTheme = localStorage.getItem('theme')
-    if (storedTheme === 'light' || storedTheme === 'dark' || storedTheme === 'system') {
-      return storedTheme
-    }
-    return 'system'
+  const getStoredTheme = (): Theme => {
+    if (typeof window === 'undefined') return 'system'
+    const stored = localStorage.getItem('theme')
+    return (stored === 'light' || stored === 'dark' || stored === 'system') ? stored : 'system'
   }
 
-  function getSystemTheme(): 'light' | 'dark' {
-    if (typeof window === 'undefined')
-      return 'light'
+  const getSystemTheme = (): 'light' | 'dark' =>
+    typeof window !== 'undefined' && window.matchMedia('(prefers-color-scheme: dark)').matches
+      ? 'dark' : 'light'
 
-    return window.matchMedia('(prefers-color-scheme: dark)').matches
-      ? 'dark'
-      : 'light'
-  }
+  const applyTheme = (theme: Theme): void => {
+    if (typeof document === 'undefined') return
 
-  function applyTheme(theme: Theme): void {
-    if (typeof document === 'undefined')
-      return
-
-    const themeToApply = theme === 'system'
-      ? getSystemTheme()
-      : theme
-
+    const themeToApply = theme === 'system' ? getSystemTheme() : theme
     document.documentElement.setAttribute('data-theme', themeToApply)
-
-    appliedTheme = themeToApply as 'light' | 'dark'
+    appliedTheme = themeToApply
   }
 
-  function toggleTheme(event: MouseEvent): void {
+  const toggleTheme = (event: MouseEvent): void => {
     event.stopPropagation()
     showDropdown = !showDropdown
   }
 
-  function setTheme(theme: Theme): void {
+  const setTheme = (theme: Theme): void => {
     currentTheme = theme
     localStorage.setItem('theme', theme)
     applyTheme(theme)
     showDropdown = false
   }
 
-  function handleClickOutside(event: MouseEvent) {
-    const target = event.target as HTMLElement
-    if (!target.closest('.theme-switch')) {
+  const handleClickOutside = (event: MouseEvent) => {
+    if (!(event.target as HTMLElement).closest('.theme-switch')) {
       showDropdown = false
     }
   }
 
-  function handleKeyDown(event: KeyboardEvent) {
+  const handleKeyDown = (event: KeyboardEvent) => {
     if (event.key === 'Escape' && showDropdown) {
       showDropdown = false
     }
   }
 
-  onMount(() => {
+  $effect(() => {
     currentTheme = getStoredTheme()
-
     applyTheme(currentTheme)
 
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+    const handleChange = () => currentTheme === 'system' && applyTheme('system')
 
-    const handleChange = () => {
-      if (currentTheme === 'system') {
-        applyTheme('system')
-      }
-    }
-
-    if (mediaQuery.addEventListener) {
-      mediaQuery.addEventListener('change', handleChange)
-    }
-    else if (mediaQuery.addListener) {
-      mediaQuery.addListener(handleChange)
-    }
-
+    mediaQuery.addEventListener?.('change', handleChange) ?? mediaQuery.addListener?.(handleChange)
     document.addEventListener('click', handleClickOutside)
     document.addEventListener('keydown', handleKeyDown)
 
     return () => {
-      if (mediaQuery.removeEventListener) {
-        mediaQuery.removeEventListener('change', handleChange)
-      }
-      else if (mediaQuery.removeListener) {
-        mediaQuery.removeListener(handleChange)
-      }
+      mediaQuery.removeEventListener?.('change', handleChange) ?? mediaQuery.removeListener?.(handleChange)
       document.removeEventListener('click', handleClickOutside)
       document.removeEventListener('keydown', handleKeyDown)
     }
   })
-
-  $: themeName = {
-    light: 'Light',
-    dark: 'Dark',
-    system: 'System',
-  }[currentTheme]
 </script>
 
 <div class='theme-switch'>
@@ -119,8 +81,8 @@
     aria-label='Toggle theme settings'
     aria-expanded={showDropdown}
     aria-haspopup='true'
-    title='Change theme (currently: {themeName})'
-    on:click={toggleTheme}
+    title='Change theme (currently: {themeNames[currentTheme]})'
+    onclick={toggleTheme}
   >
     {#if currentTheme === 'system'}
       <SystemThemeIcon />
@@ -129,7 +91,7 @@
     {:else}
       <SunIcon />
     {/if}
-    <span class='theme-label'>{themeName}</span>
+    <span class='theme-label'>{themeNames[currentTheme]}</span>
     <span class='arrow-icon' class:rotated={showDropdown}>
       <ArrowDownIcon />
     </span>
@@ -142,35 +104,23 @@
       aria-label='Theme options'
       transition:slide={{ duration: 150 }}
     >
-      <button
-        class='theme-option'
-        class:active={currentTheme === 'light'}
-        on:click={() => setTheme('light')}
-        role='menuitem'
-      >
-        <SunIcon />
-        <span>Light</span>
-      </button>
-
-      <button
-        class='theme-option'
-        class:active={currentTheme === 'dark'}
-        on:click={() => setTheme('dark')}
-        role='menuitem'
-      >
-        <MoonIcon />
-        <span>Dark</span>
-      </button>
-
-      <button
-        class='theme-option'
-        class:active={currentTheme === 'system'}
-        on:click={() => setTheme('system')}
-        role='menuitem'
-      >
-        <SystemThemeIcon />
-        <span>System</span>
-      </button>
+      {#each Object.entries(themeNames) as [theme, label]}
+        <button
+          class='theme-option'
+          class:active={currentTheme === theme}
+          onclick={() => setTheme(theme as Theme)}
+          role='menuitem'
+        >
+          {#if theme === 'light'}
+            <SunIcon />
+          {:else if theme === 'dark'}
+            <MoonIcon />
+          {:else}
+            <SystemThemeIcon />
+          {/if}
+          <span>{label}</span>
+        </button>
+      {/each}
     </div>
   {/if}
 </div>
