@@ -10,10 +10,10 @@
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "dev:server": "esno watch server.ts",
-    "start": "esno server.ts",
+    "dev:server": "tsx watch server.ts",
+    "start": "tsx server.ts",
     "postbuild": "mkdir -p dist/data && cp data/bang-index.json dist/data/",
-    "populate": "esno lib/fetch-bang.ts && npm run lint:fix"
+    "populate": "tsx scripts/fetch-bang.ts && npm run lint:fix"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
@@ -28,14 +28,12 @@
     "eslint": "^9.20.1",
     "eslint-plugin-format": "^1.0.1",
     "eslint-plugin-svelte": "^2.46.1",
-    "esno": "^4.8.0",
     "lint-staged": "^15.4.3",
-    "ofetch": "^1.4.1",
-    "pathe": "^2.0.3",
     "simple-git-hooks": "^2.11.1",
     "svelte": "^5.20.2",
     "svelte-check": "^4.1.4",
     "svelte-eslint-parser": "^0.43.0",
+    "tsx": "^4.20.3",
     "typescript": "~5.7.2",
     "vite": "^6.2.0"
   },
