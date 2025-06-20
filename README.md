@@ -1,3 +1,5 @@
+<!-- banner sometime later? -->
+
 # quikbang
 
 <samp>one search bar. 13,000+ websites. zero friction.</samp>
@@ -74,9 +76,3 @@ npm run dev
 
 bang commands from duckduckgo's public api.
 updated automatically. no maintenance required.
-
----
-
-<samp>
-made with ❤️ by <a href="https://github.com/outslept">outslept</a>
-</samp>
