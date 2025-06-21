@@ -1,5 +1,5 @@
 import { sxzz } from "@sxzz/eslint-config";
-import svelte from 'eslint-plugin-svelte';
+import oxlint from 'eslint-plugin-oxlint';
 
 export default sxzz(
   {},
@@ -14,4 +14,5 @@ export default sxzz(
       "no-irregular-whitespace": "off",
     },
   },
+  ...oxlint.configs['flat/recommended']
 );
