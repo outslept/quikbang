@@ -1,8 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const express = require("express");
-
-const app = express();
 
 let bangIndex = {};
 try {
@@ -13,61 +10,33 @@ try {
   console.error("Error loading bang index:", error);
 }
 
-app.get('/search', (req, res) => {
-  const queryString = req.query.q;
-
-  if (typeof queryString === "string") {
-    const match = queryString.match(/^!(\w+)(?:\s(.+))?$/);
-
-    if (match) {
-      const bang = bangIndex[match[1]];
-
-      if (bang) {
-        return res.redirect(301,
-          bang.u.replace("{{{s}}}", encodeURIComponent(match[2] || ""))
-        );
-      }
-    }
-
-    return res.redirect(301,
-      `https://www.google.com/search?q=${encodeURIComponent(queryString)}`
-    );
-  }
-
-  res.redirect(301, '/');
-});
-
-app.use((req, res, next) => {
-  const queryString = req.query.q;
-
-  if (typeof queryString === "string") {
-    const match = queryString.match(/^!(\w+)(?:\s(.+))?$/);
-
-    if (match) {
-      const bang = bangIndex[match[1]];
-
-      if (bang) {
-        return res.redirect(
-          bang.u.replace("{{{s}}}", encodeURIComponent(match[2] || "")),
-        );
-      }
-    }
-
-    return res.redirect(
-      `https://www.google.com/search?q=${encodeURIComponent(queryString)}`,
-    );
-  }
-
-  next();
-});
-
-app.use(express.static(path.join(__dirname, "../dist")));
-app.use("/data", express.static(path.join(__dirname, "../data")));
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../dist/index.html"));
-});
-
 module.exports = function handler(req, res) {
-  app(req, res);
+  const url = new URL(req.url, `http://${req.headers.host}`);
+  const queryString = url.searchParams.get("q");
+
+  if (typeof queryString === "string") {
+    const match = queryString.match(/^!(\w+)(?:\s(.+))?$/);
+
+    if (match) {
+      const bang = bangIndex[match[1]];
+
+      if (bang) {
+        res.writeHead(301, {
+          Location: bang.u.replace(
+            "{{{s}}}",
+            encodeURIComponent(match[2] || ""),
+          ),
+        });
+        return res.end();
+      }
+    }
+
+    res.writeHead(301, {
+      Location: `https://www.google.com/search?q=${encodeURIComponent(queryString)}`,
+    });
+    return res.end();
+  }
+
+  res.writeHead(301, { Location: "/" });
+  res.end();
 };

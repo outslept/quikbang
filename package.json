@@ -10,21 +10,15 @@
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
     "lint": "npx oxlint && npx eslint",
     "lint:fix": "npx oxlint && npx eslint --fix",
-    "dev:server": "tsx watch server.ts",
-    "start": "tsx server.ts",
-    "postbuild": "mkdir -p dist/data && cp data/bang-index.json dist/data/",
+    "postbuild": "node scripts/postbuild.js",
     "populate": "tsx scripts/fetch-bang.ts && npm run lint:fix"
-  },
-  "dependencies": {
-    "autoprefixer": "^10.4.20",
-    "express": "^4.21.2"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "@sxzz/eslint-config": "^7.0.3",
     "@tsconfig/svelte": "^5.0.4",
-    "@types/express": "^5.0.0",
     "@types/node": "^22.13.8",
+    "autoprefixer": "^10.4.20",
     "eslint": "^9.20.1",
     "eslint-plugin-oxlint": "^1.2.0",
     "lint-staged": "^15.4.3",
